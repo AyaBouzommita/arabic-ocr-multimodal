@@ -1,0 +1,600 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 126478502,
+            "tagId": 30308108,
+            "name": "Redacted",
+            "value": null,
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z"
+        }
+    ],
+    "size": {
+        "height": 1280,
+        "width": 720
+    },
+    "objects": [
+        {
+            "id": 972302439,
+            "classId": 10214730,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Page",
+            "points": {
+                "exterior": [
+                    [
+                        1,
+                        118
+                    ],
+                    [
+                        32,
+                        90
+                    ],
+                    [
+                        367,
+                        100
+                    ],
+                    [
+                        670,
+                        95
+                    ],
+                    [
+                        683,
+                        112
+                    ],
+                    [
+                        707,
+                        302
+                    ],
+                    [
+                        717,
+                        395
+                    ],
+                    [
+                        719,
+                        1100
+                    ],
+                    [
+                        393,
+                        1129
+                    ],
+                    [
+                        0,
+                        1154
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302438,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        11,
+                        110
+                    ],
+                    [
+                        224,
+                        136
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302437,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        12,
+                        141
+                    ],
+                    [
+                        139,
+                        160
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302436,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        300,
+                        107
+                    ],
+                    [
+                        410,
+                        198
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302435,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        512,
+                        142
+                    ],
+                    [
+                        634,
+                        161
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302440,
+            "classId": 10214731,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [
+                {
+                    "id": 151167753,
+                    "tagId": 30308107,
+                    "name": "Transcription",
+                    "value": "\u0625\u0641\u0627\u062f\u0629 \u0645\u0627\u0644\u064a\u0629",
+                    "labelerLogin": "Yalda2HITL",
+                    "createdAt": "2022-07-19T09:44:58.682Z",
+                    "updatedAt": "2022-07-19T09:44:58.682Z"
+                }
+            ],
+            "classTitle": "Title",
+            "points": {
+                "exterior": [
+                    [
+                        319,
+                        239
+                    ],
+                    [
+                        401,
+                        266
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302432,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        96,
+                        304
+                    ],
+                    [
+                        220,
+                        322
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302431,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        523,
+                        350
+                    ],
+                    [
+                        607,
+                        373
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302430,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        367,
+                        394
+                    ],
+                    [
+                        624,
+                        424
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302419,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        237,
+                        441
+                    ],
+                    [
+                        627,
+                        464
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302429,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        441,
+                        477
+                    ],
+                    [
+                        623,
+                        507
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302428,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        204,
+                        601
+                    ],
+                    [
+                        653,
+                        631
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302427,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        356,
+                        636
+                    ],
+                    [
+                        652,
+                        671
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302426,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        459,
+                        682
+                    ],
+                    [
+                        661,
+                        708
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302425,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        126,
+                        783
+                    ],
+                    [
+                        214,
+                        804
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302424,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        46,
+                        815
+                    ],
+                    [
+                        236,
+                        848
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302423,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        80,
+                        851
+                    ],
+                    [
+                        203,
+                        880
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302422,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        1065
+                    ],
+                    [
+                        303,
+                        1100
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302433,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        1,
+                        1085
+                    ],
+                    [
+                        300,
+                        1123
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302421,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        601,
+                        1035
+                    ],
+                    [
+                        719,
+                        1062
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302420,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        586,
+                        1053
+                    ],
+                    [
+                        720,
+                        1082
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 972302434,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "Yalda2HITL",
+            "createdAt": "2022-07-19T09:44:58.681Z",
+            "updatedAt": "2022-07-19T09:44:58.681Z",
+            "tags": [
+                {
+                    "id": 151167752,
+                    "tagId": 30308107,
+                    "name": "Transcription",
+                    "value": "\u0645\u0633\u062a\u0634\u0641\u0649 \u062f\u0627\u0631 \u0627\u0644\u0634\u0641\u0627\u0621",
+                    "labelerLogin": "Yalda2HITL",
+                    "createdAt": "2022-07-19T09:44:58.682Z",
+                    "updatedAt": "2022-07-19T09:44:58.682Z"
+                }
+            ],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        478,
+                        114
+                    ],
+                    [
+                        636,
+                        137
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

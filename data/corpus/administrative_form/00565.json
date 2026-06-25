@@ -1,0 +1,704 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 1050,
+        "width": 788
+    },
+    "objects": [
+        {
+            "id": 961569823,
+            "classId": 10214731,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [
+                {
+                    "id": 150035223,
+                    "tagId": 30308107,
+                    "name": "Transcription",
+                    "value": "\u062a\u0642\u0631\u064a\u0631 \u0639\u0646 \u0637\u0627\u0644\u0628 \u062f\u0631\u0627\u0633\u0627\u062a \u0639\u0644\u064a\u0627",
+                    "labelerLogin": "humanintheloop",
+                    "createdAt": "2022-07-05T11:06:10.384Z",
+                    "updatedAt": "2022-07-05T11:06:10.384Z"
+                }
+            ],
+            "classTitle": "Title",
+            "points": {
+                "exterior": [
+                    [
+                        220,
+                        332
+                    ],
+                    [
+                        324,
+                        345
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569710,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        207,
+                        345
+                    ],
+                    [
+                        336,
+                        358
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569819,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        447,
+                        330
+                    ],
+                    [
+                        486,
+                        338
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569709,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        443,
+                        337
+                    ],
+                    [
+                        490,
+                        343
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569818,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        430,
+                        343
+                    ],
+                    [
+                        503,
+                        355
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569817,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        413,
+                        357
+                    ],
+                    [
+                        521,
+                        369
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569828,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        220,
+                        385
+                    ],
+                    [
+                        524,
+                        397
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569816,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        220,
+                        398
+                    ],
+                    [
+                        523,
+                        411
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569815,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        220,
+                        412
+                    ],
+                    [
+                        523,
+                        427
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569814,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        219,
+                        428
+                    ],
+                    [
+                        523,
+                        442
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569833,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        221,
+                        443
+                    ],
+                    [
+                        523,
+                        456
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569799,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        222,
+                        457
+                    ],
+                    [
+                        523,
+                        471
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569827,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        226,
+                        473
+                    ],
+                    [
+                        523,
+                        486
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569822,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        226,
+                        488
+                    ],
+                    [
+                        522,
+                        502
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569826,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        226,
+                        502
+                    ],
+                    [
+                        522,
+                        517
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569830,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        415,
+                        517
+                    ],
+                    [
+                        522,
+                        529
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569832,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        285,
+                        532
+                    ],
+                    [
+                        390,
+                        544
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569821,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        158,
+                        533
+                    ],
+                    [
+                        390,
+                        544
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569766,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        188,
+                        544
+                    ],
+                    [
+                        364,
+                        556
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569783,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        439,
+                        574
+                    ],
+                    [
+                        510,
+                        587
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569829,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        451,
+                        588
+                    ],
+                    [
+                        509,
+                        600
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569825,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        421,
+                        604
+                    ],
+                    [
+                        509,
+                        617
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569770,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        407,
+                        619
+                    ],
+                    [
+                        509,
+                        631
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569824,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        430,
+                        634
+                    ],
+                    [
+                        509,
+                        647
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569782,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        476,
+                        651
+                    ],
+                    [
+                        509,
+                        661
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569836,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        266,
+                        676
+                    ],
+                    [
+                        521,
+                        692
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 961569831,
+            "classId": 10214730,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "humanintheloop",
+            "createdAt": "2022-07-05T11:06:10.384Z",
+            "updatedAt": "2022-07-05T11:06:10.384Z",
+            "tags": [],
+            "classTitle": "Page",
+            "points": {
+                "exterior": [
+                    [
+                        45,
+                        194
+                    ],
+                    [
+                        309,
+                        193
+                    ],
+                    [
+                        446,
+                        194
+                    ],
+                    [
+                        613,
+                        194
+                    ],
+                    [
+                        607,
+                        572
+                    ],
+                    [
+                        600,
+                        985
+                    ],
+                    [
+                        377,
+                        990
+                    ],
+                    [
+                        334,
+                        990
+                    ],
+                    [
+                        263,
+                        985
+                    ],
+                    [
+                        170,
+                        985
+                    ],
+                    [
+                        54,
+                        983
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

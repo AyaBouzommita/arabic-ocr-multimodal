@@ -1,0 +1,730 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 126510956,
+            "tagId": 30308108,
+            "name": "Redacted",
+            "value": null,
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z"
+        }
+    ],
+    "size": {
+        "height": 900,
+        "width": 1200
+    },
+    "objects": [
+        {
+            "id": 973003942,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        687,
+                        218
+                    ],
+                    [
+                        901,
+                        239
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973003941,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        737,
+                        236
+                    ],
+                    [
+                        899,
+                        262
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973003940,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        332,
+                        179
+                    ],
+                    [
+                        528,
+                        223
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973003939,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        334,
+                        224
+                    ],
+                    [
+                        521,
+                        242
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973003946,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        334,
+                        244
+                    ],
+                    [
+                        523,
+                        262
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973004133,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.147Z",
+            "updatedAt": "2022-07-20T10:09:45.147Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        228,
+                        259
+                    ],
+                    [
+                        649,
+                        284
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973004132,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.147Z",
+            "updatedAt": "2022-07-20T10:09:45.147Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        876,
+                        279
+                    ],
+                    [
+                        982,
+                        311
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973004131,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        524,
+                        296
+                    ],
+                    [
+                        635,
+                        329
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973003945,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        567,
+                        329
+                    ],
+                    [
+                        678,
+                        357
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973003937,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        572,
+                        393
+                    ],
+                    [
+                        652,
+                        421
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973004130,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        524,
+                        423
+                    ],
+                    [
+                        776,
+                        452
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973004129,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        523,
+                        460
+                    ],
+                    [
+                        687,
+                        485
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973003944,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        525,
+                        496
+                    ],
+                    [
+                        689,
+                        519
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973004128,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        525,
+                        520
+                    ],
+                    [
+                        977,
+                        552
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973004127,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        528,
+                        558
+                    ],
+                    [
+                        938,
+                        587
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973004126,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        868,
+                        580
+                    ],
+                    [
+                        949,
+                        612
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973003943,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        522,
+                        623
+                    ],
+                    [
+                        888,
+                        655
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973003938,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        229,
+                        689
+                    ],
+                    [
+                        448,
+                        719
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973004125,
+            "classId": 10214730,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [],
+            "classTitle": "Page",
+            "points": {
+                "exterior": [
+                    [
+                        194,
+                        704
+                    ],
+                    [
+                        192,
+                        643
+                    ],
+                    [
+                        190,
+                        584
+                    ],
+                    [
+                        188,
+                        534
+                    ],
+                    [
+                        183,
+                        480
+                    ],
+                    [
+                        180,
+                        395
+                    ],
+                    [
+                        179,
+                        288
+                    ],
+                    [
+                        176,
+                        219
+                    ],
+                    [
+                        175,
+                        198
+                    ],
+                    [
+                        183,
+                        185
+                    ],
+                    [
+                        202,
+                        175
+                    ],
+                    [
+                        221,
+                        170
+                    ],
+                    [
+                        245,
+                        165
+                    ],
+                    [
+                        275,
+                        163
+                    ],
+                    [
+                        308,
+                        163
+                    ],
+                    [
+                        358,
+                        162
+                    ],
+                    [
+                        417,
+                        162
+                    ],
+                    [
+                        496,
+                        162
+                    ],
+                    [
+                        570,
+                        162
+                    ],
+                    [
+                        630,
+                        163
+                    ],
+                    [
+                        692,
+                        163
+                    ],
+                    [
+                        747,
+                        161
+                    ],
+                    [
+                        799,
+                        162
+                    ],
+                    [
+                        842,
+                        163
+                    ],
+                    [
+                        891,
+                        164
+                    ],
+                    [
+                        950,
+                        165
+                    ],
+                    [
+                        989,
+                        164
+                    ],
+                    [
+                        1034,
+                        164
+                    ],
+                    [
+                        1058,
+                        165
+                    ],
+                    [
+                        1077,
+                        164
+                    ],
+                    [
+                        1089,
+                        168
+                    ],
+                    [
+                        1097,
+                        177
+                    ],
+                    [
+                        1103,
+                        190
+                    ],
+                    [
+                        1102,
+                        217
+                    ],
+                    [
+                        1103,
+                        253
+                    ],
+                    [
+                        1100,
+                        311
+                    ],
+                    [
+                        1100,
+                        383
+                    ],
+                    [
+                        1097,
+                        452
+                    ],
+                    [
+                        1094,
+                        544
+                    ],
+                    [
+                        1091,
+                        584
+                    ],
+                    [
+                        1090,
+                        633
+                    ],
+                    [
+                        1089,
+                        665
+                    ],
+                    [
+                        1089,
+                        696
+                    ],
+                    [
+                        1085,
+                        710
+                    ],
+                    [
+                        1074,
+                        723
+                    ],
+                    [
+                        1043,
+                        727
+                    ],
+                    [
+                        928,
+                        730
+                    ],
+                    [
+                        791,
+                        737
+                    ],
+                    [
+                        649,
+                        739
+                    ],
+                    [
+                        523,
+                        744
+                    ],
+                    [
+                        433,
+                        744
+                    ],
+                    [
+                        352,
+                        745
+                    ],
+                    [
+                        292,
+                        747
+                    ],
+                    [
+                        248,
+                        747
+                    ],
+                    [
+                        222,
+                        749
+                    ],
+                    [
+                        203,
+                        738
+                    ],
+                    [
+                        196,
+                        726
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973004124,
+            "classId": 10214731,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:09:45.146Z",
+            "updatedAt": "2022-07-20T10:09:45.146Z",
+            "tags": [
+                {
+                    "id": 151201231,
+                    "tagId": 30308107,
+                    "name": "Transcription",
+                    "value": "\u0631\u062e\u0635\u0629 \u0633\u0648\u0642",
+                    "labelerLogin": "urud",
+                    "createdAt": "2022-07-20T10:09:45.147Z",
+                    "updatedAt": "2022-07-20T10:09:45.147Z"
+                }
+            ],
+            "classTitle": "Title",
+            "points": {
+                "exterior": [
+                    [
+                        634,
+                        177
+                    ],
+                    [
+                        919,
+                        227
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 126510841,
+            "tagId": 30308108,
+            "name": "Redacted",
+            "value": null,
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:08:51.160Z",
+            "updatedAt": "2022-07-20T10:08:51.160Z"
+        }
+    ],
+    "size": {
+        "height": 1440,
+        "width": 1080
+    },
+    "objects": [
+        {
+            "id": 973001829,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:08:51.161Z",
+            "updatedAt": "2022-07-20T10:08:51.161Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        222,
+                        306
+                    ],
+                    [
+                        354,
+                        373
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973001828,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:08:51.161Z",
+            "updatedAt": "2022-07-20T10:08:51.161Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        700,
+                        948
+                    ],
+                    [
+                        863,
+                        981
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973001510,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:08:51.160Z",
+            "updatedAt": "2022-07-20T10:08:51.160Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        306,
+                        993
+                    ],
+                    [
+                        694,
+                        1068
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973001530,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:08:51.161Z",
+            "updatedAt": "2022-07-20T10:08:51.161Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        123,
+                        1103
+                    ],
+                    [
+                        869,
+                        1187
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973001827,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:08:51.161Z",
+            "updatedAt": "2022-07-20T10:08:51.161Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        81,
+                        1177
+                    ],
+                    [
+                        844,
+                        1276
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973001826,
+            "classId": 10214730,
+            "description": "",
+            "geometryType": "polygon",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:08:51.161Z",
+            "updatedAt": "2022-07-20T10:08:51.161Z",
+            "tags": [],
+            "classTitle": "Page",
+            "points": {
+                "exterior": [
+                    [
+                        85,
+                        226
+                    ],
+                    [
+                        62,
+                        530
+                    ],
+                    [
+                        38,
+                        997
+                    ],
+                    [
+                        30,
+                        1367
+                    ],
+                    [
+                        50,
+                        1387
+                    ],
+                    [
+                        79,
+                        1396
+                    ],
+                    [
+                        223,
+                        1396
+                    ],
+                    [
+                        231,
+                        1399
+                    ],
+                    [
+                        268,
+                        1394
+                    ],
+                    [
+                        334,
+                        1392
+                    ],
+                    [
+                        637,
+                        1387
+                    ],
+                    [
+                        857,
+                        1377
+                    ],
+                    [
+                        884,
+                        1377
+                    ],
+                    [
+                        908,
+                        1374
+                    ],
+                    [
+                        912,
+                        1351
+                    ],
+                    [
+                        908,
+                        1289
+                    ],
+                    [
+                        908,
+                        1157
+                    ],
+                    [
+                        899,
+                        983
+                    ],
+                    [
+                        900,
+                        816
+                    ],
+                    [
+                        886,
+                        193
+                    ],
+                    [
+                        846,
+                        186
+                    ],
+                    [
+                        756,
+                        178
+                    ],
+                    [
+                        599,
+                        170
+                    ],
+                    [
+                        371,
+                        167
+                    ],
+                    [
+                        265,
+                        161
+                    ],
+                    [
+                        210,
+                        161
+                    ],
+                    [
+                        167,
+                        164
+                    ],
+                    [
+                        107,
+                        165
+                    ],
+                    [
+                        98,
+                        173
+                    ],
+                    [
+                        87,
+                        192
+                    ],
+                    [
+                        85,
+                        217
+                    ],
+                    [
+                        85,
+                        205
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973001821,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:08:51.161Z",
+            "updatedAt": "2022-07-20T10:08:51.161Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        754,
+                        700
+                    ],
+                    [
+                        857,
+                        734
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973001825,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:08:51.161Z",
+            "updatedAt": "2022-07-20T10:08:51.161Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        760,
+                        780
+                    ],
+                    [
+                        859,
+                        820
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 973001800,
+            "classId": 10214732,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "urud",
+            "createdAt": "2022-07-20T10:08:51.161Z",
+            "updatedAt": "2022-07-20T10:08:51.161Z",
+            "tags": [],
+            "classTitle": "Body text",
+            "points": {
+                "exterior": [
+                    [
+                        104,
+                        851
+                    ],
+                    [
+                        859,
+                        910
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}
