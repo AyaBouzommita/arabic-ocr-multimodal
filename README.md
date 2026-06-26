@@ -1,4 +1,4 @@
-To test and see the results of what we just built, you have three different ways to execute the project depending on what you want to see. 
+To test and see the results, you have three different ways to execute the project depending on what you want to see. 
 
 ### 1. Run the Baseline Evaluation on the Entire Corpus
 To process all images in your `data/raw/` folder, calculate the CER/WER against the ground truth, and generate the final baseline CSV reports required for your sprint:
