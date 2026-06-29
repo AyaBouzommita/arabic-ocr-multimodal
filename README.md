@@ -1,133 +1,51 @@
-# Arabic OCR Multimodal Platform
+To test and see the results, you have three different ways to execute the project depending on what you want to see.
 
-Amélioration de la reconnaissance de caractères arabes par fusion entre OCR, compréhension contextuelle et analyse visuelle du document.
+### 1. Run the Baseline Evaluation on the Entire Corpus
+To process all images in your `data/raw/` folder, calculate the CER/WER against the ground truth, and generate the final baseline CSV reports required for your sprint:
 
-Reference: `#NEO-STAGE-ETE-2026-05`  
-Company: **NeoLedge — Zarzis Smart Center, Tunisia**
-
----
-
-## 1. Project Overview
-
-This repository implements a multimodal Arabic OCR pipeline that fuses:
-1. **Raw OCR Text**: Text extracted by Tesseract, EasyOCR, or PaddleOCR.
-2. **Linguistic Context**: Arabic Language Models (AraBERT / CAMeL-BERT / AraGPT2) for sentence-level candidate scoring.
-3. **Visual Document Analysis**: Object Detection (YOLOv8 / Detectron2 / Florence-2) identifying visual elements (stamps, signatures, logos, tables) to guide corrections.
-
----
-
-## 2. Directory Structure
-
+```powershell
+.\.venv\Scripts\python -m scripts.run_paddleocr_baseline --save-json
 ```
-arabic-ocr-multimodal/
-├── .github/
-│   ├── workflows/
-│   │   └── ci.yml             # CI/CD pipeline
-│   └── pull_request_template.md
-├── arabic_ocr_platform/       # Django Platform Root
-│   ├── apps/                  # Django Apps
-│   │   ├── documents/         # Document uploads and storage
-│   │   ├── evaluation/        # CER/WER runs tracking
-│   │   └── hitl/              # Human-in-the-loop validation
-│   ├── config/                # Django Configurations
-│   │   ├── settings/          # Split settings
-│   │   │   ├── base.py
-│   │   │   ├── development.py
-│   │   │   └── production.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-│   ├── pipeline/              # Independent AI Pipeline Modules
-│   │   ├── evaluation/        # CER/WER scoring & Arabic normalizer
-│   │   ├── fusion/            # Multimodal fusion engine
-│   │   ├── nlp/               # Language models correction & ranking
-│   │   ├── ocr/               # OCR engine connectors
-│   │   ├── utils/             # JSON Schema Validators
-│   │   └── vision/            # YOLO detectors wrappers
-│   └── manage.py
-├── data/
-│   └── corpus/                # Raw corpus documents (.gitkeep)
-├── docs/
-│   ├── annotation_schema.md   # Visual annotations guidelines
-│   ├── git_workflow.md        # Branching and Commit guidelines
-│   └── interface_contracts.md # Shared JSON Schemas documentation
-├── reports/                   # Performance & benchmark reports (.gitkeep)
-├── results/                   # Evaluator execution metrics (.gitkeep)
-├── schemas/                   # Shared JSON Schemas (Frozen contracts)
-│   ├── ocr_output.schema.json
-│   ├── detection_output.schema.json
-│   └── fusion_input.schema.json
-├── .env.example               # Template environment configuration
-├── .gitignore
-├── requirements.txt
-└── README.md
+* **What it does:** Runs PaddleOCR on every image, computes error rates, and saves the results.
+* **Where to see results:** Check the terminal output for a summary table, and look at the generated files in `results/sprint1_baseline.csv` and the `results/json/` folder.
+
+### 2. Run PaddleOCR on a Single Image (Quick Test)
+If you want to quickly test a specific image and see the detailed JSON output (including the bounding boxes and confidence scores for every word):
+
+```powershell
+.\.venv\Scripts\python main.py data/raw/sample.png
+```
+* **Add Evaluation:** You can add the `--evaluate` flag to also calculate the CER/WER for that specific image if it has a corresponding `.txt` ground truth file:
+  ```powershell
+  .\.venv\Scripts\python main.py data/raw/sample.png --evaluate
+  ```
+* **Simple Output:** If you just want to see the raw extracted Arabic text without all the JSON metadata, use the `--simple` flag:
+  ```powershell
+  .\.venv\Scripts\python main.py data/raw/sample.png --simple
+  ```
+
+### 3. Run the Automated Test Suite (QA)
+To verify that everything in the codebase is functioning correctly and strictly follows the Sprint 0 interface contracts:
+
+```powershell
+.\.venv\Scripts\python -m pytest tests/ -v
+```
+* **What it does:** Runs all automated tests, verifying interface contract validation, CER/WER scoring, and image preprocessing. Tests requiring the PaddleOCR model and a sample image are automatically skipped if the image is not present.
+
+### 4. PaddleOCR-specific Options
+```powershell
+# Disable angle classification (faster but less robust for rotated documents)
+.\.venv\Scripts\python -m scripts.run_paddleocr_baseline --no-angle-cls
+
+# Enable GPU inference (requires CUDA + GPU-enabled PaddlePaddle)
+.\.venv\Scripts\python -m scripts.run_paddleocr_baseline --gpu
+
+# Enable Otsu binarisation preprocessing
+.\.venv\Scripts\python -m scripts.run_paddleocr_baseline --threshold
 ```
 
----
-
-## 3. Installation & Setup
-
-### Prerequisites
-* Python 3.10+
-* Git
-
-### Local Installation
-1. Clone the repository:
-   ```bash
-   git clone <repo-url>
-   cd arabic-ocr-multimodal
-   ```
-
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv .venv
-   # On Windows:
-   .venv\Scripts\activate
-   # On macOS/Linux:
-   source .venv/bin/activate
-   ```
-
-3. Install project dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Configure local environment variables:
-   ```bash
-   cp .env.example .env
-   ```
-
-5. Run Django system check to verify setup:
-   ```bash
-   python arabic_ocr_platform/manage.py check
-   ```
-
----
-
-## 4. Running the CER/WER Evaluator & Tests
-
-### Running Tests
-To run all test suites (including Arabic normalization, CER/WER distance computation, and JSON Schema validators):
-```bash
-pytest
+### 5. Install Dependencies
+```powershell
+pip install paddlepaddle paddleocr opencv-python Pillow jiwer pandas pytest
 ```
-
-### Running Scorer manually
-You can import `calculate_cer` and `calculate_wer` directly in your scripts:
-```python
-from pipeline.evaluation.evaluator import calculate_cer, calculate_wer
-
-ref = "كَتَبَ أحمدُ الدرسَ."
-hyp = "كتب احمد الدرس"
-
-print("CER:", calculate_cer(ref, hyp, normalize=True)) # Outputs: 0.0
-print("WER:", calculate_wer(ref, hyp, normalize=True)) # Outputs: 0.0
-```
-
----
-
-## 5. Collaboration & Git Guidelines
-
-Please refer to the following documentation files under `docs/`:
-* **Git Branches and Commits**: [docs/git_workflow.md](docs/git_workflow.md)
-* **JSON Schema Contracts**: [docs/interface_contracts.md](docs/interface_contracts.md)
-* **Dataset Annotation Schema**: [docs/annotation_schema.md](docs/annotation_schema.md)
+> **Note:** On first run, PaddleOCR automatically downloads the Arabic detection and recognition model weights (~100 MB). Make sure you have an internet connection.

@@ -1,11 +1,18 @@
-Django>=4.2,<5.0
-djangorestframework>=3.14.0
+# === OCR Engines ===
+paddlepaddle>=2.5.0
+paddleocr>=2.7.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# === Evaluation ===
 jiwer>=3.0.0
-jsonschema>=4.18.0
+editdistance>=0.6.0
+pandas>=2.0.0
+
+# === Testing & Linting ===
 pytest>=7.4.0
-pytest-django>=4.5.2
 flake8>=6.1.0
 black>=23.7.0
+
+# === Utilities ===
 python-decouple>=3.8
-celery>=5.3.0
-redis>=5.0.0
