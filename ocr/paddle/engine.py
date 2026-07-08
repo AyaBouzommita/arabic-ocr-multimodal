@@ -19,6 +19,7 @@ Usage:
     print(result.to_json())
 """
 
+import inspect
 import time
 from pathlib import Path
 from typing import List, Optional
@@ -28,6 +29,9 @@ import numpy as np
 
 from ocr.base_engine import OCREngine
 from ocr.result import OCRResult, OCRToken
+
+# PaddleOCR 3.x uses ISO language codes; keep 'arabic' as the project default.
+_LANG_ALIASES = {"arabic": "ar"}
 
 
 class PaddleOCREngine(OCREngine):
@@ -74,12 +78,31 @@ class PaddleOCREngine(OCREngine):
         self.enable_denoise = enable_denoise
         self.enable_threshold = enable_threshold
 
-        self._ocr = PaddleOCR(
-            lang=lang,
-            use_angle_cls=use_angle_cls,
-            use_gpu=use_gpu,
-            show_log=False,  # suppress verbose paddle logging
-        )
+        paddle_lang = _LANG_ALIASES.get(lang, lang)
+        init_params = inspect.signature(PaddleOCR.__init__).parameters
+        self._paddle_v3 = "use_textline_orientation" in init_params
+
+        ocr_kwargs = {"lang": paddle_lang}
+        if self._paddle_v3:
+            # PaddleOCR 3.x / PaddleX — avoid oneDNN+PIR crash on CPU (PP 3.3+).
+            ocr_kwargs.update(
+                {
+                    "use_textline_orientation": use_angle_cls,
+                    "use_doc_orientation_classify": False,
+                    "use_doc_unwarping": False,
+                    "enable_mkldnn": False,
+                }
+            )
+        else:
+            ocr_kwargs.update(
+                {
+                    "use_angle_cls": use_angle_cls,
+                    "use_gpu": use_gpu,
+                    "show_log": False,
+                }
+            )
+
+        self._ocr = PaddleOCR(**ocr_kwargs)
 
     # ------------------------------------------------------------------
     # Public interface
@@ -108,13 +131,19 @@ class PaddleOCREngine(OCREngine):
         img = self.load_image(image_path)
         processed = self.preprocess(
             img,
-            grayscale=True,
-            denoise=self.enable_denoise,
-            threshold=self.enable_threshold,
+            grayscale=not self._paddle_v3,
+            denoise=self.enable_denoise and not self._paddle_v3,
+            threshold=self.enable_threshold and not self._paddle_v3,
         )
 
         start = time.perf_counter()
-        raw_paddle_result = self._ocr.ocr(processed, cls=self.use_angle_cls)
+        if self._paddle_v3:
+            raw_paddle_result = self._ocr.predict(
+                processed,
+                use_textline_orientation=self.use_angle_cls,
+            )
+        else:
+            raw_paddle_result = self._ocr.ocr(processed, cls=self.use_angle_cls)
         elapsed_ms = int((time.perf_counter() - start) * 1000)
 
         tokens = self._parse_paddle_output(raw_paddle_result)
@@ -240,7 +269,10 @@ class PaddleOCREngine(OCREngine):
         if grayscale:
             img = self.to_grayscale(img)
         if denoise:
-            img = cv2.fastNlMeansDenoising(img, h=10)
+            if len(img.shape) == 2:
+                img = cv2.fastNlMeansDenoising(img, h=10)
+            else:
+                img = cv2.fastNlMeansDenoisingColored(img, h=10)
         if threshold:
             img = self.apply_threshold(img, method="otsu")
         return img
@@ -252,33 +284,28 @@ class PaddleOCREngine(OCREngine):
     def _parse_paddle_output(self, paddle_result) -> List[OCRToken]:
         """Convert raw PaddleOCR output to a list of OCRToken objects.
 
-        PaddleOCR returns a nested list:
-            [ [ [bbox_points, (text, confidence)], ... ] ]
-
-        where bbox_points is [[x1,y1],[x2,y2],[x3,y3],[x4,y4]] (polygon),
-        and confidence is a float in [0.0, 1.0].
-
-        We convert the polygon to an axis-aligned bounding box [x1,y1,x2,y2]
-        and scale confidence to [0.0, 100.0] to match the interface contract.
+        Supports both PaddleOCR 2.x nested-list output and PaddleOCR 3.x
+        PaddleX OCRResult dict-like objects (rec_texts / rec_scores / rec_boxes).
 
         Args:
-            paddle_result: Raw output from PaddleOCR.ocr().
+            paddle_result: Raw output from PaddleOCR.ocr() or .predict().
 
         Returns:
             List of OCRToken objects. Empty list if no text detected.
         """
-        tokens = []
-
         if not paddle_result or paddle_result == [None]:
-            return tokens
+            return []
 
+        if self._paddle_v3:
+            return self._parse_paddlex_output(paddle_result)
+
+        tokens = []
         for page_result in paddle_result:
             if page_result is None:
                 continue
             for line in page_result:
                 bbox_points, (text, confidence) = line
 
-                # Convert polygon [[x,y], ...] → axis-aligned bbox [x1,y1,x2,y2]
                 xs = [pt[0] for pt in bbox_points]
                 ys = [pt[1] for pt in bbox_points]
                 x1, y1 = float(min(xs)), float(min(ys))
@@ -292,4 +319,25 @@ class PaddleOCREngine(OCREngine):
                     )
                 )
 
+        return tokens
+
+    def _parse_paddlex_output(self, paddle_result) -> List[OCRToken]:
+        """Parse PaddleOCR 3.x / PaddleX OCRResult output."""
+        page = paddle_result[0]
+        texts = page.get("rec_texts", [])
+        scores = page.get("rec_scores", [])
+        boxes = page.get("rec_boxes", [])
+
+        tokens = []
+        for text, confidence, box in zip(texts, scores, boxes):
+            if not str(text).strip():
+                continue
+            x1, y1, x2, y2 = (float(v) for v in box)
+            tokens.append(
+                OCRToken(
+                    text=str(text),
+                    bbox=[x1, y1, x2, y2],
+                    confidence=round(float(confidence) * 100, 2),
+                )
+            )
         return tokens

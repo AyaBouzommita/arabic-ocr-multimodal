@@ -1,0 +1,2 @@
+﻿document_id,category,image_path,ground_truth,ocr_text,avg_confidence,processing_time_ms,token_count,cer,wer
+Invoice/001,Invoice,c:\Users\TUF FX 506 I5\Downloads\archive (2)\Documents\Documents\Invoice\img\001.jpg,فاتورة مبيعات,١٠١٠ ا يوي ORDG TOIWIO ٠٨ لوي ي  ي    ي    ايي ، السعر الكمية الوحدة اليان لا غير الإجمالى فقط  دفعة مقدمة   الباقى طريقة السداد أقرأون ت عالأف ا  ا عددة جية وأصبحت قيمتها بذمتى وفي حالة عدم السداد أتحمل المسئولية القائونية .التوقيع البيعالمخان ،الحمابات,73.52,34538,24,18.6154,22.5
