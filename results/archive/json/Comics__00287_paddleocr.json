@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/00287",
+  "engine": "paddleocr",
+  "raw_text": "يره يند دنانيدرف",
+  "tokens": [
+    {
+      "text": "يره يند",
+      "bbox": [
+        1780.0,
+        1016.0,
+        1920.0,
+        1076.0
+      ],
+      "confidence": 59.56
+    },
+    {
+      "text": "دنانيدرف",
+      "bbox": [
+        1832.0,
+        1092.0,
+        1901.0,
+        1121.0
+      ],
+      "confidence": 89.86
+    }
+  ],
+  "processing_time_ms": 328
+}

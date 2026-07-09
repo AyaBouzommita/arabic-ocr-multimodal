@@ -1,0 +1,18 @@
+{
+  "document_id": "Book/00654",
+  "engine": "paddleocr",
+  "raw_text": "لدالقتسالا",
+  "tokens": [
+    {
+      "text": "لدالقتسالا",
+      "bbox": [
+        240.0,
+        285.0,
+        413.0,
+        345.0
+      ],
+      "confidence": 88.41
+    }
+  ],
+  "processing_time_ms": 59
+}

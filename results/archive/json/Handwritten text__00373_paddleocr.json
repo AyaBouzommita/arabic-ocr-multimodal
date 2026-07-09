@@ -1,0 +1,18 @@
+{
+  "document_id": "Handwritten text/00373",
+  "engine": "paddleocr",
+  "raw_text": "س",
+  "tokens": [
+    {
+      "text": "س",
+      "bbox": [
+        542.0,
+        468.0,
+        585.0,
+        492.0
+      ],
+      "confidence": 70.45
+    }
+  ],
+  "processing_time_ms": 54
+}

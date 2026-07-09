@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/00401",
+  "engine": "paddleocr",
+  "raw_text": "ووان واين",
+  "tokens": [
+    {
+      "text": "ووان",
+      "bbox": [
+        604.0,
+        429.0,
+        648.0,
+        454.0
+      ],
+      "confidence": 72.2
+    },
+    {
+      "text": "واين",
+      "bbox": [
+        611.0,
+        451.0,
+        651.0,
+        473.0
+      ],
+      "confidence": 82.01
+    }
+  ],
+  "processing_time_ms": 66
+}

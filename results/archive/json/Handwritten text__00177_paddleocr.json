@@ -1,0 +1,168 @@
+{
+  "document_id": "Handwritten text/00177",
+  "engine": "paddleocr",
+  "raw_text": "bite Maha Fayad Haidan Clinical Dietitian , 88,3 رص.  03051409 Kab Elias Main Road .Hawli Center T1.9613 051409",
+  "tokens": [
+    {
+      "text": "bite",
+      "bbox": [
+        739.0,
+        684.0,
+        1013.0,
+        854.0
+      ],
+      "confidence": 91.7
+    },
+    {
+      "text": "Maha",
+      "bbox": [
+        1786.0,
+        697.0,
+        1960.0,
+        761.0
+      ],
+      "confidence": 98.73
+    },
+    {
+      "text": "Fayad",
+      "bbox": [
+        1973.0,
+        697.0,
+        2160.0,
+        761.0
+      ],
+      "confidence": 91.33
+    },
+    {
+      "text": "Haidan",
+      "bbox": [
+        2173.0,
+        688.0,
+        2382.0,
+        752.0
+      ],
+      "confidence": 88.65
+    },
+    {
+      "text": "Clinical",
+      "bbox": [
+        2004.0,
+        778.0,
+        2169.0,
+        842.0
+      ],
+      "confidence": 90.93
+    },
+    {
+      "text": "Dietitian",
+      "bbox": [
+        2178.0,
+        778.0,
+        2378.0,
+        837.0
+      ],
+      "confidence": 99.98
+    },
+    {
+      "text": ",",
+      "bbox": [
+        1443.0,
+        1300.0,
+        1756.0,
+        1424.0
+      ],
+      "confidence": 82.33
+    },
+    {
+      "text": "88,3",
+      "bbox": [
+        1016.0,
+        1971.0,
+        1418.0,
+        2053.0
+      ],
+      "confidence": 64.64
+    },
+    {
+      "text": "رص. ",
+      "bbox": [
+        1421.0,
+        1998.0,
+        1504.0,
+        2044.0
+      ],
+      "confidence": 70.69
+    },
+    {
+      "text": "03051409",
+      "bbox": [
+        1164.0,
+        2031.0,
+        1418.0,
+        2087.0
+      ],
+      "confidence": 85.46
+    },
+    {
+      "text": "Kab",
+      "bbox": [
+        609.0,
+        3668.0,
+        726.0,
+        3732.0
+      ],
+      "confidence": 82.81
+    },
+    {
+      "text": "Elias",
+      "bbox": [
+        726.0,
+        3664.0,
+        865.0,
+        3727.0
+      ],
+      "confidence": 88.22
+    },
+    {
+      "text": "Main",
+      "bbox": [
+        881.0,
+        3662.0,
+        1040.0,
+        3737.0
+      ],
+      "confidence": 74.95
+    },
+    {
+      "text": "Road",
+      "bbox": [
+        1016.0,
+        3675.0,
+        1175.0,
+        3750.0
+      ],
+      "confidence": 82.81
+    },
+    {
+      "text": ".Hawli Center",
+      "bbox": [
+        1182.0,
+        3684.0,
+        1535.0,
+        3770.0
+      ],
+      "confidence": 96.9
+    },
+    {
+      "text": "T1.9613 051409",
+      "bbox": [
+        1547.0,
+        3688.0,
+        2013.0,
+        3770.0
+      ],
+      "confidence": 72.71
+    }
+  ],
+  "processing_time_ms": 398
+}

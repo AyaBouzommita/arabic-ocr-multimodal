@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00635",
+  "engine": "paddleocr",
+  "raw_text": "اَنأأ انينراك",
+  "tokens": [
+    {
+      "text": "اَنأأ",
+      "bbox": [
+        759.0,
+        252.0,
+        926.0,
+        435.0
+      ],
+      "confidence": 65.44
+    },
+    {
+      "text": "انينراك",
+      "bbox": [
+        259.0,
+        300.0,
+        741.0,
+        491.0
+      ],
+      "confidence": 89.85
+    }
+  ],
+  "processing_time_ms": 134
+}

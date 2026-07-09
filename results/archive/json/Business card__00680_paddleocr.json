@@ -1,0 +1,58 @@
+{
+  "document_id": "Business card/00680",
+  "engine": "paddleocr",
+  "raw_text": "يف ةصاخ تابلط Mobile Home",
+  "tokens": [
+    {
+      "text": "يف",
+      "bbox": [
+        49.0,
+        249.0,
+        84.0,
+        266.0
+      ],
+      "confidence": 61.09
+    },
+    {
+      "text": "ةصاخ",
+      "bbox": [
+        550.0,
+        505.0,
+        632.0,
+        552.0
+      ],
+      "confidence": 98.19
+    },
+    {
+      "text": "تابلط",
+      "bbox": [
+        627.0,
+        500.0,
+        714.0,
+        555.0
+      ],
+      "confidence": 98.41
+    },
+    {
+      "text": "Mobile",
+      "bbox": [
+        31.0,
+        538.0,
+        117.0,
+        566.0
+      ],
+      "confidence": 99.37
+    },
+    {
+      "text": "Home",
+      "bbox": [
+        333.0,
+        529.0,
+        409.0,
+        552.0
+      ],
+      "confidence": 99.49
+    }
+  ],
+  "processing_time_ms": 94
+}

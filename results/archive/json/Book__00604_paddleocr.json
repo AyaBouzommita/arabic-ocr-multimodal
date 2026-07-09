@@ -1,0 +1,88 @@
+{
+  "document_id": "Book/00604",
+  "engine": "paddleocr",
+  "raw_text": "هيياغ يا ريم ةعوسوم لباوتلا Jarrous Press Publishers u Roquefort ٥ Poulet",
+  "tokens": [
+    {
+      "text": "هيياغ",
+      "bbox": [
+        1325.0,
+        1027.0,
+        1498.0,
+        1127.0
+      ],
+      "confidence": 98.1
+    },
+    {
+      "text": "يا ريم",
+      "bbox": [
+        1494.0,
+        1027.0,
+        1706.0,
+        1140.0
+      ],
+      "confidence": 80.78
+    },
+    {
+      "text": "ةعوسوم",
+      "bbox": [
+        1414.0,
+        1353.0,
+        2061.0,
+        1647.0
+      ],
+      "confidence": 91.85
+    },
+    {
+      "text": "لباوتلا",
+      "bbox": [
+        971.0,
+        1378.0,
+        1414.0,
+        1590.0
+      ],
+      "confidence": 96.25
+    },
+    {
+      "text": "Jarrous Press Publishers",
+      "bbox": [
+        1271.0,
+        3631.0,
+        1787.0,
+        3706.0
+      ],
+      "confidence": 96.71
+    },
+    {
+      "text": "u Roquefort",
+      "bbox": [
+        123.0,
+        3903.0,
+        445.0,
+        3979.0
+      ],
+      "confidence": 92.4
+    },
+    {
+      "text": "٥",
+      "bbox": [
+        44.0,
+        3935.0,
+        146.0,
+        3969.0
+      ],
+      "confidence": 91.72
+    },
+    {
+      "text": "Poulet",
+      "bbox": [
+        35.0,
+        4004.0,
+        253.0,
+        4052.0
+      ],
+      "confidence": 85.53
+    }
+  ],
+  "processing_time_ms": 293
+}

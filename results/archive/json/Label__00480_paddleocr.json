@@ -1,0 +1,28 @@
+{
+  "document_id": "Label/00480",
+  "engine": "paddleocr",
+  "raw_text": "م حص ا",
+  "tokens": [
+    {
+      "text": "م حص",
+      "bbox": [
+        2245.0,
+        1330.0,
+        2283.0,
+        1396.0
+      ],
+      "confidence": 61.71
+    },
+    {
+      "text": "ا",
+      "bbox": [
+        2177.0,
+        1642.0,
+        2249.0,
+        1763.0
+      ],
+      "confidence": 60.57
+    }
+  ],
+  "processing_time_ms": 285
+}

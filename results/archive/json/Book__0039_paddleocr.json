@@ -1,0 +1,18 @@
+{
+  "document_id": "Book/0039",
+  "engine": "paddleocr",
+  "raw_text": "ىبارافلا",
+  "tokens": [
+    {
+      "text": "ىبارافلا",
+      "bbox": [
+        1560.0,
+        5608.0,
+        1790.0,
+        5758.0
+      ],
+      "confidence": 75.56
+    }
+  ],
+  "processing_time_ms": 358
+}

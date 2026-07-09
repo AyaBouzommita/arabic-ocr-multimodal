@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00693",
+  "engine": "paddleocr",
+  "raw_text": "عام عايأ اابا",
+  "tokens": [
+    {
+      "text": "عام",
+      "bbox": [
+        92.0,
+        461.0,
+        155.0,
+        496.0
+      ],
+      "confidence": 79.97
+    },
+    {
+      "text": "عايأ",
+      "bbox": [
+        83.0,
+        753.0,
+        151.0,
+        792.0
+      ],
+      "confidence": 71.57
+    },
+    {
+      "text": "اابا",
+      "bbox": [
+        65.0,
+        808.0,
+        146.0,
+        859.0
+      ],
+      "confidence": 66.76
+    }
+  ],
+  "processing_time_ms": 97
+}

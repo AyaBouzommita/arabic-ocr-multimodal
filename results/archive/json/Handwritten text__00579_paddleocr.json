@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/00579",
+  "engine": "paddleocr",
+  "raw_text": "كرابع نايضم",
+  "tokens": [
+    {
+      "text": "كرابع",
+      "bbox": [
+        187.0,
+        273.0,
+        460.0,
+        411.0
+      ],
+      "confidence": 84.87
+    },
+    {
+      "text": "نايضم",
+      "bbox": [
+        475.0,
+        306.0,
+        674.0,
+        406.0
+      ],
+      "confidence": 90.87
+    }
+  ],
+  "processing_time_ms": 61
+}

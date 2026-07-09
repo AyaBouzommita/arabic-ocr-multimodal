@@ -1,0 +1,18 @@
+{
+  "document_id": "Comics/0053",
+  "engine": "paddleocr",
+  "raw_text": "يدغ",
+  "tokens": [
+    {
+      "text": "يدغ",
+      "bbox": [
+        78.0,
+        24.0,
+        571.0,
+        195.0
+      ],
+      "confidence": 69.25
+    }
+  ],
+  "processing_time_ms": 50
+}

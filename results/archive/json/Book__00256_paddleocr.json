@@ -1,0 +1,38 @@
+{
+  "document_id": "Book/00256",
+  "engine": "paddleocr",
+  "raw_text": " 6.00 A يناَلا",
+  "tokens": [
+    {
+      "text": " 6.00",
+      "bbox": [
+        996.0,
+        2340.0,
+        1160.0,
+        2414.0
+      ],
+      "confidence": 80.09
+    },
+    {
+      "text": "A",
+      "bbox": [
+        750.0,
+        2679.0,
+        869.0,
+        2771.0
+      ],
+      "confidence": 58.79
+    },
+    {
+      "text": "يناَلا",
+      "bbox": [
+        911.0,
+        2705.0,
+        1130.0,
+        2824.0
+      ],
+      "confidence": 58.47
+    }
+  ],
+  "processing_time_ms": 311
+}

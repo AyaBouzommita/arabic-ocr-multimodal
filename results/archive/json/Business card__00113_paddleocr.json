@@ -1,0 +1,28 @@
+{
+  "document_id": "Business card/00113",
+  "engine": "paddleocr",
+  "raw_text": "راوسسكا ايام",
+  "tokens": [
+    {
+      "text": "راوسسكا",
+      "bbox": [
+        681.0,
+        380.0,
+        891.0,
+        472.0
+      ],
+      "confidence": 96.77
+    },
+    {
+      "text": "ايام",
+      "bbox": [
+        696.0,
+        433.0,
+        992.0,
+        600.0
+      ],
+      "confidence": 90.15
+    }
+  ],
+  "processing_time_ms": 73
+}

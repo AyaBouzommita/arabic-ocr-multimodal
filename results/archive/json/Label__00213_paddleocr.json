@@ -1,0 +1,28 @@
+{
+  "document_id": "Label/00213",
+  "engine": "paddleocr",
+  "raw_text": "٩٩٥ ليدوملا",
+  "tokens": [
+    {
+      "text": "٩٩٥",
+      "bbox": [
+        166.0,
+        858.0,
+        351.0,
+        950.0
+      ],
+      "confidence": 94.33
+    },
+    {
+      "text": "ليدوملا",
+      "bbox": [
+        384.0,
+        907.0,
+        443.0,
+        927.0
+      ],
+      "confidence": 97.97
+    }
+  ],
+  "processing_time_ms": 66
+}

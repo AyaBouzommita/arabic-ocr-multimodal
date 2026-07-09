@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/00716",
+  "engine": "paddleocr",
+  "raw_text": "Theatre Monot",
+  "tokens": [
+    {
+      "text": "Theatre Monot",
+      "bbox": [
+        175.0,
+        1412.0,
+        366.0,
+        1458.0
+      ],
+      "confidence": 83.05
+    }
+  ],
+  "processing_time_ms": 314
+}

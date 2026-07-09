@@ -1,0 +1,38 @@
+{
+  "document_id": "Map/00714",
+  "engine": "paddleocr",
+  "raw_text": "الا مل E",
+  "tokens": [
+    {
+      "text": "الا",
+      "bbox": [
+        1304.0,
+        817.0,
+        1385.0,
+        846.0
+      ],
+      "confidence": 65.3
+    },
+    {
+      "text": "مل",
+      "bbox": [
+        65.0,
+        930.0,
+        629.0,
+        2307.0
+      ],
+      "confidence": 52.73
+    },
+    {
+      "text": "E",
+      "bbox": [
+        1436.0,
+        3300.0,
+        1500.0,
+        3354.0
+      ],
+      "confidence": 90.43
+    }
+  ],
+  "processing_time_ms": 335
+}

@@ -1,0 +1,318 @@
+{
+  "document_id": "Label/00793",
+  "engine": "paddleocr",
+  "raw_text": "Dishwashing liquid. Eep out of reach of children. . Avoid contact with eyes. In case  of contat  rinse immediately with plenty of water and seek medicl advice,With eyes e and dry hands after . Rinse Use. Best used before 24 months after prodution dote see on pack. نويلا م سلتلا لاح يف نينول تسلم بنجت لفطلا لوشتم ع  اديعب ظفحي  لا ليسغ لئاس .نوحصلا  24ةدمل حلاص ةوبعلا  جاتنإلا(ظنا  لا خيرات نم رهش INGREDIENTS: 1530 Aninc Sutt , 5-15% Non-ionic surfactants Methylisothiazolinone , Citronellol, Perfumes,Phenoxyethanol  Linalool., Limonene, Geraniol,I حطسلا طايتلا تان داوم :-0انوكملا ايتكبلا ن ة ةعبخإ مت تعملاكك هي Consumer Service In G Cotris nd Yemn 096 125775 000272 : www.pg.om/contac Made in Soudi Arobio. ةيدوعسلا ةيبر  2 industrigl city 4927",
+  "tokens": [
+    {
+      "text": "Dishwashing liquid. Eep out of reach of children.",
+      "bbox": [
+        784.0,
+        1441.0,
+        1449.0,
+        1517.0
+      ],
+      "confidence": 92.43
+    },
+    {
+      "text": ". Avoid contact with eyes. In case ",
+      "bbox": [
+        1423.0,
+        1454.0,
+        1854.0,
+        1508.0
+      ],
+      "confidence": 95.31
+    },
+    {
+      "text": "of contat",
+      "bbox": [
+        1837.0,
+        1450.0,
+        1969.0,
+        1496.0
+      ],
+      "confidence": 94.94
+    },
+    {
+      "text": " rinse immediately with plenty of water and seek medicl advice,With eyes",
+      "bbox": [
+        776.0,
+        1504.0,
+        1717.0,
+        1558.0
+      ],
+      "confidence": 96.37
+    },
+    {
+      "text": "e and dry hands after",
+      "bbox": [
+        1772.0,
+        1486.0,
+        2042.0,
+        1555.0
+      ],
+      "confidence": 96.38
+    },
+    {
+      "text": ". Rinse",
+      "bbox": [
+        1705.0,
+        1512.0,
+        1794.0,
+        1546.0
+      ],
+      "confidence": 93.0
+    },
+    {
+      "text": "Use. Best used before 24 months after prodution dote see on pack.",
+      "bbox": [
+        776.0,
+        1554.0,
+        1649.0,
+        1608.0
+      ],
+      "confidence": 97.18
+    },
+    {
+      "text": "نويلا م سلتلا لاح يف نينول تسلم بنجت لفطلا لوشتم ع ",
+      "bbox": [
+        839.0,
+        1600.0,
+        1679.0,
+        1658.0
+      ],
+      "confidence": 71.91
+    },
+    {
+      "text": "اديعب ظفحي",
+      "bbox": [
+        1679.0,
+        1604.0,
+        1815.0,
+        1646.0
+      ],
+      "confidence": 92.21
+    },
+    {
+      "text": " لا ليسغ لئاس",
+      "bbox": [
+        1894.0,
+        1577.0,
+        2061.0,
+        1656.0
+      ],
+      "confidence": 86.08
+    },
+    {
+      "text": ".نوحصلا",
+      "bbox": [
+        1802.0,
+        1604.0,
+        1914.0,
+        1642.0
+      ],
+      "confidence": 80.84
+    },
+    {
+      "text": " 24ةدمل حلاص",
+      "bbox": [
+        839.0,
+        1650.0,
+        1010.0,
+        1692.0
+      ],
+      "confidence": 83.8
+    },
+    {
+      "text": "ةوبعلا",
+      "bbox": [
+        1641.0,
+        1700.0,
+        1730.0,
+        1746.0
+      ],
+      "confidence": 91.35
+    },
+    {
+      "text": " جاتنإلا(ظنا",
+      "bbox": [
+        1729.0,
+        1691.0,
+        1885.0,
+        1747.0
+      ],
+      "confidence": 80.18
+    },
+    {
+      "text": " لا خيرات نم رهش",
+      "bbox": [
+        1861.0,
+        1678.0,
+        2060.0,
+        1747.0
+      ],
+      "confidence": 88.05
+    },
+    {
+      "text": "INGREDIENTS: 1530 Aninc Sutt",
+      "bbox": [
+        796.0,
+        1745.0,
+        1321.0,
+        1805.0
+      ],
+      "confidence": 75.55
+    },
+    {
+      "text": ", 5-15% Non-ionic surfactants Methylisothiazolinone",
+      "bbox": [
+        1295.0,
+        1741.0,
+        1956.0,
+        1809.0
+      ],
+      "confidence": 92.19
+    },
+    {
+      "text": ", Citronellol, Perfumes,Phenoxyethanol",
+      "bbox": [
+        792.0,
+        1796.0,
+        1270.0,
+        1846.0
+      ],
+      "confidence": 95.75
+    },
+    {
+      "text": " Linalool., Limonene, Geraniol,I",
+      "bbox": [
+        1253.0,
+        1796.0,
+        1645.0,
+        1846.0
+      ],
+      "confidence": 97.93
+    },
+    {
+      "text": "حطسلا طايتلا تان داوم",
+      "bbox": [
+        1521.0,
+        1838.0,
+        1815.0,
+        1883.0
+      ],
+      "confidence": 79.73
+    },
+    {
+      "text": ":-0انوكملا",
+      "bbox": [
+        1792.0,
+        1819.0,
+        2051.0,
+        1893.0
+      ],
+      "confidence": 76.6
+    },
+    {
+      "text": "ايتكبلا ن ة ةعبخإ مت",
+      "bbox": [
+        817.0,
+        1932.0,
+        1301.0,
+        2013.0
+      ],
+      "confidence": 64.96
+    },
+    {
+      "text": "تعملاكك هي",
+      "bbox": [
+        1696.0,
+        2192.0,
+        1794.0,
+        2221.0
+      ],
+      "confidence": 68.21
+    },
+    {
+      "text": "Consumer Service",
+      "bbox": [
+        1610.0,
+        2233.0,
+        1833.0,
+        2284.0
+      ],
+      "confidence": 98.78
+    },
+    {
+      "text": "In G Cotris nd Yemn 096 125775",
+      "bbox": [
+        1138.0,
+        2317.0,
+        1786.0,
+        2371.0
+      ],
+      "confidence": 69.3
+    },
+    {
+      "text": "000272",
+      "bbox": [
+        976.0,
+        2404.0,
+        1099.0,
+        2450.0
+      ],
+      "confidence": 72.49
+    },
+    {
+      "text": ": www.pg.om/contac",
+      "bbox": [
+        1538.0,
+        2408.0,
+        1798.0,
+        2450.0
+      ],
+      "confidence": 94.87
+    },
+    {
+      "text": "Made in Soudi Arobio.",
+      "bbox": [
+        1197.0,
+        2475.0,
+        1457.0,
+        2517.0
+      ],
+      "confidence": 94.34
+    },
+    {
+      "text": "ةيدوعسلا ةيبر ",
+      "bbox": [
+        1661.0,
+        2470.0,
+        1829.0,
+        2509.0
+      ],
+      "confidence": 86.82
+    },
+    {
+      "text": "2 industrigl city",
+      "bbox": [
+        1750.0,
+        2499.0,
+        1931.0,
+        2543.0
+      ],
+      "confidence": 91.07
+    },
+    {
+      "text": "4927",
+      "bbox": [
+        1163.0,
+        2596.0,
+        1261.0,
+        2629.0
+      ],
+      "confidence": 85.51
+    }
+  ],
+  "processing_time_ms": 501
+}

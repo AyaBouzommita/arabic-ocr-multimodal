@@ -1,0 +1,28 @@
+{
+  "document_id": "Administrative form/00323",
+  "engine": "paddleocr",
+  "raw_text": "٥  ر ةر",
+  "tokens": [
+    {
+      "text": "٥ ",
+      "bbox": [
+        389.0,
+        325.0,
+        436.0,
+        384.0
+      ],
+      "confidence": 64.88
+    },
+    {
+      "text": "ر ةر",
+      "bbox": [
+        431.0,
+        559.0,
+        453.0,
+        571.0
+      ],
+      "confidence": 68.48
+    }
+  ],
+  "processing_time_ms": 67
+}

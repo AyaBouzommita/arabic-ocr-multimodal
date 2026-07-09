@@ -1,0 +1,48 @@
+{
+  "document_id": "Label/00554",
+  "engine": "paddleocr",
+  "raw_text": "ل  ح ل",
+  "tokens": [
+    {
+      "text": "ل",
+      "bbox": [
+        985.0,
+        859.0,
+        1145.0,
+        968.0
+      ],
+      "confidence": 59.24
+    },
+    {
+      "text": " ح",
+      "bbox": [
+        8.0,
+        995.0,
+        55.0,
+        1041.0
+      ],
+      "confidence": 74.68
+    },
+    {
+      "text": " ",
+      "bbox": [
+        29.0,
+        1032.0,
+        94.0,
+        1080.0
+      ],
+      "confidence": 53.02
+    },
+    {
+      "text": "ل",
+      "bbox": [
+        32.0,
+        1067.0,
+        127.0,
+        1110.0
+      ],
+      "confidence": 65.98
+    }
+  ],
+  "processing_time_ms": 253
+}

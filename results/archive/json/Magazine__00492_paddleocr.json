@@ -1,0 +1,28 @@
+{
+  "document_id": "Magazine/00492",
+  "engine": "paddleocr",
+  "raw_text": "يدراَلا ناَح مَس ءايمكفا",
+  "tokens": [
+    {
+      "text": "يدراَلا ناَح مَس",
+      "bbox": [
+        555.0,
+        198.0,
+        916.0,
+        325.0
+      ],
+      "confidence": 66.18
+    },
+    {
+      "text": "ءايمكفا",
+      "bbox": [
+        459.0,
+        445.0,
+        788.0,
+        742.0
+      ],
+      "confidence": 77.28
+    }
+  ],
+  "processing_time_ms": 81
+}

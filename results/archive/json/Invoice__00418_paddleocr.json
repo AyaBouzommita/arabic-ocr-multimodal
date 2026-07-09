@@ -1,0 +1,28 @@
+{
+  "document_id": "Invoice/00418",
+  "engine": "paddleocr",
+  "raw_text": "L ا/يبر",
+  "tokens": [
+    {
+      "text": "L",
+      "bbox": [
+        597.0,
+        888.0,
+        634.0,
+        897.0
+      ],
+      "confidence": 64.15
+    },
+    {
+      "text": "ا/يبر",
+      "bbox": [
+        611.0,
+        959.0,
+        676.0,
+        973.0
+      ],
+      "confidence": 69.2
+    }
+  ],
+  "processing_time_ms": 67
+}

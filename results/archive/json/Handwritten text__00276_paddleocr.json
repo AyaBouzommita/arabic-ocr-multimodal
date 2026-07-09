@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00276",
+  "engine": "paddleocr",
+  "raw_text": "جغ١ 3 ٩١١",
+  "tokens": [
+    {
+      "text": "جغ١",
+      "bbox": [
+        282.0,
+        468.0,
+        459.0,
+        499.0
+      ],
+      "confidence": 61.1
+    },
+    {
+      "text": "3",
+      "bbox": [
+        298.0,
+        513.0,
+        465.0,
+        545.0
+      ],
+      "confidence": 61.58
+    },
+    {
+      "text": "٩١١",
+      "bbox": [
+        567.0,
+        573.0,
+        618.0,
+        722.0
+      ],
+      "confidence": 54.08
+    }
+  ],
+  "processing_time_ms": 69
+}

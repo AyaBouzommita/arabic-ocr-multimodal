@@ -1,0 +1,18 @@
+{
+  "document_id": "Administrative form/00285",
+  "engine": "paddleocr",
+  "raw_text": "لودلا هراجن",
+  "tokens": [
+    {
+      "text": "لودلا هراجن",
+      "bbox": [
+        2082.0,
+        1661.0,
+        2213.0,
+        1718.0
+      ],
+      "confidence": 82.89
+    }
+  ],
+  "processing_time_ms": 235
+}

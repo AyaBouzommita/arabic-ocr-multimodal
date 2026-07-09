@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00142",
+  "engine": "paddleocr",
+  "raw_text": "طسوتملا ربلا ضوخ ٥",
+  "tokens": [
+    {
+      "text": "طسوتملا ربلا ضوخ",
+      "bbox": [
+        1618.0,
+        255.0,
+        2184.0,
+        388.0
+      ],
+      "confidence": 69.17
+    },
+    {
+      "text": "٥",
+      "bbox": [
+        2156.0,
+        311.0,
+        2234.0,
+        361.0
+      ],
+      "confidence": 98.31
+    }
+  ],
+  "processing_time_ms": 308
+}

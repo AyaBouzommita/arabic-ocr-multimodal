@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00242",
+  "engine": "paddleocr",
+  "raw_text": "رزو ت اعفترم",
+  "tokens": [
+    {
+      "text": "رزو ت",
+      "bbox": [
+        452.0,
+        917.0,
+        1308.0,
+        1399.0
+      ],
+      "confidence": 67.56
+    },
+    {
+      "text": "اعفترم",
+      "bbox": [
+        1299.0,
+        1054.0,
+        1812.0,
+        1408.0
+      ],
+      "confidence": 83.04
+    }
+  ],
+  "processing_time_ms": 224
+}

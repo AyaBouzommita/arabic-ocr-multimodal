@@ -1,0 +1,48 @@
+{
+  "document_id": "Administrative form/00388",
+  "engine": "paddleocr",
+  "raw_text": "لجلا نم داعلا ثفهلا وف ا ةسلجلا هذه هك فكاضأ اذام Ow Jamsat-ward ore 9618139665",
+  "tokens": [
+    {
+      "text": "لجلا نم داعلا ثفهلا وف ا",
+      "bbox": [
+        1671.0,
+        3115.0,
+        2145.0,
+        3214.0
+      ],
+      "confidence": 74.89
+    },
+    {
+      "text": "ةسلجلا هذه هك فكاضأ اذام",
+      "bbox": [
+        1657.0,
+        3289.0,
+        2140.0,
+        3382.0
+      ],
+      "confidence": 75.41
+    },
+    {
+      "text": "Ow Jamsat-ward ore",
+      "bbox": [
+        1196.0,
+        3943.0,
+        1733.0,
+        4082.0
+      ],
+      "confidence": 84.62
+    },
+    {
+      "text": "9618139665",
+      "bbox": [
+        1867.0,
+        4005.0,
+        2136.0,
+        4101.0
+      ],
+      "confidence": 82.16
+    }
+  ],
+  "processing_time_ms": 321
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/00832",
+  "engine": "paddleocr",
+  "raw_text": "مييزل صاخشألادس",
+  "tokens": [
+    {
+      "text": "مييزل",
+      "bbox": [
+        601.0,
+        788.0,
+        733.0,
+        873.0
+      ],
+      "confidence": 70.07
+    },
+    {
+      "text": "صاخشألادس",
+      "bbox": [
+        408.0,
+        793.0,
+        651.0,
+        903.0
+      ],
+      "confidence": 78.29
+    }
+  ],
+  "processing_time_ms": 77
+}

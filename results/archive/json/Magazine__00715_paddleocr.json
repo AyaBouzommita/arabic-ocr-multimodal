@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00715",
+  "engine": "paddleocr",
+  "raw_text": "رفلا",
+  "tokens": [
+    {
+      "text": "رفلا",
+      "bbox": [
+        74.0,
+        23.0,
+        102.0,
+        38.0
+      ],
+      "confidence": 81.93
+    }
+  ],
+  "processing_time_ms": 26
+}

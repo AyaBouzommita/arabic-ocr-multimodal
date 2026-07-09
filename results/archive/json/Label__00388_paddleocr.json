@@ -1,0 +1,38 @@
+{
+  "document_id": "Label/00388",
+  "engine": "paddleocr",
+  "raw_text": "توليك 2216 49902",
+  "tokens": [
+    {
+      "text": "توليك",
+      "bbox": [
+        843.0,
+        583.0,
+        940.0,
+        627.0
+      ],
+      "confidence": 99.68
+    },
+    {
+      "text": "2216",
+      "bbox": [
+        799.0,
+        721.0,
+        878.0,
+        751.0
+      ],
+      "confidence": 70.03
+    },
+    {
+      "text": "49902",
+      "bbox": [
+        913.0,
+        735.0,
+        999.0,
+        759.0
+      ],
+      "confidence": 86.35
+    }
+  ],
+  "processing_time_ms": 64
+}

@@ -1,0 +1,308 @@
+{
+  "document_id": "Comics/00559",
+  "engine": "paddleocr",
+  "raw_text": "د ومل اI ةّيقرشلا ةيقيسوملا كلم دوعلا ةشير لضفب راتوالا رقن نكمي The oud is the king of music instruments Oriental strings You can pluck its ing a richa ت Le oud est des instruments musique rientaux. قرش  peux pincer Ses cordes ide une richa ٩",
+  "tokens": [
+    {
+      "text": "د ومل اI",
+      "bbox": [
+        1288.0,
+        1289.0,
+        1775.0,
+        1504.0
+      ],
+      "confidence": 90.05
+    },
+    {
+      "text": "ةّيقرشلا",
+      "bbox": [
+        765.0,
+        1810.0,
+        1078.0,
+        1915.0
+      ],
+      "confidence": 90.9
+    },
+    {
+      "text": "ةيقيسوملا",
+      "bbox": [
+        1082.0,
+        1805.0,
+        1521.0,
+        1920.0
+      ],
+      "confidence": 87.83
+    },
+    {
+      "text": "كلم",
+      "bbox": [
+        1778.0,
+        1806.0,
+        1967.0,
+        1898.0
+      ],
+      "confidence": 95.86
+    },
+    {
+      "text": "دوعلا",
+      "bbox": [
+        1953.0,
+        1796.0,
+        2214.0,
+        1900.0
+      ],
+      "confidence": 91.18
+    },
+    {
+      "text": "ةشير لضفب",
+      "bbox": [
+        901.0,
+        1906.0,
+        1410.0,
+        2021.0
+      ],
+      "confidence": 97.46
+    },
+    {
+      "text": "راتوالا",
+      "bbox": [
+        1392.0,
+        1928.0,
+        1649.0,
+        2003.0
+      ],
+      "confidence": 87.95
+    },
+    {
+      "text": "رقن",
+      "bbox": [
+        1654.0,
+        1919.0,
+        1787.0,
+        2003.0
+      ],
+      "confidence": 97.86
+    },
+    {
+      "text": "نكمي",
+      "bbox": [
+        1804.0,
+        1924.0,
+        2010.0,
+        2003.0
+      ],
+      "confidence": 99.72
+    },
+    {
+      "text": "The oud is the king of",
+      "bbox": [
+        884.0,
+        2171.0,
+        1405.0,
+        2239.0
+      ],
+      "confidence": 98.19
+    },
+    {
+      "text": "music instruments",
+      "bbox": [
+        1576.0,
+        2176.0,
+        2045.0,
+        2234.0
+      ],
+      "confidence": 96.46
+    },
+    {
+      "text": "Oriental",
+      "bbox": [
+        1396.0,
+        2188.0,
+        1589.0,
+        2234.0
+      ],
+      "confidence": 91.21
+    },
+    {
+      "text": "strings",
+      "bbox": [
+        1416.0,
+        2237.0,
+        1587.0,
+        2316.0
+      ],
+      "confidence": 92.53
+    },
+    {
+      "text": "You",
+      "bbox": [
+        1031.0,
+        2255.0,
+        1113.0,
+        2289.0
+      ],
+      "confidence": 63.98
+    },
+    {
+      "text": "can pluck its",
+      "bbox": [
+        1121.0,
+        2251.0,
+        1409.0,
+        2297.0
+      ],
+      "confidence": 93.29
+    },
+    {
+      "text": "ing a",
+      "bbox": [
+        1594.0,
+        2255.0,
+        1770.0,
+        2302.0
+      ],
+      "confidence": 80.4
+    },
+    {
+      "text": "richa",
+      "bbox": [
+        1778.0,
+        2251.0,
+        1899.0,
+        2297.0
+      ],
+      "confidence": 99.4
+    },
+    {
+      "text": "ت",
+      "bbox": [
+        2618.0,
+        2316.0,
+        2975.0,
+        2472.0
+      ],
+      "confidence": 77.78
+    },
+    {
+      "text": "Le oud est",
+      "bbox": [
+        846.0,
+        2440.0,
+        1091.0,
+        2486.0
+      ],
+      "confidence": 92.77
+    },
+    {
+      "text": "des instruments",
+      "bbox": [
+        1194.0,
+        2431.0,
+        1594.0,
+        2499.0
+      ],
+      "confidence": 99.2
+    },
+    {
+      "text": "musique",
+      "bbox": [
+        1652.0,
+        2435.0,
+        1870.0,
+        2509.0
+      ],
+      "confidence": 96.46
+    },
+    {
+      "text": "rientaux.",
+      "bbox": [
+        1876.0,
+        2444.0,
+        2131.0,
+        2512.0
+      ],
+      "confidence": 99.13
+    },
+    {
+      "text": "قرش",
+      "bbox": [
+        2619.0,
+        2489.0,
+        2995.0,
+        2656.0
+      ],
+      "confidence": 80.58
+    },
+    {
+      "text": " peux",
+      "bbox": [
+        1001.0,
+        2507.0,
+        1134.0,
+        2554.0
+      ],
+      "confidence": 86.1
+    },
+    {
+      "text": "pincer",
+      "bbox": [
+        1147.0,
+        2512.0,
+        1284.0,
+        2558.0
+      ],
+      "confidence": 99.46
+    },
+    {
+      "text": "Ses cordes",
+      "bbox": [
+        1284.0,
+        2507.0,
+        1551.0,
+        2554.0
+      ],
+      "confidence": 96.27
+    },
+    {
+      "text": "ide",
+      "bbox": [
+        1611.0,
+        2516.0,
+        1727.0,
+        2562.0
+      ],
+      "confidence": 96.76
+    },
+    {
+      "text": "une",
+      "bbox": [
+        1708.0,
+        2511.0,
+        1865.0,
+        2567.0
+      ],
+      "confidence": 86.68
+    },
+    {
+      "text": "richa",
+      "bbox": [
+        1886.0,
+        2524.0,
+        2006.0,
+        2570.0
+      ],
+      "confidence": 92.8
+    },
+    {
+      "text": "٩",
+      "bbox": [
+        2688.0,
+        2662.0,
+        2974.0,
+        2752.0
+      ],
+      "confidence": 59.14
+    }
+  ],
+  "processing_time_ms": 424
+}

@@ -1,0 +1,298 @@
+{
+  "document_id": "Label/00473",
+  "engine": "paddleocr",
+  "raw_text": "Show fashion youp. صolop p٨yo J GALAXY DIAMOND RED PEELOFF MASK MASCARILLA DIAMANTE DORADO REPAIRING ٧ NOURISHING PROPOLIS COLLAGEN SKIN TYPES ALL فظ هجولل ٩ZZ6 06 1 6950 P L.L",
+  "tokens": [
+    {
+      "text": "Show",
+      "bbox": [
+        35.0,
+        208.0,
+        185.0,
+        272.0
+      ],
+      "confidence": 89.64
+    },
+    {
+      "text": "fashion",
+      "bbox": [
+        379.0,
+        199.0,
+        584.0,
+        273.0
+      ],
+      "confidence": 92.37
+    },
+    {
+      "text": "youp.",
+      "bbox": [
+        203.0,
+        205.0,
+        362.0,
+        292.0
+      ],
+      "confidence": 82.02
+    },
+    {
+      "text": "صolop",
+      "bbox": [
+        508.0,
+        293.0,
+        686.0,
+        377.0
+      ],
+      "confidence": 75.98
+    },
+    {
+      "text": "p٨yo",
+      "bbox": [
+        336.0,
+        304.0,
+        498.0,
+        397.0
+      ],
+      "confidence": 61.54
+    },
+    {
+      "text": "J",
+      "bbox": [
+        258.0,
+        540.0,
+        496.0,
+        599.0
+      ],
+      "confidence": 88.49
+    },
+    {
+      "text": "GALAXY",
+      "bbox": [
+        106.0,
+        614.0,
+        340.0,
+        674.0
+      ],
+      "confidence": 95.54
+    },
+    {
+      "text": "DIAMOND",
+      "bbox": [
+        361.0,
+        612.0,
+        629.0,
+        672.0
+      ],
+      "confidence": 98.87
+    },
+    {
+      "text": "RED",
+      "bbox": [
+        110.0,
+        681.0,
+        238.0,
+        749.0
+      ],
+      "confidence": 84.4
+    },
+    {
+      "text": "PEELOFF",
+      "bbox": [
+        254.0,
+        686.0,
+        598.0,
+        744.0
+      ],
+      "confidence": 99.38
+    },
+    {
+      "text": "MASK",
+      "bbox": [
+        119.0,
+        756.0,
+        286.0,
+        810.0
+      ],
+      "confidence": 99.52
+    },
+    {
+      "text": "MASCARILLA",
+      "bbox": [
+        464.0,
+        1242.0,
+        787.0,
+        1316.0
+      ],
+      "confidence": 99.42
+    },
+    {
+      "text": "DIAMANTE",
+      "bbox": [
+        290.0,
+        1324.0,
+        546.0,
+        1377.0
+      ],
+      "confidence": 94.94
+    },
+    {
+      "text": "DORADO",
+      "bbox": [
+        556.0,
+        1317.0,
+        780.0,
+        1378.0
+      ],
+      "confidence": 98.48
+    },
+    {
+      "text": "REPAIRING",
+      "bbox": [
+        339.0,
+        1430.0,
+        534.0,
+        1471.0
+      ],
+      "confidence": 93.24
+    },
+    {
+      "text": "٧",
+      "bbox": [
+        31.0,
+        1451.0,
+        60.0,
+        1477.0
+      ],
+      "confidence": 99.11
+    },
+    {
+      "text": "NOURISHING",
+      "bbox": [
+        47.0,
+        1436.0,
+        296.0,
+        1482.0
+      ],
+      "confidence": 99.77
+    },
+    {
+      "text": "PROPOLIS",
+      "bbox": [
+        273.0,
+        1470.0,
+        446.0,
+        1513.0
+      ],
+      "confidence": 98.94
+    },
+    {
+      "text": "COLLAGEN",
+      "bbox": [
+        58.0,
+        1476.0,
+        259.0,
+        1522.0
+      ],
+      "confidence": 96.16
+    },
+    {
+      "text": "SKIN",
+      "bbox": [
+        135.0,
+        1519.0,
+        232.0,
+        1563.0
+      ],
+      "confidence": 99.12
+    },
+    {
+      "text": "TYPES",
+      "bbox": [
+        237.0,
+        1512.0,
+        351.0,
+        1556.0
+      ],
+      "confidence": 98.78
+    },
+    {
+      "text": "ALL",
+      "bbox": [
+        60.0,
+        1525.0,
+        134.0,
+        1563.0
+      ],
+      "confidence": 85.21
+    },
+    {
+      "text": "فظ",
+      "bbox": [
+        377.0,
+        1666.0,
+        479.0,
+        1721.0
+      ],
+      "confidence": 99.98
+    },
+    {
+      "text": "هجولل",
+      "bbox": [
+        482.0,
+        1663.0,
+        593.0,
+        1727.0
+      ],
+      "confidence": 89.1
+    },
+    {
+      "text": "٩ZZ6",
+      "bbox": [
+        106.0,
+        1806.0,
+        198.0,
+        1821.0
+      ],
+      "confidence": 55.42
+    },
+    {
+      "text": "06",
+      "bbox": [
+        217.0,
+        1804.0,
+        290.0,
+        1819.0
+      ],
+      "confidence": 51.14
+    },
+    {
+      "text": "1 6950",
+      "bbox": [
+        233.0,
+        1823.0,
+        578.0,
+        1911.0
+      ],
+      "confidence": 83.26
+    },
+    {
+      "text": "P",
+      "bbox": [
+        88.0,
+        1849.0,
+        165.0,
+        1878.0
+      ],
+      "confidence": 52.57
+    },
+    {
+      "text": "L.L",
+      "bbox": [
+        600.0,
+        1840.0,
+        684.0,
+        1900.0
+      ],
+      "confidence": 99.26
+    }
+  ],
+  "processing_time_ms": 240
+}

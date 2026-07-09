@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00532",
+  "engine": "paddleocr",
+  "raw_text": "رولك ١ 22",
+  "tokens": [
+    {
+      "text": "رولك",
+      "bbox": [
+        547.0,
+        685.0,
+        581.0,
+        700.0
+      ],
+      "confidence": 83.57
+    },
+    {
+      "text": "١",
+      "bbox": [
+        350.0,
+        705.0,
+        423.0,
+        750.0
+      ],
+      "confidence": 68.86
+    },
+    {
+      "text": "22",
+      "bbox": [
+        259.0,
+        800.0,
+        339.0,
+        836.0
+      ],
+      "confidence": 62.35
+    }
+  ],
+  "processing_time_ms": 58
+}

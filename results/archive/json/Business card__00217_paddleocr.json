@@ -1,0 +1,38 @@
+{
+  "document_id": "Business card/00217",
+  "engine": "paddleocr",
+  "raw_text": "Or Socletu Developmen يديفتلا ريدملا Executive Manager",
+  "tokens": [
+    {
+      "text": "Or Socletu Developmen",
+      "bbox": [
+        1293.0,
+        1739.0,
+        1622.0,
+        1832.0
+      ],
+      "confidence": 90.21
+    },
+    {
+      "text": "يديفتلا ريدملا",
+      "bbox": [
+        1355.0,
+        1950.0,
+        1645.0,
+        2062.0
+      ],
+      "confidence": 88.54
+    },
+    {
+      "text": "Executive Manager",
+      "bbox": [
+        1351.0,
+        2122.0,
+        1713.0,
+        2245.0
+      ],
+      "confidence": 92.19
+    }
+  ],
+  "processing_time_ms": 349
+}

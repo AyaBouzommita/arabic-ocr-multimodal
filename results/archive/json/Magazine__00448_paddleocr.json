@@ -1,0 +1,28 @@
+{
+  "document_id": "Magazine/00448",
+  "engine": "paddleocr",
+  "raw_text": "ةأرما تارلا ءاسنل",
+  "tokens": [
+    {
+      "text": "ةأرما",
+      "bbox": [
+        592.0,
+        142.0,
+        999.0,
+        432.0
+      ],
+      "confidence": 72.74
+    },
+    {
+      "text": "تارلا ءاسنل",
+      "bbox": [
+        675.0,
+        468.0,
+        866.0,
+        501.0
+      ],
+      "confidence": 81.57
+    }
+  ],
+  "processing_time_ms": 82
+}

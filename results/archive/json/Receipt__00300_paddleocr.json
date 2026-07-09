@@ -1,0 +1,578 @@
+{
+  "document_id": "Receipt/00300",
+  "engine": "paddleocr",
+  "raw_text": "SPARK Beneficiary Disbursment Service Name: Waybill Numbe Collection 55421900 Campaign 23/08/201 Number. Pst Of Basta Disburscment Beneficiar Number: Address: Basta Lebanon Beneficiary Poe Number: D Vumber: Amount هالععا روكدملا عليملا تصلك ينناب فعوررفأ هاندا Customer's Name Signature ثرسلا  ا s NameEmplyee Alu Signature ees are isted this P Samp Datc Waybill AUT 2019 ٥١ 90 SC-H0 ibanpost are 1577 ٧٧٧ Customen",
+  "tokens": [
+    {
+      "text": "SPARK",
+      "bbox": [
+        518.0,
+        5.0,
+        579.0,
+        25.0
+      ],
+      "confidence": 92.01
+    },
+    {
+      "text": "Beneficiary",
+      "bbox": [
+        101.0,
+        40.0,
+        201.0,
+        77.0
+      ],
+      "confidence": 97.72
+    },
+    {
+      "text": "Disbursment",
+      "bbox": [
+        464.0,
+        34.0,
+        565.0,
+        69.0
+      ],
+      "confidence": 99.84
+    },
+    {
+      "text": "Service",
+      "bbox": [
+        564.0,
+        46.0,
+        626.0,
+        68.0
+      ],
+      "confidence": 99.44
+    },
+    {
+      "text": "Name:",
+      "bbox": [
+        201.0,
+        57.0,
+        261.0,
+        86.0
+      ],
+      "confidence": 77.49
+    },
+    {
+      "text": "Waybill",
+      "bbox": [
+        716.0,
+        60.0,
+        767.0,
+        80.0
+      ],
+      "confidence": 97.28
+    },
+    {
+      "text": "Numbe",
+      "bbox": [
+        761.0,
+        64.0,
+        814.0,
+        82.0
+      ],
+      "confidence": 85.3
+    },
+    {
+      "text": "Collection",
+      "bbox": [
+        717.0,
+        76.0,
+        778.0,
+        95.0
+      ],
+      "confidence": 99.02
+    },
+    {
+      "text": "55421900",
+      "bbox": [
+        818.0,
+        67.0,
+        888.0,
+        89.0
+      ],
+      "confidence": 86.61
+    },
+    {
+      "text": "Campaign",
+      "bbox": [
+        98.0,
+        78.0,
+        189.0,
+        110.0
+      ],
+      "confidence": 99.54
+    },
+    {
+      "text": "23/08/201",
+      "bbox": [
+        776.0,
+        80.0,
+        893.0,
+        105.0
+      ],
+      "confidence": 81.17
+    },
+    {
+      "text": "Number.",
+      "bbox": [
+        192.0,
+        92.0,
+        272.0,
+        121.0
+      ],
+      "confidence": 98.58
+    },
+    {
+      "text": "Pst",
+      "bbox": [
+        714.0,
+        92.0,
+        747.0,
+        110.0
+      ],
+      "confidence": 68.12
+    },
+    {
+      "text": "Of",
+      "bbox": [
+        745.0,
+        94.0,
+        784.0,
+        112.0
+      ],
+      "confidence": 52.15
+    },
+    {
+      "text": "Basta",
+      "bbox": [
+        780.0,
+        97.0,
+        821.0,
+        114.0
+      ],
+      "confidence": 85.28
+    },
+    {
+      "text": "Disburscment",
+      "bbox": [
+        602.0,
+        111.0,
+        703.0,
+        135.0
+      ],
+      "confidence": 98.33
+    },
+    {
+      "text": "Beneficiar",
+      "bbox": [
+        95.0,
+        123.0,
+        192.0,
+        152.0
+      ],
+      "confidence": 99.01
+    },
+    {
+      "text": "Number:",
+      "bbox": [
+        195.0,
+        134.0,
+        272.0,
+        163.0
+      ],
+      "confidence": 95.84
+    },
+    {
+      "text": "Address:",
+      "bbox": [
+        93.0,
+        162.0,
+        170.0,
+        189.0
+      ],
+      "confidence": 95.2
+    },
+    {
+      "text": "Basta",
+      "bbox": [
+        172.0,
+        170.0,
+        220.0,
+        194.0
+      ],
+      "confidence": 86.49
+    },
+    {
+      "text": "Lebanon",
+      "bbox": [
+        225.0,
+        176.0,
+        296.0,
+        202.0
+      ],
+      "confidence": 98.55
+    },
+    {
+      "text": "Beneficiary",
+      "bbox": [
+        89.0,
+        199.0,
+        188.0,
+        229.0
+      ],
+      "confidence": 99.57
+    },
+    {
+      "text": "Poe",
+      "bbox": [
+        191.0,
+        210.0,
+        242.0,
+        231.0
+      ],
+      "confidence": 86.31
+    },
+    {
+      "text": "Number:",
+      "bbox": [
+        243.0,
+        213.0,
+        313.0,
+        238.0
+      ],
+      "confidence": 98.27
+    },
+    {
+      "text": "D",
+      "bbox": [
+        88.0,
+        241.0,
+        109.0,
+        257.0
+      ],
+      "confidence": 55.05
+    },
+    {
+      "text": "Vumber:",
+      "bbox": [
+        115.0,
+        241.0,
+        191.0,
+        266.0
+      ],
+      "confidence": 87.89
+    },
+    {
+      "text": "Amount",
+      "bbox": [
+        594.0,
+        234.0,
+        651.0,
+        251.0
+      ],
+      "confidence": 88.71
+    },
+    {
+      "text": "هالععا",
+      "bbox": [
+        247.0,
+        323.0,
+        280.0,
+        345.0
+      ],
+      "confidence": 83.07
+    },
+    {
+      "text": "روكدملا",
+      "bbox": [
+        286.0,
+        329.0,
+        326.0,
+        347.0
+      ],
+      "confidence": 92.41
+    },
+    {
+      "text": "عليملا",
+      "bbox": [
+        329.0,
+        330.0,
+        363.0,
+        348.0
+      ],
+      "confidence": 77.51
+    },
+    {
+      "text": "تصلك",
+      "bbox": [
+        359.0,
+        332.0,
+        401.0,
+        346.0
+      ],
+      "confidence": 57.09
+    },
+    {
+      "text": "ينناب فعوررفأ هاندا",
+      "bbox": [
+        408.0,
+        334.0,
+        519.0,
+        352.0
+      ],
+      "confidence": 84.44
+    },
+    {
+      "text": "Customer's",
+      "bbox": [
+        75.0,
+        344.0,
+        173.0,
+        365.0
+      ],
+      "confidence": 97.19
+    },
+    {
+      "text": "Name",
+      "bbox": [
+        166.0,
+        345.0,
+        220.0,
+        365.0
+      ],
+      "confidence": 76.38
+    },
+    {
+      "text": "Signature",
+      "bbox": [
+        229.0,
+        345.0,
+        307.0,
+        369.0
+      ],
+      "confidence": 92.22
+    },
+    {
+      "text": "ثرسلا ",
+      "bbox": [
+        518.0,
+        337.0,
+        557.0,
+        354.0
+      ],
+      "confidence": 72.84
+    },
+    {
+      "text": "ا",
+      "bbox": [
+        551.0,
+        338.0,
+        569.0,
+        353.0
+      ],
+      "confidence": 86.25
+    },
+    {
+      "text": " ",
+      "bbox": [
+        221.0,
+        350.0,
+        235.0,
+        361.0
+      ],
+      "confidence": 52.43
+    },
+    {
+      "text": "s NameEmplyee",
+      "bbox": [
+        380.0,
+        350.0,
+        502.0,
+        371.0
+      ],
+      "confidence": 82.54
+    },
+    {
+      "text": "Alu",
+      "bbox": [
+        628.0,
+        342.0,
+        674.0,
+        358.0
+      ],
+      "confidence": 69.15
+    },
+    {
+      "text": "Signature",
+      "bbox": [
+        497.0,
+        354.0,
+        564.0,
+        375.0
+      ],
+      "confidence": 99.02
+    },
+    {
+      "text": "ees are",
+      "bbox": [
+        676.0,
+        345.0,
+        728.0,
+        361.0
+      ],
+      "confidence": 71.31
+    },
+    {
+      "text": "isted",
+      "bbox": [
+        723.0,
+        349.0,
+        761.0,
+        362.0
+      ],
+      "confidence": 93.3
+    },
+    {
+      "text": "this",
+      "bbox": [
+        763.0,
+        350.0,
+        809.0,
+        366.0
+      ],
+      "confidence": 85.77
+    },
+    {
+      "text": "P Samp Datc",
+      "bbox": [
+        621.0,
+        361.0,
+        714.0,
+        383.0
+      ],
+      "confidence": 70.67
+    },
+    {
+      "text": "Waybill",
+      "bbox": [
+        808.0,
+        356.0,
+        851.0,
+        368.0
+      ],
+      "confidence": 79.42
+    },
+    {
+      "text": "AUT",
+      "bbox": [
+        503.0,
+        440.0,
+        545.0,
+        475.0
+      ],
+      "confidence": 59.32
+    },
+    {
+      "text": "2019",
+      "bbox": [
+        536.0,
+        458.0,
+        578.0,
+        493.0
+      ],
+      "confidence": 74.75
+    },
+    {
+      "text": "٥١",
+      "bbox": [
+        69.0,
+        510.0,
+        101.0,
+        528.0
+      ],
+      "confidence": 57.83
+    },
+    {
+      "text": "90",
+      "bbox": [
+        100.0,
+        506.0,
+        141.0,
+        527.0
+      ],
+      "confidence": 62.75
+    },
+    {
+      "text": "SC-H0",
+      "bbox": [
+        139.0,
+        504.0,
+        201.0,
+        525.0
+      ],
+      "confidence": 72.04
+    },
+    {
+      "text": "ibanpost",
+      "bbox": [
+        273.0,
+        517.0,
+        339.0,
+        535.0
+      ],
+      "confidence": 88.52
+    },
+    {
+      "text": " ",
+      "bbox": [
+        511.0,
+        511.0,
+        529.0,
+        529.0
+      ],
+      "confidence": 51.09
+    },
+    {
+      "text": "are",
+      "bbox": [
+        147.0,
+        527.0,
+        184.0,
+        544.0
+      ],
+      "confidence": 76.14
+    },
+    {
+      "text": "1577",
+      "bbox": [
+        188.0,
+        519.0,
+        228.0,
+        542.0
+      ],
+      "confidence": 72.97
+    },
+    {
+      "text": "٧٧٧",
+      "bbox": [
+        235.0,
+        521.0,
+        274.0,
+        538.0
+      ],
+      "confidence": 81.18
+    },
+    {
+      "text": "Customen",
+      "bbox": [
+        67.0,
+        528.0,
+        145.0,
+        549.0
+      ],
+      "confidence": 92.5
+    }
+  ],
+  "processing_time_ms": 349
+}

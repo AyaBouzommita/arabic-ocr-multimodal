@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/00718",
+  "engine": "paddleocr",
+  "raw_text": "يكوا رز",
+  "tokens": [
+    {
+      "text": "يكوا رز",
+      "bbox": [
+        993.0,
+        2271.0,
+        1061.0,
+        2300.0
+      ],
+      "confidence": 83.7
+    }
+  ],
+  "processing_time_ms": 267
+}

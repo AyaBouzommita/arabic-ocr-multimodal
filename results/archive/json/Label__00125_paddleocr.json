@@ -1,0 +1,38 @@
+{
+  "document_id": "Label/00125",
+  "engine": "paddleocr",
+  "raw_text": "ج ركس O6",
+  "tokens": [
+    {
+      "text": "ج",
+      "bbox": [
+        463.0,
+        1017.0,
+        1237.0,
+        1577.0
+      ],
+      "confidence": 50.1
+    },
+    {
+      "text": "ركس",
+      "bbox": [
+        1109.0,
+        1014.0,
+        2184.0,
+        1743.0
+      ],
+      "confidence": 91.68
+    },
+    {
+      "text": "O6",
+      "bbox": [
+        592.0,
+        1732.0,
+        1905.0,
+        2338.0
+      ],
+      "confidence": 76.32
+    }
+  ],
+  "processing_time_ms": 375
+}

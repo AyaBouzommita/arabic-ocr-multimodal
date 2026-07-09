@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00221",
+  "engine": "paddleocr",
+  "raw_text": "ال ةَاَور",
+  "tokens": [
+    {
+      "text": "ال ةَاَور",
+      "bbox": [
+        380.0,
+        76.0,
+        570.0,
+        132.0
+      ],
+      "confidence": 58.55
+    }
+  ],
+  "processing_time_ms": 64
+}

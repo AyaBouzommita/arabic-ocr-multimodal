@@ -1,0 +1,88 @@
+{
+  "document_id": "Book/00620",
+  "engine": "paddleocr",
+  "raw_text": "يرهاطلا نيرسن ن يموق هوذختا اروجهم AKYOL  DAGITIM TICAET VE SAYI D TI",
+  "tokens": [
+    {
+      "text": "يرهاطلا",
+      "bbox": [
+        1266.0,
+        610.0,
+        1637.0,
+        708.0
+      ],
+      "confidence": 92.69
+    },
+    {
+      "text": "نيرسن",
+      "bbox": [
+        1648.0,
+        619.0,
+        1907.0,
+        707.0
+      ],
+      "confidence": 93.23
+    },
+    {
+      "text": "ن",
+      "bbox": [
+        1906.0,
+        884.0,
+        2265.0,
+        1192.0
+      ],
+      "confidence": 99.93
+    },
+    {
+      "text": "يموق",
+      "bbox": [
+        884.0,
+        881.0,
+        1830.0,
+        1238.0
+      ],
+      "confidence": 98.93
+    },
+    {
+      "text": "هوذختا",
+      "bbox": [
+        862.0,
+        1246.0,
+        2271.0,
+        1636.0
+      ],
+      "confidence": 86.38
+    },
+    {
+      "text": "اروجهم",
+      "bbox": [
+        823.0,
+        1659.0,
+        2323.0,
+        2068.0
+      ],
+      "confidence": 95.51
+    },
+    {
+      "text": "AKYOL",
+      "bbox": [
+        1341.0,
+        3326.0,
+        1886.0,
+        3534.0
+      ],
+      "confidence": 98.81
+    },
+    {
+      "text": " DAGITIM TICAET VE SAYI D TI",
+      "bbox": [
+        1338.0,
+        3506.0,
+        1897.0,
+        3566.0
+      ],
+      "confidence": 68.54
+    }
+  ],
+  "processing_time_ms": 298
+}

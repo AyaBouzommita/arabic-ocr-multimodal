@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00628",
+  "engine": "paddleocr",
+  "raw_text": "ُنطولا ىلغغأ",
+  "tokens": [
+    {
+      "text": "ُنطولا",
+      "bbox": [
+        771.0,
+        1187.0,
+        981.0,
+        1293.0
+      ],
+      "confidence": 90.47
+    },
+    {
+      "text": "ىلغغأ",
+      "bbox": [
+        493.0,
+        1191.0,
+        746.0,
+        1306.0
+      ],
+      "confidence": 81.87
+    }
+  ],
+  "processing_time_ms": 150
+}

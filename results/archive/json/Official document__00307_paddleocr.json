@@ -1,0 +1,38 @@
+{
+  "document_id": "Official document/00307",
+  "engine": "paddleocr",
+  "raw_text": "ةيروسلا ةيبرعلا ةيررهمجلا ةرازو",
+  "tokens": [
+    {
+      "text": "ةيروسلا ةيبرعلا",
+      "bbox": [
+        719.0,
+        82.0,
+        806.0,
+        104.0
+      ],
+      "confidence": 81.23
+    },
+    {
+      "text": "ةيررهمجلا",
+      "bbox": [
+        799.0,
+        85.0,
+        859.0,
+        104.0
+      ],
+      "confidence": 68.42
+    },
+    {
+      "text": "ةرازو",
+      "bbox": [
+        829.0,
+        103.0,
+        860.0,
+        115.0
+      ],
+      "confidence": 93.92
+    }
+  ],
+  "processing_time_ms": 57
+}

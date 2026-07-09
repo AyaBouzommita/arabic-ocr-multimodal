@@ -1,0 +1,28 @@
+{
+  "document_id": "Business card/00228",
+  "engine": "paddleocr",
+  "raw_text": "Bekaa ناخلا",
+  "tokens": [
+    {
+      "text": "Bekaa",
+      "bbox": [
+        790.0,
+        1877.0,
+        1025.0,
+        2044.0
+      ],
+      "confidence": 90.97
+    },
+    {
+      "text": "ناخلا",
+      "bbox": [
+        1183.0,
+        1874.0,
+        1438.0,
+        2051.0
+      ],
+      "confidence": 91.02
+    }
+  ],
+  "processing_time_ms": 279
+}

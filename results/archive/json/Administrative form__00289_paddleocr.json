@@ -1,0 +1,18 @@
+{
+  "document_id": "Administrative form/00289",
+  "engine": "paddleocr",
+  "raw_text": "لوملاةناج",
+  "tokens": [
+    {
+      "text": "لوملاةناج",
+      "bbox": [
+        1792.0,
+        520.0,
+        2104.0,
+        818.0
+      ],
+      "confidence": 59.46
+    }
+  ],
+  "processing_time_ms": 257
+}

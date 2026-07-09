@@ -1,0 +1,658 @@
+{
+  "document_id": "Official document/00401",
+  "engine": "paddleocr",
+  "raw_text": "Unicef SI عوا People for development Certificate Achievement ةيتايحلا تارامملا  ةرود زاجنإ ةداهش This certificate awarded Mrs.  Mr ٣o Successfully Completing the Life Skills training Sessions Oranized by Avs Foudation in the framework of the project AgricuIture Vocational Education o unerable adolesents in  Lebanon 2016 S ةمظنم اهتماقأ يتلا ةيتايحلا تاراهملا يف ةيردتلا ةرودلا حاجنب اه هلامكتسال .ةديسلا ديسلل ةدايشلا هذه نمض حنمت . 216 -نانبل يف ةجاح رثكألا بابشلا ةئنفل يعارزلا ينهملا بيردتلا عورشم pmen١٥r dev٥ ٥١...Pep Country Represeuve S Project Manager",
+  "tokens": [
+    {
+      "text": "Unicef",
+      "bbox": [
+        1225.0,
+        155.0,
+        1357.0,
+        197.0
+      ],
+      "confidence": 96.71
+    },
+    {
+      "text": "SI",
+      "bbox": [
+        225.0,
+        165.0,
+        298.0,
+        197.0
+      ],
+      "confidence": 61.18
+    },
+    {
+      "text": "عوا",
+      "bbox": [
+        1352.0,
+        157.0,
+        1403.0,
+        192.0
+      ],
+      "confidence": 57.72
+    },
+    {
+      "text": "People for development",
+      "bbox": [
+        192.0,
+        226.0,
+        328.0,
+        248.0
+      ],
+      "confidence": 84.07
+    },
+    {
+      "text": "Certificate",
+      "bbox": [
+        635.0,
+        291.0,
+        774.0,
+        326.0
+      ],
+      "confidence": 99.94
+    },
+    {
+      "text": "Achievement",
+      "bbox": [
+        813.0,
+        297.0,
+        992.0,
+        320.0
+      ],
+      "confidence": 98.77
+    },
+    {
+      "text": "ةيتايحلا",
+      "bbox": [
+        623.0,
+        344.0,
+        707.0,
+        380.0
+      ],
+      "confidence": 83.88
+    },
+    {
+      "text": "تارامملا ",
+      "bbox": [
+        712.0,
+        347.0,
+        810.0,
+        383.0
+      ],
+      "confidence": 88.36
+    },
+    {
+      "text": "ةرود",
+      "bbox": [
+        805.0,
+        349.0,
+        868.0,
+        381.0
+      ],
+      "confidence": 99.93
+    },
+    {
+      "text": "زاجنإ",
+      "bbox": [
+        873.0,
+        349.0,
+        930.0,
+        381.0
+      ],
+      "confidence": 99.9
+    },
+    {
+      "text": "ةداهش",
+      "bbox": [
+        930.0,
+        347.0,
+        1000.0,
+        378.0
+      ],
+      "confidence": 91.14
+    },
+    {
+      "text": "This",
+      "bbox": [
+        183.0,
+        442.0,
+        220.0,
+        462.0
+      ],
+      "confidence": 95.6
+    },
+    {
+      "text": "certificate",
+      "bbox": [
+        230.0,
+        443.0,
+        318.0,
+        462.0
+      ],
+      "confidence": 97.54
+    },
+    {
+      "text": "awarded",
+      "bbox": [
+        352.0,
+        443.0,
+        430.0,
+        462.0
+      ],
+      "confidence": 94.94
+    },
+    {
+      "text": "Mrs.",
+      "bbox": [
+        463.0,
+        440.0,
+        507.0,
+        465.0
+      ],
+      "confidence": 91.55
+    },
+    {
+      "text": " Mr",
+      "bbox": [
+        518.0,
+        440.0,
+        565.0,
+        465.0
+      ],
+      "confidence": 77.61
+    },
+    {
+      "text": "٣o",
+      "bbox": [
+        875.0,
+        442.0,
+        907.0,
+        464.0
+      ],
+      "confidence": 55.3
+    },
+    {
+      "text": "Successfully",
+      "bbox": [
+        913.0,
+        438.0,
+        1019.0,
+        466.0
+      ],
+      "confidence": 84.48
+    },
+    {
+      "text": "Completing",
+      "bbox": [
+        1028.0,
+        442.0,
+        1130.0,
+        465.0
+      ],
+      "confidence": 91.28
+    },
+    {
+      "text": "the",
+      "bbox": [
+        1137.0,
+        442.0,
+        1170.0,
+        462.0
+      ],
+      "confidence": 64.53
+    },
+    {
+      "text": "Life",
+      "bbox": [
+        1177.0,
+        438.0,
+        1223.0,
+        464.0
+      ],
+      "confidence": 94.55
+    },
+    {
+      "text": "Skills",
+      "bbox": [
+        1227.0,
+        438.0,
+        1287.0,
+        462.0
+      ],
+      "confidence": 87.64
+    },
+    {
+      "text": "training",
+      "bbox": [
+        1293.0,
+        440.0,
+        1372.0,
+        464.0
+      ],
+      "confidence": 88.34
+    },
+    {
+      "text": "Sessions",
+      "bbox": [
+        1373.0,
+        436.0,
+        1455.0,
+        464.0
+      ],
+      "confidence": 91.69
+    },
+    {
+      "text": "Oranized by Avs Foudation in the",
+      "bbox": [
+        180.0,
+        479.0,
+        512.0,
+        504.0
+      ],
+      "confidence": 76.29
+    },
+    {
+      "text": "framework",
+      "bbox": [
+        507.0,
+        482.0,
+        610.0,
+        501.0
+      ],
+      "confidence": 95.56
+    },
+    {
+      "text": "of the project",
+      "bbox": [
+        603.0,
+        479.0,
+        732.0,
+        506.0
+      ],
+      "confidence": 94.66
+    },
+    {
+      "text": "AgricuIture",
+      "bbox": [
+        736.0,
+        477.0,
+        845.0,
+        504.0
+      ],
+      "confidence": 97.36
+    },
+    {
+      "text": "Vocational",
+      "bbox": [
+        837.0,
+        482.0,
+        937.0,
+        501.0
+      ],
+      "confidence": 93.84
+    },
+    {
+      "text": "Education",
+      "bbox": [
+        940.0,
+        481.0,
+        1035.0,
+        499.0
+      ],
+      "confidence": 97.2
+    },
+    {
+      "text": "o",
+      "bbox": [
+        1033.0,
+        482.0,
+        1062.0,
+        501.0
+      ],
+      "confidence": 81.0
+    },
+    {
+      "text": "unerable adolesents in ",
+      "bbox": [
+        1057.0,
+        481.0,
+        1305.0,
+        502.0
+      ],
+      "confidence": 85.4
+    },
+    {
+      "text": "Lebanon",
+      "bbox": [
+        1298.0,
+        482.0,
+        1383.0,
+        499.0
+      ],
+      "confidence": 90.96
+    },
+    {
+      "text": "2016",
+      "bbox": [
+        1393.0,
+        477.0,
+        1452.0,
+        501.0
+      ],
+      "confidence": 88.8
+    },
+    {
+      "text": "S",
+      "bbox": [
+        240.0,
+        560.0,
+        287.0,
+        582.0
+      ],
+      "confidence": 70.21
+    },
+    {
+      "text": "ةمظنم",
+      "bbox": [
+        288.0,
+        551.0,
+        349.0,
+        581.0
+      ],
+      "confidence": 96.8
+    },
+    {
+      "text": "اهتماقأ",
+      "bbox": [
+        352.0,
+        555.0,
+        407.0,
+        583.0
+      ],
+      "confidence": 92.12
+    },
+    {
+      "text": "يتلا",
+      "bbox": [
+        407.0,
+        556.0,
+        445.0,
+        583.0
+      ],
+      "confidence": 85.51
+    },
+    {
+      "text": "ةيتايحلا",
+      "bbox": [
+        442.0,
+        556.0,
+        507.0,
+        582.0
+      ],
+      "confidence": 99.42
+    },
+    {
+      "text": "تاراهملا",
+      "bbox": [
+        513.0,
+        556.0,
+        588.0,
+        582.0
+      ],
+      "confidence": 99.29
+    },
+    {
+      "text": "يف ةيردتلا",
+      "bbox": [
+        588.0,
+        551.0,
+        690.0,
+        587.0
+      ],
+      "confidence": 89.3
+    },
+    {
+      "text": "ةرودلا",
+      "bbox": [
+        688.0,
+        555.0,
+        747.0,
+        585.0
+      ],
+      "confidence": 91.22
+    },
+    {
+      "text": "حاجنب اه",
+      "bbox": [
+        748.0,
+        555.0,
+        827.0,
+        587.0
+      ],
+      "confidence": 99.41
+    },
+    {
+      "text": "هلامكتسال",
+      "bbox": [
+        840.0,
+        555.0,
+        918.0,
+        580.0
+      ],
+      "confidence": 95.66
+    },
+    {
+      "text": ".ةديسلا",
+      "bbox": [
+        1182.0,
+        555.0,
+        1257.0,
+        585.0
+      ],
+      "confidence": 81.27
+    },
+    {
+      "text": "ديسلل",
+      "bbox": [
+        1268.0,
+        553.0,
+        1317.0,
+        585.0
+      ],
+      "confidence": 99.51
+    },
+    {
+      "text": "ةدايشلا",
+      "bbox": [
+        1311.0,
+        551.0,
+        1379.0,
+        587.0
+      ],
+      "confidence": 85.41
+    },
+    {
+      "text": "هذه",
+      "bbox": [
+        1376.0,
+        551.0,
+        1415.0,
+        587.0
+      ],
+      "confidence": 90.62
+    },
+    {
+      "text": "نمض",
+      "bbox": [
+        178.0,
+        556.0,
+        226.0,
+        586.0
+      ],
+      "confidence": 98.82
+    },
+    {
+      "text": "حنمت",
+      "bbox": [
+        1417.0,
+        555.0,
+        1460.0,
+        588.0
+      ],
+      "confidence": 88.92
+    },
+    {
+      "text": ".",
+      "bbox": [
+        927.0,
+        565.0,
+        993.0,
+        583.0
+      ],
+      "confidence": 50.23
+    },
+    {
+      "text": "216",
+      "bbox": [
+        821.0,
+        600.0,
+        886.0,
+        629.0
+      ],
+      "confidence": 92.45
+    },
+    {
+      "text": "-نانبل يف ةجاح",
+      "bbox": [
+        890.0,
+        600.0,
+        1015.0,
+        629.0
+      ],
+      "confidence": 93.61
+    },
+    {
+      "text": "رثكألا",
+      "bbox": [
+        1025.0,
+        602.0,
+        1073.0,
+        627.0
+      ],
+      "confidence": 91.74
+    },
+    {
+      "text": "بابشلا",
+      "bbox": [
+        1077.0,
+        602.0,
+        1132.0,
+        627.0
+      ],
+      "confidence": 99.8
+    },
+    {
+      "text": "ةئنفل يعارزلا",
+      "bbox": [
+        1133.0,
+        598.0,
+        1247.0,
+        638.0
+      ],
+      "confidence": 86.11
+    },
+    {
+      "text": "ينهملا",
+      "bbox": [
+        1249.0,
+        598.0,
+        1311.0,
+        635.0
+      ],
+      "confidence": 99.8
+    },
+    {
+      "text": "بيردتلا",
+      "bbox": [
+        1312.0,
+        602.0,
+        1388.0,
+        632.0
+      ],
+      "confidence": 96.3
+    },
+    {
+      "text": "عورشم",
+      "bbox": [
+        1386.0,
+        600.0,
+        1461.0,
+        636.0
+      ],
+      "confidence": 88.48
+    },
+    {
+      "text": "pmen١٥r dev٥ ٥١...Pep",
+      "bbox": [
+        296.0,
+        750.0,
+        460.0,
+        777.0
+      ],
+      "confidence": 64.79
+    },
+    {
+      "text": "Country",
+      "bbox": [
+        256.0,
+        804.0,
+        325.0,
+        832.0
+      ],
+      "confidence": 98.45
+    },
+    {
+      "text": "Represeuve",
+      "bbox": [
+        323.0,
+        808.0,
+        457.0,
+        830.0
+      ],
+      "confidence": 85.1
+    },
+    {
+      "text": "S",
+      "bbox": [
+        468.0,
+        808.0,
+        507.0,
+        828.0
+      ],
+      "confidence": 50.84
+    },
+    {
+      "text": "Project",
+      "bbox": [
+        1098.0,
+        811.0,
+        1162.0,
+        830.0
+      ],
+      "confidence": 97.79
+    },
+    {
+      "text": "Manager",
+      "bbox": [
+        1160.0,
+        809.0,
+        1242.0,
+        832.0
+      ],
+      "confidence": 73.8
+    }
+  ],
+  "processing_time_ms": 460
+}

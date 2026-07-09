@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/00780",
+  "engine": "paddleocr",
+  "raw_text": "نوحتالر مبوج فو اف",
+  "tokens": [
+    {
+      "text": "نوحتالر",
+      "bbox": [
+        102.0,
+        763.0,
+        370.0,
+        968.0
+      ],
+      "confidence": 68.91
+    },
+    {
+      "text": "مبوج فو اف",
+      "bbox": [
+        139.0,
+        947.0,
+        314.0,
+        1043.0
+      ],
+      "confidence": 70.87
+    }
+  ],
+  "processing_time_ms": 60
+}

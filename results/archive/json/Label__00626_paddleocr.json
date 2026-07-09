@@ -1,0 +1,58 @@
+{
+  "document_id": "Label/00626",
+  "engine": "paddleocr",
+  "raw_text": "لزغ ءارفص ةررذ yeow r",
+  "tokens": [
+    {
+      "text": "لزغ",
+      "bbox": [
+        243.0,
+        424.0,
+        411.0,
+        547.0
+      ],
+      "confidence": 99.72
+    },
+    {
+      "text": "ءارفص",
+      "bbox": [
+        197.0,
+        580.0,
+        320.0,
+        639.0
+      ],
+      "confidence": 98.89
+    },
+    {
+      "text": "ةررذ",
+      "bbox": [
+        320.0,
+        595.0,
+        390.0,
+        645.0
+      ],
+      "confidence": 89.34
+    },
+    {
+      "text": "yeow",
+      "bbox": [
+        193.0,
+        628.0,
+        315.0,
+        666.0
+      ],
+      "confidence": 96.66
+    },
+    {
+      "text": "r",
+      "bbox": [
+        312.0,
+        639.0,
+        393.0,
+        667.0
+      ],
+      "confidence": 73.24
+    }
+  ],
+  "processing_time_ms": 68
+}

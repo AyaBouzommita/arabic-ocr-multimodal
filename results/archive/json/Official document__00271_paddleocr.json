@@ -1,0 +1,458 @@
+{
+  "document_id": "Official document/00271",
+  "engine": "paddleocr",
+  "raw_text": "U E-MALE دم ىاقيوأل يناعتساا خدردار نم Certificate Participation ١١٩١ Gender Sensitive Reporting Workshop ١٤٤١ rawOre he اPro Strengthening Protection Participation evices Woen Refugees D Host Communitie Lebann m d Dcmhe ١ Erpa UiEU Regioa T  MADAD EMd e ne eا n Lebn Wo Demrati 6ahering D LEGAL AGTION DL LA",
+  "tokens": [
+    {
+      "text": "U",
+      "bbox": [
+        162.0,
+        22.0,
+        215.0,
+        39.0
+      ],
+      "confidence": 68.15
+    },
+    {
+      "text": "E-MALE",
+      "bbox": [
+        454.0,
+        35.0,
+        535.0,
+        64.0
+      ],
+      "confidence": 86.43
+    },
+    {
+      "text": "دم ىاقيوأل",
+      "bbox": [
+        166.0,
+        54.0,
+        212.0,
+        65.0
+      ],
+      "confidence": 62.78
+    },
+    {
+      "text": "يناعتساا",
+      "bbox": [
+        217.0,
+        55.0,
+        252.0,
+        66.0
+      ],
+      "confidence": 73.23
+    },
+    {
+      "text": "خدردار",
+      "bbox": [
+        434.0,
+        72.0,
+        530.0,
+        99.0
+      ],
+      "confidence": 56.26
+    },
+    {
+      "text": "نم",
+      "bbox": [
+        423.0,
+        88.0,
+        463.0,
+        109.0
+      ],
+      "confidence": 94.6
+    },
+    {
+      "text": "Certificate",
+      "bbox": [
+        381.0,
+        136.0,
+        460.0,
+        156.0
+      ],
+      "confidence": 96.19
+    },
+    {
+      "text": "Participation",
+      "bbox": [
+        485.0,
+        139.0,
+        579.0,
+        156.0
+      ],
+      "confidence": 98.97
+    },
+    {
+      "text": "١١٩١",
+      "bbox": [
+        448.0,
+        224.0,
+        465.0,
+        233.0
+      ],
+      "confidence": 60.58
+    },
+    {
+      "text": "Gender",
+      "bbox": [
+        341.0,
+        243.0,
+        401.0,
+        261.0
+      ],
+      "confidence": 92.86
+    },
+    {
+      "text": "Sensitive",
+      "bbox": [
+        412.0,
+        246.0,
+        473.0,
+        260.0
+      ],
+      "confidence": 95.94
+    },
+    {
+      "text": "Reporting",
+      "bbox": [
+        476.0,
+        244.0,
+        549.0,
+        262.0
+      ],
+      "confidence": 98.4
+    },
+    {
+      "text": "Workshop",
+      "bbox": [
+        554.0,
+        243.0,
+        627.0,
+        260.0
+      ],
+      "confidence": 98.84
+    },
+    {
+      "text": "١٤٤١",
+      "bbox": [
+        368.0,
+        275.0,
+        401.0,
+        286.0
+      ],
+      "confidence": 63.43
+    },
+    {
+      "text": "rawOre",
+      "bbox": [
+        404.0,
+        273.0,
+        489.0,
+        286.0
+      ],
+      "confidence": 73.04
+    },
+    {
+      "text": "he",
+      "bbox": [
+        488.0,
+        274.0,
+        519.0,
+        284.0
+      ],
+      "confidence": 80.14
+    },
+    {
+      "text": "اPro",
+      "bbox": [
+        521.0,
+        273.0,
+        561.0,
+        284.0
+      ],
+      "confidence": 73.04
+    },
+    {
+      "text": "Strengthening",
+      "bbox": [
+        238.0,
+        304.0,
+        325.0,
+        320.0
+      ],
+      "confidence": 99.67
+    },
+    {
+      "text": "Protection",
+      "bbox": [
+        378.0,
+        304.0,
+        439.0,
+        318.0
+      ],
+      "confidence": 93.61
+    },
+    {
+      "text": "Participation",
+      "bbox": [
+        442.0,
+        303.0,
+        511.0,
+        317.0
+      ],
+      "confidence": 94.74
+    },
+    {
+      "text": "evices",
+      "bbox": [
+        537.0,
+        303.0,
+        581.0,
+        314.0
+      ],
+      "confidence": 75.22
+    },
+    {
+      "text": "Woen",
+      "bbox": [
+        601.0,
+        300.0,
+        644.0,
+        314.0
+      ],
+      "confidence": 89.3
+    },
+    {
+      "text": "Refugees",
+      "bbox": [
+        646.0,
+        300.0,
+        698.0,
+        311.0
+      ],
+      "confidence": 74.06
+    },
+    {
+      "text": "D",
+      "bbox": [
+        703.0,
+        298.0,
+        726.0,
+        310.0
+      ],
+      "confidence": 51.89
+    },
+    {
+      "text": "Host",
+      "bbox": [
+        413.0,
+        320.0,
+        440.0,
+        332.0
+      ],
+      "confidence": 80.39
+    },
+    {
+      "text": "Communitie",
+      "bbox": [
+        441.0,
+        317.0,
+        514.0,
+        334.0
+      ],
+      "confidence": 79.2
+    },
+    {
+      "text": "Lebann",
+      "bbox": [
+        527.0,
+        318.0,
+        577.0,
+        330.0
+      ],
+      "confidence": 78.49
+    },
+    {
+      "text": "m",
+      "bbox": [
+        395.0,
+        345.0,
+        444.0,
+        356.0
+      ],
+      "confidence": 74.48
+    },
+    {
+      "text": "d Dcmhe",
+      "bbox": [
+        465.0,
+        341.0,
+        540.0,
+        357.0
+      ],
+      "confidence": 66.55
+    },
+    {
+      "text": "١",
+      "bbox": [
+        538.0,
+        343.0,
+        555.0,
+        354.0
+      ],
+      "confidence": 95.27
+    },
+    {
+      "text": "Erpa",
+      "bbox": [
+        319.0,
+        372.0,
+        368.0,
+        382.0
+      ],
+      "confidence": 78.67
+    },
+    {
+      "text": "UiEU Regioa",
+      "bbox": [
+        364.0,
+        369.0,
+        454.0,
+        382.0
+      ],
+      "confidence": 71.03
+    },
+    {
+      "text": "T ",
+      "bbox": [
+        455.0,
+        369.0,
+        507.0,
+        380.0
+      ],
+      "confidence": 71.92
+    },
+    {
+      "text": "MADAD",
+      "bbox": [
+        511.0,
+        367.0,
+        553.0,
+        378.0
+      ],
+      "confidence": 80.12
+    },
+    {
+      "text": "EMd",
+      "bbox": [
+        650.0,
+        362.0,
+        702.0,
+        375.0
+      ],
+      "confidence": 72.78
+    },
+    {
+      "text": "e ne",
+      "bbox": [
+        697.0,
+        361.0,
+        786.0,
+        374.0
+      ],
+      "confidence": 78.29
+    },
+    {
+      "text": "eا n",
+      "bbox": [
+        181.0,
+        373.0,
+        236.0,
+        385.0
+      ],
+      "confidence": 57.32
+    },
+    {
+      "text": "Lebn",
+      "bbox": [
+        395.0,
+        384.0,
+        440.0,
+        394.0
+      ],
+      "confidence": 83.03
+    },
+    {
+      "text": "Wo Demrati",
+      "bbox": [
+        441.0,
+        379.0,
+        538.0,
+        395.0
+      ],
+      "confidence": 69.37
+    },
+    {
+      "text": "6ahering",
+      "bbox": [
+        536.0,
+        381.0,
+        585.0,
+        392.0
+      ],
+      "confidence": 78.4
+    },
+    {
+      "text": "D",
+      "bbox": [
+        593.0,
+        379.0,
+        618.0,
+        390.0
+      ],
+      "confidence": 64.17
+    },
+    {
+      "text": "LEGAL",
+      "bbox": [
+        470.0,
+        509.0,
+        507.0,
+        520.0
+      ],
+      "confidence": 80.86
+    },
+    {
+      "text": "AGTION",
+      "bbox": [
+        506.0,
+        507.0,
+        551.0,
+        521.0
+      ],
+      "confidence": 79.77
+    },
+    {
+      "text": "DL",
+      "bbox": [
+        573.0,
+        503.0,
+        663.0,
+        540.0
+      ],
+      "confidence": 75.86
+    },
+    {
+      "text": "LA",
+      "bbox": [
+        467.0,
+        522.0,
+        551.0,
+        548.0
+      ],
+      "confidence": 53.89
+    }
+  ],
+  "processing_time_ms": 428
+}

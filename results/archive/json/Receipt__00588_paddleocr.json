@@ -1,0 +1,18 @@
+{
+  "document_id": "Receipt/00588",
+  "engine": "paddleocr",
+  "raw_text": "لهسوأل",
+  "tokens": [
+    {
+      "text": "لهسوأل",
+      "bbox": [
+        1148.0,
+        2389.0,
+        1221.0,
+        2469.0
+      ],
+      "confidence": 79.52
+    }
+  ],
+  "processing_time_ms": 318
+}

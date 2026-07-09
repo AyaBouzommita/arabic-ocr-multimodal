@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/0051",
+  "engine": "paddleocr",
+  "raw_text": "ما دحلا رع ا ",
+  "tokens": [
+    {
+      "text": "ما دحلا رع",
+      "bbox": [
+        120.0,
+        134.0,
+        264.0,
+        184.0
+      ],
+      "confidence": 54.01
+    },
+    {
+      "text": "ا ",
+      "bbox": [
+        194.0,
+        270.0,
+        216.0,
+        282.0
+      ],
+      "confidence": 75.18
+    }
+  ],
+  "processing_time_ms": 57
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "Label/00550",
+  "engine": "paddleocr",
+  "raw_text": "رشتي وس 00 2-0542",
+  "tokens": [
+    {
+      "text": "رشتي وس",
+      "bbox": [
+        773.0,
+        408.0,
+        841.0,
+        439.0
+      ],
+      "confidence": 81.44
+    },
+    {
+      "text": "00",
+      "bbox": [
+        711.0,
+        458.0,
+        828.0,
+        500.0
+      ],
+      "confidence": 67.76
+    },
+    {
+      "text": "2-0542",
+      "bbox": [
+        709.0,
+        608.0,
+        847.0,
+        647.0
+      ],
+      "confidence": 73.37
+    }
+  ],
+  "processing_time_ms": 70
+}

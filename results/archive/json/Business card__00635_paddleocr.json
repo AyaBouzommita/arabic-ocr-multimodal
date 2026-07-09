@@ -1,0 +1,108 @@
+{
+  "document_id": "Business card/00635",
+  "engine": "paddleocr",
+  "raw_text": "TAX قطانملا ةفااك Marwa! Alhoussami ةين انبللا يسكت SERVICE 4",
+  "tokens": [
+    {
+      "text": "TAX",
+      "bbox": [
+        833.0,
+        82.0,
+        967.0,
+        190.0
+      ],
+      "confidence": 88.31
+    },
+    {
+      "text": "قطانملا",
+      "bbox": [
+        163.0,
+        185.0,
+        298.0,
+        238.0
+      ],
+      "confidence": 99.95
+    },
+    {
+      "text": "ةفااك",
+      "bbox": [
+        318.0,
+        194.0,
+        434.0,
+        235.0
+      ],
+      "confidence": 87.72
+    },
+    {
+      "text": "Marwa!",
+      "bbox": [
+        550.0,
+        190.0,
+        697.0,
+        252.0
+      ],
+      "confidence": 90.93
+    },
+    {
+      "text": "Alhoussami",
+      "bbox": [
+        712.0,
+        194.0,
+        918.0,
+        254.0
+      ],
+      "confidence": 90.9
+    },
+    {
+      "text": "ةين",
+      "bbox": [
+        215.0,
+        239.0,
+        294.0,
+        287.0
+      ],
+      "confidence": 89.02
+    },
+    {
+      "text": "انبللا",
+      "bbox": [
+        287.0,
+        237.0,
+        394.0,
+        285.0
+      ],
+      "confidence": 98.94
+    },
+    {
+      "text": "يسكت",
+      "bbox": [
+        750.0,
+        348.0,
+        928.0,
+        420.0
+      ],
+      "confidence": 98.16
+    },
+    {
+      "text": "SERVICE",
+      "bbox": [
+        85.0,
+        518.0,
+        236.0,
+        588.0
+      ],
+      "confidence": 96.59
+    },
+    {
+      "text": "4",
+      "bbox": [
+        130.0,
+        574.0,
+        203.0,
+        621.0
+      ],
+      "confidence": 64.21
+    }
+  ],
+  "processing_time_ms": 95
+}

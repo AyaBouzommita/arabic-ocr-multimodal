@@ -1,0 +1,48 @@
+{
+  "document_id": "Label/00389",
+  "engine": "paddleocr",
+  "raw_text": "RU ٥ 823 Mَر",
+  "tokens": [
+    {
+      "text": "RU",
+      "bbox": [
+        651.0,
+        25.0,
+        893.0,
+        395.0
+      ],
+      "confidence": 74.95
+    },
+    {
+      "text": "٥",
+      "bbox": [
+        670.0,
+        465.0,
+        830.0,
+        536.0
+      ],
+      "confidence": 58.63
+    },
+    {
+      "text": "823",
+      "bbox": [
+        650.0,
+        542.0,
+        834.0,
+        619.0
+      ],
+      "confidence": 78.11
+    },
+    {
+      "text": "Mَر",
+      "bbox": [
+        550.0,
+        711.0,
+        660.0,
+        782.0
+      ],
+      "confidence": 54.94
+    }
+  ],
+  "processing_time_ms": 185
+}

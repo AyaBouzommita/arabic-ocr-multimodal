@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/00591",
+  "engine": "paddleocr",
+  "raw_text": "ؤ ةيآ- ايؤر -رئاط- ءاود",
+  "tokens": [
+    {
+      "text": "ؤ",
+      "bbox": [
+        325.0,
+        211.0,
+        773.0,
+        395.0
+      ],
+      "confidence": 57.46
+    },
+    {
+      "text": "ةيآ- ايؤر -رئاط- ءاود",
+      "bbox": [
+        242.0,
+        376.0,
+        896.0,
+        535.0
+      ],
+      "confidence": 66.59
+    }
+  ],
+  "processing_time_ms": 67
+}

@@ -1,0 +1,138 @@
+{
+  "document_id": "Invoice/00265",
+  "engine": "paddleocr",
+  "raw_text": "aeSitueضiمS  ٤ Bil  Duo dat ١ Itom Doscrlpllon وافحتسالا براتلا taSutotaعuج ٥,٩٨١ Unlt Prico o٦٥n١ طقف",
+  "tokens": [
+    {
+      "text": "aeSitueضiمS",
+      "bbox": [
+        494.0,
+        192.0,
+        565.0,
+        560.0
+      ],
+      "confidence": 55.18
+    },
+    {
+      "text": " ٤",
+      "bbox": [
+        651.0,
+        194.0,
+        2089.0,
+        421.0
+      ],
+      "confidence": 55.99
+    },
+    {
+      "text": "Bil ",
+      "bbox": [
+        2224.0,
+        201.0,
+        2268.0,
+        326.0
+      ],
+      "confidence": 56.95
+    },
+    {
+      "text": "Duo dat",
+      "bbox": [
+        2303.0,
+        201.0,
+        2352.0,
+        376.0
+      ],
+      "confidence": 84.45
+    },
+    {
+      "text": "١",
+      "bbox": [
+        233.0,
+        219.0,
+        265.0,
+        302.0
+      ],
+      "confidence": 52.8
+    },
+    {
+      "text": "Itom Doscrlpllon",
+      "bbox": [
+        2110.0,
+        515.0,
+        2169.0,
+        794.0
+      ],
+      "confidence": 89.82
+    },
+    {
+      "text": "وافحتسالا",
+      "bbox": [
+        2329.0,
+        986.0,
+        2390.0,
+        1140.0
+      ],
+      "confidence": 91.55
+    },
+    {
+      "text": "براتلا",
+      "bbox": [
+        2408.0,
+        989.0,
+        2449.0,
+        1086.0
+      ],
+      "confidence": 89.29
+    },
+    {
+      "text": "taSutotaعuج",
+      "bbox": [
+        544.0,
+        1273.0,
+        594.0,
+        1575.0
+      ],
+      "confidence": 64.35
+    },
+    {
+      "text": "٥,٩٨١",
+      "bbox": [
+        424.0,
+        1301.0,
+        545.0,
+        1676.0
+      ],
+      "confidence": 81.12
+    },
+    {
+      "text": "Unlt Prico",
+      "bbox": [
+        2102.0,
+        1293.0,
+        2152.0,
+        1466.0
+      ],
+      "confidence": 89.14
+    },
+    {
+      "text": "o٦٥n١",
+      "bbox": [
+        2125.0,
+        1640.0,
+        2146.0,
+        1758.0
+      ],
+      "confidence": 69.1
+    },
+    {
+      "text": "طقف",
+      "bbox": [
+        291.0,
+        1912.0,
+        335.0,
+        1989.0
+      ],
+      "confidence": 91.38
+    }
+  ],
+  "processing_time_ms": 310
+}

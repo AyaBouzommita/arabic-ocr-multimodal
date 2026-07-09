@@ -1,0 +1,38 @@
+{
+  "document_id": "Book/00339",
+  "engine": "paddleocr",
+  "raw_text": "ءافصلا ناوز لئاسر",
+  "tokens": [
+    {
+      "text": "ءافصلا",
+      "bbox": [
+        118.0,
+        330.0,
+        280.0,
+        399.0
+      ],
+      "confidence": 87.72
+    },
+    {
+      "text": "ناوز",
+      "bbox": [
+        263.0,
+        338.0,
+        429.0,
+        427.0
+      ],
+      "confidence": 64.12
+    },
+    {
+      "text": "لئاسر",
+      "bbox": [
+        232.0,
+        457.0,
+        313.0,
+        503.0
+      ],
+      "confidence": 97.26
+    }
+  ],
+  "processing_time_ms": 71
+}

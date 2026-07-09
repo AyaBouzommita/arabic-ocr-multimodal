@@ -1,0 +1,38 @@
+{
+  "document_id": "Comics/00691",
+  "engine": "paddleocr",
+  "raw_text": "ناك امماي ناج",
+  "tokens": [
+    {
+      "text": "ناك امماي",
+      "bbox": [
+        332.0,
+        581.0,
+        549.0,
+        768.0
+      ],
+      "confidence": 86.21
+    },
+    {
+      "text": "ناج",
+      "bbox": [
+        507.0,
+        725.0,
+        629.0,
+        832.0
+      ],
+      "confidence": 76.5
+    },
+    {
+      "text": " ",
+      "bbox": [
+        508.0,
+        1101.0,
+        586.0,
+        1175.0
+      ],
+      "confidence": 60.2
+    }
+  ],
+  "processing_time_ms": 95
+}

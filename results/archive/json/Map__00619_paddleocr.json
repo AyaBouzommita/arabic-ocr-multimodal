@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00619",
+  "engine": "paddleocr",
+  "raw_text": "سا رط ةب",
+  "tokens": [
+    {
+      "text": "سا رط",
+      "bbox": [
+        1068.0,
+        820.0,
+        1131.0,
+        836.0
+      ],
+      "confidence": 72.01
+    },
+    {
+      "text": "ةب",
+      "bbox": [
+        1133.0,
+        816.0,
+        1189.0,
+        833.0
+      ],
+      "confidence": 72.67
+    }
+  ],
+  "processing_time_ms": 123
+}

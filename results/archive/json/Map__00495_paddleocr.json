@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00495",
+  "engine": "paddleocr",
+  "raw_text": "سلا داحتتالا ةطراَخ",
+  "tokens": [
+    {
+      "text": "سلا داحتتالا",
+      "bbox": [
+        835.0,
+        766.0,
+        1030.0,
+        819.0
+      ],
+      "confidence": 67.5
+    },
+    {
+      "text": "ةطراَخ",
+      "bbox": [
+        1029.0,
+        770.0,
+        1105.0,
+        805.0
+      ],
+      "confidence": 89.27
+    }
+  ],
+  "processing_time_ms": 59
+}

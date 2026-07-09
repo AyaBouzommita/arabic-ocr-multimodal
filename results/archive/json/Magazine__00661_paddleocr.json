@@ -1,0 +1,28 @@
+{
+  "document_id": "Magazine/00661",
+  "engine": "paddleocr",
+  "raw_text": "ثحابلا  مضل ةم",
+  "tokens": [
+    {
+      "text": "ثحابلا",
+      "bbox": [
+        373.0,
+        193.0,
+        581.0,
+        252.0
+      ],
+      "confidence": 86.41
+    },
+    {
+      "text": " مضل ةم",
+      "bbox": [
+        147.0,
+        294.0,
+        205.0,
+        316.0
+      ],
+      "confidence": 87.21
+    }
+  ],
+  "processing_time_ms": 70
+}

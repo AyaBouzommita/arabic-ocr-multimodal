@@ -1,0 +1,28 @@
+{
+  "document_id": "Magazine/00383",
+  "engine": "paddleocr",
+  "raw_text": "كرل Pre-fal",
+  "tokens": [
+    {
+      "text": "كرل",
+      "bbox": [
+        206.0,
+        243.0,
+        291.0,
+        257.0
+      ],
+      "confidence": 62.84
+    },
+    {
+      "text": "Pre-fal",
+      "bbox": [
+        634.0,
+        406.0,
+        710.0,
+        439.0
+      ],
+      "confidence": 88.42
+    }
+  ],
+  "processing_time_ms": 70
+}

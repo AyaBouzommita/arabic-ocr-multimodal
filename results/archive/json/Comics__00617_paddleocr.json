@@ -1,0 +1,158 @@
+{
+  "document_id": "Comics/00617",
+  "engine": "paddleocr",
+  "raw_text": "Sports 0xng ةمكالُم gymnastics زابُمح swimming ةحابس aske tennis volleyball ةرئاطلا ةركلا diving running rowing فيدجت",
+  "tokens": [
+    {
+      "text": "Sports",
+      "bbox": [
+        768.0,
+        423.0,
+        1114.0,
+        551.0
+      ],
+      "confidence": 97.47
+    },
+    {
+      "text": "0xng",
+      "bbox": [
+        2305.0,
+        800.0,
+        2506.0,
+        880.0
+      ],
+      "confidence": 54.28
+    },
+    {
+      "text": "ةمكالُم",
+      "bbox": [
+        2529.0,
+        830.0,
+        2690.0,
+        900.0
+      ],
+      "confidence": 85.35
+    },
+    {
+      "text": "gymnastics",
+      "bbox": [
+        587.0,
+        1212.0,
+        848.0,
+        1291.0
+      ],
+      "confidence": 97.73
+    },
+    {
+      "text": "زابُمح",
+      "bbox": [
+        846.0,
+        1252.0,
+        941.0,
+        1298.0
+      ],
+      "confidence": 79.89
+    },
+    {
+      "text": "swimming",
+      "bbox": [
+        1212.0,
+        1437.0,
+        1459.0,
+        1536.0
+      ],
+      "confidence": 97.11
+    },
+    {
+      "text": "ةحابس",
+      "bbox": [
+        1466.0,
+        1484.0,
+        1593.0,
+        1557.0
+      ],
+      "confidence": 89.4
+    },
+    {
+      "text": "aske",
+      "bbox": [
+        2856.0,
+        1840.0,
+        3020.0,
+        1898.0
+      ],
+      "confidence": 71.11
+    },
+    {
+      "text": "tennis",
+      "bbox": [
+        1556.0,
+        2004.0,
+        1726.0,
+        2091.0
+      ],
+      "confidence": 93.23
+    },
+    {
+      "text": "volleyball",
+      "bbox": [
+        359.0,
+        2188.0,
+        582.0,
+        2297.0
+      ],
+      "confidence": 94.52
+    },
+    {
+      "text": "ةرئاطلا ةركلا",
+      "bbox": [
+        569.0,
+        2239.0,
+        823.0,
+        2360.0
+      ],
+      "confidence": 92.85
+    },
+    {
+      "text": "diving",
+      "bbox": [
+        1905.0,
+        2296.0,
+        2106.0,
+        2420.0
+      ],
+      "confidence": 93.72
+    },
+    {
+      "text": "running",
+      "bbox": [
+        198.0,
+        3088.0,
+        399.0,
+        3221.0
+      ],
+      "confidence": 89.22
+    },
+    {
+      "text": "rowing",
+      "bbox": [
+        1352.0,
+        3466.0,
+        1573.0,
+        3603.0
+      ],
+      "confidence": 92.39
+    },
+    {
+      "text": "فيدجت",
+      "bbox": [
+        1590.0,
+        3551.0,
+        1792.0,
+        3684.0
+      ],
+      "confidence": 97.47
+    }
+  ],
+  "processing_time_ms": 388
+}

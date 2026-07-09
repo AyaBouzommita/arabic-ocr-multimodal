@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00512",
+  "engine": "paddleocr",
+  "raw_text": "ىمسوم عسل  رلا",
+  "tokens": [
+    {
+      "text": "ىمسوم عسل",
+      "bbox": [
+        832.0,
+        211.0,
+        925.0,
+        228.0
+      ],
+      "confidence": 78.21
+    },
+    {
+      "text": " رلا",
+      "bbox": [
+        682.0,
+        595.0,
+        782.0,
+        625.0
+      ],
+      "confidence": 58.85
+    }
+  ],
+  "processing_time_ms": 117
+}

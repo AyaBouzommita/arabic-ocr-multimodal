@@ -1,0 +1,258 @@
+{
+  "document_id": "Receipt/00301",
+  "engine": "paddleocr",
+  "raw_text": "LIBANPDST SPARK 80 Disbursmen I٧Sn 2 12476١ Bnecr Dc ٤١ ٧ Benefcan r Beec mb  AO Vb روت Adu sd Waybil ia 5sEp AMRA E 0",
+  "tokens": [
+    {
+      "text": "LIBANPDST",
+      "bbox": [
+        94.0,
+        97.0,
+        189.0,
+        121.0
+      ],
+      "confidence": 88.37
+    },
+    {
+      "text": "SPARK",
+      "bbox": [
+        425.0,
+        87.0,
+        468.0,
+        105.0
+      ],
+      "confidence": 77.2
+    },
+    {
+      "text": "80",
+      "bbox": [
+        694.0,
+        91.0,
+        730.0,
+        105.0
+      ],
+      "confidence": 72.42
+    },
+    {
+      "text": "Disbursmen",
+      "bbox": [
+        384.0,
+        106.0,
+        467.0,
+        126.0
+      ],
+      "confidence": 86.15
+    },
+    {
+      "text": "I٧Sn",
+      "bbox": [
+        462.0,
+        105.0,
+        507.0,
+        121.0
+      ],
+      "confidence": 56.97
+    },
+    {
+      "text": "2",
+      "bbox": [
+        726.0,
+        102.0,
+        762.0,
+        119.0
+      ],
+      "confidence": 87.86
+    },
+    {
+      "text": "12476١",
+      "bbox": [
+        136.0,
+        122.0,
+        193.0,
+        139.0
+      ],
+      "confidence": 73.59
+    },
+    {
+      "text": "Bnecr",
+      "bbox": [
+        101.0,
+        157.0,
+        173.0,
+        176.0
+      ],
+      "confidence": 67.64
+    },
+    {
+      "text": "Dc",
+      "bbox": [
+        498.0,
+        163.0,
+        572.0,
+        179.0
+      ],
+      "confidence": 63.28
+    },
+    {
+      "text": "٤١",
+      "bbox": [
+        114.0,
+        189.0,
+        169.0,
+        204.0
+      ],
+      "confidence": 63.21
+    },
+    {
+      "text": "٧",
+      "bbox": [
+        172.0,
+        190.0,
+        220.0,
+        206.0
+      ],
+      "confidence": 50.22
+    },
+    {
+      "text": "Benefcan",
+      "bbox": [
+        104.0,
+        216.0,
+        176.0,
+        232.0
+      ],
+      "confidence": 82.4
+    },
+    {
+      "text": "r",
+      "bbox": [
+        107.0,
+        245.0,
+        154.0,
+        259.0
+      ],
+      "confidence": 54.06
+    },
+    {
+      "text": "Beec",
+      "bbox": [
+        105.0,
+        271.0,
+        179.0,
+        287.0
+      ],
+      "confidence": 70.62
+    },
+    {
+      "text": "mb ",
+      "bbox": [
+        222.0,
+        273.0,
+        271.0,
+        289.0
+      ],
+      "confidence": 63.21
+    },
+    {
+      "text": "AO",
+      "bbox": [
+        498.0,
+        273.0,
+        540.0,
+        283.0
+      ],
+      "confidence": 54.83
+    },
+    {
+      "text": "Vb",
+      "bbox": [
+        129.0,
+        300.0,
+        179.0,
+        316.0
+      ],
+      "confidence": 53.99
+    },
+    {
+      "text": "روت",
+      "bbox": [
+        258.0,
+        368.0,
+        280.0,
+        376.0
+      ],
+      "confidence": 83.85
+    },
+    {
+      "text": "Adu",
+      "bbox": [
+        529.0,
+        361.0,
+        567.0,
+        372.0
+      ],
+      "confidence": 75.07
+    },
+    {
+      "text": "sd",
+      "bbox": [
+        611.0,
+        361.0,
+        642.0,
+        372.0
+      ],
+      "confidence": 90.95
+    },
+    {
+      "text": "Waybil",
+      "bbox": [
+        680.0,
+        359.0,
+        727.0,
+        375.0
+      ],
+      "confidence": 74.23
+    },
+    {
+      "text": "ia",
+      "bbox": [
+        215.0,
+        383.0,
+        269.0,
+        397.0
+      ],
+      "confidence": 53.91
+    },
+    {
+      "text": "5sEp",
+      "bbox": [
+        565.0,
+        438.0,
+        619.0,
+        462.0
+      ],
+      "confidence": 52.06
+    },
+    {
+      "text": "AMRA E",
+      "bbox": [
+        555.0,
+        491.0,
+        637.0,
+        513.0
+      ],
+      "confidence": 63.62
+    },
+    {
+      "text": "0",
+      "bbox": [
+        112.0,
+        512.0,
+        187.0,
+        530.0
+      ],
+      "confidence": 70.19
+    }
+  ],
+  "processing_time_ms": 351
+}

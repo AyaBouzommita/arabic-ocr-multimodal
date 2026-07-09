@@ -1,0 +1,338 @@
+{
+  "document_id": "Magazine/00704",
+  "engine": "paddleocr",
+  "raw_text": "JUNIOR UNIVERS CAR RENTAL UNIOR AR RENTAL 900078 / +96 AYOub BAHAAEDDINE Juniorcarrentalogmailcom  Manager General West Bekaa و Al Manarah بويأ نيدلا ءاهب Car  Rental Junior ريدملا ماعلا Junior.Car.Rental Reservations Rental Car for. YoUr Source",
+  "tokens": [
+    {
+      "text": "JUNIOR",
+      "bbox": [
+        1602.0,
+        509.0,
+        2233.0,
+        783.0
+      ],
+      "confidence": 82.34
+    },
+    {
+      "text": "UNIVERS",
+      "bbox": [
+        0.0,
+        578.0,
+        287.0,
+        668.0
+      ],
+      "confidence": 99.07
+    },
+    {
+      "text": "CAR",
+      "bbox": [
+        1839.0,
+        736.0,
+        2005.0,
+        831.0
+      ],
+      "confidence": 83.88
+    },
+    {
+      "text": "RENTAL",
+      "bbox": [
+        1990.0,
+        746.0,
+        2233.0,
+        871.0
+      ],
+      "confidence": 95.7
+    },
+    {
+      "text": "UNIOR",
+      "bbox": [
+        736.0,
+        1320.0,
+        1526.0,
+        1538.0
+      ],
+      "confidence": 97.18
+    },
+    {
+      "text": "AR",
+      "bbox": [
+        1566.0,
+        1390.0,
+        1873.0,
+        1556.0
+      ],
+      "confidence": 98.77
+    },
+    {
+      "text": "RENTAL",
+      "bbox": [
+        1874.0,
+        1416.0,
+        2234.0,
+        1547.0
+      ],
+      "confidence": 91.61
+    },
+    {
+      "text": "900078 /",
+      "bbox": [
+        1839.0,
+        1994.0,
+        2077.0,
+        2089.0
+      ],
+      "confidence": 59.69
+    },
+    {
+      "text": "+96",
+      "bbox": [
+        1658.0,
+        2029.0,
+        1768.0,
+        2096.0
+      ],
+      "confidence": 82.55
+    },
+    {
+      "text": "AYOub",
+      "bbox": [
+        1106.0,
+        2031.0,
+        1387.0,
+        2144.0
+      ],
+      "confidence": 81.96
+    },
+    {
+      "text": "BAHAAEDDINE",
+      "bbox": [
+        569.0,
+        2049.0,
+        1101.0,
+        2164.0
+      ],
+      "confidence": 99.91
+    },
+    {
+      "text": "Juniorcarrentalogmailcom ",
+      "bbox": [
+        1660.0,
+        2081.0,
+        2265.0,
+        2206.0
+      ],
+      "confidence": 92.66
+    },
+    {
+      "text": "Manager",
+      "bbox": [
+        1060.0,
+        2141.0,
+        1386.0,
+        2226.0
+      ],
+      "confidence": 99.37
+    },
+    {
+      "text": "General",
+      "bbox": [
+        757.0,
+        2157.0,
+        1058.0,
+        2243.0
+      ],
+      "confidence": 98.84
+    },
+    {
+      "text": "West Bekaa",
+      "bbox": [
+        1958.0,
+        2177.0,
+        2227.0,
+        2273.0
+      ],
+      "confidence": 97.45
+    },
+    {
+      "text": "و",
+      "bbox": [
+        1577.0,
+        2238.0,
+        1632.0,
+        2304.0
+      ],
+      "confidence": 71.24
+    },
+    {
+      "text": "Al Manarah",
+      "bbox": [
+        1664.0,
+        2211.0,
+        1941.0,
+        2302.0
+      ],
+      "confidence": 96.69
+    },
+    {
+      "text": "بويأ",
+      "bbox": [
+        655.0,
+        2282.0,
+        896.0,
+        2401.0
+      ],
+      "confidence": 99.02
+    },
+    {
+      "text": "نيدلا",
+      "bbox": [
+        888.0,
+        2268.0,
+        1153.0,
+        2394.0
+      ],
+      "confidence": 91.98
+    },
+    {
+      "text": "ءاهب",
+      "bbox": [
+        1163.0,
+        2279.0,
+        1398.0,
+        2359.0
+      ],
+      "confidence": 99.96
+    },
+    {
+      "text": "Car",
+      "bbox": [
+        1811.0,
+        2317.0,
+        1918.0,
+        2379.0
+      ],
+      "confidence": 96.03
+    },
+    {
+      "text": " Rental",
+      "bbox": [
+        1894.0,
+        2294.0,
+        2060.0,
+        2373.0
+      ],
+      "confidence": 98.95
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1581.0,
+        2342.0,
+        1641.0,
+        2404.0
+      ],
+      "confidence": 53.89
+    },
+    {
+      "text": "Junior",
+      "bbox": [
+        1672.0,
+        2319.0,
+        1822.0,
+        2402.0
+      ],
+      "confidence": 99.64
+    },
+    {
+      "text": "ريدملا",
+      "bbox": [
+        1169.0,
+        2368.0,
+        1400.0,
+        2461.0
+      ],
+      "confidence": 99.95
+    },
+    {
+      "text": "ماعلا",
+      "bbox": [
+        923.0,
+        2386.0,
+        1191.0,
+        2472.0
+      ],
+      "confidence": 97.54
+    },
+    {
+      "text": "Junior.Car.Rental",
+      "bbox": [
+        1667.0,
+        2384.0,
+        2066.0,
+        2503.0
+      ],
+      "confidence": 96.62
+    },
+    {
+      "text": "Reservations",
+      "bbox": [
+        1746.0,
+        3028.0,
+        2110.0,
+        3184.0
+      ],
+      "confidence": 97.07
+    },
+    {
+      "text": "Rental",
+      "bbox": [
+        1541.0,
+        3102.0,
+        1766.0,
+        3235.0
+      ],
+      "confidence": 87.15
+    },
+    {
+      "text": "Car",
+      "bbox": [
+        1410.0,
+        3159.0,
+        1556.0,
+        3257.0
+      ],
+      "confidence": 99.43
+    },
+    {
+      "text": "for.",
+      "bbox": [
+        1301.0,
+        3181.0,
+        1435.0,
+        3273.0
+      ],
+      "confidence": 76.53
+    },
+    {
+      "text": "YoUr",
+      "bbox": [
+        878.0,
+        3233.0,
+        1040.0,
+        3308.0
+      ],
+      "confidence": 75.85
+    },
+    {
+      "text": "Source",
+      "bbox": [
+        1042.0,
+        3206.0,
+        1302.0,
+        3302.0
+      ],
+      "confidence": 99.73
+    }
+  ],
+  "processing_time_ms": 505
+}

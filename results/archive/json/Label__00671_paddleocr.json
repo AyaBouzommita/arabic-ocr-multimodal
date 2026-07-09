@@ -1,0 +1,558 @@
+{
+  "document_id": "Label/00671",
+  "engine": "paddleocr",
+  "raw_text": "مطامطلا شتاك Ketchup d Tomate خCa  blido E202 زكرم: تانوكملا Nutrition Facts Serving Size  tbsp 18g aori alories from Fat 0  Daily Value Total Fat Og /٩٥ Saturated Fat Og ٥%٥ 35u Total Carbohydrate 4g Fiber g ar Protein iamin A 6 amin C 4 alcium  ron 0% 0 calorie dlet,re based n a  Contains: Slhite تيفلس يوتحي  Store in a cool and dry place. Keep refrigerated after opening. دعب ادربم ظفحي  حف a١ Ne 0 مارغ  يفاصلا نزولا odued n Leanon Fo ٥ Famou Foods P.O.Box 1-180 Belrut Lebano  La,ou Fod C580 Berouh نانبل جاتنإ زدوف سمياف :حلاص ًاتيضخ ةابع  ل قصلملا ىلع واءاطغلا ءاهتنإو جاتنإلا خيرات",
+  "tokens": [
+    {
+      "text": "مطامطلا",
+      "bbox": [
+        1304.0,
+        1604.0,
+        1445.0,
+        1650.0
+      ],
+      "confidence": 92.61
+    },
+    {
+      "text": "شتاك",
+      "bbox": [
+        1479.0,
+        1604.0,
+        1598.0,
+        1646.0
+      ],
+      "confidence": 90.06
+    },
+    {
+      "text": "Ketchup",
+      "bbox": [
+        1218.0,
+        1645.0,
+        1424.0,
+        1713.0
+      ],
+      "confidence": 98.97
+    },
+    {
+      "text": "d",
+      "bbox": [
+        1419.0,
+        1658.0,
+        1491.0,
+        1704.0
+      ],
+      "confidence": 62.02
+    },
+    {
+      "text": "Tomate",
+      "bbox": [
+        1487.0,
+        1658.0,
+        1675.0,
+        1704.0
+      ],
+      "confidence": 92.49
+    },
+    {
+      "text": "خCa ",
+      "bbox": [
+        1710.0,
+        1739.0,
+        1835.0,
+        1806.0
+      ],
+      "confidence": 56.1
+    },
+    {
+      "text": "blido",
+      "bbox": [
+        1751.0,
+        1888.0,
+        1845.0,
+        1933.0
+      ],
+      "confidence": 67.41
+    },
+    {
+      "text": "E202",
+      "bbox": [
+        1764.0,
+        1958.0,
+        1828.0,
+        1988.0
+      ],
+      "confidence": 80.45
+    },
+    {
+      "text": "زكرم: تانوكملا",
+      "bbox": [
+        1678.0,
+        2012.0,
+        1829.0,
+        2050.0
+      ],
+      "confidence": 91.77
+    },
+    {
+      "text": "Nutrition",
+      "bbox": [
+        1087.0,
+        2171.0,
+        1300.0,
+        2217.0
+      ],
+      "confidence": 99.67
+    },
+    {
+      "text": "Facts",
+      "bbox": [
+        1303.0,
+        2170.0,
+        1442.0,
+        2230.0
+      ],
+      "confidence": 98.81
+    },
+    {
+      "text": "Serving Size  tbsp 18g",
+      "bbox": [
+        1500.0,
+        2162.0,
+        1799.0,
+        2209.0
+      ],
+      "confidence": 85.94
+    },
+    {
+      "text": "aori",
+      "bbox": [
+        1095.0,
+        2292.0,
+        1249.0,
+        2321.0
+      ],
+      "confidence": 80.74
+    },
+    {
+      "text": "alories from Fat 0",
+      "bbox": [
+        1504.0,
+        2291.0,
+        1769.0,
+        2338.0
+      ],
+      "confidence": 86.05
+    },
+    {
+      "text": " Daily Value",
+      "bbox": [
+        1598.0,
+        2341.0,
+        1743.0,
+        2380.0
+      ],
+      "confidence": 88.19
+    },
+    {
+      "text": "Total Fat Og",
+      "bbox": [
+        1091.0,
+        2375.0,
+        1253.0,
+        2417.0
+      ],
+      "confidence": 90.03
+    },
+    {
+      "text": "/٩٥",
+      "bbox": [
+        1709.0,
+        2396.0,
+        1760.0,
+        2425.0
+      ],
+      "confidence": 58.84
+    },
+    {
+      "text": "Saturated Fat Og",
+      "bbox": [
+        1090.0,
+        2420.0,
+        1330.0,
+        2471.0
+      ],
+      "confidence": 87.6
+    },
+    {
+      "text": "٥%٥",
+      "bbox": [
+        1709.0,
+        2479.0,
+        1764.0,
+        2538.0
+      ],
+      "confidence": 50.52
+    },
+    {
+      "text": "35u",
+      "bbox": [
+        1086.0,
+        2525.0,
+        1300.0,
+        2563.0
+      ],
+      "confidence": 59.19
+    },
+    {
+      "text": "Total Carbohydrate 4g",
+      "bbox": [
+        1082.0,
+        2562.0,
+        1403.0,
+        2617.0
+      ],
+      "confidence": 96.18
+    },
+    {
+      "text": "Fiber g",
+      "bbox": [
+        1108.0,
+        2621.0,
+        1214.0,
+        2658.0
+      ],
+      "confidence": 80.92
+    },
+    {
+      "text": "ar",
+      "bbox": [
+        1104.0,
+        2667.0,
+        1253.0,
+        2708.0
+      ],
+      "confidence": 81.94
+    },
+    {
+      "text": "Protein",
+      "bbox": [
+        1082.0,
+        2708.0,
+        1202.0,
+        2754.0
+      ],
+      "confidence": 99.06
+    },
+    {
+      "text": "iamin A 6",
+      "bbox": [
+        1158.0,
+        2766.0,
+        1356.0,
+        2822.0
+      ],
+      "confidence": 74.69
+    },
+    {
+      "text": "amin C 4",
+      "bbox": [
+        1487.0,
+        2783.0,
+        1679.0,
+        2825.0
+      ],
+      "confidence": 77.78
+    },
+    {
+      "text": "alcium ",
+      "bbox": [
+        1073.0,
+        2812.0,
+        1250.0,
+        2868.0
+      ],
+      "confidence": 79.48
+    },
+    {
+      "text": "ron 0%",
+      "bbox": [
+        1641.0,
+        2838.0,
+        1764.0,
+        2883.0
+      ],
+      "confidence": 84.47
+    },
+    {
+      "text": "0 calorie dlet,re based n a ",
+      "bbox": [
+        1355.0,
+        2892.0,
+        1705.0,
+        2921.0
+      ],
+      "confidence": 69.28
+    },
+    {
+      "text": "Contains: Slhite",
+      "bbox": [
+        988.0,
+        2907.0,
+        1288.0,
+        2972.0
+      ],
+      "confidence": 79.26
+    },
+    {
+      "text": "تيفلس",
+      "bbox": [
+        997.0,
+        2958.0,
+        1078.0,
+        2988.0
+      ],
+      "confidence": 96.54
+    },
+    {
+      "text": "يوتحي ",
+      "bbox": [
+        1155.0,
+        2975.0,
+        1232.0,
+        3004.0
+      ],
+      "confidence": 81.9
+    },
+    {
+      "text": "Store in a cool and dry place.",
+      "bbox": [
+        1448.0,
+        2999.0,
+        1833.0,
+        3055.0
+      ],
+      "confidence": 95.27
+    },
+    {
+      "text": "Keep refrigerated after opening.",
+      "bbox": [
+        1448.0,
+        3037.0,
+        1867.0,
+        3097.0
+      ],
+      "confidence": 94.79
+    },
+    {
+      "text": "دعب ادربم ظفحي",
+      "bbox": [
+        1709.0,
+        3188.0,
+        1862.0,
+        3233.0
+      ],
+      "confidence": 82.91
+    },
+    {
+      "text": " حف",
+      "bbox": [
+        1615.0,
+        3204.0,
+        1636.0,
+        3225.0
+      ],
+      "confidence": 51.94
+    },
+    {
+      "text": "a١",
+      "bbox": [
+        1696.0,
+        3262.0,
+        1764.0,
+        3292.0
+      ],
+      "confidence": 90.1
+    },
+    {
+      "text": "Ne",
+      "bbox": [
+        1457.0,
+        3304.0,
+        1568.0,
+        3333.0
+      ],
+      "confidence": 91.5
+    },
+    {
+      "text": "0",
+      "bbox": [
+        1559.0,
+        3307.0,
+        1651.0,
+        3351.0
+      ],
+      "confidence": 52.22
+    },
+    {
+      "text": "مارغ ",
+      "bbox": [
+        1709.0,
+        3312.0,
+        1841.0,
+        3354.0
+      ],
+      "confidence": 76.65
+    },
+    {
+      "text": "يفاصلا نزولا",
+      "bbox": [
+        1858.0,
+        3321.0,
+        1986.0,
+        3350.0
+      ],
+      "confidence": 88.39
+    },
+    {
+      "text": "odued n Leanon",
+      "bbox": [
+        867.0,
+        3348.0,
+        1153.0,
+        3431.0
+      ],
+      "confidence": 73.44
+    },
+    {
+      "text": "Fo",
+      "bbox": [
+        1142.0,
+        3392.0,
+        1206.0,
+        3425.0
+      ],
+      "confidence": 55.74
+    },
+    {
+      "text": "٥",
+      "bbox": [
+        1219.0,
+        3396.0,
+        1266.0,
+        3425.0
+      ],
+      "confidence": 59.27
+    },
+    {
+      "text": "Famou Foods P.O.Box",
+      "bbox": [
+        1290.0,
+        3387.0,
+        1650.0,
+        3459.0
+      ],
+      "confidence": 71.56
+    },
+    {
+      "text": "1-180 Belrut Lebano",
+      "bbox": [
+        1628.0,
+        3404.0,
+        1990.0,
+        3458.0
+      ],
+      "confidence": 80.57
+    },
+    {
+      "text": " La,ou Fod C580 Berouh",
+      "bbox": [
+        1286.0,
+        3441.0,
+        1944.0,
+        3522.0
+      ],
+      "confidence": 65.75
+    },
+    {
+      "text": "نانبل جاتنإ",
+      "bbox": [
+        1059.0,
+        3482.0,
+        1203.0,
+        3543.0
+      ],
+      "confidence": 94.21
+    },
+    {
+      "text": "زدوف سمياف",
+      "bbox": [
+        1214.0,
+        3504.0,
+        1381.0,
+        3550.0
+      ],
+      "confidence": 93.72
+    },
+    {
+      "text": ":حلاص ًاتيضخ",
+      "bbox": [
+        1453.0,
+        3512.0,
+        1688.0,
+        3558.0
+      ],
+      "confidence": 81.82
+    },
+    {
+      "text": "ةابع ",
+      "bbox": [
+        1672.0,
+        3514.0,
+        1750.0,
+        3565.0
+      ],
+      "confidence": 88.85
+    },
+    {
+      "text": "ل",
+      "bbox": [
+        1393.0,
+        3504.0,
+        1440.0,
+        3550.0
+      ],
+      "confidence": 50.8
+    },
+    {
+      "text": "قصلملا ىلع",
+      "bbox": [
+        1047.0,
+        3645.0,
+        1194.0,
+        3697.0
+      ],
+      "confidence": 84.4
+    },
+    {
+      "text": "واءاطغلا",
+      "bbox": [
+        1185.0,
+        3662.0,
+        1283.0,
+        3696.0
+      ],
+      "confidence": 92.05
+    },
+    {
+      "text": "ءاهتنإو جاتنإلا خيرات",
+      "bbox": [
+        1538.0,
+        3683.0,
+        1781.0,
+        3729.0
+      ],
+      "confidence": 92.0
+    }
+  ],
+  "processing_time_ms": 640
+}

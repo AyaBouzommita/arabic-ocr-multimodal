@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/00103",
+  "engine": "paddleocr",
+  "raw_text": "الهأ مع م",
+  "tokens": [
+    {
+      "text": "الهأ",
+      "bbox": [
+        1483.0,
+        2664.0,
+        1640.0,
+        2731.0
+      ],
+      "confidence": 85.29
+    },
+    {
+      "text": "مع م",
+      "bbox": [
+        1954.0,
+        2712.0,
+        2067.0,
+        2750.0
+      ],
+      "confidence": 56.38
+    }
+  ],
+  "processing_time_ms": 274
+}

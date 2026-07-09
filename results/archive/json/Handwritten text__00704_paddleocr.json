@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00704",
+  "engine": "paddleocr",
+  "raw_text": "مويسلا ةمسص امرويفا افتخاو زنكرت",
+  "tokens": [
+    {
+      "text": "مويسلا ةمسص",
+      "bbox": [
+        262.0,
+        360.0,
+        579.0,
+        531.0
+      ],
+      "confidence": 66.72
+    },
+    {
+      "text": "امرويفا",
+      "bbox": [
+        456.0,
+        625.0,
+        639.0,
+        733.0
+      ],
+      "confidence": 63.35
+    },
+    {
+      "text": "افتخاو زنكرت",
+      "bbox": [
+        157.0,
+        598.0,
+        461.0,
+        781.0
+      ],
+      "confidence": 75.97
+    }
+  ],
+  "processing_time_ms": 63
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "Invoice/00413",
+  "engine": "paddleocr",
+  "raw_text": "MENT٧PA UCHER/",
+  "tokens": [
+    {
+      "text": "MENT٧PA",
+      "bbox": [
+        328.0,
+        370.0,
+        391.0,
+        394.0
+      ],
+      "confidence": 82.48
+    },
+    {
+      "text": "UCHER/",
+      "bbox": [
+        384.0,
+        366.0,
+        467.0,
+        388.0
+      ],
+      "confidence": 74.82
+    }
+  ],
+  "processing_time_ms": 62
+}

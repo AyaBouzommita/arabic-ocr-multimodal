@@ -1,0 +1,28 @@
+{
+  "document_id": "Business card/00236",
+  "engine": "paddleocr",
+  "raw_text": "تايرفس يناميتلا",
+  "tokens": [
+    {
+      "text": "تايرفس",
+      "bbox": [
+        1982.0,
+        1958.0,
+        2480.0,
+        2175.0
+      ],
+      "confidence": 96.73
+    },
+    {
+      "text": "يناميتلا",
+      "bbox": [
+        1411.0,
+        1934.0,
+        1976.0,
+        2239.0
+      ],
+      "confidence": 99.99
+    }
+  ],
+  "processing_time_ms": 308
+}

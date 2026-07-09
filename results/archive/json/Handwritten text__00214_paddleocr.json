@@ -1,0 +1,138 @@
+{
+  "document_id": "Handwritten text/00214",
+  "engine": "paddleocr",
+  "raw_text": "Day Date Jou ضورفلا Homeworks Devoirs تاظحالم Notes Signature des Parents Parents Signature لملا يقوت",
+  "tokens": [
+    {
+      "text": "Day",
+      "bbox": [
+        570.0,
+        971.0,
+        664.0,
+        1011.0
+      ],
+      "confidence": 82.26
+    },
+    {
+      "text": "Date",
+      "bbox": [
+        664.0,
+        967.0,
+        814.0,
+        1007.0
+      ],
+      "confidence": 86.8
+    },
+    {
+      "text": "Jou",
+      "bbox": [
+        450.0,
+        978.0,
+        555.0,
+        1015.0
+      ],
+      "confidence": 87.74
+    },
+    {
+      "text": "ضورفلا",
+      "bbox": [
+        1566.0,
+        1073.0,
+        1758.0,
+        1164.0
+      ],
+      "confidence": 99.7
+    },
+    {
+      "text": "Homeworks",
+      "bbox": [
+        1550.0,
+        1150.0,
+        1802.0,
+        1232.0
+      ],
+      "confidence": 99.9
+    },
+    {
+      "text": "Devoirs",
+      "bbox": [
+        1596.0,
+        1242.0,
+        1791.0,
+        1314.0
+      ],
+      "confidence": 98.75
+    },
+    {
+      "text": "تاظحالم",
+      "bbox": [
+        1535.0,
+        2456.0,
+        1772.0,
+        2544.0
+      ],
+      "confidence": 90.08
+    },
+    {
+      "text": "Notes",
+      "bbox": [
+        1593.0,
+        2559.0,
+        1752.0,
+        2623.0
+      ],
+      "confidence": 94.05
+    },
+    {
+      "text": "Signature",
+      "bbox": [
+        340.0,
+        2850.0,
+        537.0,
+        2910.0
+      ],
+      "confidence": 94.84
+    },
+    {
+      "text": "des Parents",
+      "bbox": [
+        539.0,
+        2858.0,
+        777.0,
+        2917.0
+      ],
+      "confidence": 89.14
+    },
+    {
+      "text": "Parents",
+      "bbox": [
+        985.0,
+        2875.0,
+        1149.0,
+        2939.0
+      ],
+      "confidence": 99.78
+    },
+    {
+      "text": "Signature",
+      "bbox": [
+        1161.0,
+        2882.0,
+        1363.0,
+        2954.0
+      ],
+      "confidence": 97.81
+    },
+    {
+      "text": "لملا يقوت",
+      "bbox": [
+        1625.0,
+        2889.0,
+        1817.0,
+        2973.0
+      ],
+      "confidence": 82.16
+    }
+  ],
+  "processing_time_ms": 406
+}

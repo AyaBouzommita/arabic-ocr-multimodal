@@ -1,0 +1,48 @@
+{
+  "document_id": "Magazine/00364",
+  "engine": "paddleocr",
+  "raw_text": "رقش كوراح ميررك  ر",
+  "tokens": [
+    {
+      "text": "رقش",
+      "bbox": [
+        93.0,
+        48.0,
+        205.0,
+        105.0
+      ],
+      "confidence": 83.6
+    },
+    {
+      "text": "كوراح",
+      "bbox": [
+        60.0,
+        112.0,
+        155.0,
+        161.0
+      ],
+      "confidence": 77.09
+    },
+    {
+      "text": "ميررك",
+      "bbox": [
+        143.0,
+        114.0,
+        206.0,
+        158.0
+      ],
+      "confidence": 62.08
+    },
+    {
+      "text": " ر",
+      "bbox": [
+        70.0,
+        169.0,
+        160.0,
+        188.0
+      ],
+      "confidence": 70.57
+    }
+  ],
+  "processing_time_ms": 52
+}

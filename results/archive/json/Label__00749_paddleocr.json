@@ -1,0 +1,438 @@
+{
+  "document_id": "Label/00749",
+  "engine": "paddleocr",
+  "raw_text": "٧NEV soE ALAM ese Household Cleaner ti١Mu تالامعن كلزنم hat Civ yo ٣A٢ ةرهزملا قئادحلا  ريبعو شاعتنا هلا لعم ج ناردس ول فصن روهدلا عفب On,١ ةرشا Surfactant ctive 5-10 Tensio Ingredient: 2-5 Organical solvents AGTV ioni ionic  NO RINSING  KILL GERMS 61 ١١١45 Service Consumev Modern Industries Fo CLEAN FL Alameh Manufactured By Lebanon Beirut L 08",
+  "tokens": [
+    {
+      "text": "٧NEV",
+      "bbox": [
+        1520.0,
+        1770.0,
+        1753.0,
+        1937.0
+      ],
+      "confidence": 76.59
+    },
+    {
+      "text": "soE",
+      "bbox": [
+        1679.0,
+        1797.0,
+        2023.0,
+        2031.0
+      ],
+      "confidence": 73.24
+    },
+    {
+      "text": "ALAM",
+      "bbox": [
+        2719.0,
+        1992.0,
+        2950.0,
+        2047.0
+      ],
+      "confidence": 92.89
+    },
+    {
+      "text": "ese Household Cleaner",
+      "bbox": [
+        1498.0,
+        2096.0,
+        2083.0,
+        2198.0
+      ],
+      "confidence": 92.32
+    },
+    {
+      "text": "ti١Mu",
+      "bbox": [
+        1241.0,
+        2141.0,
+        1395.0,
+        2202.0
+      ],
+      "confidence": 77.5
+    },
+    {
+      "text": "تالامعن",
+      "bbox": [
+        1229.0,
+        2201.0,
+        1430.0,
+        2276.0
+      ],
+      "confidence": 98.24
+    },
+    {
+      "text": "كلزنم",
+      "bbox": [
+        1648.0,
+        2468.0,
+        1763.0,
+        2512.0
+      ],
+      "confidence": 99.0
+    },
+    {
+      "text": "hat Civ yo",
+      "bbox": [
+        1362.0,
+        2490.0,
+        1609.0,
+        2529.0
+      ],
+      "confidence": 87.49
+    },
+    {
+      "text": "٣A٢",
+      "bbox": [
+        1120.0,
+        2512.0,
+        1236.0,
+        2551.0
+      ],
+      "confidence": 60.39
+    },
+    {
+      "text": "ةرهزملا قئادحلا",
+      "bbox": [
+        1713.0,
+        2505.0,
+        1946.0,
+        2574.0
+      ],
+      "confidence": 94.38
+    },
+    {
+      "text": " ريبعو شاعتنا",
+      "bbox": [
+        1914.0,
+        2482.0,
+        2145.0,
+        2575.0
+      ],
+      "confidence": 81.06
+    },
+    {
+      "text": "هلا لعم",
+      "bbox": [
+        1401.0,
+        2794.0,
+        1543.0,
+        2833.0
+      ],
+      "confidence": 58.87
+    },
+    {
+      "text": "ج ناردس",
+      "bbox": [
+        2032.0,
+        2800.0,
+        2137.0,
+        2839.0
+      ],
+      "confidence": 79.52
+    },
+    {
+      "text": "ول فصن",
+      "bbox": [
+        1626.0,
+        2866.0,
+        1763.0,
+        2905.0
+      ],
+      "confidence": 88.91
+    },
+    {
+      "text": "روهدلا عفب",
+      "bbox": [
+        1769.0,
+        2933.0,
+        1939.0,
+        2971.0
+      ],
+      "confidence": 89.06
+    },
+    {
+      "text": "On,١",
+      "bbox": [
+        1467.0,
+        2949.0,
+        1593.0,
+        2988.0
+      ],
+      "confidence": 58.91
+    },
+    {
+      "text": "ةرشا",
+      "bbox": [
+        2060.0,
+        3021.0,
+        2159.0,
+        3060.0
+      ],
+      "confidence": 80.4
+    },
+    {
+      "text": "Surfactant",
+      "bbox": [
+        1866.0,
+        3114.0,
+        2166.0,
+        3194.0
+      ],
+      "confidence": 98.48
+    },
+    {
+      "text": "ctive",
+      "bbox": [
+        1712.0,
+        3136.0,
+        1880.0,
+        3211.0
+      ],
+      "confidence": 97.85
+    },
+    {
+      "text": "5-10",
+      "bbox": [
+        1295.0,
+        3158.0,
+        1490.0,
+        3238.0
+      ],
+      "confidence": 91.9
+    },
+    {
+      "text": "Tensio",
+      "bbox": [
+        1492.0,
+        3147.0,
+        1705.0,
+        3228.0
+      ],
+      "confidence": 99.6
+    },
+    {
+      "text": "Ingredient:",
+      "bbox": [
+        965.0,
+        3174.0,
+        1304.0,
+        3278.0
+      ],
+      "confidence": 97.44
+    },
+    {
+      "text": "2-5",
+      "bbox": [
+        1554.0,
+        3226.0,
+        1714.0,
+        3287.0
+      ],
+      "confidence": 85.88
+    },
+    {
+      "text": "Organical solvents",
+      "bbox": [
+        1711.0,
+        3168.0,
+        2200.0,
+        3295.0
+      ],
+      "confidence": 97.0
+    },
+    {
+      "text": "AGTV",
+      "bbox": [
+        2545.0,
+        3233.0,
+        2987.0,
+        3388.0
+      ],
+      "confidence": 91.12
+    },
+    {
+      "text": "ioni",
+      "bbox": [
+        1404.0,
+        3235.0,
+        1567.0,
+        3311.0
+      ],
+      "confidence": 95.17
+    },
+    {
+      "text": "ionic",
+      "bbox": [
+        1005.0,
+        3270.0,
+        1175.0,
+        3331.0
+      ],
+      "confidence": 82.09
+    },
+    {
+      "text": " NO RINSING",
+      "bbox": [
+        2600.0,
+        3334.0,
+        2914.0,
+        3445.0
+      ],
+      "confidence": 92.38
+    },
+    {
+      "text": " KILL",
+      "bbox": [
+        2602.0,
+        3390.0,
+        2754.0,
+        3460.0
+      ],
+      "confidence": 87.13
+    },
+    {
+      "text": "GERMS",
+      "bbox": [
+        2750.0,
+        3418.0,
+        2907.0,
+        3476.0
+      ],
+      "confidence": 88.84
+    },
+    {
+      "text": "61",
+      "bbox": [
+        1659.0,
+        3492.0,
+        1791.0,
+        3552.0
+      ],
+      "confidence": 54.14
+    },
+    {
+      "text": "١١١45",
+      "bbox": [
+        1799.0,
+        3451.0,
+        2046.0,
+        3549.0
+      ],
+      "confidence": 78.51
+    },
+    {
+      "text": "Service",
+      "bbox": [
+        1415.0,
+        3501.0,
+        1639.0,
+        3582.0
+      ],
+      "confidence": 98.25
+    },
+    {
+      "text": "Consumev",
+      "bbox": [
+        1058.0,
+        3517.0,
+        1403.0,
+        3621.0
+      ],
+      "confidence": 86.95
+    },
+    {
+      "text": "Modern Industries",
+      "bbox": [
+        1728.0,
+        3517.0,
+        2205.0,
+        3643.0
+      ],
+      "confidence": 92.34
+    },
+    {
+      "text": "Fo",
+      "bbox": [
+        1626.0,
+        3580.0,
+        1725.0,
+        3641.0
+      ],
+      "confidence": 76.97
+    },
+    {
+      "text": "CLEAN FL",
+      "bbox": [
+        2760.0,
+        3572.0,
+        2985.0,
+        3654.0
+      ],
+      "confidence": 84.52
+    },
+    {
+      "text": "Alameh",
+      "bbox": [
+        1398.0,
+        3573.0,
+        1644.0,
+        3671.0
+      ],
+      "confidence": 93.45
+    },
+    {
+      "text": "Manufactured By",
+      "bbox": [
+        915.0,
+        3595.0,
+        1403.0,
+        3709.0
+      ],
+      "confidence": 97.42
+    },
+    {
+      "text": "Lebanon",
+      "bbox": [
+        1558.0,
+        3639.0,
+        1809.0,
+        3720.0
+      ],
+      "confidence": 99.53
+    },
+    {
+      "text": "Beirut",
+      "bbox": [
+        1350.0,
+        3667.0,
+        1550.0,
+        3742.0
+      ],
+      "confidence": 95.41
+    },
+    {
+      "text": "L",
+      "bbox": [
+        967.0,
+        3829.0,
+        1181.0,
+        4017.0
+      ],
+      "confidence": 95.3
+    },
+    {
+      "text": "08",
+      "bbox": [
+        1999.0,
+        4001.0,
+        2115.0,
+        4039.0
+      ],
+      "confidence": 92.26
+    }
+  ],
+  "processing_time_ms": 734
+}

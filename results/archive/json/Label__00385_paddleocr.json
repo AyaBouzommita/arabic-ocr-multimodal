@@ -1,0 +1,208 @@
+{
+  "document_id": "Label/00385",
+  "engine": "paddleocr",
+  "raw_text": "PAIRS SOKS 74OTTON ةرود 28ELASTANE ah Gonll يوك Machine  فيفخ غ Tumble r Delicato Wring ةلثامملا ناولالا ith٧ y h Coiors mllar",
+  "tokens": [
+    {
+      "text": "PAIRS",
+      "bbox": [
+        305.0,
+        443.0,
+        376.0,
+        549.0
+      ],
+      "confidence": 96.97
+    },
+    {
+      "text": "SOKS",
+      "bbox": [
+        504.0,
+        424.0,
+        658.0,
+        535.0
+      ],
+      "confidence": 86.73
+    },
+    {
+      "text": "74OTTON",
+      "bbox": [
+        341.0,
+        627.0,
+        488.0,
+        710.0
+      ],
+      "confidence": 74.68
+    },
+    {
+      "text": "ةرود",
+      "bbox": [
+        673.0,
+        672.0,
+        723.0,
+        706.0
+      ],
+      "confidence": 99.31
+    },
+    {
+      "text": "28ELASTANE",
+      "bbox": [
+        349.0,
+        651.0,
+        521.0,
+        749.0
+      ],
+      "confidence": 90.62
+    },
+    {
+      "text": " ",
+      "bbox": [
+        630.0,
+        703.0,
+        654.0,
+        726.0
+      ],
+      "confidence": 50.14
+    },
+    {
+      "text": "ah Gonll",
+      "bbox": [
+        481.0,
+        717.0,
+        608.0,
+        788.0
+      ],
+      "confidence": 71.71
+    },
+    {
+      "text": "يوك",
+      "bbox": [
+        715.0,
+        767.0,
+        765.0,
+        806.0
+      ],
+      "confidence": 85.16
+    },
+    {
+      "text": "Machine",
+      "bbox": [
+        399.0,
+        761.0,
+        501.0,
+        822.0
+      ],
+      "confidence": 88.71
+    },
+    {
+      "text": " فيفخ",
+      "bbox": [
+        655.0,
+        784.0,
+        721.0,
+        831.0
+      ],
+      "confidence": 89.22
+    },
+    {
+      "text": "غ",
+      "bbox": [
+        738.0,
+        796.0,
+        775.0,
+        820.0
+      ],
+      "confidence": 99.63
+    },
+    {
+      "text": "Tumble",
+      "bbox": [
+        487.0,
+        783.0,
+        578.0,
+        843.0
+      ],
+      "confidence": 74.64
+    },
+    {
+      "text": "r Delicato",
+      "bbox": [
+        402.0,
+        783.0,
+        515.0,
+        849.0
+      ],
+      "confidence": 91.25
+    },
+    {
+      "text": "Wring",
+      "bbox": [
+        508.0,
+        819.0,
+        581.0,
+        864.0
+      ],
+      "confidence": 76.59
+    },
+    {
+      "text": "ةلثامملا ناولالا",
+      "bbox": [
+        660.0,
+        810.0,
+        797.0,
+        890.0
+      ],
+      "confidence": 91.82
+    },
+    {
+      "text": "ith٧",
+      "bbox": [
+        513.0,
+        881.0,
+        563.0,
+        919.0
+      ],
+      "confidence": 77.18
+    },
+    {
+      "text": "y",
+      "bbox": [
+        586.0,
+        879.0,
+        643.0,
+        917.0
+      ],
+      "confidence": 56.77
+    },
+    {
+      "text": "h",
+      "bbox": [
+        453.0,
+        897.0,
+        528.0,
+        946.0
+      ],
+      "confidence": 75.98
+    },
+    {
+      "text": "Coiors",
+      "bbox": [
+        520.0,
+        895.0,
+        601.0,
+        946.0
+      ],
+      "confidence": 71.7
+    },
+    {
+      "text": "mllar",
+      "bbox": [
+        455.0,
+        922.0,
+        533.0,
+        975.0
+      ],
+      "confidence": 84.25
+    }
+  ],
+  "processing_time_ms": 393
+}

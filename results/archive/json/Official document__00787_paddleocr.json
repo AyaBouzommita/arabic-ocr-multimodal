@@ -1,0 +1,238 @@
+{
+  "document_id": "Official document/00787",
+  "engine": "paddleocr",
+  "raw_text": "ةداهش جّرخت CERTIFICATE O GRADUATION ةداهشلا نم (ههس دقو عيمجلا قوفميلعتلاو  ا دق(بأ دب جنب has successfuly Completed اA programme and has een with awarded this  certificate",
+  "tokens": [
+    {
+      "text": "ةداهش",
+      "bbox": [
+        1479.0,
+        1521.0,
+        2173.0,
+        1712.0
+      ],
+      "confidence": 99.94
+    },
+    {
+      "text": "جّرخت",
+      "bbox": [
+        978.0,
+        1514.0,
+        1460.0,
+        1765.0
+      ],
+      "confidence": 93.6
+    },
+    {
+      "text": "CERTIFICATE",
+      "bbox": [
+        984.0,
+        1792.0,
+        1449.0,
+        1862.0
+      ],
+      "confidence": 99.93
+    },
+    {
+      "text": "O",
+      "bbox": [
+        1466.0,
+        1788.0,
+        1594.0,
+        1867.0
+      ],
+      "confidence": 82.27
+    },
+    {
+      "text": "GRADUATION",
+      "bbox": [
+        1624.0,
+        1796.0,
+        2161.0,
+        1867.0
+      ],
+      "confidence": 98.28
+    },
+    {
+      "text": "ةداهشلا",
+      "bbox": [
+        452.0,
+        2125.0,
+        669.0,
+        2183.0
+      ],
+      "confidence": 99.94
+    },
+    {
+      "text": "نم (ههس",
+      "bbox": [
+        643.0,
+        2120.0,
+        1011.0,
+        2201.0
+      ],
+      "confidence": 63.6
+    },
+    {
+      "text": "دقو",
+      "bbox": [
+        989.0,
+        2133.0,
+        1116.0,
+        2196.0
+      ],
+      "confidence": 83.94
+    },
+    {
+      "text": "عيمجلا",
+      "bbox": [
+        1120.0,
+        2128.0,
+        1309.0,
+        2201.0
+      ],
+      "confidence": 99.81
+    },
+    {
+      "text": "قوفميلعتلاو",
+      "bbox": [
+        1312.0,
+        2133.0,
+        1679.0,
+        2208.0
+      ],
+      "confidence": 94.61
+    },
+    {
+      "text": " ا دق(بأ دب جنب",
+      "bbox": [
+        2024.0,
+        2146.0,
+        2744.0,
+        2217.0
+      ],
+      "confidence": 64.17
+    },
+    {
+      "text": "has",
+      "bbox": [
+        443.0,
+        2238.0,
+        528.0,
+        2283.0
+      ],
+      "confidence": 93.92
+    },
+    {
+      "text": "successfuly",
+      "bbox": [
+        528.0,
+        2229.0,
+        784.0,
+        2300.0
+      ],
+      "confidence": 89.31
+    },
+    {
+      "text": "Completed",
+      "bbox": [
+        801.0,
+        2238.0,
+        1044.0,
+        2296.0
+      ],
+      "confidence": 92.66
+    },
+    {
+      "text": "اA",
+      "bbox": [
+        2033.0,
+        2258.0,
+        2105.0,
+        2308.0
+      ],
+      "confidence": 68.61
+    },
+    {
+      "text": "programme",
+      "bbox": [
+        2096.0,
+        2253.0,
+        2400.0,
+        2326.0
+      ],
+      "confidence": 98.48
+    },
+    {
+      "text": "and",
+      "bbox": [
+        2408.0,
+        2267.0,
+        2506.0,
+        2317.0
+      ],
+      "confidence": 68.71
+    },
+    {
+      "text": "has",
+      "bbox": [
+        2510.0,
+        2267.0,
+        2604.0,
+        2317.0
+      ],
+      "confidence": 85.79
+    },
+    {
+      "text": "een",
+      "bbox": [
+        2607.0,
+        2261.0,
+        2737.0,
+        2322.0
+      ],
+      "confidence": 83.44
+    },
+    {
+      "text": "with",
+      "bbox": [
+        1446.0,
+        2297.0,
+        1567.0,
+        2375.0
+      ],
+      "confidence": 90.66
+    },
+    {
+      "text": "awarded",
+      "bbox": [
+        1257.0,
+        2317.0,
+        1466.0,
+        2362.0
+      ],
+      "confidence": 98.09
+    },
+    {
+      "text": "this",
+      "bbox": [
+        1572.0,
+        2317.0,
+        1662.0,
+        2367.0
+      ],
+      "confidence": 99.7
+    },
+    {
+      "text": " certificate",
+      "bbox": [
+        1640.0,
+        2308.0,
+        1889.0,
+        2376.0
+      ],
+      "confidence": 99.89
+    }
+  ],
+  "processing_time_ms": 400
+}

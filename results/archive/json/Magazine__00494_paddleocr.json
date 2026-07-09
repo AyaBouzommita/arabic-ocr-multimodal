@@ -1,0 +1,38 @@
+{
+  "document_id": "Magazine/00494",
+  "engine": "paddleocr",
+  "raw_text": "ةيبرغ قابطا 10",
+  "tokens": [
+    {
+      "text": "ةيبرغ",
+      "bbox": [
+        262.0,
+        288.0,
+        531.0,
+        450.0
+      ],
+      "confidence": 91.43
+    },
+    {
+      "text": "قابطا",
+      "bbox": [
+        547.0,
+        299.0,
+        811.0,
+        434.0
+      ],
+      "confidence": 99.95
+    },
+    {
+      "text": "10",
+      "bbox": [
+        190.0,
+        1236.0,
+        235.0,
+        1260.0
+      ],
+      "confidence": 66.75
+    }
+  ],
+  "processing_time_ms": 90
+}

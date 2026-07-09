@@ -1,0 +1,478 @@
+{
+  "document_id": "Official document/00317",
+  "engine": "paddleocr",
+  "raw_text": " NATIONALE POSTCOD LOTERIJ ااال Spark ه  Completion Internship of Certificate ةداهش لامكا بيردت توريب يف International Lebanese the supported internship Lottery. Ccompleted Postcode has successfully Dutch the I funded  y SPARK and ,University (ت لمكا ةرتف حاجنب معدب بيردت هعماجلا نم هينانبللا ةيلودلا .يدنلوهلا نم ليومتبو ديربلا بيطاي 2021,11,٨ ,Country Representative  Lebanon, SPARK",
+  "tokens": [
+    {
+      "text": " NATIONALE",
+      "bbox": [
+        2562.0,
+        718.0,
+        2973.0,
+        854.0
+      ],
+      "confidence": 92.11
+    },
+    {
+      "text": "POSTCOD",
+      "bbox": [
+        2565.0,
+        774.0,
+        2984.0,
+        919.0
+      ],
+      "confidence": 87.43
+    },
+    {
+      "text": "LOTERIJ",
+      "bbox": [
+        2571.0,
+        843.0,
+        2986.0,
+        974.0
+      ],
+      "confidence": 92.05
+    },
+    {
+      "text": "ااال",
+      "bbox": [
+        1823.0,
+        932.0,
+        2016.0,
+        1074.0
+      ],
+      "confidence": 87.67
+    },
+    {
+      "text": "Spark",
+      "bbox": [
+        957.0,
+        967.0,
+        1333.0,
+        1163.0
+      ],
+      "confidence": 81.03
+    },
+    {
+      "text": "ه ",
+      "bbox": [
+        3872.0,
+        1125.0,
+        3998.0,
+        1271.0
+      ],
+      "confidence": 75.5
+    },
+    {
+      "text": "Completion",
+      "bbox": [
+        2146.0,
+        1105.0,
+        2634.0,
+        1262.0
+      ],
+      "confidence": 99.95
+    },
+    {
+      "text": "Internship",
+      "bbox": [
+        1757.0,
+        1181.0,
+        2133.0,
+        1313.0
+      ],
+      "confidence": 99.91
+    },
+    {
+      "text": "of",
+      "bbox": [
+        1680.0,
+        1241.0,
+        1768.0,
+        1319.0
+      ],
+      "confidence": 68.6
+    },
+    {
+      "text": "Certificate",
+      "bbox": [
+        1299.0,
+        1251.0,
+        1666.0,
+        1369.0
+      ],
+      "confidence": 92.23
+    },
+    {
+      "text": "ةداهش",
+      "bbox": [
+        2017.0,
+        1267.0,
+        2326.0,
+        1404.0
+      ],
+      "confidence": 92.33
+    },
+    {
+      "text": "لامكا",
+      "bbox": [
+        1771.0,
+        1305.0,
+        2014.0,
+        1453.0
+      ],
+      "confidence": 99.94
+    },
+    {
+      "text": "بيردت",
+      "bbox": [
+        1558.0,
+        1344.0,
+        1795.0,
+        1487.0
+      ],
+      "confidence": 92.71
+    },
+    {
+      "text": "توريب يف",
+      "bbox": [
+        3721.0,
+        1597.0,
+        3852.0,
+        1865.0
+      ],
+      "confidence": 97.29
+    },
+    {
+      "text": "International",
+      "bbox": [
+        2581.0,
+        1609.0,
+        2938.0,
+        1703.0
+      ],
+      "confidence": 99.8
+    },
+    {
+      "text": "Lebanese",
+      "bbox": [
+        2321.0,
+        1644.0,
+        2572.0,
+        1724.0
+      ],
+      "confidence": 96.75
+    },
+    {
+      "text": "the",
+      "bbox": [
+        2222.0,
+        1675.0,
+        2310.0,
+        1727.0
+      ],
+      "confidence": 89.0
+    },
+    {
+      "text": "supported",
+      "bbox": [
+        1892.0,
+        1678.0,
+        2161.0,
+        1767.0
+      ],
+      "confidence": 95.59
+    },
+    {
+      "text": "internship",
+      "bbox": [
+        1657.0,
+        1704.0,
+        1896.0,
+        1780.0
+      ],
+      "confidence": 99.9
+    },
+    {
+      "text": "Lottery.",
+      "bbox": [
+        2167.0,
+        1740.0,
+        2348.0,
+        1800.0
+      ],
+      "confidence": 99.76
+    },
+    {
+      "text": "Ccompleted",
+      "bbox": [
+        1346.0,
+        1729.0,
+        1607.0,
+        1815.0
+      ],
+      "confidence": 92.8
+    },
+    {
+      "text": "Postcode",
+      "bbox": [
+        1926.0,
+        1742.0,
+        2165.0,
+        1823.0
+      ],
+      "confidence": 98.86
+    },
+    {
+      "text": "has successfully",
+      "bbox": [
+        1014.0,
+        1751.0,
+        1350.0,
+        1844.0
+      ],
+      "confidence": 97.17
+    },
+    {
+      "text": "Dutch",
+      "bbox": [
+        1779.0,
+        1759.0,
+        1938.0,
+        1836.0
+      ],
+      "confidence": 99.94
+    },
+    {
+      "text": "the",
+      "bbox": [
+        1690.0,
+        1776.0,
+        1779.0,
+        1841.0
+      ],
+      "confidence": 97.51
+    },
+    {
+      "text": "I funded",
+      "bbox": [
+        1443.0,
+        1785.0,
+        1644.0,
+        1866.0
+      ],
+      "confidence": 93.81
+    },
+    {
+      "text": " y",
+      "bbox": [
+        1638.0,
+        1800.0,
+        1693.0,
+        1838.0
+      ],
+      "confidence": 58.51
+    },
+    {
+      "text": "SPARK",
+      "bbox": [
+        1220.0,
+        1807.0,
+        1376.0,
+        1883.0
+      ],
+      "confidence": 96.73
+    },
+    {
+      "text": "and",
+      "bbox": [
+        1369.0,
+        1817.0,
+        1470.0,
+        1864.0
+      ],
+      "confidence": 96.31
+    },
+    {
+      "text": ",University",
+      "bbox": [
+        1015.0,
+        1824.0,
+        1228.0,
+        1905.0
+      ],
+      "confidence": 99.9
+    },
+    {
+      "text": "(ت",
+      "bbox": [
+        2869.0,
+        1847.0,
+        2969.0,
+        1911.0
+      ],
+      "confidence": 62.06
+    },
+    {
+      "text": "لمكا",
+      "bbox": [
+        2955.0,
+        1828.0,
+        3106.0,
+        1909.0
+      ],
+      "confidence": 99.91
+    },
+    {
+      "text": "ةرتف",
+      "bbox": [
+        2602.0,
+        1858.0,
+        2736.0,
+        1935.0
+      ],
+      "confidence": 99.78
+    },
+    {
+      "text": "حاجنب",
+      "bbox": [
+        2733.0,
+        1850.0,
+        2887.0,
+        1926.0
+      ],
+      "confidence": 99.92
+    },
+    {
+      "text": "معدب",
+      "bbox": [
+        2338.0,
+        1880.0,
+        2476.0,
+        1947.0
+      ],
+      "confidence": 99.97
+    },
+    {
+      "text": "بيردت",
+      "bbox": [
+        2463.0,
+        1871.0,
+        2619.0,
+        1948.0
+      ],
+      "confidence": 97.79
+    },
+    {
+      "text": "هعماجلا",
+      "bbox": [
+        2078.0,
+        1889.0,
+        2265.0,
+        1960.0
+      ],
+      "confidence": 93.13
+    },
+    {
+      "text": "نم",
+      "bbox": [
+        2260.0,
+        1899.0,
+        2344.0,
+        1950.0
+      ],
+      "confidence": 69.71
+    },
+    {
+      "text": "هينانبللا",
+      "bbox": [
+        1901.0,
+        1901.0,
+        2081.0,
+        1978.0
+      ],
+      "confidence": 94.13
+    },
+    {
+      "text": "ةيلودلا",
+      "bbox": [
+        1742.0,
+        1919.0,
+        1904.0,
+        1990.0
+      ],
+      "confidence": 92.18
+    },
+    {
+      "text": ".يدنلوهلا",
+      "bbox": [
+        2833.0,
+        1901.0,
+        3118.0,
+        1999.0
+      ],
+      "confidence": 94.39
+    },
+    {
+      "text": "نم ليومتبو",
+      "bbox": [
+        1346.0,
+        1940.0,
+        1585.0,
+        2025.0
+      ],
+      "confidence": 87.37
+    },
+    {
+      "text": "ديربلا بيطاي",
+      "bbox": [
+        1103.0,
+        1957.0,
+        1342.0,
+        2042.0
+      ],
+      "confidence": 74.16
+    },
+    {
+      "text": "2021,11,٨",
+      "bbox": [
+        2851.0,
+        2224.0,
+        3146.0,
+        2294.0
+      ],
+      "confidence": 84.31
+    },
+    {
+      "text": ",Country Representative",
+      "bbox": [
+        1024.0,
+        2328.0,
+        1403.0,
+        2393.0
+      ],
+      "confidence": 96.27
+    },
+    {
+      "text": " Lebanon,",
+      "bbox": [
+        1390.0,
+        2337.0,
+        1554.0,
+        2380.0
+      ],
+      "confidence": 99.52
+    },
+    {
+      "text": "SPARK",
+      "bbox": [
+        1042.0,
+        2397.0,
+        1126.0,
+        2431.0
+      ],
+      "confidence": 91.35
+    }
+  ],
+  "processing_time_ms": 538
+}

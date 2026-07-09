@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00739",
+  "engine": "paddleocr",
+  "raw_text": "٣",
+  "tokens": [
+    {
+      "text": "٣",
+      "bbox": [
+        191.0,
+        257.0,
+        206.0,
+        271.0
+      ],
+      "confidence": 86.06
+    }
+  ],
+  "processing_time_ms": 42
+}

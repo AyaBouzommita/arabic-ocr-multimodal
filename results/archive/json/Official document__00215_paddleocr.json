@@ -1,0 +1,28 @@
+{
+  "document_id": "Official document/00215",
+  "engine": "paddleocr",
+  "raw_text": "وةبحصلا مولعا سخو ىدحو ن",
+  "tokens": [
+    {
+      "text": "وةبحصلا مولعا",
+      "bbox": [
+        209.0,
+        250.0,
+        276.0,
+        281.0
+      ],
+      "confidence": 68.18
+    },
+    {
+      "text": "سخو ىدحو ن",
+      "bbox": [
+        58.0,
+        448.0,
+        138.0,
+        484.0
+      ],
+      "confidence": 74.11
+    }
+  ],
+  "processing_time_ms": 52
+}

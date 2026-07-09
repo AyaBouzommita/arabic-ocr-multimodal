@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00390",
+  "engine": "paddleocr",
+  "raw_text": "دعوملا",
+  "tokens": [
+    {
+      "text": "دعوملا",
+      "bbox": [
+        112.0,
+        80.0,
+        613.0,
+        223.0
+      ],
+      "confidence": 91.99
+    }
+  ],
+  "processing_time_ms": 55
+}

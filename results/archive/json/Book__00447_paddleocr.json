@@ -1,0 +1,18 @@
+{
+  "document_id": "Book/00447",
+  "engine": "paddleocr",
+  "raw_text": "مانألا ريخ ةريس",
+  "tokens": [
+    {
+      "text": "مانألا ريخ ةريس",
+      "bbox": [
+        247.0,
+        163.0,
+        360.0,
+        188.0
+      ],
+      "confidence": 94.6
+    }
+  ],
+  "processing_time_ms": 39
+}

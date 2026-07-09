@@ -1,0 +1,108 @@
+{
+  "document_id": "Invoice/00646",
+  "engine": "paddleocr",
+  "raw_text": "Sacre Coeur Pharmacy LU YKA Scre Coor ٨ 06/072020 Brand nm Unit Prico Amou 29750 0 2948 20",
+  "tokens": [
+    {
+      "text": "Sacre Coeur Pharmacy",
+      "bbox": [
+        314.0,
+        520.0,
+        489.0,
+        579.0
+      ],
+      "confidence": 89.96
+    },
+    {
+      "text": "LU YKA",
+      "bbox": [
+        349.0,
+        564.0,
+        427.0,
+        594.0
+      ],
+      "confidence": 62.37
+    },
+    {
+      "text": "Scre Coor",
+      "bbox": [
+        625.0,
+        585.0,
+        719.0,
+        626.0
+      ],
+      "confidence": 66.54
+    },
+    {
+      "text": "٨",
+      "bbox": [
+        767.0,
+        611.0,
+        790.0,
+        625.0
+      ],
+      "confidence": 69.26
+    },
+    {
+      "text": "06/072020",
+      "bbox": [
+        458.0,
+        712.0,
+        527.0,
+        742.0
+      ],
+      "confidence": 74.55
+    },
+    {
+      "text": "Brand nm",
+      "bbox": [
+        393.0,
+        765.0,
+        471.0,
+        804.0
+      ],
+      "confidence": 67.18
+    },
+    {
+      "text": "Unit Prico",
+      "bbox": [
+        563.0,
+        803.0,
+        633.0,
+        839.0
+      ],
+      "confidence": 77.66
+    },
+    {
+      "text": "Amou",
+      "bbox": [
+        656.0,
+        830.0,
+        712.0,
+        859.0
+      ],
+      "confidence": 70.94
+    },
+    {
+      "text": "29750 0",
+      "bbox": [
+        600.0,
+        1189.0,
+        679.0,
+        1233.0
+      ],
+      "confidence": 72.87
+    },
+    {
+      "text": "2948 20",
+      "bbox": [
+        599.0,
+        1223.0,
+        665.0,
+        1261.0
+      ],
+      "confidence": 67.39
+    }
+  ],
+  "processing_time_ms": 97
+}

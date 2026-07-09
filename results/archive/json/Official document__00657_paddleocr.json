@@ -1,0 +1,18 @@
+{
+  "document_id": "Official document/00657",
+  "engine": "paddleocr",
+  "raw_text": "يواطلا محلا ىطم",
+  "tokens": [
+    {
+      "text": "يواطلا محلا ىطم",
+      "bbox": [
+        2333.0,
+        1468.0,
+        2606.0,
+        1682.0
+      ],
+      "confidence": 56.87
+    }
+  ],
+  "processing_time_ms": 279
+}

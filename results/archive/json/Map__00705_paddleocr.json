@@ -1,0 +1,58 @@
+{
+  "document_id": "Map/00705",
+  "engine": "paddleocr",
+  "raw_text": "ةبروهم  Liban,4 2020 Beyrouth usj.edu.Ib  ورر تلف ةري",
+  "tokens": [
+    {
+      "text": "ةبروهم",
+      "bbox": [
+        663.0,
+        1177.0,
+        782.0,
+        1235.0
+      ],
+      "confidence": 89.98
+    },
+    {
+      "text": " Liban,4 2020 Beyrouth",
+      "bbox": [
+        0.0,
+        2621.0,
+        354.0,
+        2684.0
+      ],
+      "confidence": 95.54
+    },
+    {
+      "text": "usj.edu.Ib",
+      "bbox": [
+        4.0,
+        2733.0,
+        153.0,
+        2775.0
+      ],
+      "confidence": 91.93
+    },
+    {
+      "text": " ورر",
+      "bbox": [
+        1087.0,
+        2996.0,
+        1116.0,
+        3017.0
+      ],
+      "confidence": 68.12
+    },
+    {
+      "text": "تلف ةري",
+      "bbox": [
+        1679.0,
+        3067.0,
+        1760.0,
+        3096.0
+      ],
+      "confidence": 73.94
+    }
+  ],
+  "processing_time_ms": 359
+}

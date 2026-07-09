@@ -1,0 +1,38 @@
+{
+  "document_id": "Map/00491",
+  "engine": "paddleocr",
+  "raw_text": "نوه راوس دوسالا",
+  "tokens": [
+    {
+      "text": "نوه",
+      "bbox": [
+        292.0,
+        0.0,
+        459.0,
+        52.0
+      ],
+      "confidence": 67.68
+    },
+    {
+      "text": "راوس",
+      "bbox": [
+        465.0,
+        1167.0,
+        504.0,
+        1193.0
+      ],
+      "confidence": 87.77
+    },
+    {
+      "text": "دوسالا",
+      "bbox": [
+        386.0,
+        1165.0,
+        463.0,
+        1203.0
+      ],
+      "confidence": 95.33
+    }
+  ],
+  "processing_time_ms": 55
+}

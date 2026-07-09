@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00605",
+  "engine": "paddleocr",
+  "raw_text": "د ",
+  "tokens": [
+    {
+      "text": "د ",
+      "bbox": [
+        174.0,
+        215.0,
+        220.0,
+        245.0
+      ],
+      "confidence": 74.42
+    }
+  ],
+  "processing_time_ms": 51
+}

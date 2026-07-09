@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/00317",
+  "engine": "paddleocr",
+  "raw_text": "نيلالا بب برل دمجلاو AR",
+  "tokens": [
+    {
+      "text": "نيلالا بب برل دمجلاو",
+      "bbox": [
+        443.0,
+        1106.0,
+        1053.0,
+        1213.0
+      ],
+      "confidence": 79.55
+    },
+    {
+      "text": "AR",
+      "bbox": [
+        369.0,
+        2672.0,
+        606.0,
+        2735.0
+      ],
+      "confidence": 71.09
+    }
+  ],
+  "processing_time_ms": 228
+}

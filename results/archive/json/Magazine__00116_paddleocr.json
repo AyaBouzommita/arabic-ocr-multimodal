@@ -1,0 +1,38 @@
+{
+  "document_id": "Magazine/00116",
+  "engine": "paddleocr",
+  "raw_text": "دعوملا يزرمر مم",
+  "tokens": [
+    {
+      "text": "دعوملا",
+      "bbox": [
+        110.0,
+        35.0,
+        632.0,
+        217.0
+      ],
+      "confidence": 92.54
+    },
+    {
+      "text": "يزرمر",
+      "bbox": [
+        425.0,
+        724.0,
+        530.0,
+        788.0
+      ],
+      "confidence": 73.44
+    },
+    {
+      "text": "مم",
+      "bbox": [
+        523.0,
+        725.0,
+        638.0,
+        790.0
+      ],
+      "confidence": 61.25
+    }
+  ],
+  "processing_time_ms": 63
+}

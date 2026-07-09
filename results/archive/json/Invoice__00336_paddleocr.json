@@ -1,0 +1,18 @@
+{
+  "document_id": "Invoice/00336",
+  "engine": "paddleocr",
+  "raw_text": "CE١NVO١",
+  "tokens": [
+    {
+      "text": "CE١NVO١",
+      "bbox": [
+        417.0,
+        60.0,
+        471.0,
+        78.0
+      ],
+      "confidence": 75.68
+    }
+  ],
+  "processing_time_ms": 54
+}

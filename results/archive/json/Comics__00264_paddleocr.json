@@ -1,0 +1,18 @@
+{
+  "document_id": "Comics/00264",
+  "engine": "paddleocr",
+  "raw_text": "كب دل",
+  "tokens": [
+    {
+      "text": "كب دل",
+      "bbox": [
+        1969.0,
+        2258.0,
+        2033.0,
+        2288.0
+      ],
+      "confidence": 81.55
+    }
+  ],
+  "processing_time_ms": 262
+}

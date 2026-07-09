@@ -1,0 +1,58 @@
+{
+  "document_id": "Map/00717",
+  "engine": "paddleocr",
+  "raw_text": " Site Web:,urriel: spcomusj.edu.1b : www.usj.edu.Ib Tpi ed Damas  Liban,1104 2020 BeyrOuth",
+  "tokens": [
+    {
+      "text": " Site Web:,urriel: spcomusj.edu.1b",
+      "bbox": [
+        2462.0,
+        1245.0,
+        2992.0,
+        1317.0
+      ],
+      "confidence": 84.02
+    },
+    {
+      "text": ": www.usj.edu.Ib",
+      "bbox": [
+        2236.0,
+        1266.0,
+        2481.0,
+        1330.0
+      ],
+      "confidence": 83.73
+    },
+    {
+      "text": "Tpi",
+      "bbox": [
+        2676.0,
+        1308.0,
+        2766.0,
+        1338.0
+      ],
+      "confidence": 82.78
+    },
+    {
+      "text": "ed Damas",
+      "bbox": [
+        2812.0,
+        1342.0,
+        2987.0,
+        1371.0
+      ],
+      "confidence": 66.66
+    },
+    {
+      "text": " Liban,1104 2020 BeyrOuth",
+      "bbox": [
+        2062.0,
+        1353.0,
+        2434.0,
+        1413.0
+      ],
+      "confidence": 90.58
+    }
+  ],
+  "processing_time_ms": 403
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00833",
+  "engine": "paddleocr",
+  "raw_text": "ةحقنم ةعبط",
+  "tokens": [
+    {
+      "text": "ةحقنم",
+      "bbox": [
+        756.0,
+        3810.0,
+        1024.0,
+        3931.0
+      ],
+      "confidence": 99.98
+    },
+    {
+      "text": "ةعبط",
+      "bbox": [
+        1019.0,
+        3805.0,
+        1217.0,
+        3909.0
+      ],
+      "confidence": 99.11
+    }
+  ],
+  "processing_time_ms": 283
+}

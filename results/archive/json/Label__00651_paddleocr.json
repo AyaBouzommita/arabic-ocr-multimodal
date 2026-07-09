@@ -1,0 +1,248 @@
+{
+  "document_id": "Label/00651",
+  "engine": "paddleocr",
+  "raw_text": "Facts Nutrition S ةيئاذ  فلا لعملا لا تانوكملا لبخنلا نلا نج :WEET CHILi ولحو راح ngreden١  DaherFoods MADE IN LEANONE شلا ةشراشا ةل سب ظفح etandn Facebookcom/MasterChips nsagra.om/MastrOfficial TORTILLA CHIPS ةرذلا قئاقر 28300",
+  "tokens": [
+    {
+      "text": "Facts",
+      "bbox": [
+        357.0,
+        313.0,
+        423.0,
+        343.0
+      ],
+      "confidence": 78.78
+    },
+    {
+      "text": "Nutrition",
+      "bbox": [
+        245.0,
+        318.0,
+        352.0,
+        348.0
+      ],
+      "confidence": 96.64
+    },
+    {
+      "text": "S",
+      "bbox": [
+        520.0,
+        290.0,
+        693.0,
+        382.0
+      ],
+      "confidence": 59.46
+    },
+    {
+      "text": "ةيئاذ ",
+      "bbox": [
+        245.0,
+        345.0,
+        304.0,
+        367.0
+      ],
+      "confidence": 80.31
+    },
+    {
+      "text": "فلا لعملا",
+      "bbox": [
+        294.0,
+        339.0,
+        423.0,
+        364.0
+      ],
+      "confidence": 96.87
+    },
+    {
+      "text": "لا",
+      "bbox": [
+        309.0,
+        378.0,
+        355.0,
+        402.0
+      ],
+      "confidence": 65.49
+    },
+    {
+      "text": "تانوكملا",
+      "bbox": [
+        380.0,
+        516.0,
+        423.0,
+        531.0
+      ],
+      "confidence": 90.05
+    },
+    {
+      "text": "لبخنلا نلا نج",
+      "bbox": [
+        240.0,
+        531.0,
+        300.0,
+        540.0
+      ],
+      "confidence": 75.0
+    },
+    {
+      "text": ":WEET",
+      "bbox": [
+        538.0,
+        577.0,
+        637.0,
+        606.0
+      ],
+      "confidence": 83.83
+    },
+    {
+      "text": "CHILi",
+      "bbox": [
+        634.0,
+        576.0,
+        690.0,
+        600.0
+      ],
+      "confidence": 84.07
+    },
+    {
+      "text": "ولحو راح",
+      "bbox": [
+        567.0,
+        604.0,
+        662.0,
+        638.0
+      ],
+      "confidence": 99.13
+    },
+    {
+      "text": "ngreden١",
+      "bbox": [
+        230.0,
+        710.0,
+        287.0,
+        730.0
+      ],
+      "confidence": 85.13
+    },
+    {
+      "text": " ",
+      "bbox": [
+        339.0,
+        730.0,
+        384.0,
+        748.0
+      ],
+      "confidence": 54.93
+    },
+    {
+      "text": " DaherFoods",
+      "bbox": [
+        551.0,
+        748.0,
+        694.0,
+        780.0
+      ],
+      "confidence": 92.56
+    },
+    {
+      "text": "MADE IN LEANONE",
+      "bbox": [
+        234.0,
+        969.0,
+        338.0,
+        985.0
+      ],
+      "confidence": 74.18
+    },
+    {
+      "text": "شلا ةشراشا ةل سب ظفح",
+      "bbox": [
+        580.0,
+        969.0,
+        712.0,
+        983.0
+      ],
+      "confidence": 72.89
+    },
+    {
+      "text": "etandn",
+      "bbox": [
+        646.0,
+        983.0,
+        715.0,
+        996.0
+      ],
+      "confidence": 61.78
+    },
+    {
+      "text": "Facebookcom/MasterChips",
+      "bbox": [
+        556.0,
+        1035.0,
+        709.0,
+        1052.0
+      ],
+      "confidence": 86.28
+    },
+    {
+      "text": "nsagra.om/MastrOfficial",
+      "bbox": [
+        556.0,
+        1052.0,
+        708.0,
+        1069.0
+      ],
+      "confidence": 75.23
+    },
+    {
+      "text": "TORTILLA",
+      "bbox": [
+        539.0,
+        1097.0,
+        644.0,
+        1120.0
+      ],
+      "confidence": 99.08
+    },
+    {
+      "text": "CHIPS",
+      "bbox": [
+        640.0,
+        1096.0,
+        707.0,
+        1123.0
+      ],
+      "confidence": 84.38
+    },
+    {
+      "text": "ةرذلا",
+      "bbox": [
+        559.0,
+        1123.0,
+        618.0,
+        1153.0
+      ],
+      "confidence": 89.24
+    },
+    {
+      "text": "قئاقر",
+      "bbox": [
+        616.0,
+        1120.0,
+        691.0,
+        1159.0
+      ],
+      "confidence": 98.47
+    },
+    {
+      "text": "28300",
+      "bbox": [
+        258.0,
+        1148.0,
+        320.0,
+        1161.0
+      ],
+      "confidence": 93.03
+    }
+  ],
+  "processing_time_ms": 241
+}

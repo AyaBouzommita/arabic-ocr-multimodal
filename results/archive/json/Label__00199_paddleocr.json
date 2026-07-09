@@ -1,0 +1,578 @@
+{
+  "document_id": "Label/00199",
+  "engine": "paddleocr",
+  "raw_text": "ا Keichup Egice لس تان وكاملا ك   ه  رلا Nutrition Facts alorie aor rom a aFag٢ uratodat 0g Cholseiarol ال  ١م dum Total Carbohry/drat ag br 0g ١٢ rg Protoin /٨ar  ا Calcium 0 rr DaV r  Gtore in a cool and dry plac Cn d   ondrot frais et ogg در ناكم يف ظفح apres ouverture. قلا دعب ًادربم ظفحي Poids  Net: 50 ًابيرقت مارغ ٥٢ :يلاصلا نزولا Puedin Leao 1 rg Famous Foods P.O.Box 111580 Beirut Leba Produit au Liban pourpo Famous foods La,1150 Bouth نادبل جاتنإ ةأابعم net,Infogdollys Www.dollys.net قصلملا ىلع Production/Expiry printed on cap or label",
+  "tokens": [
+    {
+      "text": "ا",
+      "bbox": [
+        1136.0,
+        360.0,
+        1227.0,
+        392.0
+      ],
+      "confidence": 52.8
+    },
+    {
+      "text": "Keichup",
+      "bbox": [
+        904.0,
+        394.0,
+        1161.0,
+        486.0
+      ],
+      "confidence": 95.27
+    },
+    {
+      "text": "Egice",
+      "bbox": [
+        1150.0,
+        411.0,
+        1324.0,
+        493.0
+      ],
+      "confidence": 82.28
+    },
+    {
+      "text": "لس",
+      "bbox": [
+        1183.0,
+        860.0,
+        1219.0,
+        892.0
+      ],
+      "confidence": 74.8
+    },
+    {
+      "text": "تان وكاملا",
+      "bbox": [
+        1390.0,
+        860.0,
+        1509.0,
+        900.0
+      ],
+      "confidence": 72.62
+    },
+    {
+      "text": "ك ",
+      "bbox": [
+        707.0,
+        880.0,
+        782.0,
+        908.0
+      ],
+      "confidence": 60.37
+    },
+    {
+      "text": " ه ",
+      "bbox": [
+        1028.0,
+        888.0,
+        1155.0,
+        928.0
+      ],
+      "confidence": 55.49
+    },
+    {
+      "text": "رلا",
+      "bbox": [
+        1159.0,
+        936.0,
+        1275.0,
+        964.0
+      ],
+      "confidence": 58.71
+    },
+    {
+      "text": "Nutrition",
+      "bbox": [
+        710.0,
+        979.0,
+        942.0,
+        1045.0
+      ],
+      "confidence": 93.75
+    },
+    {
+      "text": "Facts",
+      "bbox": [
+        947.0,
+        986.0,
+        1094.0,
+        1058.0
+      ],
+      "confidence": 94.6
+    },
+    {
+      "text": "  ",
+      "bbox": [
+        1143.0,
+        988.0,
+        1454.0,
+        1048.0
+      ],
+      "confidence": 56.9
+    },
+    {
+      "text": "alorie",
+      "bbox": [
+        710.0,
+        1107.0,
+        886.0,
+        1161.0
+      ],
+      "confidence": 72.87
+    },
+    {
+      "text": "aor rom a",
+      "bbox": [
+        1143.0,
+        1128.0,
+        1422.0,
+        1180.0
+      ],
+      "confidence": 67.4
+    },
+    {
+      "text": "aFag٢",
+      "bbox": [
+        709.0,
+        1195.0,
+        891.0,
+        1257.0
+      ],
+      "confidence": 73.95
+    },
+    {
+      "text": "uratodat 0g",
+      "bbox": [
+        718.0,
+        1251.0,
+        965.0,
+        1305.0
+      ],
+      "confidence": 72.32
+    },
+    {
+      "text": "Cholseiarol",
+      "bbox": [
+        706.0,
+        1295.0,
+        898.0,
+        1353.0
+      ],
+      "confidence": 91.93
+    },
+    {
+      "text": "ال ",
+      "bbox": [
+        897.0,
+        1316.0,
+        957.0,
+        1348.0
+      ],
+      "confidence": 54.06
+    },
+    {
+      "text": "١م",
+      "bbox": [
+        1354.0,
+        1332.0,
+        1402.0,
+        1364.0
+      ],
+      "confidence": 55.75
+    },
+    {
+      "text": "dum",
+      "bbox": [
+        711.0,
+        1352.0,
+        834.0,
+        1392.0
+      ],
+      "confidence": 76.89
+    },
+    {
+      "text": "Total Carbohry/drat ag",
+      "bbox": [
+        706.0,
+        1391.0,
+        1041.0,
+        1449.0
+      ],
+      "confidence": 92.04
+    },
+    {
+      "text": "br 0g",
+      "bbox": [
+        721.0,
+        1435.0,
+        855.0,
+        1493.0
+      ],
+      "confidence": 74.66
+    },
+    {
+      "text": "١٢",
+      "bbox": [
+        1346.0,
+        1468.0,
+        1394.0,
+        1504.0
+      ],
+      "confidence": 53.55
+    },
+    {
+      "text": "rg",
+      "bbox": [
+        726.0,
+        1487.0,
+        886.0,
+        1541.0
+      ],
+      "confidence": 80.06
+    },
+    {
+      "text": "Protoin",
+      "bbox": [
+        711.0,
+        1536.0,
+        830.0,
+        1576.0
+      ],
+      "confidence": 86.36
+    },
+    {
+      "text": "/٨ar ",
+      "bbox": [
+        798.0,
+        1596.0,
+        981.0,
+        1640.0
+      ],
+      "confidence": 54.75
+    },
+    {
+      "text": "ا",
+      "bbox": [
+        1115.0,
+        1599.0,
+        1307.0,
+        1649.0
+      ],
+      "confidence": 61.61
+    },
+    {
+      "text": "Calcium 0",
+      "bbox": [
+        702.0,
+        1631.0,
+        878.0,
+        1685.0
+      ],
+      "confidence": 80.91
+    },
+    {
+      "text": "rr DaV r ",
+      "bbox": [
+        770.0,
+        1684.0,
+        1104.0,
+        1736.0
+      ],
+      "confidence": 65.37
+    },
+    {
+      "text": "  ",
+      "bbox": [
+        1215.0,
+        1708.0,
+        1322.0,
+        1736.0
+      ],
+      "confidence": 57.34
+    },
+    {
+      "text": "Gtore in a cool and dry plac",
+      "bbox": [
+        611.0,
+        1731.0,
+        978.0,
+        1801.0
+      ],
+      "confidence": 92.68
+    },
+    {
+      "text": "Cn d ",
+      "bbox": [
+        996.0,
+        1760.0,
+        1243.0,
+        1796.0
+      ],
+      "confidence": 53.99
+    },
+    {
+      "text": " ondrot frais et ogg",
+      "bbox": [
+        1226.0,
+        1759.0,
+        1470.0,
+        1809.0
+      ],
+      "confidence": 78.4
+    },
+    {
+      "text": "در ناكم يف ظفح",
+      "bbox": [
+        985.0,
+        1800.0,
+        1159.0,
+        1828.0
+      ],
+      "confidence": 86.53
+    },
+    {
+      "text": "apres ouverture.",
+      "bbox": [
+        1171.0,
+        1936.0,
+        1398.0,
+        1976.0
+      ],
+      "confidence": 94.49
+    },
+    {
+      "text": "قلا",
+      "bbox": [
+        1167.0,
+        1980.0,
+        1227.0,
+        2012.0
+      ],
+      "confidence": 56.08
+    },
+    {
+      "text": "دعب ًادربم ظفحي",
+      "bbox": [
+        1227.0,
+        1976.0,
+        1398.0,
+        2016.0
+      ],
+      "confidence": 76.29
+    },
+    {
+      "text": "Poids",
+      "bbox": [
+        1120.0,
+        2016.0,
+        1231.0,
+        2060.0
+      ],
+      "confidence": 99.73
+    },
+    {
+      "text": " Net:",
+      "bbox": [
+        1219.0,
+        2024.0,
+        1326.0,
+        2064.0
+      ],
+      "confidence": 96.82
+    },
+    {
+      "text": "50",
+      "bbox": [
+        1313.0,
+        2015.0,
+        1462.0,
+        2069.0
+      ],
+      "confidence": 57.14
+    },
+    {
+      "text": "ًابيرقت مارغ",
+      "bbox": [
+        1059.0,
+        2055.0,
+        1220.0,
+        2109.0
+      ],
+      "confidence": 84.98
+    },
+    {
+      "text": "٥٢",
+      "bbox": [
+        1239.0,
+        2068.0,
+        1302.0,
+        2100.0
+      ],
+      "confidence": 90.45
+    },
+    {
+      "text": ":يلاصلا نزولا",
+      "bbox": [
+        1318.0,
+        2064.0,
+        1537.0,
+        2120.0
+      ],
+      "confidence": 82.29
+    },
+    {
+      "text": "Puedin Leao",
+      "bbox": [
+        475.0,
+        2151.0,
+        791.0,
+        2225.0
+      ],
+      "confidence": 61.19
+    },
+    {
+      "text": "1",
+      "bbox": [
+        1485.0,
+        2152.0,
+        1564.0,
+        2184.0
+      ],
+      "confidence": 74.89
+    },
+    {
+      "text": "rg",
+      "bbox": [
+        786.0,
+        2172.0,
+        913.0,
+        2216.0
+      ],
+      "confidence": 57.28
+    },
+    {
+      "text": "Famous Foods P.O.Box",
+      "bbox": [
+        929.0,
+        2176.0,
+        1235.0,
+        2224.0
+      ],
+      "confidence": 80.16
+    },
+    {
+      "text": "111580 Beirut Leba",
+      "bbox": [
+        1234.0,
+        2180.0,
+        1565.0,
+        2232.0
+      ],
+      "confidence": 77.88
+    },
+    {
+      "text": "Produit au Liban pourpo",
+      "bbox": [
+        520.0,
+        2204.0,
+        918.0,
+        2268.0
+      ],
+      "confidence": 94.99
+    },
+    {
+      "text": "Famous foods",
+      "bbox": [
+        933.0,
+        2228.0,
+        1136.0,
+        2268.0
+      ],
+      "confidence": 88.14
+    },
+    {
+      "text": "La,1150 Bouth",
+      "bbox": [
+        1115.0,
+        2219.0,
+        1521.0,
+        2285.0
+      ],
+      "confidence": 72.82
+    },
+    {
+      "text": "نادبل جاتنإ",
+      "bbox": [
+        695.0,
+        2264.0,
+        834.0,
+        2304.0
+      ],
+      "confidence": 93.99
+    },
+    {
+      "text": "ةأابعم",
+      "bbox": [
+        1275.0,
+        2276.0,
+        1342.0,
+        2320.0
+      ],
+      "confidence": 75.12
+    },
+    {
+      "text": "net,Infogdollys",
+      "bbox": [
+        782.0,
+        2299.0,
+        1025.0,
+        2349.0
+      ],
+      "confidence": 86.3
+    },
+    {
+      "text": "Www.dollys.net",
+      "bbox": [
+        1040.0,
+        2308.0,
+        1275.0,
+        2356.0
+      ],
+      "confidence": 92.36
+    },
+    {
+      "text": "قصلملا ىلع",
+      "bbox": [
+        639.0,
+        2340.0,
+        770.0,
+        2380.0
+      ],
+      "confidence": 92.69
+    },
+    {
+      "text": "Production/Expiry",
+      "bbox": [
+        682.0,
+        2412.0,
+        969.0,
+        2464.0
+      ],
+      "confidence": 94.6
+    },
+    {
+      "text": "printed on cap or label",
+      "bbox": [
+        985.0,
+        2420.0,
+        1334.0,
+        2468.0
+      ],
+      "confidence": 90.07
+    }
+  ],
+  "processing_time_ms": 826
+}

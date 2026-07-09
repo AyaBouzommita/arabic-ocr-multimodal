@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/00135",
+  "engine": "paddleocr",
+  "raw_text": "ةيَسا اََس",
+  "tokens": [
+    {
+      "text": "ةيَسا اََس",
+      "bbox": [
+        966.0,
+        416.0,
+        1529.0,
+        492.0
+      ],
+      "confidence": 55.95
+    }
+  ],
+  "processing_time_ms": 255
+}

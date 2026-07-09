@@ -1,0 +1,18 @@
+{
+  "document_id": "Business card/00557",
+  "engine": "paddleocr",
+  "raw_text": "ةيماحملا",
+  "tokens": [
+    {
+      "text": "ةيماحملا",
+      "bbox": [
+        541.0,
+        497.0,
+        695.0,
+        619.0
+      ],
+      "confidence": 97.26
+    }
+  ],
+  "processing_time_ms": 67
+}

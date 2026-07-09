@@ -1,0 +1,68 @@
+{
+  "document_id": "Label/00646",
+  "engine": "paddleocr",
+  "raw_text": "BEST ٧QUALIT Nak شمشملا ىبرم APRICOTJM ٥0١",
+  "tokens": [
+    {
+      "text": "BEST",
+      "bbox": [
+        1080.0,
+        1279.0,
+        1204.0,
+        1338.0
+      ],
+      "confidence": 84.09
+    },
+    {
+      "text": "٧QUALIT",
+      "bbox": [
+        1199.0,
+        1275.0,
+        1394.0,
+        1333.0
+      ],
+      "confidence": 89.24
+    },
+    {
+      "text": "Nak",
+      "bbox": [
+        930.0,
+        1408.0,
+        1585.0,
+        1867.0
+      ],
+      "confidence": 51.86
+    },
+    {
+      "text": "شمشملا ىبرم",
+      "bbox": [
+        1231.0,
+        1828.0,
+        1569.0,
+        1918.0
+      ],
+      "confidence": 91.75
+    },
+    {
+      "text": "APRICOTJM",
+      "bbox": [
+        1343.0,
+        1887.0,
+        1655.0,
+        1959.0
+      ],
+      "confidence": 89.19
+    },
+    {
+      "text": "٥0١",
+      "bbox": [
+        902.0,
+        2208.0,
+        1001.0,
+        2258.0
+      ],
+      "confidence": 60.37
+    }
+  ],
+  "processing_time_ms": 291
+}

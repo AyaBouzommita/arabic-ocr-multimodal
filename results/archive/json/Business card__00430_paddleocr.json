@@ -1,0 +1,218 @@
+{
+  "document_id": "Business card/00430",
+  "engine": "paddleocr",
+  "raw_text": "A-SHAYA عياشلا FOR SPEAR PART TRADE OF NISSAN ARS ناسينلا تارايسلل رايغ عطق ةراجتل ٧٨SA BAGHDAD ALOASER ALABAED خيبالارتلادافب BAGHDAD MAAKET دادغب قوس برق ٥٢ Telefax ١١١",
+  "tokens": [
+    {
+      "text": "A-SHAYA",
+      "bbox": [
+        76.0,
+        77.0,
+        235.0,
+        113.0
+      ],
+      "confidence": 90.17
+    },
+    {
+      "text": "عياشلا",
+      "bbox": [
+        446.0,
+        66.0,
+        606.0,
+        135.0
+      ],
+      "confidence": 99.94
+    },
+    {
+      "text": "FOR",
+      "bbox": [
+        73.0,
+        130.0,
+        118.0,
+        150.0
+      ],
+      "confidence": 83.69
+    },
+    {
+      "text": "SPEAR",
+      "bbox": [
+        122.0,
+        130.0,
+        194.0,
+        149.0
+      ],
+      "confidence": 96.11
+    },
+    {
+      "text": "PART",
+      "bbox": [
+        197.0,
+        128.0,
+        257.0,
+        151.0
+      ],
+      "confidence": 96.36
+    },
+    {
+      "text": "TRADE",
+      "bbox": [
+        72.0,
+        162.0,
+        143.0,
+        180.0
+      ],
+      "confidence": 99.18
+    },
+    {
+      "text": "OF",
+      "bbox": [
+        145.0,
+        160.0,
+        181.0,
+        183.0
+      ],
+      "confidence": 55.0
+    },
+    {
+      "text": "NISSAN",
+      "bbox": [
+        184.0,
+        161.0,
+        266.0,
+        179.0
+      ],
+      "confidence": 91.61
+    },
+    {
+      "text": "ARS",
+      "bbox": [
+        269.0,
+        161.0,
+        328.0,
+        182.0
+      ],
+      "confidence": 85.47
+    },
+    {
+      "text": "ناسينلا تارايسلل رايغ",
+      "bbox": [
+        348.0,
+        158.0,
+        514.0,
+        185.0
+      ],
+      "confidence": 89.89
+    },
+    {
+      "text": "عطق ةراجتل",
+      "bbox": [
+        515.0,
+        154.0,
+        607.0,
+        185.0
+      ],
+      "confidence": 94.87
+    },
+    {
+      "text": "٧٨SA",
+      "bbox": [
+        278.0,
+        191.0,
+        473.0,
+        255.0
+      ],
+      "confidence": 68.62
+    },
+    {
+      "text": "BAGHDAD",
+      "bbox": [
+        70.0,
+        265.0,
+        153.0,
+        286.0
+      ],
+      "confidence": 96.87
+    },
+    {
+      "text": "ALOASER ALABAED",
+      "bbox": [
+        167.0,
+        265.0,
+        329.0,
+        285.0
+      ],
+      "confidence": 80.25
+    },
+    {
+      "text": "خيبالارتلادافب",
+      "bbox": [
+        360.0,
+        257.0,
+        614.0,
+        287.0
+      ],
+      "confidence": 80.37
+    },
+    {
+      "text": "BAGHDAD",
+      "bbox": [
+        67.0,
+        297.0,
+        173.0,
+        321.0
+      ],
+      "confidence": 85.19
+    },
+    {
+      "text": "MAAKET",
+      "bbox": [
+        182.0,
+        299.0,
+        268.0,
+        318.0
+      ],
+      "confidence": 84.25
+    },
+    {
+      "text": "دادغب قوس برق",
+      "bbox": [
+        467.0,
+        293.0,
+        616.0,
+        327.0
+      ],
+      "confidence": 95.85
+    },
+    {
+      "text": "٥٢",
+      "bbox": [
+        55.0,
+        340.0,
+        79.0,
+        377.0
+      ],
+      "confidence": 60.1
+    },
+    {
+      "text": "Telefax",
+      "bbox": [
+        257.0,
+        335.0,
+        322.0,
+        357.0
+      ],
+      "confidence": 86.68
+    },
+    {
+      "text": "١١١",
+      "bbox": [
+        478.0,
+        370.0,
+        519.0,
+        384.0
+      ],
+      "confidence": 66.47
+    }
+  ],
+  "processing_time_ms": 160
+}

@@ -1,0 +1,18 @@
+{
+  "document_id": "Book/00634",
+  "engine": "paddleocr",
+  "raw_text": "ةياور",
+  "tokens": [
+    {
+      "text": "ةياور",
+      "bbox": [
+        892.0,
+        43.0,
+        1012.0,
+        112.0
+      ],
+      "confidence": 98.54
+    }
+  ],
+  "processing_time_ms": 143
+}

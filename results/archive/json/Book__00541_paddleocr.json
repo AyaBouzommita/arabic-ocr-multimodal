@@ -1,0 +1,18 @@
+{
+  "document_id": "Book/00541",
+  "engine": "paddleocr",
+  "raw_text": "افيح ىلا دئاع",
+  "tokens": [
+    {
+      "text": "افيح ىلا دئاع",
+      "bbox": [
+        165.0,
+        348.0,
+        510.0,
+        441.0
+      ],
+      "confidence": 84.79
+    }
+  ],
+  "processing_time_ms": 52
+}

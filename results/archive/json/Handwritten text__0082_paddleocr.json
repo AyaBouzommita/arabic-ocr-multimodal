@@ -1,0 +1,18 @@
+{
+  "document_id": "Handwritten text/0082",
+  "engine": "paddleocr",
+  "raw_text": " ل ع",
+  "tokens": [
+    {
+      "text": " ل ع",
+      "bbox": [
+        1105.0,
+        832.0,
+        1350.0,
+        898.0
+      ],
+      "confidence": 67.55
+    }
+  ],
+  "processing_time_ms": 272
+}

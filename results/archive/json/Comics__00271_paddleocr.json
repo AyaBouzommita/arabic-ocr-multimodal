@@ -1,0 +1,18 @@
+{
+  "document_id": "Comics/00271",
+  "engine": "paddleocr",
+  "raw_text": "احل",
+  "tokens": [
+    {
+      "text": "احل",
+      "bbox": [
+        1320.0,
+        2607.0,
+        1451.0,
+        2735.0
+      ],
+      "confidence": 52.75
+    }
+  ],
+  "processing_time_ms": 318
+}

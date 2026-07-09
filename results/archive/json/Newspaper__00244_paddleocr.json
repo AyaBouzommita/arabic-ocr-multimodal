@@ -1,0 +1,18 @@
+{
+  "document_id": "Newspaper/00244",
+  "engine": "paddleocr",
+  "raw_text": "وحملا حاشإلا لون",
+  "tokens": [
+    {
+      "text": "وحملا حاشإلا لون",
+      "bbox": [
+        42.0,
+        252.0,
+        84.0,
+        259.0
+      ],
+      "confidence": 81.34
+    }
+  ],
+  "processing_time_ms": 26
+}

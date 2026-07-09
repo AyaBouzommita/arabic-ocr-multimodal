@@ -1,0 +1,38 @@
+{
+  "document_id": "Comics/00275",
+  "engine": "paddleocr",
+  "raw_text": "ار قل  ةداسل",
+  "tokens": [
+    {
+      "text": "ار قل ",
+      "bbox": [
+        1637.0,
+        1564.0,
+        1733.0,
+        1620.0
+      ],
+      "confidence": 71.3
+    },
+    {
+      "text": " ",
+      "bbox": [
+        631.0,
+        2192.0,
+        669.0,
+        2225.0
+      ],
+      "confidence": 70.85
+    },
+    {
+      "text": "ةداسل",
+      "bbox": [
+        681.0,
+        2213.0,
+        772.0,
+        2274.0
+      ],
+      "confidence": 85.83
+    }
+  ],
+  "processing_time_ms": 235
+}

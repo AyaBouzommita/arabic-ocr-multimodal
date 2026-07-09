@@ -1,0 +1,28 @@
+{
+  "document_id": "Label/00589",
+  "engine": "paddleocr",
+  "raw_text": "اُْهاُعي كا",
+  "tokens": [
+    {
+      "text": "اُْهاُعي",
+      "bbox": [
+        138.0,
+        140.0,
+        303.0,
+        213.0
+      ],
+      "confidence": 52.21
+    },
+    {
+      "text": "كا",
+      "bbox": [
+        103.0,
+        227.0,
+        297.0,
+        328.0
+      ],
+      "confidence": 53.01
+    }
+  ],
+  "processing_time_ms": 46
+}

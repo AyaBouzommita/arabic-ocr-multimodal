@@ -1,0 +1,38 @@
+{
+  "document_id": "Official document/00670",
+  "engine": "paddleocr",
+  "raw_text": "ايرتكع هب راينبا كادمرما م١",
+  "tokens": [
+    {
+      "text": "ايرتكع هب راينبا",
+      "bbox": [
+        1237.0,
+        1471.0,
+        1524.0,
+        1713.0
+      ],
+      "confidence": 55.68
+    },
+    {
+      "text": "كادمرما",
+      "bbox": [
+        1687.0,
+        1804.0,
+        1856.0,
+        1943.0
+      ],
+      "confidence": 74.26
+    },
+    {
+      "text": "م١",
+      "bbox": [
+        2148.0,
+        1854.0,
+        2241.0,
+        1921.0
+      ],
+      "confidence": 55.2
+    }
+  ],
+  "processing_time_ms": 352
+}

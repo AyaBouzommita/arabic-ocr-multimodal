@@ -1,0 +1,28 @@
+{
+  "document_id": "Administrative form/00319",
+  "engine": "paddleocr",
+  "raw_text": "Kit Voice",
+  "tokens": [
+    {
+      "text": "Kit",
+      "bbox": [
+        348.0,
+        110.0,
+        395.0,
+        152.0
+      ],
+      "confidence": 97.31
+    },
+    {
+      "text": "Voice",
+      "bbox": [
+        289.0,
+        132.0,
+        361.0,
+        182.0
+      ],
+      "confidence": 96.25
+    }
+  ],
+  "processing_time_ms": 63
+}

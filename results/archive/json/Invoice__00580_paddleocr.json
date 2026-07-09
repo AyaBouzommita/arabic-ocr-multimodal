@@ -1,0 +1,28 @@
+{
+  "document_id": "Invoice/00580",
+  "engine": "paddleocr",
+  "raw_text": "ةعصلا ابالا لتو شا",
+  "tokens": [
+    {
+      "text": "ةعصلا ابالا لتو",
+      "bbox": [
+        333.0,
+        245.0,
+        424.0,
+        268.0
+      ],
+      "confidence": 74.74
+    },
+    {
+      "text": "شا",
+      "bbox": [
+        239.0,
+        696.0,
+        270.0,
+        719.0
+      ],
+      "confidence": 72.26
+    }
+  ],
+  "processing_time_ms": 59
+}

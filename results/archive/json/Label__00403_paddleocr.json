@@ -1,0 +1,38 @@
+{
+  "document_id": "Label/00403",
+  "engine": "paddleocr",
+  "raw_text": "كرت12.9  يدالو ناتسف CITy",
+  "tokens": [
+    {
+      "text": "كرت12.9 ",
+      "bbox": [
+        484.0,
+        367.0,
+        634.0,
+        421.0
+      ],
+      "confidence": 85.49
+    },
+    {
+      "text": "يدالو ناتسف",
+      "bbox": [
+        629.0,
+        390.0,
+        803.0,
+        451.0
+      ],
+      "confidence": 88.59
+    },
+    {
+      "text": "CITy",
+      "bbox": [
+        443.0,
+        1151.0,
+        750.0,
+        1323.0
+      ],
+      "confidence": 88.6
+    }
+  ],
+  "processing_time_ms": 75
+}

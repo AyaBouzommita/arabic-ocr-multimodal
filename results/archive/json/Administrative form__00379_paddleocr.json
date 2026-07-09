@@ -1,0 +1,548 @@
+{
+  "document_id": "Administrative form/00379",
+  "engine": "paddleocr",
+  "raw_text": "ةدالولاو لمحلا مألا مد ةنف اهتادالو ددع  ١ رم  Grou Pary بألا مد ةئف Groupe sanguin du pere Father blood group م Rا ةنمم دولوملا مد ةئنف Profession de Ia mere Moother's proeson Groupe sanguin du nouveau-ne Newborn blood group Grossesse لمحلا نعتامولعم Pregnancy ةلاح لكشركنشا عض مدلا رقف نيخدت يلمح جاجترا Eclampsie Anemie Eclampsia Anemia Smoking ثداوحو تاباصإ ةيودأ فيزن Hemorragie DrugS Bleeding لوحك ةمذو يرك AcO0 Edem Diabetes Acohol ةينيتورب تاليب مدلا طغض عافترا ىرخأ لكاشم nuriاProte Autre Hypertension Proteinuria Others etails ةبعشلا لاب",
+  "tokens": [
+    {
+      "text": "ةدالولاو لمحلا",
+      "bbox": [
+        1471.0,
+        707.0,
+        2086.0,
+        834.0
+      ],
+      "confidence": 96.29
+    },
+    {
+      "text": "مألا مد ةنف",
+      "bbox": [
+        791.0,
+        1040.0,
+        1007.0,
+        1093.0
+      ],
+      "confidence": 86.09
+    },
+    {
+      "text": "اهتادالو ددع",
+      "bbox": [
+        1266.0,
+        1036.0,
+        1515.0,
+        1103.0
+      ],
+      "confidence": 88.79
+    },
+    {
+      "text": " ١",
+      "bbox": [
+        1913.0,
+        1045.0,
+        1999.0,
+        1098.0
+      ],
+      "confidence": 65.58
+    },
+    {
+      "text": "رم ",
+      "bbox": [
+        1985.0,
+        1055.0,
+        2076.0,
+        1093.0
+      ],
+      "confidence": 83.94
+    },
+    {
+      "text": "Grou",
+      "bbox": [
+        516.0,
+        1101.0,
+        625.0,
+        1168.0
+      ],
+      "confidence": 89.98
+    },
+    {
+      "text": "Pary",
+      "bbox": [
+        1395.0,
+        1103.0,
+        1515.0,
+        1204.0
+      ],
+      "confidence": 76.17
+    },
+    {
+      "text": "بألا مد ةئف",
+      "bbox": [
+        772.0,
+        1248.0,
+        1007.0,
+        1300.0
+      ],
+      "confidence": 88.44
+    },
+    {
+      "text": "Groupe sanguin du pere",
+      "bbox": [
+        571.0,
+        1315.0,
+        992.0,
+        1363.0
+      ],
+      "confidence": 99.24
+    },
+    {
+      "text": "Father blood group",
+      "bbox": [
+        623.0,
+        1348.0,
+        997.0,
+        1407.0
+      ],
+      "confidence": 96.69
+    },
+    {
+      "text": "م Rا ةنمم",
+      "bbox": [
+        1870.0,
+        1411.0,
+        2081.0,
+        1464.0
+      ],
+      "confidence": 61.41
+    },
+    {
+      "text": "دولوملا مد ةئنف",
+      "bbox": [
+        714.0,
+        1459.0,
+        997.0,
+        1512.0
+      ],
+      "confidence": 92.98
+    },
+    {
+      "text": "Profession de Ia mere",
+      "bbox": [
+        1697.0,
+        1474.0,
+        2081.0,
+        1522.0
+      ],
+      "confidence": 92.73
+    },
+    {
+      "text": "Moother's proeson",
+      "bbox": [
+        1702.0,
+        1512.0,
+        2090.0,
+        1575.0
+      ],
+      "confidence": 78.13
+    },
+    {
+      "text": "Groupe sanguin du nouveau-ne",
+      "bbox": [
+        446.0,
+        1522.0,
+        988.0,
+        1570.0
+      ],
+      "confidence": 96.47
+    },
+    {
+      "text": "Newborn blood group",
+      "bbox": [
+        585.0,
+        1565.0,
+        992.0,
+        1614.0
+      ],
+      "confidence": 93.92
+    },
+    {
+      "text": "Grossesse",
+      "bbox": [
+        1294.0,
+        1628.0,
+        1544.0,
+        1686.0
+      ],
+      "confidence": 95.53
+    },
+    {
+      "text": "لمحلا",
+      "bbox": [
+        1592.0,
+        1642.0,
+        1764.0,
+        1710.0
+      ],
+      "confidence": 99.82
+    },
+    {
+      "text": "نعتامولعم",
+      "bbox": [
+        1749.0,
+        1627.0,
+        2077.0,
+        1706.0
+      ],
+      "confidence": 94.86
+    },
+    {
+      "text": "Pregnancy",
+      "bbox": [
+        1289.0,
+        1681.0,
+        1544.0,
+        1739.0
+      ],
+      "confidence": 96.94
+    },
+    {
+      "text": "ةلاح لكشركنشا عض",
+      "bbox": [
+        1721.0,
+        1772.0,
+        2081.0,
+        1826.0
+      ],
+      "confidence": 87.63
+    },
+    {
+      "text": "مدلا رقف",
+      "bbox": [
+        1160.0,
+        1883.0,
+        1333.0,
+        1936.0
+      ],
+      "confidence": 88.41
+    },
+    {
+      "text": "نيخدت",
+      "bbox": [
+        1793.0,
+        1883.0,
+        1946.0,
+        1931.0
+      ],
+      "confidence": 98.58
+    },
+    {
+      "text": "يلمح جاجترا",
+      "bbox": [
+        392.0,
+        1883.0,
+        653.0,
+        1947.0
+      ],
+      "confidence": 96.3
+    },
+    {
+      "text": "Eclampsie",
+      "bbox": [
+        459.0,
+        1935.0,
+        663.0,
+        1995.0
+      ],
+      "confidence": 99.74
+    },
+    {
+      "text": "Anemie",
+      "bbox": [
+        1197.0,
+        1940.0,
+        1330.0,
+        1996.0
+      ],
+      "confidence": 85.4
+    },
+    {
+      "text": "Eclampsia",
+      "bbox": [
+        465.0,
+        1984.0,
+        662.0,
+        2033.0
+      ],
+      "confidence": 97.23
+    },
+    {
+      "text": "Anemia",
+      "bbox": [
+        1194.0,
+        1975.0,
+        1338.0,
+        2028.0
+      ],
+      "confidence": 99.22
+    },
+    {
+      "text": "Smoking",
+      "bbox": [
+        1769.0,
+        1975.0,
+        1946.0,
+        2023.0
+      ],
+      "confidence": 99.7
+    },
+    {
+      "text": "ثداوحو تاباصإ",
+      "bbox": [
+        336.0,
+        2139.0,
+        652.0,
+        2192.0
+      ],
+      "confidence": 85.24
+    },
+    {
+      "text": "ةيودأ",
+      "bbox": [
+        1232.0,
+        2143.0,
+        1328.0,
+        2182.0
+      ],
+      "confidence": 99.45
+    },
+    {
+      "text": "فيزن",
+      "bbox": [
+        1831.0,
+        2134.0,
+        1951.0,
+        2177.0
+      ],
+      "confidence": 98.55
+    },
+    {
+      "text": "Hemorragie",
+      "bbox": [
+        1702.0,
+        2177.0,
+        1918.0,
+        2225.0
+      ],
+      "confidence": 96.09
+    },
+    {
+      "text": "DrugS",
+      "bbox": [
+        1218.0,
+        2225.0,
+        1323.0,
+        2264.0
+      ],
+      "confidence": 72.02
+    },
+    {
+      "text": "Bleeding",
+      "bbox": [
+        1759.0,
+        2216.0,
+        1946.0,
+        2264.0
+      ],
+      "confidence": 98.61
+    },
+    {
+      "text": "لوحك",
+      "bbox": [
+        1211.0,
+        2359.0,
+        1330.0,
+        2419.0
+      ],
+      "confidence": 99.79
+    },
+    {
+      "text": "ةمذو",
+      "bbox": [
+        1836.0,
+        2365.0,
+        1942.0,
+        2404.0
+      ],
+      "confidence": 99.82
+    },
+    {
+      "text": "يرك",
+      "bbox": [
+        537.0,
+        2389.0,
+        623.0,
+        2442.0
+      ],
+      "confidence": 92.66
+    },
+    {
+      "text": "AcO0",
+      "bbox": [
+        1222.0,
+        2418.0,
+        1328.0,
+        2452.0
+      ],
+      "confidence": 62.59
+    },
+    {
+      "text": "Edem",
+      "bbox": [
+        1769.0,
+        2413.0,
+        1932.0,
+        2481.0
+      ],
+      "confidence": 94.21
+    },
+    {
+      "text": "Diabetes",
+      "bbox": [
+        494.0,
+        2447.0,
+        652.0,
+        2495.0
+      ],
+      "confidence": 93.6
+    },
+    {
+      "text": "Acohol",
+      "bbox": [
+        1184.0,
+        2442.0,
+        1333.0,
+        2490.0
+      ],
+      "confidence": 85.0
+    },
+    {
+      "text": "ةينيتورب تاليب",
+      "bbox": [
+        1620.0,
+        2552.0,
+        1928.0,
+        2636.0
+      ],
+      "confidence": 88.16
+    },
+    {
+      "text": "مدلا",
+      "bbox": [
+        997.0,
+        2567.0,
+        1093.0,
+        2620.0
+      ],
+      "confidence": 91.46
+    },
+    {
+      "text": "طغض عافترا",
+      "bbox": [
+        1088.0,
+        2567.0,
+        1328.0,
+        2615.0
+      ],
+      "confidence": 90.01
+    },
+    {
+      "text": "ىرخأ لكاشم",
+      "bbox": [
+        387.0,
+        2561.0,
+        668.0,
+        2651.0
+      ],
+      "confidence": 94.77
+    },
+    {
+      "text": "nuriاProte",
+      "bbox": [
+        1743.0,
+        2599.0,
+        1919.0,
+        2665.0
+      ],
+      "confidence": 75.56
+    },
+    {
+      "text": "Autre",
+      "bbox": [
+        547.0,
+        2644.0,
+        652.0,
+        2683.0
+      ],
+      "confidence": 86.38
+    },
+    {
+      "text": "Hypertension",
+      "bbox": [
+        1093.0,
+        2654.0,
+        1333.0,
+        2707.0
+      ],
+      "confidence": 98.96
+    },
+    {
+      "text": "Proteinuria",
+      "bbox": [
+        1716.0,
+        2649.0,
+        1927.0,
+        2697.0
+      ],
+      "confidence": 93.82
+    },
+    {
+      "text": "Others",
+      "bbox": [
+        532.0,
+        2673.0,
+        662.0,
+        2726.0
+      ],
+      "confidence": 98.89
+    },
+    {
+      "text": "etails",
+      "bbox": [
+        259.0,
+        2832.0,
+        379.0,
+        2876.0
+      ],
+      "confidence": 93.14
+    },
+    {
+      "text": "ةبعشلا",
+      "bbox": [
+        2029.0,
+        3845.0,
+        2458.0,
+        4016.0
+      ],
+      "confidence": 93.34
+    },
+    {
+      "text": "لاب",
+      "bbox": [
+        2294.0,
+        4164.0,
+        2587.0,
+        4328.0
+      ],
+      "confidence": 62.81
+    }
+  ],
+  "processing_time_ms": 574
+}

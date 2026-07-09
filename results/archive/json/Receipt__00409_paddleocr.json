@@ -1,0 +1,18 @@
+{
+  "document_id": "Receipt/00409",
+  "engine": "paddleocr",
+  "raw_text": "1227",
+  "tokens": [
+    {
+      "text": "1227",
+      "bbox": [
+        292.0,
+        522.0,
+        353.0,
+        554.0
+      ],
+      "confidence": 65.99
+    }
+  ],
+  "processing_time_ms": 57
+}

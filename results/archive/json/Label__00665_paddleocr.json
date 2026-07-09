@@ -1,0 +1,68 @@
+{
+  "document_id": "Label/00665",
+  "engine": "paddleocr",
+  "raw_text": "120 ICH N CALCIUM Anour for di Pr BT-101o-B",
+  "tokens": [
+    {
+      "text": "120",
+      "bbox": [
+        1950.0,
+        2117.0,
+        2110.0,
+        2237.0
+      ],
+      "confidence": 64.98
+    },
+    {
+      "text": "ICH N",
+      "bbox": [
+        1736.0,
+        2522.0,
+        1899.0,
+        2599.0
+      ],
+      "confidence": 79.39
+    },
+    {
+      "text": "CALCIUM",
+      "bbox": [
+        1689.0,
+        2560.0,
+        1925.0,
+        2653.0
+      ],
+      "confidence": 91.46
+    },
+    {
+      "text": "Anour for di",
+      "bbox": [
+        844.0,
+        2621.0,
+        1022.0,
+        2713.0
+      ],
+      "confidence": 87.02
+    },
+    {
+      "text": "Pr",
+      "bbox": [
+        1048.0,
+        2658.0,
+        1112.0,
+        2688.0
+      ],
+      "confidence": 51.02
+    },
+    {
+      "text": "BT-101o-B",
+      "bbox": [
+        1153.0,
+        2932.0,
+        1394.0,
+        3059.0
+      ],
+      "confidence": 59.91
+    }
+  ],
+  "processing_time_ms": 373
+}

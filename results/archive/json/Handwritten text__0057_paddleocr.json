@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/0057",
+  "engine": "paddleocr",
+  "raw_text": "٩ دعلر دهولاة",
+  "tokens": [
+    {
+      "text": " ",
+      "bbox": [
+        61.0,
+        213.0,
+        138.0,
+        283.0
+      ],
+      "confidence": 80.14
+    },
+    {
+      "text": "٩",
+      "bbox": [
+        525.0,
+        919.0,
+        603.0,
+        960.0
+      ],
+      "confidence": 76.31
+    },
+    {
+      "text": "دعلر",
+      "bbox": [
+        87.0,
+        963.0,
+        165.0,
+        1011.0
+      ],
+      "confidence": 76.97
+    },
+    {
+      "text": "دهولاة",
+      "bbox": [
+        70.0,
+        1020.0,
+        192.0,
+        1067.0
+      ],
+      "confidence": 66.55
+    }
+  ],
+  "processing_time_ms": 84
+}

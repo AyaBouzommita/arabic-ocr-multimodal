@@ -1,0 +1,218 @@
+{
+  "document_id": "Business card/00566",
+  "engine": "paddleocr",
+  "raw_text": "SCDN ةمادتسملا ةيمنت ةكبش عمتجملا DEVELOPMENT NETWORK SUSTAINABLE COMMUNITY Alaouie 961 353087 Abdul Raouf Beirut Lebanon Director alraoufoscdn pro Www.scdn .pr",
+  "tokens": [
+    {
+      "text": "SCDN",
+      "bbox": [
+        468.0,
+        451.0,
+        772.0,
+        539.0
+      ],
+      "confidence": 99.42
+    },
+    {
+      "text": "ةمادتسملا",
+      "bbox": [
+        798.0,
+        487.0,
+        939.0,
+        536.0
+      ],
+      "confidence": 99.69
+    },
+    {
+      "text": "ةيمنت",
+      "bbox": [
+        1072.0,
+        484.0,
+        1153.0,
+        530.0
+      ],
+      "confidence": 94.37
+    },
+    {
+      "text": "ةكبش",
+      "bbox": [
+        1162.0,
+        481.0,
+        1242.0,
+        527.0
+      ],
+      "confidence": 99.83
+    },
+    {
+      "text": "عمتجملا",
+      "bbox": [
+        944.0,
+        483.0,
+        1065.0,
+        545.0
+      ],
+      "confidence": 94.29
+    },
+    {
+      "text": "DEVELOPMENT",
+      "bbox": [
+        875.0,
+        543.0,
+        1090.0,
+        580.0
+      ],
+      "confidence": 99.18
+    },
+    {
+      "text": "NETWORK",
+      "bbox": [
+        1091.0,
+        538.0,
+        1240.0,
+        573.0
+      ],
+      "confidence": 97.79
+    },
+    {
+      "text": "SUSTAINABLE",
+      "bbox": [
+        470.0,
+        559.0,
+        672.0,
+        592.0
+      ],
+      "confidence": 96.92
+    },
+    {
+      "text": "COMMUNITY",
+      "bbox": [
+        678.0,
+        552.0,
+        867.0,
+        587.0
+      ],
+      "confidence": 94.8
+    },
+    {
+      "text": "Alaouie",
+      "bbox": [
+        644.0,
+        697.0,
+        791.0,
+        745.0
+      ],
+      "confidence": 95.8
+    },
+    {
+      "text": "961",
+      "bbox": [
+        844.0,
+        691.0,
+        929.0,
+        735.0
+      ],
+      "confidence": 83.78
+    },
+    {
+      "text": "353087",
+      "bbox": [
+        966.0,
+        688.0,
+        1089.0,
+        730.0
+      ],
+      "confidence": 89.9
+    },
+    {
+      "text": "Abdul",
+      "bbox": [
+        386.0,
+        710.0,
+        509.0,
+        759.0
+      ],
+      "confidence": 90.67
+    },
+    {
+      "text": "Raouf",
+      "bbox": [
+        516.0,
+        705.0,
+        637.0,
+        752.0
+      ],
+      "confidence": 92.88
+    },
+    {
+      "text": "Beirut",
+      "bbox": [
+        847.0,
+        745.0,
+        947.0,
+        781.0
+      ],
+      "confidence": 95.84
+    },
+    {
+      "text": "Lebanon",
+      "bbox": [
+        973.0,
+        740.0,
+        1110.0,
+        776.0
+      ],
+      "confidence": 99.36
+    },
+    {
+      "text": "Director",
+      "bbox": [
+        670.0,
+        759.0,
+        790.0,
+        789.0
+      ],
+      "confidence": 94.57
+    },
+    {
+      "text": "alraoufoscdn",
+      "bbox": [
+        845.0,
+        784.0,
+        1070.0,
+        827.0
+      ],
+      "confidence": 94.08
+    },
+    {
+      "text": "pro",
+      "bbox": [
+        1069.0,
+        783.0,
+        1129.0,
+        821.0
+      ],
+      "confidence": 69.31
+    },
+    {
+      "text": "Www.scdn",
+      "bbox": [
+        844.0,
+        831.0,
+        1032.0,
+        877.0
+      ],
+      "confidence": 90.73
+    },
+    {
+      "text": ".pr",
+      "bbox": [
+        1028.0,
+        834.0,
+        1098.0,
+        871.0
+      ],
+      "confidence": 68.34
+    }
+  ],
+  "processing_time_ms": 200
+}

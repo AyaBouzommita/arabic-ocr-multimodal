@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/0019",
+  "engine": "paddleocr",
+  "raw_text": "نانبل يعزاجوت لابجلات ةطيرخ",
+  "tokens": [
+    {
+      "text": "نانبل يعزاجوت لابجلات ةطيرخ",
+      "bbox": [
+        573.0,
+        81.0,
+        780.0,
+        121.0
+      ],
+      "confidence": 82.24
+    }
+  ],
+  "processing_time_ms": 62
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "Label/00535",
+  "engine": "paddleocr",
+  "raw_text": "315000 MC2 0744",
+  "tokens": [
+    {
+      "text": "315000",
+      "bbox": [
+        449.0,
+        277.0,
+        609.0,
+        314.0
+      ],
+      "confidence": 97.82
+    },
+    {
+      "text": "MC2",
+      "bbox": [
+        482.0,
+        443.0,
+        551.0,
+        476.0
+      ],
+      "confidence": 76.9
+    },
+    {
+      "text": "0744",
+      "bbox": [
+        558.0,
+        440.0,
+        635.0,
+        473.0
+      ],
+      "confidence": 72.02
+    }
+  ],
+  "processing_time_ms": 74
+}

@@ -1,0 +1,18 @@
+{
+  "document_id": "Business card/00132",
+  "engine": "paddleocr",
+  "raw_text": "زوم و زول",
+  "tokens": [
+    {
+      "text": "زوم و زول",
+      "bbox": [
+        1263.0,
+        713.0,
+        2639.0,
+        1141.0
+      ],
+      "confidence": 86.84
+    }
+  ],
+  "processing_time_ms": 206
+}

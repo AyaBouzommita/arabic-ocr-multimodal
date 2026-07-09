@@ -1,0 +1,98 @@
+{
+  "document_id": "Label/00450",
+  "engine": "paddleocr",
+  "raw_text": "OPENIN RammalSupermarke نضرع صاخ X-tra ريصع ةبح 950,179 يال",
+  "tokens": [
+    {
+      "text": "OPENIN",
+      "bbox": [
+        1199.0,
+        83.0,
+        1252.0,
+        98.0
+      ],
+      "confidence": 88.68
+    },
+    {
+      "text": "RammalSupermarke",
+      "bbox": [
+        408.0,
+        236.0,
+        874.0,
+        318.0
+      ],
+      "confidence": 95.96
+    },
+    {
+      "text": "نضرع",
+      "bbox": [
+        959.0,
+        268.0,
+        1068.0,
+        323.0
+      ],
+      "confidence": 86.27
+    },
+    {
+      "text": "صاخ",
+      "bbox": [
+        1033.0,
+        344.0,
+        1130.0,
+        392.0
+      ],
+      "confidence": 97.21
+    },
+    {
+      "text": "X-tra",
+      "bbox": [
+        482.0,
+        440.0,
+        707.0,
+        517.0
+      ],
+      "confidence": 90.95
+    },
+    {
+      "text": "ريصع",
+      "bbox": [
+        726.0,
+        449.0,
+        919.0,
+        524.0
+      ],
+      "confidence": 97.12
+    },
+    {
+      "text": "ةبح",
+      "bbox": [
+        576.0,
+        531.0,
+        709.0,
+        634.0
+      ],
+      "confidence": 97.01
+    },
+    {
+      "text": "950,179",
+      "bbox": [
+        220.0,
+        696.0,
+        787.0,
+        824.0
+      ],
+      "confidence": 78.26
+    },
+    {
+      "text": "يال",
+      "bbox": [
+        845.0,
+        697.0,
+        1143.0,
+        811.0
+      ],
+      "confidence": 55.02
+    }
+  ],
+  "processing_time_ms": 110
+}

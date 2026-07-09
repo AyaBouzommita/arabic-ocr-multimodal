@@ -1,0 +1,28 @@
+{
+  "document_id": "Magazine/00143",
+  "engine": "paddleocr",
+  "raw_text": "دتسال اككوك",
+  "tokens": [
+    {
+      "text": "دتسال",
+      "bbox": [
+        158.0,
+        108.0,
+        711.0,
+        195.0
+      ],
+      "confidence": 55.23
+    },
+    {
+      "text": "اككوك",
+      "bbox": [
+        98.0,
+        582.0,
+        155.0,
+        604.0
+      ],
+      "confidence": 80.28
+    }
+  ],
+  "processing_time_ms": 62
+}

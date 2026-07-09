@@ -1,0 +1,88 @@
+{
+  "document_id": "Business card/00287",
+  "engine": "paddleocr",
+  "raw_text": "راغ GHAR KASSAB راغ نبابص ةراجحت ةراجت ةعانص Trade 8 Industry Lauredl Soap ةيودي ةعانص Handmade Anjar Bekaa Lebanor",
+  "tokens": [
+    {
+      "text": "راغ",
+      "bbox": [
+        2989.0,
+        1211.0,
+        3208.0,
+        1384.0
+      ],
+      "confidence": 98.3
+    },
+    {
+      "text": "GHAR KASSAB",
+      "bbox": [
+        2147.0,
+        1323.0,
+        2628.0,
+        1455.0
+      ],
+      "confidence": 86.35
+    },
+    {
+      "text": "راغ نبابص ةراجحت ةراجت ةعانص",
+      "bbox": [
+        2685.0,
+        1476.0,
+        3240.0,
+        1618.0
+      ],
+      "confidence": 83.8
+    },
+    {
+      "text": "Trade 8 Industry",
+      "bbox": [
+        2177.0,
+        1562.0,
+        2548.0,
+        1651.0
+      ],
+      "confidence": 95.77
+    },
+    {
+      "text": "Lauredl Soap",
+      "bbox": [
+        1928.0,
+        1597.0,
+        2185.0,
+        1680.0
+      ],
+      "confidence": 92.41
+    },
+    {
+      "text": "ةيودي ةعانص",
+      "bbox": [
+        2863.0,
+        1569.0,
+        3145.0,
+        1682.0
+      ],
+      "confidence": 91.27
+    },
+    {
+      "text": "Handmade",
+      "bbox": [
+        2073.0,
+        1665.0,
+        2335.0,
+        1749.0
+      ],
+      "confidence": 93.19
+    },
+    {
+      "text": "Anjar Bekaa Lebanor",
+      "bbox": [
+        2623.0,
+        1903.0,
+        2965.0,
+        1996.0
+      ],
+      "confidence": 96.38
+    }
+  ],
+  "processing_time_ms": 377
+}

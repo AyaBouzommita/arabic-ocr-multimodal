@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00831",
+  "engine": "paddleocr",
+  "raw_text": "هب ُمَعرَو تافاَملا َُكلَق",
+  "tokens": [
+    {
+      "text": "هب",
+      "bbox": [
+        521.0,
+        27.0,
+        646.0,
+        112.0
+      ],
+      "confidence": 59.71
+    },
+    {
+      "text": "ُمَعرَو",
+      "bbox": [
+        533.0,
+        820.0,
+        853.0,
+        1026.0
+      ],
+      "confidence": 54.42
+    },
+    {
+      "text": "تافاَملا َُكلَق",
+      "bbox": [
+        238.0,
+        845.0,
+        569.0,
+        982.0
+      ],
+      "confidence": 57.72
+    }
+  ],
+  "processing_time_ms": 83
+}

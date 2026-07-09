@@ -1,0 +1,38 @@
+{
+  "document_id": "Comics/0091",
+  "engine": "paddleocr",
+  "raw_text": "ل iدلولا بدوت",
+  "tokens": [
+    {
+      "text": "ل",
+      "bbox": [
+        1765.0,
+        828.0,
+        2003.0,
+        1169.0
+      ],
+      "confidence": 82.55
+    },
+    {
+      "text": "iدلولا",
+      "bbox": [
+        1826.0,
+        1077.0,
+        2004.0,
+        1436.0
+      ],
+      "confidence": 66.68
+    },
+    {
+      "text": "بدوت",
+      "bbox": [
+        705.0,
+        1703.0,
+        855.0,
+        1925.0
+      ],
+      "confidence": 74.89
+    }
+  ],
+  "processing_time_ms": 347
+}

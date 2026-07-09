@@ -1,0 +1,38 @@
+{
+  "document_id": "Magazine/00601",
+  "engine": "paddleocr",
+  "raw_text": "كااهنف  راتك  يلق",
+  "tokens": [
+    {
+      "text": "كااهنف ",
+      "bbox": [
+        224.0,
+        451.0,
+        342.0,
+        483.0
+      ],
+      "confidence": 63.64
+    },
+    {
+      "text": "راتك",
+      "bbox": [
+        362.0,
+        456.0,
+        437.0,
+        481.0
+      ],
+      "confidence": 79.04
+    },
+    {
+      "text": " يلق",
+      "bbox": [
+        229.0,
+        498.0,
+        299.0,
+        528.0
+      ],
+      "confidence": 78.92
+    }
+  ],
+  "processing_time_ms": 55
+}

@@ -1,0 +1,128 @@
+{
+  "document_id": "Label/00545",
+  "engine": "paddleocr",
+  "raw_text": "DEZARO ٥ تيكاج 45000 MC 53 ٢ ESSENTIALS OR WARDROGE THE CONTEMPORARY",
+  "tokens": [
+    {
+      "text": "DEZARO",
+      "bbox": [
+        309.0,
+        66.0,
+        538.0,
+        110.0
+      ],
+      "confidence": 99.07
+    },
+    {
+      "text": "٥",
+      "bbox": [
+        499.0,
+        155.0,
+        547.0,
+        194.0
+      ],
+      "confidence": 52.09
+    },
+    {
+      "text": "تيكاج",
+      "bbox": [
+        398.0,
+        175.0,
+        434.0,
+        190.0
+      ],
+      "confidence": 77.97
+    },
+    {
+      "text": "45000",
+      "bbox": [
+        342.0,
+        209.0,
+        426.0,
+        233.0
+      ],
+      "confidence": 98.09
+    },
+    {
+      "text": "MC",
+      "bbox": [
+        357.0,
+        300.0,
+        391.0,
+        315.0
+      ],
+      "confidence": 76.91
+    },
+    {
+      "text": "53",
+      "bbox": [
+        397.0,
+        297.0,
+        435.0,
+        314.0
+      ],
+      "confidence": 71.91
+    },
+    {
+      "text": "٢",
+      "bbox": [
+        251.0,
+        369.0,
+        305.0,
+        404.0
+      ],
+      "confidence": 97.27
+    },
+    {
+      "text": "ESSENTIALS",
+      "bbox": [
+        350.0,
+        417.0,
+        460.0,
+        443.0
+      ],
+      "confidence": 93.94
+    },
+    {
+      "text": "OR",
+      "bbox": [
+        460.0,
+        417.0,
+        496.0,
+        432.0
+      ],
+      "confidence": 71.97
+    },
+    {
+      "text": "WARDROGE",
+      "bbox": [
+        467.0,
+        435.0,
+        561.0,
+        458.0
+      ],
+      "confidence": 84.88
+    },
+    {
+      "text": "THE",
+      "bbox": [
+        277.0,
+        457.0,
+        316.0,
+        478.0
+      ],
+      "confidence": 89.64
+    },
+    {
+      "text": "CONTEMPORARY",
+      "bbox": [
+        317.0,
+        439.0,
+        466.0,
+        475.0
+      ],
+      "confidence": 99.43
+    }
+  ],
+  "processing_time_ms": 166
+}

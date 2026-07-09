@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00514",
+  "engine": "paddleocr",
+  "raw_text": "هعوملا",
+  "tokens": [
+    {
+      "text": "هعوملا",
+      "bbox": [
+        45.0,
+        43.0,
+        304.0,
+        144.0
+      ],
+      "confidence": 92.96
+    }
+  ],
+  "processing_time_ms": 40
+}

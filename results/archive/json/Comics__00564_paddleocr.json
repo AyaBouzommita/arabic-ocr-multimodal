@@ -1,0 +1,68 @@
+{
+  "document_id": "Comics/00564",
+  "engine": "paddleocr",
+  "raw_text": "MARVEL SLANDVANS E LAX اَّرخ ةّرَجَملا",
+  "tokens": [
+    {
+      "text": "MARVEL",
+      "bbox": [
+        1647.0,
+        458.0,
+        1938.0,
+        595.0
+      ],
+      "confidence": 87.15
+    },
+    {
+      "text": "SLANDVANS",
+      "bbox": [
+        1027.0,
+        605.0,
+        2545.0,
+        846.0
+      ],
+      "confidence": 69.98
+    },
+    {
+      "text": "E",
+      "bbox": [
+        1112.0,
+        793.0,
+        1383.0,
+        1049.0
+      ],
+      "confidence": 77.57
+    },
+    {
+      "text": "LAX",
+      "bbox": [
+        1390.0,
+        826.0,
+        2417.0,
+        1037.0
+      ],
+      "confidence": 69.77
+    },
+    {
+      "text": "اَّرخ",
+      "bbox": [
+        1881.0,
+        1042.0,
+        2365.0,
+        1307.0
+      ],
+      "confidence": 64.6
+    },
+    {
+      "text": "ةّرَجَملا",
+      "bbox": [
+        1247.0,
+        1055.0,
+        1815.0,
+        1303.0
+      ],
+      "confidence": 77.38
+    }
+  ],
+  "processing_time_ms": 392
+}

@@ -1,0 +1,138 @@
+{
+  "document_id": "Handwritten text/00213",
+  "engine": "paddleocr",
+  "raw_text": "ماوك خيراتللاو مويلا Date Jour - Day x ضورفلا Homeworks Devoirs تاظحلم Notes لهألا عيقوت Signature des Parents Parents Signature",
+  "tokens": [
+    {
+      "text": "ماوك",
+      "bbox": [
+        534.0,
+        1285.0,
+        735.0,
+        1367.0
+      ],
+      "confidence": 86.28
+    },
+    {
+      "text": "خيراتللاو مويلا",
+      "bbox": [
+        1161.0,
+        1300.0,
+        1389.0,
+        1348.0
+      ],
+      "confidence": 87.31
+    },
+    {
+      "text": "Date",
+      "bbox": [
+        401.0,
+        1316.0,
+        508.0,
+        1375.0
+      ],
+      "confidence": 98.19
+    },
+    {
+      "text": "Jour - Day x",
+      "bbox": [
+        207.0,
+        1328.0,
+        423.0,
+        1411.0
+      ],
+      "confidence": 92.59
+    },
+    {
+      "text": "ضورفلا",
+      "bbox": [
+        1174.0,
+        1400.0,
+        1345.0,
+        1490.0
+      ],
+      "confidence": 99.46
+    },
+    {
+      "text": "Homeworks",
+      "bbox": [
+        1158.0,
+        1466.0,
+        1392.0,
+        1563.0
+      ],
+      "confidence": 99.5
+    },
+    {
+      "text": "Devoirs",
+      "bbox": [
+        1206.0,
+        1553.0,
+        1383.0,
+        1632.0
+      ],
+      "confidence": 99.35
+    },
+    {
+      "text": "تاظحلم",
+      "bbox": [
+        1209.0,
+        2623.0,
+        1426.0,
+        2720.0
+      ],
+      "confidence": 97.36
+    },
+    {
+      "text": "Notes",
+      "bbox": [
+        1266.0,
+        2711.0,
+        1404.0,
+        2788.0
+      ],
+      "confidence": 99.34
+    },
+    {
+      "text": "لهألا عيقوت",
+      "bbox": [
+        1320.0,
+        3016.0,
+        1466.0,
+        3064.0
+      ],
+      "confidence": 93.26
+    },
+    {
+      "text": "Signature des Parents",
+      "bbox": [
+        231.0,
+        3050.0,
+        579.0,
+        3103.0
+      ],
+      "confidence": 93.79
+    },
+    {
+      "text": "Parents",
+      "bbox": [
+        767.0,
+        3046.0,
+        900.0,
+        3094.0
+      ],
+      "confidence": 97.78
+    },
+    {
+      "text": "Signature",
+      "bbox": [
+        912.0,
+        3037.0,
+        1090.0,
+        3095.0
+      ],
+      "confidence": 94.34
+    }
+  ],
+  "processing_time_ms": 328
+}

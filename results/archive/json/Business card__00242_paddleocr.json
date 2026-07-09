@@ -1,0 +1,28 @@
+{
+  "document_id": "Business card/00242",
+  "engine": "paddleocr",
+  "raw_text": "ةيروسلا -ma",
+  "tokens": [
+    {
+      "text": "ةيروسلا",
+      "bbox": [
+        2129.0,
+        1475.0,
+        2237.0,
+        1546.0
+      ],
+      "confidence": 99.76
+    },
+    {
+      "text": "-ma",
+      "bbox": [
+        2208.0,
+        1560.0,
+        2283.0,
+        1589.0
+      ],
+      "confidence": 79.18
+    }
+  ],
+  "processing_time_ms": 326
+}

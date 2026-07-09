@@ -1,0 +1,58 @@
+{
+  "document_id": "Label/00380",
+  "engine": "paddleocr",
+  "raw_text": "9١NAK KEMERL و و 22",
+  "tokens": [
+    {
+      "text": "9١NAK",
+      "bbox": [
+        1067.0,
+        678.0,
+        1199.0,
+        772.0
+      ],
+      "confidence": 75.56
+    },
+    {
+      "text": "KEMERL",
+      "bbox": [
+        925.0,
+        734.0,
+        1092.0,
+        849.0
+      ],
+      "confidence": 83.18
+    },
+    {
+      "text": "و",
+      "bbox": [
+        970.0,
+        858.0,
+        1018.0,
+        893.0
+      ],
+      "confidence": 61.82
+    },
+    {
+      "text": "و",
+      "bbox": [
+        662.0,
+        873.0,
+        717.0,
+        918.0
+      ],
+      "confidence": 94.46
+    },
+    {
+      "text": "22",
+      "bbox": [
+        607.0,
+        908.0,
+        672.0,
+        958.0
+      ],
+      "confidence": 68.35
+    }
+  ],
+  "processing_time_ms": 97
+}

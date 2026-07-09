@@ -1,0 +1,18 @@
+{
+  "document_id": "Book/00700",
+  "engine": "paddleocr",
+  "raw_text": "ا",
+  "tokens": [
+    {
+      "text": "ا",
+      "bbox": [
+        354.0,
+        632.0,
+        552.0,
+        831.0
+      ],
+      "confidence": 77.7
+    }
+  ],
+  "processing_time_ms": 72
+}

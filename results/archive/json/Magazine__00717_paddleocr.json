@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00717",
+  "engine": "paddleocr",
+  "raw_text": "ةَهاكفلا",
+  "tokens": [
+    {
+      "text": "ةَهاكفلا",
+      "bbox": [
+        248.0,
+        126.0,
+        586.0,
+        261.0
+      ],
+      "confidence": 82.14
+    }
+  ],
+  "processing_time_ms": 57
+}

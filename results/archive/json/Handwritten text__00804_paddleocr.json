@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00804",
+  "engine": "paddleocr",
+  "raw_text": "هعاضرأ رحاج ٥٥",
+  "tokens": [
+    {
+      "text": "هعاضرأ",
+      "bbox": [
+        1122.0,
+        935.0,
+        1993.0,
+        1223.0
+      ],
+      "confidence": 76.33
+    },
+    {
+      "text": "رحاج",
+      "bbox": [
+        1074.0,
+        1390.0,
+        1413.0,
+        1652.0
+      ],
+      "confidence": 77.65
+    },
+    {
+      "text": "٥٥",
+      "bbox": [
+        1239.0,
+        1714.0,
+        1486.0,
+        1859.0
+      ],
+      "confidence": 93.08
+    }
+  ],
+  "processing_time_ms": 306
+}

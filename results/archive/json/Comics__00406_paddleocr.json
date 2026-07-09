@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/00406",
+  "engine": "paddleocr",
+  "raw_text": "بسانولا ىقف ةملا ةعاسم  ل",
+  "tokens": [
+    {
+      "text": "بسانولا ىقف ةملا ةعاسم",
+      "bbox": [
+        101.0,
+        261.0,
+        544.0,
+        349.0
+      ],
+      "confidence": 83.55
+    },
+    {
+      "text": " ل",
+      "bbox": [
+        600.0,
+        823.0,
+        626.0,
+        832.0
+      ],
+      "confidence": 58.93
+    }
+  ],
+  "processing_time_ms": 62
+}

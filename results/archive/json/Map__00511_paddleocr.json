@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00511",
+  "engine": "paddleocr",
+  "raw_text": "ةيروسلا ة SYRIA",
+  "tokens": [
+    {
+      "text": "ةيروسلا ة",
+      "bbox": [
+        37.0,
+        240.0,
+        87.0,
+        370.0
+      ],
+      "confidence": 90.95
+    },
+    {
+      "text": "SYRIA",
+      "bbox": [
+        36.0,
+        656.0,
+        70.0,
+        775.0
+      ],
+      "confidence": 97.52
+    }
+  ],
+  "processing_time_ms": 75
+}

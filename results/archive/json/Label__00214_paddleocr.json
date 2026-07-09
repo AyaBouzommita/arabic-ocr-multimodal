@@ -1,0 +1,18 @@
+{
+  "document_id": "Label/00214",
+  "engine": "paddleocr",
+  "raw_text": "202318",
+  "tokens": [
+    {
+      "text": "202318",
+      "bbox": [
+        701.0,
+        401.0,
+        776.0,
+        520.0
+      ],
+      "confidence": 73.28
+    }
+  ],
+  "processing_time_ms": 66
+}

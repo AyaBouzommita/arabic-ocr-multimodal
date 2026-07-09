@@ -1,0 +1,118 @@
+{
+  "document_id": "Handwritten text/00554",
+  "engine": "paddleocr",
+  "raw_text": "WHAT MESsS LVE EYERY IN OIFFEANT  PRESERVE GIVILZTO ريايك طم اكوينموا وروعاباد ءايب",
+  "tokens": [
+    {
+      "text": "WHAT",
+      "bbox": [
+        1916.0,
+        134.0,
+        2092.0,
+        214.0
+      ],
+      "confidence": 81.66
+    },
+    {
+      "text": "MESsS",
+      "bbox": [
+        1988.0,
+        219.0,
+        2170.0,
+        322.0
+      ],
+      "confidence": 52.7
+    },
+    {
+      "text": "LVE",
+      "bbox": [
+        1727.0,
+        332.0,
+        1886.0,
+        395.0
+      ],
+      "confidence": 67.13
+    },
+    {
+      "text": "EYERY",
+      "bbox": [
+        1864.0,
+        328.0,
+        2058.0,
+        403.0
+      ],
+      "confidence": 80.6
+    },
+    {
+      "text": "IN OIFFEANT",
+      "bbox": [
+        1684.0,
+        428.0,
+        2002.0,
+        500.0
+      ],
+      "confidence": 76.68
+    },
+    {
+      "text": " PRESERVE",
+      "bbox": [
+        1786.0,
+        503.0,
+        2097.0,
+        589.0
+      ],
+      "confidence": 94.82
+    },
+    {
+      "text": "GIVILZTO",
+      "bbox": [
+        1789.0,
+        574.0,
+        2081.0,
+        661.0
+      ],
+      "confidence": 74.12
+    },
+    {
+      "text": "ريايك",
+      "bbox": [
+        519.0,
+        1280.0,
+        1113.0,
+        1408.0
+      ],
+      "confidence": 54.2
+    },
+    {
+      "text": "طم",
+      "bbox": [
+        402.0,
+        1489.0,
+        573.0,
+        1598.0
+      ],
+      "confidence": 70.91
+    },
+    {
+      "text": "اكوينموا",
+      "bbox": [
+        789.0,
+        2275.0,
+        1235.0,
+        2412.0
+      ],
+      "confidence": 57.42
+    },
+    {
+      "text": "وروعاباد ءايب",
+      "bbox": [
+        764.0,
+        2503.0,
+        1251.0,
+        2705.0
+      ],
+      "confidence": 66.45
+    }
+  ],
+  "processing_time_ms": 342
+}

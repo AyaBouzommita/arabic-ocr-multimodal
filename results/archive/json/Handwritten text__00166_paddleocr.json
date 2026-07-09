@@ -1,0 +1,18 @@
+{
+  "document_id": "Handwritten text/00166",
+  "engine": "paddleocr",
+  "raw_text": "تيب لكا وف",
+  "tokens": [
+    {
+      "text": "تيب لكا وف",
+      "bbox": [
+        185.0,
+        2404.0,
+        280.0,
+        2674.0
+      ],
+      "confidence": 78.55
+    }
+  ],
+  "processing_time_ms": 189
+}

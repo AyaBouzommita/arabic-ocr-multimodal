@@ -1,0 +1,48 @@
+{
+  "document_id": "Comics/0054",
+  "engine": "paddleocr",
+  "raw_text": "ا انترجل  ٢  اهفشت",
+  "tokens": [
+    {
+      "text": "ا",
+      "bbox": [
+        155.0,
+        0.0,
+        817.0,
+        17.0
+      ],
+      "confidence": 73.06
+    },
+    {
+      "text": "انترجل",
+      "bbox": [
+        272.0,
+        53.0,
+        367.0,
+        115.0
+      ],
+      "confidence": 91.54
+    },
+    {
+      "text": " ٢ ",
+      "bbox": [
+        380.0,
+        62.0,
+        432.0,
+        101.0
+      ],
+      "confidence": 57.63
+    },
+    {
+      "text": "اهفشت",
+      "bbox": [
+        310.0,
+        109.0,
+        468.0,
+        179.0
+      ],
+      "confidence": 92.48
+    }
+  ],
+  "processing_time_ms": 166
+}

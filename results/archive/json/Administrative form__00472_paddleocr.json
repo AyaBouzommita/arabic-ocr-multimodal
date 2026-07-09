@@ -1,0 +1,18 @@
+{
+  "document_id": "Administrative form/00472",
+  "engine": "paddleocr",
+  "raw_text": ":عيقوتلا ",
+  "tokens": [
+    {
+      "text": ":عيقوتلا ",
+      "bbox": [
+        2103.0,
+        2437.0,
+        2208.0,
+        2494.0
+      ],
+      "confidence": 82.4
+    }
+  ],
+  "processing_time_ms": 262
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00353",
+  "engine": "paddleocr",
+  "raw_text": "ةريللا هتاقيبطتو",
+  "tokens": [
+    {
+      "text": "ةريللا",
+      "bbox": [
+        1027.0,
+        850.0,
+        1534.0,
+        1215.0
+      ],
+      "confidence": 88.73
+    },
+    {
+      "text": "هتاقيبطتو",
+      "bbox": [
+        939.0,
+        1202.0,
+        1572.0,
+        1370.0
+      ],
+      "confidence": 89.77
+    }
+  ],
+  "processing_time_ms": 300
+}

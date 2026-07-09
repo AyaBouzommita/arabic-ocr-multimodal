@@ -1,0 +1,198 @@
+{
+  "document_id": "Magazine/0019",
+  "engine": "paddleocr",
+  "raw_text": "سسك تاراو Fendi طاشنلا VLTN Valentino Balenciaga ١٧Roger Vi VILTN VLT Off-White Balenciaga Valentino YORK Off-White Karl Lagerield. Karl Lagerfeld Roger Vivier جيلخلا ةرهز",
+  "tokens": [
+    {
+      "text": "سسك",
+      "bbox": [
+        1909.0,
+        550.0,
+        2651.0,
+        825.0
+      ],
+      "confidence": 87.53
+    },
+    {
+      "text": "تاراو",
+      "bbox": [
+        451.0,
+        595.0,
+        1300.0,
+        988.0
+      ],
+      "confidence": 97.23
+    },
+    {
+      "text": "Fendi",
+      "bbox": [
+        1930.0,
+        854.0,
+        2041.0,
+        904.0
+      ],
+      "confidence": 94.84
+    },
+    {
+      "text": "طاشنلا",
+      "bbox": [
+        466.0,
+        963.0,
+        1269.0,
+        1307.0
+      ],
+      "confidence": 91.48
+    },
+    {
+      "text": "VLTN",
+      "bbox": [
+        2029.0,
+        1058.0,
+        2297.0,
+        1196.0
+      ],
+      "confidence": 86.23
+    },
+    {
+      "text": "Valentino",
+      "bbox": [
+        2079.0,
+        1333.0,
+        2268.0,
+        1392.0
+      ],
+      "confidence": 99.65
+    },
+    {
+      "text": "Balenciaga",
+      "bbox": [
+        601.0,
+        1579.0,
+        793.0,
+        1625.0
+      ],
+      "confidence": 99.8
+    },
+    {
+      "text": "١٧Roger Vi",
+      "bbox": [
+        1921.0,
+        1753.0,
+        2153.0,
+        1818.0
+      ],
+      "confidence": 80.66
+    },
+    {
+      "text": "VILTN",
+      "bbox": [
+        2032.0,
+        2021.0,
+        2213.0,
+        2125.0
+      ],
+      "confidence": 69.24
+    },
+    {
+      "text": "VLT",
+      "bbox": [
+        1901.0,
+        2092.0,
+        2080.0,
+        2167.0
+      ],
+      "confidence": 66.9
+    },
+    {
+      "text": "Off-White",
+      "bbox": [
+        520.0,
+        2296.0,
+        690.0,
+        2342.0
+      ],
+      "confidence": 83.42
+    },
+    {
+      "text": "Balenciaga",
+      "bbox": [
+        2509.0,
+        2307.0,
+        2690.0,
+        2376.0
+      ],
+      "confidence": 93.66
+    },
+    {
+      "text": "Valentino",
+      "bbox": [
+        1815.0,
+        2458.0,
+        2003.0,
+        2504.0
+      ],
+      "confidence": 95.9
+    },
+    {
+      "text": "YORK",
+      "bbox": [
+        2441.0,
+        2812.0,
+        2698.0,
+        3050.0
+      ],
+      "confidence": 82.28
+    },
+    {
+      "text": "Off-White",
+      "bbox": [
+        1368.0,
+        3162.0,
+        1547.0,
+        3208.0
+      ],
+      "confidence": 95.28
+    },
+    {
+      "text": "Karl Lagerield.",
+      "bbox": [
+        2501.0,
+        3153.0,
+        2732.0,
+        3276.0
+      ],
+      "confidence": 90.92
+    },
+    {
+      "text": "Karl Lagerfeld",
+      "bbox": [
+        511.0,
+        3358.0,
+        776.0,
+        3417.0
+      ],
+      "confidence": 96.29
+    },
+    {
+      "text": "Roger Vivier",
+      "bbox": [
+        1657.0,
+        3408.0,
+        1897.0,
+        3476.0
+      ],
+      "confidence": 93.44
+    },
+    {
+      "text": "جيلخلا ةرهز",
+      "bbox": [
+        469.0,
+        3571.0,
+        669.0,
+        3629.0
+      ],
+      "confidence": 95.84
+    }
+  ],
+  "processing_time_ms": 393
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/00803",
+  "engine": "paddleocr",
+  "raw_text": "٢/ ٢٢ ل ك ",
+  "tokens": [
+    {
+      "text": "٢/",
+      "bbox": [
+        680.0,
+        1064.0,
+        1052.0,
+        1289.0
+      ],
+      "confidence": 88.27
+    },
+    {
+      "text": "٢٢",
+      "bbox": [
+        1070.0,
+        1080.0,
+        1375.0,
+        1244.0
+      ],
+      "confidence": 89.37
+    },
+    {
+      "text": "ل",
+      "bbox": [
+        1011.0,
+        1284.0,
+        1374.0,
+        1963.0
+      ],
+      "confidence": 52.56
+    },
+    {
+      "text": "ك ",
+      "bbox": [
+        1278.0,
+        2387.0,
+        1516.0,
+        2577.0
+      ],
+      "confidence": 84.93
+    }
+  ],
+  "processing_time_ms": 260
+}

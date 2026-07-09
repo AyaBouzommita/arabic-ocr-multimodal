@@ -1,0 +1,18 @@
+{
+  "document_id": "Book/00794",
+  "engine": "paddleocr",
+  "raw_text": "بنملا",
+  "tokens": [
+    {
+      "text": "بنملا",
+      "bbox": [
+        178.0,
+        251.0,
+        327.0,
+        336.0
+      ],
+      "confidence": 88.99
+    }
+  ],
+  "processing_time_ms": 41
+}

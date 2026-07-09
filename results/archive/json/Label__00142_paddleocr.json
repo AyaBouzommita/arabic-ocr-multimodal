@@ -1,0 +1,388 @@
+{
+  "document_id": "Label/00142",
+  "engine": "paddleocr",
+  "raw_text": "CARLOTTA NO 2 BODY LOTION رم CAPRYLICI ATERAQUA NGREDIENTS CP ٨FRAGR RFUM POLYS SORBATE SORBITAN STA BOROSILICATE ٨TANIU١T METHYL ested and careh o manufacturing  controlled at each step of  Not tested on animals  طعف نينيعلا يلع ةخيلا رنحا لافطالا لوانتم نع اديعب ظفحي CARLOTTA ZUOFUN COSMETICS LTO MIDOLE ADDNO.1HUAXING NDUSTRIALZNE DISTRICT GUANGZHOU CTY MADE IN CHINA",
+  "tokens": [
+    {
+      "text": "CARLOTTA",
+      "bbox": [
+        1331.0,
+        894.0,
+        1732.0,
+        979.0
+      ],
+      "confidence": 97.87
+    },
+    {
+      "text": "NO",
+      "bbox": [
+        1407.0,
+        977.0,
+        1569.0,
+        1055.0
+      ],
+      "confidence": 96.79
+    },
+    {
+      "text": "2",
+      "bbox": [
+        1576.0,
+        979.0,
+        1662.0,
+        1046.0
+      ],
+      "confidence": 57.11
+    },
+    {
+      "text": "BODY",
+      "bbox": [
+        1370.0,
+        1088.0,
+        1499.0,
+        1134.0
+      ],
+      "confidence": 98.0
+    },
+    {
+      "text": "LOTION",
+      "bbox": [
+        1516.0,
+        1088.0,
+        1701.0,
+        1134.0
+      ],
+      "confidence": 94.97
+    },
+    {
+      "text": "رم",
+      "bbox": [
+        1624.0,
+        1155.0,
+        1675.0,
+        1189.0
+      ],
+      "confidence": 83.98
+    },
+    {
+      "text": "CAPRYLICI",
+      "bbox": [
+        1640.0,
+        1213.0,
+        1848.0,
+        1265.0
+      ],
+      "confidence": 94.74
+    },
+    {
+      "text": "ATERAQUA",
+      "bbox": [
+        1370.0,
+        1226.0,
+        1619.0,
+        1256.0
+      ],
+      "confidence": 94.62
+    },
+    {
+      "text": "NGREDIENTS",
+      "bbox": [
+        1085.0,
+        1212.0,
+        1337.0,
+        1282.0
+      ],
+      "confidence": 99.52
+    },
+    {
+      "text": "CP",
+      "bbox": [
+        1850.0,
+        1229.0,
+        1956.0,
+        1270.0
+      ],
+      "confidence": 67.83
+    },
+    {
+      "text": "٨FRAGR",
+      "bbox": [
+        1770.0,
+        1268.0,
+        1911.0,
+        1298.0
+      ],
+      "confidence": 82.27
+    },
+    {
+      "text": "RFUM",
+      "bbox": [
+        1121.0,
+        1310.0,
+        1263.0,
+        1352.0
+      ],
+      "confidence": 97.92
+    },
+    {
+      "text": "POLYS",
+      "bbox": [
+        1267.0,
+        1310.0,
+        1379.0,
+        1340.0
+      ],
+      "confidence": 89.88
+    },
+    {
+      "text": "SORBATE",
+      "bbox": [
+        1370.0,
+        1302.0,
+        1533.0,
+        1331.0
+      ],
+      "confidence": 91.35
+    },
+    {
+      "text": "SORBITAN",
+      "bbox": [
+        1615.0,
+        1302.0,
+        1791.0,
+        1331.0
+      ],
+      "confidence": 93.68
+    },
+    {
+      "text": "STA",
+      "bbox": [
+        1800.0,
+        1310.0,
+        1894.0,
+        1340.0
+      ],
+      "confidence": 75.82
+    },
+    {
+      "text": "BOROSILICATE",
+      "bbox": [
+        1232.0,
+        1621.0,
+        1517.0,
+        1664.0
+      ],
+      "confidence": 96.12
+    },
+    {
+      "text": "٨TANIU١T",
+      "bbox": [
+        1546.0,
+        1625.0,
+        1705.0,
+        1655.0
+      ],
+      "confidence": 82.62
+    },
+    {
+      "text": "METHYL",
+      "bbox": [
+        1137.0,
+        1717.0,
+        1277.0,
+        1756.0
+      ],
+      "confidence": 89.12
+    },
+    {
+      "text": "ested and careh",
+      "bbox": [
+        1619.0,
+        2108.0,
+        1895.0,
+        2159.0
+      ],
+      "confidence": 75.39
+    },
+    {
+      "text": "o manufacturing ",
+      "bbox": [
+        1605.0,
+        2141.0,
+        1883.0,
+        2210.0
+      ],
+      "confidence": 85.97
+    },
+    {
+      "text": "controlled at each step of ",
+      "bbox": [
+        1180.0,
+        2137.0,
+        1629.0,
+        2214.0
+      ],
+      "confidence": 92.0
+    },
+    {
+      "text": "Not tested on animals",
+      "bbox": [
+        1344.0,
+        2243.0,
+        1727.0,
+        2285.0
+      ],
+      "confidence": 94.59
+    },
+    {
+      "text": " طعف",
+      "bbox": [
+        1375.0,
+        2318.0,
+        1430.0,
+        2352.0
+      ],
+      "confidence": 75.5
+    },
+    {
+      "text": "نينيعلا يلع",
+      "bbox": [
+        1374.0,
+        2347.0,
+        1569.0,
+        2403.0
+      ],
+      "confidence": 90.8
+    },
+    {
+      "text": "ةخيلا رنحا",
+      "bbox": [
+        1551.0,
+        2356.0,
+        1714.0,
+        2402.0
+      ],
+      "confidence": 77.35
+    },
+    {
+      "text": "لافطالا لوانتم",
+      "bbox": [
+        1323.0,
+        2402.0,
+        1546.0,
+        2449.0
+      ],
+      "confidence": 91.38
+    },
+    {
+      "text": "نع",
+      "bbox": [
+        1555.0,
+        2411.0,
+        1602.0,
+        2440.0
+      ],
+      "confidence": 88.24
+    },
+    {
+      "text": "اديعب ظفحي",
+      "bbox": [
+        1606.0,
+        2407.0,
+        1765.0,
+        2449.0
+      ],
+      "confidence": 97.04
+    },
+    {
+      "text": "CARLOTTA",
+      "bbox": [
+        1386.0,
+        2494.0,
+        1719.0,
+        2584.0
+      ],
+      "confidence": 94.29
+    },
+    {
+      "text": "ZUOFUN",
+      "bbox": [
+        1228.0,
+        2582.0,
+        1401.0,
+        2639.0
+      ],
+      "confidence": 82.13
+    },
+    {
+      "text": "COSMETICS",
+      "bbox": [
+        1413.0,
+        2587.0,
+        1675.0,
+        2629.0
+      ],
+      "confidence": 87.23
+    },
+    {
+      "text": "LTO",
+      "bbox": [
+        1765.0,
+        2600.0,
+        1843.0,
+        2633.0
+      ],
+      "confidence": 70.88
+    },
+    {
+      "text": "MIDOLE",
+      "bbox": [
+        1521.0,
+        2625.0,
+        1658.0,
+        2667.0
+      ],
+      "confidence": 83.97
+    },
+    {
+      "text": "ADDNO.1HUAXING",
+      "bbox": [
+        1232.0,
+        2620.0,
+        1522.0,
+        2681.0
+      ],
+      "confidence": 86.88
+    },
+    {
+      "text": "NDUSTRIALZNE",
+      "bbox": [
+        1232.0,
+        2666.0,
+        1504.0,
+        2722.0
+      ],
+      "confidence": 86.14
+    },
+    {
+      "text": "DISTRICT GUANGZHOU CTY",
+      "bbox": [
+        1224.0,
+        2700.0,
+        1659.0,
+        2768.0
+      ],
+      "confidence": 80.42
+    },
+    {
+      "text": "MADE IN CHINA",
+      "bbox": [
+        1405.0,
+        2776.0,
+        1692.0,
+        2822.0
+      ],
+      "confidence": 86.78
+    }
+  ],
+  "processing_time_ms": 459
+}

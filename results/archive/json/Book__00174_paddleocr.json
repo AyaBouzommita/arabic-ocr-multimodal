@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00174",
+  "engine": "paddleocr",
+  "raw_text": "يمساقلا يلع ياضوف",
+  "tokens": [
+    {
+      "text": "يمساقلا يلع",
+      "bbox": [
+        360.0,
+        454.0,
+        572.0,
+        509.0
+      ],
+      "confidence": 99.53
+    },
+    {
+      "text": "ياضوف",
+      "bbox": [
+        188.0,
+        626.0,
+        703.0,
+        824.0
+      ],
+      "confidence": 95.05
+    }
+  ],
+  "processing_time_ms": 73
+}

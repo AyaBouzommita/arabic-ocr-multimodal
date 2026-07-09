@@ -1,0 +1,28 @@
+{
+  "document_id": "Business card/00289",
+  "engine": "paddleocr",
+  "raw_text": "مل ANJAR",
+  "tokens": [
+    {
+      "text": "مل",
+      "bbox": [
+        1441.0,
+        2104.0,
+        1585.0,
+        2242.0
+      ],
+      "confidence": 69.33
+    },
+    {
+      "text": "ANJAR",
+      "bbox": [
+        1385.0,
+        2546.0,
+        1595.0,
+        2688.0
+      ],
+      "confidence": 90.53
+    }
+  ],
+  "processing_time_ms": 364
+}

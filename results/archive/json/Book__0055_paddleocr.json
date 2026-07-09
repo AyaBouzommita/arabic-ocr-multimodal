@@ -1,0 +1,38 @@
+{
+  "document_id": "Book/0055",
+  "engine": "paddleocr",
+  "raw_text": "جم تطظلخلا نف",
+  "tokens": [
+    {
+      "text": "جم",
+      "bbox": [
+        511.0,
+        122.0,
+        629.0,
+        159.0
+      ],
+      "confidence": 61.74
+    },
+    {
+      "text": "تطظلخلا",
+      "bbox": [
+        138.0,
+        201.0,
+        691.0,
+        436.0
+      ],
+      "confidence": 68.57
+    },
+    {
+      "text": "نف",
+      "bbox": [
+        702.0,
+        223.0,
+        915.0,
+        418.0
+      ],
+      "confidence": 97.13
+    }
+  ],
+  "processing_time_ms": 76
+}

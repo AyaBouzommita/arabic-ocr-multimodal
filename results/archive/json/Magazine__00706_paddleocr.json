@@ -1,0 +1,178 @@
+{
+  "document_id": "Magazine/00706",
+  "engine": "paddleocr",
+  "raw_text": "اوعمتجا ةعونملا ةليكشتلاع يناباي يملاع ينانبل ءللا amaleen CASCADA CAFE RESTAURANT ,Cascada Vilage MALL  Beka, Tanayel,  Orieal,by e71514444 reservationamaleenrestaurant.com",
+  "tokens": [
+    {
+      "text": "اوعمتجا",
+      "bbox": [
+        1451.0,
+        1027.0,
+        2256.0,
+        1389.0
+      ],
+      "confidence": 96.63
+    },
+    {
+      "text": "ةعونملا",
+      "bbox": [
+        1444.0,
+        1278.0,
+        1799.0,
+        1439.0
+      ],
+      "confidence": 99.32
+    },
+    {
+      "text": "ةليكشتلاع",
+      "bbox": [
+        1767.0,
+        1324.0,
+        2238.0,
+        1514.0
+      ],
+      "confidence": 99.44
+    },
+    {
+      "text": "يناباي",
+      "bbox": [
+        1507.0,
+        1419.0,
+        1672.0,
+        1506.0
+      ],
+      "confidence": 92.13
+    },
+    {
+      "text": "يملاع",
+      "bbox": [
+        1711.0,
+        1452.0,
+        1933.0,
+        1548.0
+      ],
+      "confidence": 99.56
+    },
+    {
+      "text": "ينانبل",
+      "bbox": [
+        1976.0,
+        1499.0,
+        2132.0,
+        1572.0
+      ],
+      "confidence": 99.39
+    },
+    {
+      "text": "ءللا",
+      "bbox": [
+        1709.0,
+        2579.0,
+        2165.0,
+        3112.0
+      ],
+      "confidence": 53.0
+    },
+    {
+      "text": "amaleen",
+      "bbox": [
+        1648.0,
+        3095.0,
+        2187.0,
+        3305.0
+      ],
+      "confidence": 99.35
+    },
+    {
+      "text": "CASCADA",
+      "bbox": [
+        437.0,
+        3202.0,
+        897.0,
+        3327.0
+      ],
+      "confidence": 99.57
+    },
+    {
+      "text": "CAFE",
+      "bbox": [
+        1656.0,
+        3240.0,
+        1800.0,
+        3314.0
+      ],
+      "confidence": 90.25
+    },
+    {
+      "text": "RESTAURANT",
+      "bbox": [
+        1843.0,
+        3260.0,
+        2167.0,
+        3360.0
+      ],
+      "confidence": 96.36
+    },
+    {
+      "text": ",Cascada Vilage",
+      "bbox": [
+        935.0,
+        3282.0,
+        1174.0,
+        3364.0
+      ],
+      "confidence": 92.85
+    },
+    {
+      "text": "MALL",
+      "bbox": [
+        555.0,
+        3297.0,
+        757.0,
+        3398.0
+      ],
+      "confidence": 87.55
+    },
+    {
+      "text": " Beka, Tanayel,",
+      "bbox": [
+        1149.0,
+        3307.0,
+        1391.0,
+        3384.0
+      ],
+      "confidence": 97.1
+    },
+    {
+      "text": " Orieal,by",
+      "bbox": [
+        1686.0,
+        3309.0,
+        2079.0,
+        3508.0
+      ],
+      "confidence": 63.59
+    },
+    {
+      "text": "e71514444",
+      "bbox": [
+        1366.0,
+        3323.0,
+        1604.0,
+        3406.0
+      ],
+      "confidence": 80.27
+    },
+    {
+      "text": "reservationamaleenrestaurant.com",
+      "bbox": [
+        1012.0,
+        3344.0,
+        1515.0,
+        3443.0
+      ],
+      "confidence": 84.13
+    }
+  ],
+  "processing_time_ms": 420
+}

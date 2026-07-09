@@ -1,0 +1,138 @@
+{
+  "document_id": "Magazine/00557",
+  "engine": "paddleocr",
+  "raw_text": "ENGLAND ارتلنلا اd w the Word Cp 6, t bm er bai G2 ( ر يحلا ت وددشب شلا ٢/١ T ODL ALKE N١ICO",
+  "tokens": [
+    {
+      "text": "ENGLAND",
+      "bbox": [
+        220.0,
+        30.0,
+        361.0,
+        58.0
+      ],
+      "confidence": 95.38
+    },
+    {
+      "text": "ارتلنلا",
+      "bbox": [
+        644.0,
+        26.0,
+        736.0,
+        70.0
+      ],
+      "confidence": 95.5
+    },
+    {
+      "text": "اd",
+      "bbox": [
+        218.0,
+        65.0,
+        254.0,
+        76.0
+      ],
+      "confidence": 54.54
+    },
+    {
+      "text": "w the Word Cp",
+      "bbox": [
+        248.0,
+        63.0,
+        335.0,
+        80.0
+      ],
+      "confidence": 76.7
+    },
+    {
+      "text": "6, t",
+      "bbox": [
+        330.0,
+        66.0,
+        439.0,
+        86.0
+      ],
+      "confidence": 54.97
+    },
+    {
+      "text": "bm",
+      "bbox": [
+        219.0,
+        79.0,
+        254.0,
+        90.0
+      ],
+      "confidence": 64.57
+    },
+    {
+      "text": "er bai G2",
+      "bbox": [
+        248.0,
+        78.0,
+        361.0,
+        95.0
+      ],
+      "confidence": 71.54
+    },
+    {
+      "text": "( ر يحلا ت وددشب شلا",
+      "bbox": [
+        630.0,
+        90.0,
+        739.0,
+        104.0
+      ],
+      "confidence": 53.81
+    },
+    {
+      "text": "٢/١",
+      "bbox": [
+        581.0,
+        194.0,
+        691.0,
+        212.0
+      ],
+      "confidence": 65.42
+    },
+    {
+      "text": "T",
+      "bbox": [
+        392.0,
+        363.0,
+        435.0,
+        373.0
+      ],
+      "confidence": 71.31
+    },
+    {
+      "text": "ODL",
+      "bbox": [
+        820.0,
+        549.0,
+        862.0,
+        564.0
+      ],
+      "confidence": 53.23
+    },
+    {
+      "text": "ALKE",
+      "bbox": [
+        107.0,
+        563.0,
+        151.0,
+        579.0
+      ],
+      "confidence": 61.55
+    },
+    {
+      "text": "N١ICO",
+      "bbox": [
+        245.0,
+        567.0,
+        298.0,
+        578.0
+      ],
+      "confidence": 57.33
+    }
+  ],
+  "processing_time_ms": 162
+}

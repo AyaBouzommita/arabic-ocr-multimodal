@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/00809",
+  "engine": "paddleocr",
+  "raw_text": "لزتعآ كيذياَم",
+  "tokens": [
+    {
+      "text": "لزتعآ",
+      "bbox": [
+        452.0,
+        434.0,
+        961.0,
+        721.0
+      ],
+      "confidence": 94.65
+    },
+    {
+      "text": "كيذياَم",
+      "bbox": [
+        409.0,
+        708.0,
+        995.0,
+        954.0
+      ],
+      "confidence": 74.65
+    }
+  ],
+  "processing_time_ms": 81
+}

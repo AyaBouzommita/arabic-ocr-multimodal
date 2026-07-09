@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/0016",
+  "engine": "paddleocr",
+  "raw_text": "نويزاكدأ ةرم",
+  "tokens": [
+    {
+      "text": "نويزاكدأ",
+      "bbox": [
+        929.0,
+        988.0,
+        2446.0,
+        1579.0
+      ],
+      "confidence": 74.17
+    },
+    {
+      "text": "ةرم",
+      "bbox": [
+        1922.0,
+        1679.0,
+        2549.0,
+        1980.0
+      ],
+      "confidence": 60.02
+    }
+  ],
+  "processing_time_ms": 324
+}

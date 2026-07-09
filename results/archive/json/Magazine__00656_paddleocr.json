@@ -1,0 +1,68 @@
+{
+  "document_id": "Magazine/00656",
+  "engine": "paddleocr",
+  "raw_text": "Bnna fruits Gateaux هx ةهكافلاب تايولح",
+  "tokens": [
+    {
+      "text": "Bnna",
+      "bbox": [
+        650.0,
+        486.0,
+        770.0,
+        523.0
+      ],
+      "confidence": 74.58
+    },
+    {
+      "text": "fruits",
+      "bbox": [
+        916.0,
+        590.0,
+        1181.0,
+        683.0
+      ],
+      "confidence": 99.19
+    },
+    {
+      "text": "Gateaux",
+      "bbox": [
+        257.0,
+        619.0,
+        670.0,
+        691.0
+      ],
+      "confidence": 91.66
+    },
+    {
+      "text": "هx",
+      "bbox": [
+        704.0,
+        620.0,
+        887.0,
+        692.0
+      ],
+      "confidence": 53.66
+    },
+    {
+      "text": "ةهكافلاب",
+      "bbox": [
+        367.0,
+        704.0,
+        716.0,
+        819.0
+      ],
+      "confidence": 98.56
+    },
+    {
+      "text": "تايولح",
+      "bbox": [
+        733.0,
+        698.0,
+        1071.0,
+        830.0
+      ],
+      "confidence": 96.13
+    }
+  ],
+  "processing_time_ms": 110
+}

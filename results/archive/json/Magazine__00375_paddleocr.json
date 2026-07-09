@@ -1,0 +1,48 @@
+{
+  "document_id": "Magazine/00375",
+  "engine": "paddleocr",
+  "raw_text": "ارجال يدو راردا AHAWADETH ونلاواتلا",
+  "tokens": [
+    {
+      "text": "ارجال يدو",
+      "bbox": [
+        95.0,
+        8.0,
+        146.0,
+        18.0
+      ],
+      "confidence": 68.35
+    },
+    {
+      "text": "راردا",
+      "bbox": [
+        212.0,
+        36.0,
+        333.0,
+        94.0
+      ],
+      "confidence": 59.58
+    },
+    {
+      "text": "AHAWADETH",
+      "bbox": [
+        232.0,
+        87.0,
+        316.0,
+        103.0
+      ],
+      "confidence": 88.13
+    },
+    {
+      "text": "ونلاواتلا",
+      "bbox": [
+        92.0,
+        111.0,
+        309.0,
+        176.0
+      ],
+      "confidence": 79.15
+    }
+  ],
+  "processing_time_ms": 50
+}

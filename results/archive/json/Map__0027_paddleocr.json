@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/0027",
+  "engine": "paddleocr",
+  "raw_text": "نانبل يف ندملا ع عزوت ةطيرخ",
+  "tokens": [
+    {
+      "text": "نانبل يف ندملا ع",
+      "bbox": [
+        384.0,
+        207.0,
+        510.0,
+        238.0
+      ],
+      "confidence": 92.7
+    },
+    {
+      "text": "عزوت ةطيرخ",
+      "bbox": [
+        496.0,
+        200.0,
+        605.0,
+        239.0
+      ],
+      "confidence": 94.86
+    }
+  ],
+  "processing_time_ms": 69
+}

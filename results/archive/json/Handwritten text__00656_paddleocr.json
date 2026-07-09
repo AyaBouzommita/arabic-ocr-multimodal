@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/00656",
+  "engine": "paddleocr",
+  "raw_text": "٦١ الد٧",
+  "tokens": [
+    {
+      "text": "٦١",
+      "bbox": [
+        265.0,
+        689.0,
+        314.0,
+        703.0
+      ],
+      "confidence": 84.03
+    },
+    {
+      "text": "الد٧",
+      "bbox": [
+        299.0,
+        721.0,
+        373.0,
+        744.0
+      ],
+      "confidence": 71.15
+    }
+  ],
+  "processing_time_ms": 68
+}

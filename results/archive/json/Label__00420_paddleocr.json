@@ -1,0 +1,188 @@
+{
+  "document_id": "Label/00420",
+  "engine": "paddleocr",
+  "raw_text": "D-Vital is a Registered Trademark. ةيلود SUBJECT TO PRESCRIPTION 100IU رصلا reach of children. دف ال ةلجسم ةكرام - لاتيف -  ييعب ةظفحأا D-Vital Pharmaline - Lebanon ISOe0 uO OU Of  ةيوتم موي. Refer Keep Keep",
+  "tokens": [
+    {
+      "text": "D-Vital is a Registered Trademark.",
+      "bbox": [
+        1785.0,
+        1692.0,
+        1941.0,
+        2560.0
+      ],
+      "confidence": 97.82
+    },
+    {
+      "text": "ةيلود",
+      "bbox": [
+        2121.0,
+        1728.0,
+        2189.0,
+        1872.0
+      ],
+      "confidence": 99.24
+    },
+    {
+      "text": "SUBJECT TO PRESCRIPTION",
+      "bbox": [
+        1368.0,
+        2000.0,
+        1519.0,
+        3035.0
+      ],
+      "confidence": 93.35
+    },
+    {
+      "text": "100IU",
+      "bbox": [
+        781.0,
+        2146.0,
+        976.0,
+        2860.0
+      ],
+      "confidence": 54.65
+    },
+    {
+      "text": "رصلا",
+      "bbox": [
+        1502.0,
+        2573.0,
+        1541.0,
+        2645.0
+      ],
+      "confidence": 52.49
+    },
+    {
+      "text": "reach of children.",
+      "bbox": [
+        1658.0,
+        2754.0,
+        1774.0,
+        3352.0
+      ],
+      "confidence": 95.77
+    },
+    {
+      "text": "دف ال",
+      "bbox": [
+        2072.0,
+        2894.0,
+        2106.0,
+        3235.0
+      ],
+      "confidence": 86.22
+    },
+    {
+      "text": "ةلجسم ةكرام - لاتيف - ",
+      "bbox": [
+        2400.0,
+        2904.0,
+        2479.0,
+        3394.0
+      ],
+      "confidence": 85.44
+    },
+    {
+      "text": "ييعب ةظفحأا",
+      "bbox": [
+        2135.0,
+        2914.0,
+        2219.0,
+        3254.0
+      ],
+      "confidence": 63.37
+    },
+    {
+      "text": "D-Vital",
+      "bbox": [
+        647.0,
+        2924.0,
+        909.0,
+        3719.0
+      ],
+      "confidence": 97.69
+    },
+    {
+      "text": "Pharmaline - Lebanon",
+      "bbox": [
+        2557.0,
+        2946.0,
+        2701.0,
+        3995.0
+      ],
+      "confidence": 86.62
+    },
+    {
+      "text": "ISOe0",
+      "bbox": [
+        1168.0,
+        3062.0,
+        1203.0,
+        3235.0
+      ],
+      "confidence": 63.16
+    },
+    {
+      "text": "uO",
+      "bbox": [
+        1201.0,
+        3330.0,
+        1288.0,
+        3573.0
+      ],
+      "confidence": 61.74
+    },
+    {
+      "text": "OU Of ",
+      "bbox": [
+        1674.0,
+        3326.0,
+        1723.0,
+        3557.0
+      ],
+      "confidence": 72.89
+    },
+    {
+      "text": "ةيوتم موي.",
+      "bbox": [
+        2004.0,
+        3523.0,
+        2129.0,
+        3806.0
+      ],
+      "confidence": 74.17
+    },
+    {
+      "text": "Refer",
+      "bbox": [
+        1257.0,
+        3557.0,
+        1330.0,
+        3739.0
+      ],
+      "confidence": 96.68
+    },
+    {
+      "text": "Keep",
+      "bbox": [
+        1571.0,
+        3557.0,
+        1645.0,
+        3749.0
+      ],
+      "confidence": 99.19
+    },
+    {
+      "text": "Keep",
+      "bbox": [
+        1649.0,
+        3552.0,
+        1723.0,
+        3773.0
+      ],
+      "confidence": 88.31
+    }
+  ],
+  "processing_time_ms": 461
+}

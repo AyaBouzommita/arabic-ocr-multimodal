@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/0061",
+  "engine": "paddleocr",
+  "raw_text": "ننا يه لمحا اهابا ىادها هلا",
+  "tokens": [
+    {
+      "text": "ننا",
+      "bbox": [
+        446.0,
+        56.0,
+        531.0,
+        111.0
+      ],
+      "confidence": 84.48
+    },
+    {
+      "text": "يه لمحا",
+      "bbox": [
+        299.0,
+        79.0,
+        450.0,
+        162.0
+      ],
+      "confidence": 92.11
+    },
+    {
+      "text": "اهابا ىادها",
+      "bbox": [
+        185.0,
+        124.0,
+        312.0,
+        195.0
+      ],
+      "confidence": 83.98
+    },
+    {
+      "text": "هلا",
+      "bbox": [
+        109.0,
+        163.0,
+        192.0,
+        219.0
+      ],
+      "confidence": 87.32
+    }
+  ],
+  "processing_time_ms": 57
+}

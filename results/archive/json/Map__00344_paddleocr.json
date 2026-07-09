@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00344",
+  "engine": "paddleocr",
+  "raw_text": "وطلاا ىتشم صمح",
+  "tokens": [
+    {
+      "text": "وطلاا ىتشم",
+      "bbox": [
+        137.0,
+        191.0,
+        216.0,
+        213.0
+      ],
+      "confidence": 87.24
+    },
+    {
+      "text": "صمح",
+      "bbox": [
+        724.0,
+        819.0,
+        786.0,
+        843.0
+      ],
+      "confidence": 99.7
+    }
+  ],
+  "processing_time_ms": 62
+}

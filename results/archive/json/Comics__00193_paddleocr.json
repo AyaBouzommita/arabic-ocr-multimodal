@@ -1,0 +1,58 @@
+{
+  "document_id": "Comics/00193",
+  "engine": "paddleocr",
+  "raw_text": "لا ويرزلا بسانملا ملا BigeapBee",
+  "tokens": [
+    {
+      "text": "لا",
+      "bbox": [
+        692.0,
+        118.0,
+        1057.0,
+        438.0
+      ],
+      "confidence": 60.83
+    },
+    {
+      "text": "ويرزلا",
+      "bbox": [
+        492.0,
+        1113.0,
+        979.0,
+        1282.0
+      ],
+      "confidence": 84.63
+    },
+    {
+      "text": "بسانملا",
+      "bbox": [
+        419.0,
+        1260.0,
+        1040.0,
+        1415.0
+      ],
+      "confidence": 95.35
+    },
+    {
+      "text": "ملا",
+      "bbox": [
+        286.0,
+        1363.0,
+        342.0,
+        1401.0
+      ],
+      "confidence": 61.49
+    },
+    {
+      "text": "BigeapBee",
+      "bbox": [
+        897.0,
+        1429.0,
+        1037.0,
+        1476.0
+      ],
+      "confidence": 75.63
+    }
+  ],
+  "processing_time_ms": 241
+}

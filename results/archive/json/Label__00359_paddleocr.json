@@ -1,0 +1,148 @@
+{
+  "document_id": "Label/00359",
+  "engine": "paddleocr",
+  "raw_text": "RODUCTOF LEBANON GARDENIA PRODUIT LIBAN GRAIN ORD Dee الوكوشلا ةينانبل ةواالح غ ٤٥٤ يفاصلا نزولا",
+  "tokens": [
+    {
+      "text": "RODUCTOF",
+      "bbox": [
+        337.0,
+        255.0,
+        460.0,
+        278.0
+      ],
+      "confidence": 78.69
+    },
+    {
+      "text": "LEBANON",
+      "bbox": [
+        464.0,
+        255.0,
+        548.0,
+        278.0
+      ],
+      "confidence": 97.13
+    },
+    {
+      "text": "GARDENIA",
+      "bbox": [
+        652.0,
+        260.0,
+        944.0,
+        318.0
+      ],
+      "confidence": 99.78
+    },
+    {
+      "text": "PRODUIT",
+      "bbox": [
+        341.0,
+        280.0,
+        436.0,
+        295.0
+      ],
+      "confidence": 93.22
+    },
+    {
+      "text": "LIBAN",
+      "bbox": [
+        485.0,
+        280.0,
+        545.0,
+        295.0
+      ],
+      "confidence": 95.4
+    },
+    {
+      "text": "GRAIN",
+      "bbox": [
+        720.0,
+        317.0,
+        804.0,
+        343.0
+      ],
+      "confidence": 92.94
+    },
+    {
+      "text": "ORD",
+      "bbox": [
+        809.0,
+        319.0,
+        875.0,
+        344.0
+      ],
+      "confidence": 76.85
+    },
+    {
+      "text": "Dee",
+      "bbox": [
+        722.0,
+        337.0,
+        873.0,
+        379.0
+      ],
+      "confidence": 68.58
+    },
+    {
+      "text": "الوكوشلا",
+      "bbox": [
+        650.0,
+        381.0,
+        756.0,
+        413.0
+      ],
+      "confidence": 87.57
+    },
+    {
+      "text": "ةينانبل",
+      "bbox": [
+        771.0,
+        385.0,
+        859.0,
+        409.0
+      ],
+      "confidence": 95.51
+    },
+    {
+      "text": "ةواالح",
+      "bbox": [
+        864.0,
+        382.0,
+        940.0,
+        412.0
+      ],
+      "confidence": 88.99
+    },
+    {
+      "text": "غ ٤٥٤",
+      "bbox": [
+        727.0,
+        409.0,
+        783.0,
+        442.0
+      ],
+      "confidence": 89.09
+    },
+    {
+      "text": "يفاصلا",
+      "bbox": [
+        779.0,
+        416.0,
+        828.0,
+        436.0
+      ],
+      "confidence": 99.88
+    },
+    {
+      "text": "نزولا",
+      "bbox": [
+        825.0,
+        416.0,
+        856.0,
+        436.0
+      ],
+      "confidence": 98.88
+    }
+  ],
+  "processing_time_ms": 149
+}

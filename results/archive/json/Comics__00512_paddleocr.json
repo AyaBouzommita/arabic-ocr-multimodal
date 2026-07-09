@@ -1,0 +1,38 @@
+{
+  "document_id": "Comics/00512",
+  "engine": "paddleocr",
+  "raw_text": "ةّصق ةيصصم ةعومج",
+  "tokens": [
+    {
+      "text": "ةّصق",
+      "bbox": [
+        177.0,
+        87.0,
+        472.0,
+        283.0
+      ],
+      "confidence": 65.98
+    },
+    {
+      "text": "ةيصصم",
+      "bbox": [
+        136.0,
+        1149.0,
+        295.0,
+        1223.0
+      ],
+      "confidence": 82.08
+    },
+    {
+      "text": "ةعومج",
+      "bbox": [
+        290.0,
+        1182.0,
+        530.0,
+        1279.0
+      ],
+      "confidence": 91.52
+    }
+  ],
+  "processing_time_ms": 77
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00710",
+  "engine": "paddleocr",
+  "raw_text": "يجبََعلا ك ٥٧",
+  "tokens": [
+    {
+      "text": "يجبََعلا",
+      "bbox": [
+        1365.0,
+        1848.0,
+        1639.0,
+        1936.0
+      ],
+      "confidence": 66.49
+    },
+    {
+      "text": "ك ٥٧",
+      "bbox": [
+        1358.0,
+        1982.0,
+        1417.0,
+        2016.0
+      ],
+      "confidence": 88.38
+    }
+  ],
+  "processing_time_ms": 274
+}

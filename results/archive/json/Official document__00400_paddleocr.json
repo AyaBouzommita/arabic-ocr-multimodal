@@ -1,0 +1,1048 @@
+{
+  "document_id": "Official document/00400",
+  "engine": "paddleocr",
+  "raw_text": "لاب Unicef ١S ondazoe iop Terificale Gompbletion Ths certfies hat نابةداهشلا هده ديفت Mt./MTS /ةديسلا/  ديسلا has attended p Successfully completed th ocational traning for ينهملا بيردتلا  رود حاجنب تهنا ىهناو ترضح/ رضح دق agricultural orkers : ناونع تحت نييع رزلا لامعلل ةيعارزلا PRINCIPLES AGRICULTURAI SERVICES تامدخلا ئدابم Vegetable ,Crops ,Nurseries Fru Trees Gardening ةنتسبلاو ةهكافلا راجشا لتاشملا راضخلا ليصاحم th a final core o 19.4 ٥/ /٢ ٤٩١ ةيئاهن ةجيتنب The place at FanaT ag took Agriculture رانف يف ةيسرلا  ةينفلا ةيعارزلا ةسردملا يف ةرودلا تمت دقو Vocatonal School rom July 1th September 27h 201 ٦١٢ لوليا ٧٢ ةياغل رومت ٨١ م ءادتبا كلدو ,Country Director S Head of education  ensjon ٣وervice Head of Training Center Fondazione Minoprio Ministry o ددل ,This project is funded by the government of Germany he Netherlands dUK",
+  "tokens": [
+    {
+      "text": "لاب",
+      "bbox": [
+        742.0,
+        46.0,
+        862.0,
+        74.0
+      ],
+      "confidence": 52.05
+    },
+    {
+      "text": "Unicef",
+      "bbox": [
+        893.0,
+        122.0,
+        1055.0,
+        181.0
+      ],
+      "confidence": 95.85
+    },
+    {
+      "text": "١S",
+      "bbox": [
+        778.0,
+        147.0,
+        838.0,
+        172.0
+      ],
+      "confidence": 75.37
+    },
+    {
+      "text": "ondazoe iop",
+      "bbox": [
+        605.0,
+        185.0,
+        727.0,
+        214.0
+      ],
+      "confidence": 67.08
+    },
+    {
+      "text": "Terificale",
+      "bbox": [
+        443.0,
+        236.0,
+        748.0,
+        346.0
+      ],
+      "confidence": 95.51
+    },
+    {
+      "text": "Gompbletion",
+      "bbox": [
+        808.0,
+        240.0,
+        1149.0,
+        349.0
+      ],
+      "confidence": 91.51
+    },
+    {
+      "text": "Ths",
+      "bbox": [
+        128.0,
+        370.0,
+        173.0,
+        395.0
+      ],
+      "confidence": 73.62
+    },
+    {
+      "text": "certfies",
+      "bbox": [
+        178.0,
+        372.0,
+        253.0,
+        397.0
+      ],
+      "confidence": 87.29
+    },
+    {
+      "text": "hat",
+      "bbox": [
+        253.0,
+        368.0,
+        299.0,
+        399.0
+      ],
+      "confidence": 88.27
+    },
+    {
+      "text": "نابةداهشلا",
+      "bbox": [
+        1310.0,
+        374.0,
+        1415.0,
+        402.0
+      ],
+      "confidence": 84.88
+    },
+    {
+      "text": "هده",
+      "bbox": [
+        1408.0,
+        379.0,
+        1445.0,
+        398.0
+      ],
+      "confidence": 83.32
+    },
+    {
+      "text": "ديفت",
+      "bbox": [
+        1450.0,
+        380.0,
+        1483.0,
+        400.0
+      ],
+      "confidence": 83.7
+    },
+    {
+      "text": "Mt./MTS",
+      "bbox": [
+        127.0,
+        412.0,
+        220.0,
+        441.0
+      ],
+      "confidence": 80.99
+    },
+    {
+      "text": "/ةديسلا/ ",
+      "bbox": [
+        1367.0,
+        418.0,
+        1432.0,
+        443.0
+      ],
+      "confidence": 85.09
+    },
+    {
+      "text": "ديسلا",
+      "bbox": [
+        1433.0,
+        418.0,
+        1478.0,
+        445.0
+      ],
+      "confidence": 95.22
+    },
+    {
+      "text": "has",
+      "bbox": [
+        145.0,
+        468.0,
+        180.0,
+        494.0
+      ],
+      "confidence": 71.75
+    },
+    {
+      "text": "attended",
+      "bbox": [
+        183.0,
+        466.0,
+        273.0,
+        496.0
+      ],
+      "confidence": 99.09
+    },
+    {
+      "text": "p",
+      "bbox": [
+        278.0,
+        468.0,
+        318.0,
+        494.0
+      ],
+      "confidence": 62.1
+    },
+    {
+      "text": "Successfully",
+      "bbox": [
+        320.0,
+        466.0,
+        432.0,
+        498.0
+      ],
+      "confidence": 96.2
+    },
+    {
+      "text": "completed",
+      "bbox": [
+        436.0,
+        466.0,
+        539.0,
+        498.0
+      ],
+      "confidence": 94.85
+    },
+    {
+      "text": "th",
+      "bbox": [
+        542.0,
+        471.0,
+        573.0,
+        493.0
+      ],
+      "confidence": 68.58
+    },
+    {
+      "text": "ocational",
+      "bbox": [
+        576.0,
+        466.0,
+        684.0,
+        500.0
+      ],
+      "confidence": 86.76
+    },
+    {
+      "text": "traning for",
+      "bbox": [
+        685.0,
+        468.0,
+        799.0,
+        501.0
+      ],
+      "confidence": 81.68
+    },
+    {
+      "text": "ينهملا",
+      "bbox": [
+        883.0,
+        469.0,
+        941.0,
+        503.0
+      ],
+      "confidence": 89.62
+    },
+    {
+      "text": "بيردتلا ",
+      "bbox": [
+        942.0,
+        471.0,
+        1013.0,
+        501.0
+      ],
+      "confidence": 90.26
+    },
+    {
+      "text": "رود",
+      "bbox": [
+        1013.0,
+        476.0,
+        1052.0,
+        501.0
+      ],
+      "confidence": 86.33
+    },
+    {
+      "text": "حاجنب تهنا",
+      "bbox": [
+        1053.0,
+        469.0,
+        1154.0,
+        503.0
+      ],
+      "confidence": 89.72
+    },
+    {
+      "text": "ىهناو",
+      "bbox": [
+        1152.0,
+        469.0,
+        1212.0,
+        501.0
+      ],
+      "confidence": 84.85
+    },
+    {
+      "text": "ترضح/ رضح دق",
+      "bbox": [
+        1218.0,
+        473.0,
+        1378.0,
+        501.0
+      ],
+      "confidence": 75.49
+    },
+    {
+      "text": "agricultural",
+      "bbox": [
+        353.0,
+        501.0,
+        474.0,
+        534.0
+      ],
+      "confidence": 94.93
+    },
+    {
+      "text": "orkers",
+      "bbox": [
+        474.0,
+        499.0,
+        554.0,
+        534.0
+      ],
+      "confidence": 89.08
+    },
+    {
+      "text": ":",
+      "bbox": [
+        555.0,
+        511.0,
+        590.0,
+        531.0
+      ],
+      "confidence": 50.21
+    },
+    {
+      "text": "ناونع",
+      "bbox": [
+        1010.0,
+        511.0,
+        1058.0,
+        537.0
+      ],
+      "confidence": 95.62
+    },
+    {
+      "text": "تحت",
+      "bbox": [
+        1068.0,
+        512.0,
+        1108.0,
+        532.0
+      ],
+      "confidence": 99.66
+    },
+    {
+      "text": "نييع",
+      "bbox": [
+        1113.0,
+        511.0,
+        1152.0,
+        537.0
+      ],
+      "confidence": 85.02
+    },
+    {
+      "text": "رزلا",
+      "bbox": [
+        1155.0,
+        509.0,
+        1195.0,
+        536.0
+      ],
+      "confidence": 81.6
+    },
+    {
+      "text": "لامعلل",
+      "bbox": [
+        1198.0,
+        509.0,
+        1250.0,
+        534.0
+      ],
+      "confidence": 97.89
+    },
+    {
+      "text": "ةيعارزلا",
+      "bbox": [
+        924.0,
+        550.0,
+        1072.0,
+        609.0
+      ],
+      "confidence": 99.83
+    },
+    {
+      "text": "PRINCIPLES",
+      "bbox": [
+        147.0,
+        564.0,
+        340.0,
+        597.0
+      ],
+      "confidence": 99.93
+    },
+    {
+      "text": "AGRICULTURAI",
+      "bbox": [
+        395.0,
+        567.0,
+        643.0,
+        595.0
+      ],
+      "confidence": 96.36
+    },
+    {
+      "text": "SERVICES",
+      "bbox": [
+        652.0,
+        567.0,
+        800.0,
+        595.0
+      ],
+      "confidence": 99.85
+    },
+    {
+      "text": "تامدخلا",
+      "bbox": [
+        1082.0,
+        559.0,
+        1215.0,
+        598.0
+      ],
+      "confidence": 97.15
+    },
+    {
+      "text": "ئدابم",
+      "bbox": [
+        1223.0,
+        560.0,
+        1323.0,
+        603.0
+      ],
+      "confidence": 99.9
+    },
+    {
+      "text": "Vegetable",
+      "bbox": [
+        203.0,
+        615.0,
+        307.0,
+        643.0
+      ],
+      "confidence": 92.5
+    },
+    {
+      "text": ",Crops",
+      "bbox": [
+        312.0,
+        615.0,
+        373.0,
+        645.0
+      ],
+      "confidence": 87.56
+    },
+    {
+      "text": ",Nurseries",
+      "bbox": [
+        378.0,
+        611.0,
+        477.0,
+        645.0
+      ],
+      "confidence": 90.85
+    },
+    {
+      "text": "Fru",
+      "bbox": [
+        483.0,
+        615.0,
+        535.0,
+        641.0
+      ],
+      "confidence": 81.44
+    },
+    {
+      "text": "Trees",
+      "bbox": [
+        540.0,
+        615.0,
+        590.0,
+        641.0
+      ],
+      "confidence": 84.55
+    },
+    {
+      "text": "Gardening",
+      "bbox": [
+        636.0,
+        611.0,
+        752.0,
+        643.0
+      ],
+      "confidence": 99.67
+    },
+    {
+      "text": "ةنتسبلاو ةهكافلا",
+      "bbox": [
+        912.0,
+        615.0,
+        1047.0,
+        645.0
+      ],
+      "confidence": 88.51
+    },
+    {
+      "text": "راجشا",
+      "bbox": [
+        1053.0,
+        615.0,
+        1107.0,
+        646.0
+      ],
+      "confidence": 90.52
+    },
+    {
+      "text": "لتاشملا",
+      "bbox": [
+        1107.0,
+        618.0,
+        1178.0,
+        643.0
+      ],
+      "confidence": 94.88
+    },
+    {
+      "text": "راضخلا",
+      "bbox": [
+        1178.0,
+        617.0,
+        1253.0,
+        646.0
+      ],
+      "confidence": 98.88
+    },
+    {
+      "text": "ليصاحم",
+      "bbox": [
+        1253.0,
+        618.0,
+        1342.0,
+        646.0
+      ],
+      "confidence": 96.07
+    },
+    {
+      "text": "th",
+      "bbox": [
+        327.0,
+        651.0,
+        373.0,
+        678.0
+      ],
+      "confidence": 88.29
+    },
+    {
+      "text": "a final",
+      "bbox": [
+        372.0,
+        651.0,
+        447.0,
+        681.0
+      ],
+      "confidence": 95.18
+    },
+    {
+      "text": "core o",
+      "bbox": [
+        448.0,
+        653.0,
+        523.0,
+        678.0
+      ],
+      "confidence": 82.58
+    },
+    {
+      "text": "19.4",
+      "bbox": [
+        530.0,
+        646.0,
+        582.0,
+        678.0
+      ],
+      "confidence": 90.98
+    },
+    {
+      "text": "٥/",
+      "bbox": [
+        590.0,
+        650.0,
+        632.0,
+        678.0
+      ],
+      "confidence": 78.85
+    },
+    {
+      "text": "/٢",
+      "bbox": [
+        1017.0,
+        653.0,
+        1055.0,
+        678.0
+      ],
+      "confidence": 89.92
+    },
+    {
+      "text": "٤٩١",
+      "bbox": [
+        1062.0,
+        650.0,
+        1117.0,
+        678.0
+      ],
+      "confidence": 97.0
+    },
+    {
+      "text": "ةيئاهن ةجيتنب",
+      "bbox": [
+        1128.0,
+        653.0,
+        1233.0,
+        681.0
+      ],
+      "confidence": 92.96
+    },
+    {
+      "text": "The",
+      "bbox": [
+        223.0,
+        694.0,
+        265.0,
+        722.0
+      ],
+      "confidence": 85.47
+    },
+    {
+      "text": "place at",
+      "bbox": [
+        397.0,
+        694.0,
+        477.0,
+        724.0
+      ],
+      "confidence": 94.12
+    },
+    {
+      "text": "FanaT",
+      "bbox": [
+        520.0,
+        686.0,
+        583.0,
+        717.0
+      ],
+      "confidence": 86.68
+    },
+    {
+      "text": "ag",
+      "bbox": [
+        265.0,
+        696.0,
+        345.0,
+        724.0
+      ],
+      "confidence": 75.12
+    },
+    {
+      "text": "took",
+      "bbox": [
+        352.0,
+        696.0,
+        392.0,
+        724.0
+      ],
+      "confidence": 74.83
+    },
+    {
+      "text": "Agriculture",
+      "bbox": [
+        627.0,
+        694.0,
+        738.0,
+        724.0
+      ],
+      "confidence": 97.42
+    },
+    {
+      "text": "رانف",
+      "bbox": [
+        888.0,
+        691.0,
+        917.0,
+        712.0
+      ],
+      "confidence": 97.07
+    },
+    {
+      "text": "يف ةيسرلا ",
+      "bbox": [
+        965.0,
+        698.0,
+        1063.0,
+        727.0
+      ],
+      "confidence": 90.68
+    },
+    {
+      "text": "ةينفلا",
+      "bbox": [
+        1053.0,
+        698.0,
+        1102.0,
+        722.0
+      ],
+      "confidence": 91.22
+    },
+    {
+      "text": "ةيعارزلا ةسردملا",
+      "bbox": [
+        1100.0,
+        696.0,
+        1247.0,
+        728.0
+      ],
+      "confidence": 91.53
+    },
+    {
+      "text": "يف ةرودلا",
+      "bbox": [
+        1250.0,
+        699.0,
+        1333.0,
+        729.0
+      ],
+      "confidence": 84.24
+    },
+    {
+      "text": "تمت دقو",
+      "bbox": [
+        1325.0,
+        696.0,
+        1414.0,
+        729.0
+      ],
+      "confidence": 95.65
+    },
+    {
+      "text": "Vocatonal",
+      "bbox": [
+        192.0,
+        736.0,
+        300.0,
+        764.0
+      ],
+      "confidence": 99.59
+    },
+    {
+      "text": "School",
+      "bbox": [
+        302.0,
+        736.0,
+        368.0,
+        765.0
+      ],
+      "confidence": 93.43
+    },
+    {
+      "text": "rom",
+      "bbox": [
+        367.0,
+        737.0,
+        415.0,
+        764.0
+      ],
+      "confidence": 70.27
+    },
+    {
+      "text": "July",
+      "bbox": [
+        425.0,
+        734.0,
+        470.0,
+        767.0
+      ],
+      "confidence": 89.58
+    },
+    {
+      "text": "1th",
+      "bbox": [
+        473.0,
+        737.0,
+        518.0,
+        764.0
+      ],
+      "confidence": 90.27
+    },
+    {
+      "text": "September",
+      "bbox": [
+        553.0,
+        734.0,
+        657.0,
+        767.0
+      ],
+      "confidence": 91.45
+    },
+    {
+      "text": "27h",
+      "bbox": [
+        658.0,
+        736.0,
+        705.0,
+        762.0
+      ],
+      "confidence": 68.17
+    },
+    {
+      "text": "201",
+      "bbox": [
+        718.0,
+        734.0,
+        768.0,
+        760.0
+      ],
+      "confidence": 81.95
+    },
+    {
+      "text": "٦١٢",
+      "bbox": [
+        927.0,
+        737.0,
+        982.0,
+        762.0
+      ],
+      "confidence": 73.53
+    },
+    {
+      "text": "لوليا",
+      "bbox": [
+        980.0,
+        737.0,
+        1027.0,
+        764.0
+      ],
+      "confidence": 95.03
+    },
+    {
+      "text": "٧٢",
+      "bbox": [
+        1032.0,
+        739.0,
+        1060.0,
+        762.0
+      ],
+      "confidence": 96.5
+    },
+    {
+      "text": "ةياغل",
+      "bbox": [
+        1060.0,
+        737.0,
+        1105.0,
+        764.0
+      ],
+      "confidence": 91.92
+    },
+    {
+      "text": "رومت",
+      "bbox": [
+        1123.0,
+        741.0,
+        1165.0,
+        765.0
+      ],
+      "confidence": 97.62
+    },
+    {
+      "text": "٨١ م",
+      "bbox": [
+        1170.0,
+        739.0,
+        1233.0,
+        769.0
+      ],
+      "confidence": 85.52
+    },
+    {
+      "text": "ءادتبا",
+      "bbox": [
+        1223.0,
+        741.0,
+        1273.0,
+        765.0
+      ],
+      "confidence": 94.57
+    },
+    {
+      "text": "كلدو",
+      "bbox": [
+        1277.0,
+        741.0,
+        1322.0,
+        767.0
+      ],
+      "confidence": 76.91
+    },
+    {
+      "text": ",Country Director",
+      "bbox": [
+        216.0,
+        876.0,
+        374.0,
+        910.0
+      ],
+      "confidence": 90.15
+    },
+    {
+      "text": "S",
+      "bbox": [
+        373.0,
+        879.0,
+        418.0,
+        904.0
+      ],
+      "confidence": 92.72
+    },
+    {
+      "text": "Head of education ",
+      "bbox": [
+        573.0,
+        878.0,
+        740.0,
+        906.0
+      ],
+      "confidence": 94.63
+    },
+    {
+      "text": "ensjon",
+      "bbox": [
+        757.0,
+        879.0,
+        845.0,
+        903.0
+      ],
+      "confidence": 84.57
+    },
+    {
+      "text": "٣وervice",
+      "bbox": [
+        835.0,
+        877.0,
+        925.0,
+        905.0
+      ],
+      "confidence": 84.81
+    },
+    {
+      "text": "Head of Training",
+      "bbox": [
+        1018.0,
+        874.0,
+        1167.0,
+        905.0
+      ],
+      "confidence": 90.26
+    },
+    {
+      "text": "Center",
+      "bbox": [
+        1167.0,
+        881.0,
+        1232.0,
+        904.0
+      ],
+      "confidence": 93.27
+    },
+    {
+      "text": "Fondazione",
+      "bbox": [
+        1232.0,
+        878.0,
+        1330.0,
+        906.0
+      ],
+      "confidence": 91.27
+    },
+    {
+      "text": "Minoprio",
+      "bbox": [
+        1333.0,
+        881.0,
+        1419.0,
+        908.0
+      ],
+      "confidence": 94.24
+    },
+    {
+      "text": "Ministry o",
+      "bbox": [
+        645.0,
+        902.0,
+        745.0,
+        929.0
+      ],
+      "confidence": 89.87
+    },
+    {
+      "text": "ددل",
+      "bbox": [
+        133.0,
+        1000.0,
+        220.0,
+        1018.0
+      ],
+      "confidence": 74.45
+    },
+    {
+      "text": ",This project is funded by the government of Germany",
+      "bbox": [
+        535.0,
+        1002.0,
+        910.0,
+        1032.0
+      ],
+      "confidence": 93.48
+    },
+    {
+      "text": "he Netherlands",
+      "bbox": [
+        908.0,
+        1007.0,
+        1025.0,
+        1025.0
+      ],
+      "confidence": 89.05
+    },
+    {
+      "text": "dUK",
+      "bbox": [
+        1022.0,
+        1005.0,
+        1080.0,
+        1023.0
+      ],
+      "confidence": 86.81
+    }
+  ],
+  "processing_time_ms": 652
+}

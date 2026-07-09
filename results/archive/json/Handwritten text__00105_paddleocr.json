@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00105",
+  "engine": "paddleocr",
+  "raw_text": "ازف قولا ىةس",
+  "tokens": [
+    {
+      "text": "ازف",
+      "bbox": [
+        1235.0,
+        1198.0,
+        1582.0,
+        1395.0
+      ],
+      "confidence": 60.37
+    },
+    {
+      "text": "قولا",
+      "bbox": [
+        640.0,
+        1440.0,
+        1434.0,
+        1675.0
+      ],
+      "confidence": 87.5
+    },
+    {
+      "text": "ىةس",
+      "bbox": [
+        668.0,
+        1821.0,
+        1466.0,
+        2078.0
+      ],
+      "confidence": 61.67
+    }
+  ],
+  "processing_time_ms": 281
+}

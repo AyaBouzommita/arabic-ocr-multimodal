@@ -1,0 +1,28 @@
+{
+  "document_id": "Official document/00754",
+  "engine": "paddleocr",
+  "raw_text": "erRegeranPr ap 0802020 ",
+  "tokens": [
+    {
+      "text": "erRegeranPr ap",
+      "bbox": [
+        706.0,
+        350.0,
+        858.0,
+        370.0
+      ],
+      "confidence": 76.88
+    },
+    {
+      "text": "0802020 ",
+      "bbox": [
+        712.0,
+        1442.0,
+        821.0,
+        1466.0
+      ],
+      "confidence": 57.03
+    }
+  ],
+  "processing_time_ms": 50
+}

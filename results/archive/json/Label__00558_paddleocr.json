@@ -1,0 +1,108 @@
+{
+  "document_id": "Label/00558",
+  "engine": "paddleocr",
+  "raw_text": "RA uraly r r Lavaggio aha a  5 6طاشق 135000 MB 005",
+  "tokens": [
+    {
+      "text": "RA",
+      "bbox": [
+        164.0,
+        28.0,
+        223.0,
+        56.0
+      ],
+      "confidence": 69.1
+    },
+    {
+      "text": "uraly r",
+      "bbox": [
+        229.0,
+        29.0,
+        406.0,
+        64.0
+      ],
+      "confidence": 79.59
+    },
+    {
+      "text": "r",
+      "bbox": [
+        446.0,
+        35.0,
+        537.0,
+        56.0
+      ],
+      "confidence": 86.82
+    },
+    {
+      "text": "Lavaggio",
+      "bbox": [
+        184.0,
+        84.0,
+        267.0,
+        113.0
+      ],
+      "confidence": 81.73
+    },
+    {
+      "text": "aha",
+      "bbox": [
+        300.0,
+        89.0,
+        395.0,
+        110.0
+      ],
+      "confidence": 79.76
+    },
+    {
+      "text": "a",
+      "bbox": [
+        444.0,
+        92.0,
+        513.0,
+        109.0
+      ],
+      "confidence": 68.2
+    },
+    {
+      "text": " 5 6طاشق",
+      "bbox": [
+        357.0,
+        156.0,
+        441.0,
+        180.0
+      ],
+      "confidence": 65.63
+    },
+    {
+      "text": "135000",
+      "bbox": [
+        296.0,
+        208.0,
+        403.0,
+        234.0
+      ],
+      "confidence": 94.74
+    },
+    {
+      "text": "MB",
+      "bbox": [
+        317.0,
+        325.0,
+        350.0,
+        345.0
+      ],
+      "confidence": 74.84
+    },
+    {
+      "text": "005",
+      "bbox": [
+        357.0,
+        326.0,
+        409.0,
+        349.0
+      ],
+      "confidence": 80.21
+    }
+  ],
+  "processing_time_ms": 176
+}

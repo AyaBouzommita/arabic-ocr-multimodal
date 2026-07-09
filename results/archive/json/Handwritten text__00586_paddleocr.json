@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/00586",
+  "engine": "paddleocr",
+  "raw_text": "يحلاسلا صلا وارمل ط",
+  "tokens": [
+    {
+      "text": "يحلاسلا",
+      "bbox": [
+        159.0,
+        38.0,
+        203.0,
+        56.0
+      ],
+      "confidence": 82.4
+    },
+    {
+      "text": "صلا",
+      "bbox": [
+        251.0,
+        38.0,
+        292.0,
+        57.0
+      ],
+      "confidence": 91.68
+    },
+    {
+      "text": "وارمل",
+      "bbox": [
+        266.0,
+        58.0,
+        324.0,
+        83.0
+      ],
+      "confidence": 91.2
+    },
+    {
+      "text": "ط",
+      "bbox": [
+        134.0,
+        478.0,
+        170.0,
+        499.0
+      ],
+      "confidence": 88.15
+    }
+  ],
+  "processing_time_ms": 58
+}

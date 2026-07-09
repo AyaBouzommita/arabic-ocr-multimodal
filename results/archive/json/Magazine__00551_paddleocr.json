@@ -1,0 +1,28 @@
+{
+  "document_id": "Magazine/00551",
+  "engine": "paddleocr",
+  "raw_text": "هسدلا لكّيه",
+  "tokens": [
+    {
+      "text": "هسدلا",
+      "bbox": [
+        420.0,
+        129.0,
+        599.0,
+        228.0
+      ],
+      "confidence": 79.05
+    },
+    {
+      "text": "لكّيه",
+      "bbox": [
+        464.0,
+        246.0,
+        580.0,
+        286.0
+      ],
+      "confidence": 85.21
+    }
+  ],
+  "processing_time_ms": 61
+}

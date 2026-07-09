@@ -1,0 +1,2238 @@
+{
+  "document_id": "Label/009",
+  "engine": "paddleocr",
+  "raw_text": "Geleneksel Lokman Receli Visne زركلا ىبرم Jam  Sourcherry Traditional ,Seker Kivam GlikoZ Surubu ArttricC ,Visne indekiler: Gida Sitrik Asit. Kodeksi ,Recel Duzenleyici Asitlik Tblig'ne Puresi Kestane Uygundur. TatlandirImis armelat ve PN ambala uzerindedir. Parti No TariETT e Tiketim n وTa C ve kuru ,yerde dogrudan Serin 15-25  gunes Kosullar: acildiktan ediniz. Ambalaj muhafaza uzakta SOnra Kapagi k birakmayin. tuketiniz icerisinde cik ay aklayiniz ve oabida Guvence G0venligi Kalite Gida Yonetim le hazirlanmustn meyve da 351 Sahip fabrikamizda uretilmistir. belgelendirilmesine. Sistem Tirkiye. Mense Uke Sugar Gelling Syrup ,Agent Pectin ,35% Glucose Sourcherry Ingredients: Best Before or Sell by and Dating E ,Date Expiration Citric id Acidity Regulator Storage Instructions: Keep in coo 15to the package. are Lt Lot Number odours Keep in fridge after d Opening and direct sunlight from wa and dry place Product of Turkey. lid open. not leave the ٥D 1 month. Consume in ضماح زرك :تانوكملا كبرتسلا ةومتملانتكبا ضيتكبلا(ضمحلا (نادرجوم ىلع مقرو(لولحب لْنالا كذ ةعفدلا تؤل  لبق وأعببلا خيرات ءاءاهتنا ةيحالصلا نيتكبلا خياهتنا هن ةيحالصلا حئاورلاو طفحب فاجو اديعب نع ةعشا رشابملا (ىلإأ  ةجرد ةيونم تاميلعت :نيزختلا كرت ءاطغلا اخوتفم ةيلاخ نم تابسم تاةيساسحلل جتنم يكرن ةوبعلا كلهتسيو لالخ رهش دحاو دعب حتفلا يف ةجلالثلا ةيئاذغلا ميقلا NUTRITION INFCRMATION ENERVE ESN GELER RA i 100g igin Besin Degerleri لالح GDA ةيئاذغلا رصانعلا 100g contains Typical values 235k Halal 7,14 30 kca Energ ةيرارح تارعس 2,0 3%,0 نوهدلا يلامجإ /Total Fa هاله 0% ةعبشملا نوهدلا mus Ya / Saturated Fa تارديمويركلا AN٤٧ 3%,28 7,7 bonhidrat Carbonhydrat ٦,72 زوركسل Sekerler Sugars 8%,80 ةيئاذغلا فايلألا Lf/ Fbe 9, 6%,3 Protein/Protein 3g,0 6%,0 نيتوربإ Tu/ Sal gي 0% ل 2000 لأ ةيمولا  دنيم 3958 بقلل ةيونمل 2000 kcal I yetiskinin I Refeians Alim n Duzeyini RA belirtin Gida sletmecisi / Producer ةكرسمجتنم 00g ه Isletme Adresi /Factory Adress  Istanbul Yolu 33. Km /ناونع Net Agirlik عنصملا Bitk Koyu Girisi Kahram ankazan ANKARA TURKIYE PK. 090 Net Weight Te 90 312 814 90pbWeb: 55 ?Www.mndgida.com. Isletme Kayt No نزولا ياصلا  TR-06-K-017218",
+  "tokens": [
+    {
+      "text": "Geleneksel",
+      "bbox": [
+        3424.0,
+        0.0,
+        4051.0,
+        169.0
+      ],
+      "confidence": 96.15
+    },
+    {
+      "text": "Lokman",
+      "bbox": [
+        2939.0,
+        7.0,
+        3410.0,
+        168.0
+      ],
+      "confidence": 94.26
+    },
+    {
+      "text": "Receli",
+      "bbox": [
+        3511.0,
+        208.0,
+        4244.0,
+        508.0
+      ],
+      "confidence": 93.11
+    },
+    {
+      "text": "Visne",
+      "bbox": [
+        2795.0,
+        242.0,
+        3443.0,
+        525.0
+      ],
+      "confidence": 94.03
+    },
+    {
+      "text": "زركلا",
+      "bbox": [
+        3776.0,
+        533.0,
+        3997.0,
+        667.0
+      ],
+      "confidence": 97.09
+    },
+    {
+      "text": "ىبرم",
+      "bbox": [
+        3988.0,
+        527.0,
+        4236.0,
+        698.0
+      ],
+      "confidence": 94.29
+    },
+    {
+      "text": "Jam ",
+      "bbox": [
+        3571.0,
+        542.0,
+        3776.0,
+        667.0
+      ],
+      "confidence": 89.22
+    },
+    {
+      "text": "Sourcherry",
+      "bbox": [
+        3168.0,
+        540.0,
+        3573.0,
+        677.0
+      ],
+      "confidence": 95.23
+    },
+    {
+      "text": "Traditional",
+      "bbox": [
+        2819.0,
+        556.0,
+        3173.0,
+        702.0
+      ],
+      "confidence": 91.49
+    },
+    {
+      "text": ",Seker",
+      "bbox": [
+        3793.0,
+        708.0,
+        4048.0,
+        833.0
+      ],
+      "confidence": 99.56
+    },
+    {
+      "text": "Kivam",
+      "bbox": [
+        4028.0,
+        705.0,
+        4316.0,
+        845.0
+      ],
+      "confidence": 88.98
+    },
+    {
+      "text": "GlikoZ",
+      "bbox": [
+        3179.0,
+        725.0,
+        3435.0,
+        842.0
+      ],
+      "confidence": 78.2
+    },
+    {
+      "text": "Surubu",
+      "bbox": [
+        3432.0,
+        698.0,
+        3770.0,
+        836.0
+      ],
+      "confidence": 96.06
+    },
+    {
+      "text": "ArttricC",
+      "bbox": [
+        4283.0,
+        721.0,
+        4598.0,
+        870.0
+      ],
+      "confidence": 80.7
+    },
+    {
+      "text": ",Visne",
+      "bbox": [
+        2898.0,
+        742.0,
+        3162.0,
+        858.0
+      ],
+      "confidence": 80.17
+    },
+    {
+      "text": "indekiler:",
+      "bbox": [
+        2426.0,
+        739.0,
+        2910.0,
+        895.0
+      ],
+      "confidence": 92.87
+    },
+    {
+      "text": "Gida",
+      "bbox": [
+        4018.0,
+        846.0,
+        4241.0,
+        996.0
+      ],
+      "confidence": 94.77
+    },
+    {
+      "text": "Sitrik Asit.",
+      "bbox": [
+        3349.0,
+        867.0,
+        3810.0,
+        983.0
+      ],
+      "confidence": 90.68
+    },
+    {
+      "text": "Kodeksi",
+      "bbox": [
+        4244.0,
+        875.0,
+        4560.0,
+        992.0
+      ],
+      "confidence": 94.13
+    },
+    {
+      "text": ",Recel",
+      "bbox": [
+        4519.0,
+        869.0,
+        4771.0,
+        1031.0
+      ],
+      "confidence": 87.11
+    },
+    {
+      "text": "Duzenleyici",
+      "bbox": [
+        2828.0,
+        865.0,
+        3351.0,
+        1001.0
+      ],
+      "confidence": 93.05
+    },
+    {
+      "text": "Asitlik",
+      "bbox": [
+        2562.0,
+        889.0,
+        2850.0,
+        1028.0
+      ],
+      "confidence": 93.19
+    },
+    {
+      "text": "Tblig'ne",
+      "bbox": [
+        4078.0,
+        988.0,
+        4495.0,
+        1153.0
+      ],
+      "confidence": 75.6
+    },
+    {
+      "text": "Puresi",
+      "bbox": [
+        3818.0,
+        1000.0,
+        4082.0,
+        1117.0
+      ],
+      "confidence": 95.06
+    },
+    {
+      "text": "Kestane",
+      "bbox": [
+        3486.0,
+        1017.0,
+        3818.0,
+        1108.0
+      ],
+      "confidence": 99.73
+    },
+    {
+      "text": "Uygundur.",
+      "bbox": [
+        4455.0,
+        1023.0,
+        4835.0,
+        1160.0
+      ],
+      "confidence": 96.42
+    },
+    {
+      "text": "TatlandirImis",
+      "bbox": [
+        2887.0,
+        1006.0,
+        3471.0,
+        1152.0
+      ],
+      "confidence": 90.47
+    },
+    {
+      "text": "armelat ve",
+      "bbox": [
+        2341.0,
+        1031.0,
+        2909.0,
+        1186.0
+      ],
+      "confidence": 80.98
+    },
+    {
+      "text": "PN ambala uzerindedir.",
+      "bbox": [
+        3986.0,
+        1122.0,
+        4946.0,
+        1311.0
+      ],
+      "confidence": 89.25
+    },
+    {
+      "text": "Parti No",
+      "bbox": [
+        3631.0,
+        1142.0,
+        3997.0,
+        1258.0
+      ],
+      "confidence": 86.08
+    },
+    {
+      "text": "TariETT",
+      "bbox": [
+        2973.0,
+        1149.0,
+        3521.0,
+        1285.0
+      ],
+      "confidence": 71.74
+    },
+    {
+      "text": "e",
+      "bbox": [
+        3528.0,
+        1167.0,
+        3631.0,
+        1242.0
+      ],
+      "confidence": 84.0
+    },
+    {
+      "text": "Tiketim",
+      "bbox": [
+        2630.0,
+        1163.0,
+        2978.0,
+        1312.0
+      ],
+      "confidence": 95.6
+    },
+    {
+      "text": "n",
+      "bbox": [
+        2332.0,
+        1189.0,
+        2611.0,
+        1319.0
+      ],
+      "confidence": 77.51
+    },
+    {
+      "text": "وTa",
+      "bbox": [
+        2062.0,
+        1258.0,
+        2293.0,
+        1350.0
+      ],
+      "confidence": 56.77
+    },
+    {
+      "text": "C ve kuru",
+      "bbox": [
+        3528.0,
+        1292.0,
+        3980.0,
+        1408.0
+      ],
+      "confidence": 94.02
+    },
+    {
+      "text": ",yerde",
+      "bbox": [
+        3963.0,
+        1292.0,
+        4219.0,
+        1408.0
+      ],
+      "confidence": 93.27
+    },
+    {
+      "text": "dogrudan",
+      "bbox": [
+        4236.0,
+        1300.0,
+        4628.0,
+        1417.0
+      ],
+      "confidence": 98.57
+    },
+    {
+      "text": "Serin 15-25",
+      "bbox": [
+        2930.0,
+        1281.0,
+        3496.0,
+        1435.0
+      ],
+      "confidence": 84.77
+    },
+    {
+      "text": " gunes",
+      "bbox": [
+        4574.0,
+        1314.0,
+        4844.0,
+        1436.0
+      ],
+      "confidence": 79.62
+    },
+    {
+      "text": "Kosullar:",
+      "bbox": [
+        2511.0,
+        1314.0,
+        2960.0,
+        1461.0
+      ],
+      "confidence": 91.27
+    },
+    {
+      "text": "acildiktan",
+      "bbox": [
+        4370.0,
+        1423.0,
+        4741.0,
+        1569.0
+      ],
+      "confidence": 94.31
+    },
+    {
+      "text": "ediniz.",
+      "bbox": [
+        3733.0,
+        1442.0,
+        3997.0,
+        1533.0
+      ],
+      "confidence": 94.61
+    },
+    {
+      "text": "Ambalaj",
+      "bbox": [
+        4006.0,
+        1433.0,
+        4372.0,
+        1550.0
+      ],
+      "confidence": 93.72
+    },
+    {
+      "text": "muhafaza",
+      "bbox": [
+        3297.0,
+        1432.0,
+        3717.0,
+        1543.0
+      ],
+      "confidence": 99.64
+    },
+    {
+      "text": "uzakta",
+      "bbox": [
+        2998.0,
+        1448.0,
+        3292.0,
+        1560.0
+      ],
+      "confidence": 89.96
+    },
+    {
+      "text": "SOnra",
+      "bbox": [
+        4735.0,
+        1464.0,
+        4947.0,
+        1578.0
+      ],
+      "confidence": 72.93
+    },
+    {
+      "text": "Kapagi",
+      "bbox": [
+        4116.0,
+        1575.0,
+        4406.0,
+        1692.0
+      ],
+      "confidence": 98.55
+    },
+    {
+      "text": "k birakmayin.",
+      "bbox": [
+        4497.0,
+        1572.0,
+        4972.0,
+        1728.0
+      ],
+      "confidence": 96.85
+    },
+    {
+      "text": "tuketiniz",
+      "bbox": [
+        3724.0,
+        1583.0,
+        4082.0,
+        1675.0
+      ],
+      "confidence": 90.46
+    },
+    {
+      "text": "icerisinde",
+      "bbox": [
+        3295.0,
+        1565.0,
+        3710.0,
+        1710.0
+      ],
+      "confidence": 99.74
+    },
+    {
+      "text": "cik",
+      "bbox": [
+        4381.0,
+        1592.0,
+        4551.0,
+        1683.0
+      ],
+      "confidence": 74.38
+    },
+    {
+      "text": "ay",
+      "bbox": [
+        3162.0,
+        1608.0,
+        3324.0,
+        1700.0
+      ],
+      "confidence": 75.47
+    },
+    {
+      "text": "aklayiniz ve",
+      "bbox": [
+        2563.0,
+        1598.0,
+        3113.0,
+        1744.0
+      ],
+      "confidence": 74.26
+    },
+    {
+      "text": "oabida",
+      "bbox": [
+        2033.0,
+        1621.0,
+        2603.0,
+        1787.0
+      ],
+      "confidence": 88.89
+    },
+    {
+      "text": "Guvence",
+      "bbox": [
+        3723.0,
+        1715.0,
+        4127.0,
+        1827.0
+      ],
+      "confidence": 95.29
+    },
+    {
+      "text": "G0venligi",
+      "bbox": [
+        4404.0,
+        1723.0,
+        4783.0,
+        1835.0
+      ],
+      "confidence": 84.5
+    },
+    {
+      "text": "Kalite",
+      "bbox": [
+        3482.0,
+        1705.0,
+        3729.0,
+        1837.0
+      ],
+      "confidence": 98.89
+    },
+    {
+      "text": "Gida",
+      "bbox": [
+        4227.0,
+        1742.0,
+        4406.0,
+        1808.0
+      ],
+      "confidence": 88.96
+    },
+    {
+      "text": "Yonetim",
+      "bbox": [
+        4770.0,
+        1740.0,
+        5056.0,
+        1860.0
+      ],
+      "confidence": 92.27
+    },
+    {
+      "text": "le hazirlanmustn",
+      "bbox": [
+        2751.0,
+        1723.0,
+        3453.0,
+        1868.0
+      ],
+      "confidence": 96.11
+    },
+    {
+      "text": "meyve",
+      "bbox": [
+        2460.0,
+        1764.0,
+        2782.0,
+        1886.0
+      ],
+      "confidence": 85.47
+    },
+    {
+      "text": "da 351",
+      "bbox": [
+        1948.0,
+        1764.0,
+        2518.0,
+        1936.0
+      ],
+      "confidence": 72.32
+    },
+    {
+      "text": "Sahip",
+      "bbox": [
+        3477.0,
+        1875.0,
+        3707.0,
+        1967.0
+      ],
+      "confidence": 85.57
+    },
+    {
+      "text": "fabrikamizda uretilmistir.",
+      "bbox": [
+        3733.0,
+        1867.0,
+        4679.0,
+        1975.0
+      ],
+      "confidence": 87.88
+    },
+    {
+      "text": "belgelendirilmesine.",
+      "bbox": [
+        2647.0,
+        1847.0,
+        3489.0,
+        2028.0
+      ],
+      "confidence": 92.59
+    },
+    {
+      "text": "Sistem",
+      "bbox": [
+        2378.0,
+        1933.0,
+        2676.0,
+        2025.0
+      ],
+      "confidence": 88.57
+    },
+    {
+      "text": "Tirkiye.",
+      "bbox": [
+        3665.0,
+        2000.0,
+        3989.0,
+        2117.0
+      ],
+      "confidence": 94.67
+    },
+    {
+      "text": "Mense",
+      "bbox": [
+        3119.0,
+        2017.0,
+        3418.0,
+        2133.0
+      ],
+      "confidence": 98.64
+    },
+    {
+      "text": "Uke",
+      "bbox": [
+        3418.0,
+        2017.0,
+        3631.0,
+        2108.0
+      ],
+      "confidence": 54.48
+    },
+    {
+      "text": "Sugar",
+      "bbox": [
+        3895.0,
+        2142.0,
+        4151.0,
+        2258.0
+      ],
+      "confidence": 94.49
+    },
+    {
+      "text": "Gelling",
+      "bbox": [
+        4176.0,
+        2142.0,
+        4491.0,
+        2258.0
+      ],
+      "confidence": 99.79
+    },
+    {
+      "text": "Syrup",
+      "bbox": [
+        3639.0,
+        2158.0,
+        3869.0,
+        2250.0
+      ],
+      "confidence": 90.32
+    },
+    {
+      "text": ",Agent Pectin",
+      "bbox": [
+        4466.0,
+        2150.0,
+        4994.0,
+        2267.0
+      ],
+      "confidence": 97.08
+    },
+    {
+      "text": ",35%",
+      "bbox": [
+        3000.0,
+        2167.0,
+        3264.0,
+        2283.0
+      ],
+      "confidence": 85.73
+    },
+    {
+      "text": "Glucose",
+      "bbox": [
+        3290.0,
+        2167.0,
+        3614.0,
+        2258.0
+      ],
+      "confidence": 98.85
+    },
+    {
+      "text": "Sourcherry",
+      "bbox": [
+        2521.0,
+        2165.0,
+        3002.0,
+        2302.0
+      ],
+      "confidence": 99.77
+    },
+    {
+      "text": "Ingredients:",
+      "bbox": [
+        2041.0,
+        2188.0,
+        2535.0,
+        2353.0
+      ],
+      "confidence": 96.85
+    },
+    {
+      "text": "Best Before or Sell by and",
+      "bbox": [
+        4217.0,
+        2249.0,
+        5158.0,
+        2418.0
+      ],
+      "confidence": 94.3
+    },
+    {
+      "text": "Dating",
+      "bbox": [
+        3486.0,
+        2300.0,
+        3767.0,
+        2392.0
+      ],
+      "confidence": 98.59
+    },
+    {
+      "text": "E",
+      "bbox": [
+        3793.0,
+        2292.0,
+        3972.0,
+        2392.0
+      ],
+      "confidence": 83.57
+    },
+    {
+      "text": ",Date",
+      "bbox": [
+        3997.0,
+        2292.0,
+        4210.0,
+        2383.0
+      ],
+      "confidence": 93.95
+    },
+    {
+      "text": "Expiration",
+      "bbox": [
+        3024.0,
+        2290.0,
+        3488.0,
+        2427.0
+      ],
+      "confidence": 95.11
+    },
+    {
+      "text": "Citric",
+      "bbox": [
+        2548.0,
+        2333.0,
+        2804.0,
+        2450.0
+      ],
+      "confidence": 92.31
+    },
+    {
+      "text": "id",
+      "bbox": [
+        2775.0,
+        2306.0,
+        3003.0,
+        2428.0
+      ],
+      "confidence": 95.59
+    },
+    {
+      "text": "Acidity",
+      "bbox": [
+        1884.0,
+        2375.0,
+        2139.0,
+        2492.0
+      ],
+      "confidence": 97.76
+    },
+    {
+      "text": "Regulator",
+      "bbox": [
+        2135.0,
+        2330.0,
+        2535.0,
+        2487.0
+      ],
+      "confidence": 96.18
+    },
+    {
+      "text": "Storage",
+      "bbox": [
+        3392.0,
+        2433.0,
+        3741.0,
+        2550.0
+      ],
+      "confidence": 98.86
+    },
+    {
+      "text": "Instructions:",
+      "bbox": [
+        3715.0,
+        2424.0,
+        4245.0,
+        2526.0
+      ],
+      "confidence": 96.55
+    },
+    {
+      "text": "Keep",
+      "bbox": [
+        4278.0,
+        2433.0,
+        4474.0,
+        2525.0
+      ],
+      "confidence": 93.79
+    },
+    {
+      "text": "in coo 15to",
+      "bbox": [
+        4474.0,
+        2433.0,
+        4952.0,
+        2525.0
+      ],
+      "confidence": 83.53
+    },
+    {
+      "text": "the package.",
+      "bbox": [
+        2845.0,
+        2440.0,
+        3377.0,
+        2568.0
+      ],
+      "confidence": 99.82
+    },
+    {
+      "text": "are",
+      "bbox": [
+        2565.0,
+        2483.0,
+        2744.0,
+        2575.0
+      ],
+      "confidence": 73.49
+    },
+    {
+      "text": "Lt",
+      "bbox": [
+        2412.0,
+        2492.0,
+        2591.0,
+        2583.0
+      ],
+      "confidence": 56.53
+    },
+    {
+      "text": "Lot Number",
+      "bbox": [
+        1897.0,
+        2472.0,
+        2398.0,
+        2628.0
+      ],
+      "confidence": 96.46
+    },
+    {
+      "text": "odours",
+      "bbox": [
+        3665.0,
+        2575.0,
+        3938.0,
+        2667.0
+      ],
+      "confidence": 91.46
+    },
+    {
+      "text": "Keep",
+      "bbox": [
+        3980.0,
+        2575.0,
+        4193.0,
+        2667.0
+      ],
+      "confidence": 82.43
+    },
+    {
+      "text": "in fridge",
+      "bbox": [
+        4193.0,
+        2567.0,
+        4517.0,
+        2658.0
+      ],
+      "confidence": 94.2
+    },
+    {
+      "text": "after",
+      "bbox": [
+        4517.0,
+        2567.0,
+        4713.0,
+        2658.0
+      ],
+      "confidence": 99.05
+    },
+    {
+      "text": "d",
+      "bbox": [
+        3452.0,
+        2583.0,
+        3656.0,
+        2675.0
+      ],
+      "confidence": 67.67
+    },
+    {
+      "text": "Opening and",
+      "bbox": [
+        4722.0,
+        2575.0,
+        5148.0,
+        2667.0
+      ],
+      "confidence": 91.68
+    },
+    {
+      "text": "direct sunlight",
+      "bbox": [
+        2862.0,
+        2565.0,
+        3488.0,
+        2710.0
+      ],
+      "confidence": 99.32
+    },
+    {
+      "text": "from",
+      "bbox": [
+        2668.0,
+        2617.0,
+        2864.0,
+        2708.0
+      ],
+      "confidence": 96.45
+    },
+    {
+      "text": "wa",
+      "bbox": [
+        2438.0,
+        2633.0,
+        2642.0,
+        2725.0
+      ],
+      "confidence": 95.18
+    },
+    {
+      "text": "and dry place",
+      "bbox": [
+        1898.0,
+        2623.0,
+        2423.0,
+        2761.0
+      ],
+      "confidence": 98.34
+    },
+    {
+      "text": "Product of Turkey.",
+      "bbox": [
+        4149.0,
+        2674.0,
+        4859.0,
+        2809.0
+      ],
+      "confidence": 99.18
+    },
+    {
+      "text": "lid open.",
+      "bbox": [
+        3784.0,
+        2700.0,
+        4151.0,
+        2817.0
+      ],
+      "confidence": 95.96
+    },
+    {
+      "text": "not leave the",
+      "bbox": [
+        3228.0,
+        2698.0,
+        3795.0,
+        2835.0
+      ],
+      "confidence": 91.98
+    },
+    {
+      "text": "٥D",
+      "bbox": [
+        3111.0,
+        2742.0,
+        3256.0,
+        2833.0
+      ],
+      "confidence": 85.2
+    },
+    {
+      "text": "1 month.",
+      "bbox": [
+        2689.0,
+        2713.0,
+        3081.0,
+        2870.0
+      ],
+      "confidence": 90.41
+    },
+    {
+      "text": "Consume in",
+      "bbox": [
+        2248.0,
+        2756.0,
+        2729.0,
+        2869.0
+      ],
+      "confidence": 92.77
+    },
+    {
+      "text": "ضماح",
+      "bbox": [
+        4730.0,
+        2875.0,
+        4960.0,
+        2967.0
+      ],
+      "confidence": 97.62
+    },
+    {
+      "text": "زرك",
+      "bbox": [
+        4943.0,
+        2875.0,
+        5054.0,
+        2950.0
+      ],
+      "confidence": 95.39
+    },
+    {
+      "text": ":تانوكملا",
+      "bbox": [
+        5045.0,
+        2867.0,
+        5267.0,
+        2967.0
+      ],
+      "confidence": 87.5
+    },
+    {
+      "text": "كبرتسلا",
+      "bbox": [
+        2403.0,
+        2925.0,
+        2685.0,
+        3042.0
+      ],
+      "confidence": 95.21
+    },
+    {
+      "text": "ةومتملانتكبا ضيتكبلا(ضمحلا",
+      "bbox": [
+        2666.0,
+        2882.0,
+        3641.0,
+        3026.0
+      ],
+      "confidence": 74.58
+    },
+    {
+      "text": "(نادرجوم ىلع",
+      "bbox": [
+        4915.0,
+        2973.0,
+        5286.0,
+        3111.0
+      ],
+      "confidence": 84.88
+    },
+    {
+      "text": "مقرو(لولحب",
+      "bbox": [
+        4123.0,
+        2998.0,
+        4519.0,
+        3118.0
+      ],
+      "confidence": 83.11
+    },
+    {
+      "text": "لْنالا",
+      "bbox": [
+        3409.0,
+        3008.0,
+        3673.0,
+        3125.0
+      ],
+      "confidence": 56.02
+    },
+    {
+      "text": "كذ",
+      "bbox": [
+        3793.0,
+        3008.0,
+        3920.0,
+        3108.0
+      ],
+      "confidence": 98.76
+    },
+    {
+      "text": "ةعفدلا",
+      "bbox": [
+        4526.0,
+        3000.0,
+        4722.0,
+        3092.0
+      ],
+      "confidence": 97.59
+    },
+    {
+      "text": "تؤل ",
+      "bbox": [
+        4747.0,
+        3000.0,
+        4926.0,
+        3092.0
+      ],
+      "confidence": 76.11
+    },
+    {
+      "text": "لبق",
+      "bbox": [
+        3639.0,
+        3017.0,
+        3801.0,
+        3117.0
+      ],
+      "confidence": 80.34
+    },
+    {
+      "text": "وأعببلا",
+      "bbox": [
+        3929.0,
+        3017.0,
+        4142.0,
+        3108.0
+      ],
+      "confidence": 92.93
+    },
+    {
+      "text": "خيرات ءاءاهتنا ةيحالصلا",
+      "bbox": [
+        2647.0,
+        2997.0,
+        3370.0,
+        3178.0
+      ],
+      "confidence": 93.25
+    },
+    {
+      "text": "نيتكبلا خياهتنا هن ةيحالصلا",
+      "bbox": [
+        1787.0,
+        3022.0,
+        2679.0,
+        3219.0
+      ],
+      "confidence": 75.33
+    },
+    {
+      "text": "حئاورلاو طفحب",
+      "bbox": [
+        4906.0,
+        3072.0,
+        5287.0,
+        3220.0
+      ],
+      "confidence": 86.8
+    },
+    {
+      "text": "فاجو اديعب نع",
+      "bbox": [
+        3861.0,
+        3117.0,
+        4338.0,
+        3208.0
+      ],
+      "confidence": 93.33
+    },
+    {
+      "text": "ةعشا",
+      "bbox": [
+        4321.0,
+        3117.0,
+        4474.0,
+        3183.0
+      ],
+      "confidence": 88.03
+    },
+    {
+      "text": "رشابملا",
+      "bbox": [
+        4739.0,
+        3117.0,
+        4918.0,
+        3183.0
+      ],
+      "confidence": 97.11
+    },
+    {
+      "text": "(ىلإأ  ةجرد ةيونم",
+      "bbox": [
+        3203.0,
+        3107.0,
+        3863.0,
+        3252.0
+      ],
+      "confidence": 87.91
+    },
+    {
+      "text": "تاميلعت",
+      "bbox": [
+        1940.0,
+        3164.0,
+        2202.0,
+        3286.0
+      ],
+      "confidence": 98.45
+    },
+    {
+      "text": ":نيزختلا",
+      "bbox": [
+        2161.0,
+        3164.0,
+        2441.0,
+        3286.0
+      ],
+      "confidence": 90.06
+    },
+    {
+      "text": "كرت ءاطغلا اخوتفم",
+      "bbox": [
+        3570.0,
+        3199.0,
+        4279.0,
+        3326.0
+      ],
+      "confidence": 74.89
+    },
+    {
+      "text": "ةيلاخ نم تابسم تاةيساسحلل",
+      "bbox": [
+        4269.0,
+        3182.0,
+        5038.0,
+        3309.0
+      ],
+      "confidence": 88.54
+    },
+    {
+      "text": "جتنم يكرن",
+      "bbox": [
+        5020.0,
+        3200.0,
+        5293.0,
+        3292.0
+      ],
+      "confidence": 92.52
+    },
+    {
+      "text": "ةوبعلا",
+      "bbox": [
+        1781.0,
+        3217.0,
+        1935.0,
+        3283.0
+      ],
+      "confidence": 99.6
+    },
+    {
+      "text": "كلهتسيو لالخ",
+      "bbox": [
+        2812.0,
+        3258.0,
+        3239.0,
+        3350.0
+      ],
+      "confidence": 94.43
+    },
+    {
+      "text": "رهش دحاو",
+      "bbox": [
+        3271.0,
+        3231.0,
+        3582.0,
+        3344.0
+      ],
+      "confidence": 75.11
+    },
+    {
+      "text": "دعب حتفلا",
+      "bbox": [
+        2531.0,
+        3275.0,
+        2778.0,
+        3367.0
+      ],
+      "confidence": 95.46
+    },
+    {
+      "text": "يف ةجلالثلا",
+      "bbox": [
+        2220.0,
+        3247.0,
+        2527.0,
+        3387.0
+      ],
+      "confidence": 89.75
+    },
+    {
+      "text": "ةيئاذغلا ميقلا",
+      "bbox": [
+        3597.0,
+        3400.0,
+        3972.0,
+        3483.0
+      ],
+      "confidence": 92.67
+    },
+    {
+      "text": "NUTRITION INFCRMATION",
+      "bbox": [
+        2649.0,
+        3407.0,
+        3555.0,
+        3526.0
+      ],
+      "confidence": 97.53
+    },
+    {
+      "text": "ENERVE ESN GELER",
+      "bbox": [
+        1796.0,
+        3423.0,
+        2618.0,
+        3568.0
+      ],
+      "confidence": 78.96
+    },
+    {
+      "text": "RA i",
+      "bbox": [
+        3109.0,
+        3515.0,
+        3530.0,
+        3643.0
+      ],
+      "confidence": 55.88
+    },
+    {
+      "text": "100g igin",
+      "bbox": [
+        2719.0,
+        3558.0,
+        3000.0,
+        3642.0
+      ],
+      "confidence": 89.56
+    },
+    {
+      "text": "Besin Degerleri",
+      "bbox": [
+        1747.0,
+        3583.0,
+        2114.0,
+        3667.0
+      ],
+      "confidence": 97.3
+    },
+    {
+      "text": "لالح",
+      "bbox": [
+        4180.0,
+        3587.0,
+        4641.0,
+        3838.0
+      ],
+      "confidence": 90.38
+    },
+    {
+      "text": "GDA",
+      "bbox": [
+        3188.0,
+        3642.0,
+        3426.0,
+        3725.0
+      ],
+      "confidence": 75.0
+    },
+    {
+      "text": "ةيئاذغلا رصانعلا",
+      "bbox": [
+        3707.0,
+        3633.0,
+        4065.0,
+        3717.0
+      ],
+      "confidence": 94.15
+    },
+    {
+      "text": "100g contains",
+      "bbox": [
+        2657.0,
+        3640.0,
+        3053.0,
+        3752.0
+      ],
+      "confidence": 96.93
+    },
+    {
+      "text": "Typical values",
+      "bbox": [
+        1747.0,
+        3683.0,
+        2080.0,
+        3767.0
+      ],
+      "confidence": 95.29
+    },
+    {
+      "text": "235k",
+      "bbox": [
+        2753.0,
+        3817.0,
+        2949.0,
+        3883.0
+      ],
+      "confidence": 77.88
+    },
+    {
+      "text": "Halal",
+      "bbox": [
+        4261.0,
+        3833.0,
+        4602.0,
+        3950.0
+      ],
+      "confidence": 95.69
+    },
+    {
+      "text": "7,14",
+      "bbox": [
+        3184.0,
+        3822.0,
+        3412.0,
+        3928.0
+      ],
+      "confidence": 80.89
+    },
+    {
+      "text": "30 kca",
+      "bbox": [
+        2724.0,
+        3872.0,
+        2977.0,
+        3986.0
+      ],
+      "confidence": 81.62
+    },
+    {
+      "text": "Energ",
+      "bbox": [
+        1960.0,
+        3883.0,
+        2122.0,
+        3950.0
+      ],
+      "confidence": 92.96
+    },
+    {
+      "text": "ةيرارح تارعس",
+      "bbox": [
+        3722.0,
+        3856.0,
+        4059.0,
+        3969.0
+      ],
+      "confidence": 96.69
+    },
+    {
+      "text": "2,0",
+      "bbox": [
+        2787.0,
+        4042.0,
+        2932.0,
+        4142.0
+      ],
+      "confidence": 83.59
+    },
+    {
+      "text": "3%,0",
+      "bbox": [
+        3230.0,
+        4033.0,
+        3384.0,
+        4125.0
+      ],
+      "confidence": 85.26
+    },
+    {
+      "text": "نوهدلا يلامجإ",
+      "bbox": [
+        3705.0,
+        4006.0,
+        4068.0,
+        4127.0
+      ],
+      "confidence": 92.37
+    },
+    {
+      "text": "/Total Fa",
+      "bbox": [
+        1781.0,
+        4058.0,
+        2114.0,
+        4142.0
+      ],
+      "confidence": 79.24
+    },
+    {
+      "text": "هاله",
+      "bbox": [
+        4270.0,
+        4150.0,
+        4577.0,
+        4317.0
+      ],
+      "confidence": 76.48
+    },
+    {
+      "text": "0%",
+      "bbox": [
+        3247.0,
+        4175.0,
+        3375.0,
+        4275.0
+      ],
+      "confidence": 62.15
+    },
+    {
+      "text": "ةعبشملا نوهدلا",
+      "bbox": [
+        3679.0,
+        4139.0,
+        4076.0,
+        4261.0
+      ],
+      "confidence": 99.44
+    },
+    {
+      "text": "mus Ya / Saturated Fa",
+      "bbox": [
+        1806.0,
+        4191.0,
+        2456.0,
+        4301.0
+      ],
+      "confidence": 82.17
+    },
+    {
+      "text": "تارديمويركلا",
+      "bbox": [
+        3767.0,
+        4300.0,
+        4074.0,
+        4417.0
+      ],
+      "confidence": 82.76
+    },
+    {
+      "text": "AN٤٧",
+      "bbox": [
+        4193.0,
+        4300.0,
+        4619.0,
+        4483.0
+      ],
+      "confidence": 79.61
+    },
+    {
+      "text": "3%,28",
+      "bbox": [
+        3222.0,
+        4317.0,
+        3418.0,
+        4417.0
+      ],
+      "confidence": 91.76
+    },
+    {
+      "text": "7,7",
+      "bbox": [
+        2787.0,
+        4333.0,
+        2966.0,
+        4450.0
+      ],
+      "confidence": 70.11
+    },
+    {
+      "text": "bonhidrat",
+      "bbox": [
+        1849.0,
+        4350.0,
+        2131.0,
+        4433.0
+      ],
+      "confidence": 98.69
+    },
+    {
+      "text": "Carbonhydrat",
+      "bbox": [
+        2148.0,
+        4367.0,
+        2514.0,
+        4425.0
+      ],
+      "confidence": 98.69
+    },
+    {
+      "text": "٦,72",
+      "bbox": [
+        2787.0,
+        4467.0,
+        2974.0,
+        4600.0
+      ],
+      "confidence": 55.18
+    },
+    {
+      "text": "زوركسل",
+      "bbox": [
+        3890.0,
+        4438.0,
+        4070.0,
+        4554.0
+      ],
+      "confidence": 94.21
+    },
+    {
+      "text": "Sekerler Sugars",
+      "bbox": [
+        1780.0,
+        4474.0,
+        2200.0,
+        4585.0
+      ],
+      "confidence": 94.8
+    },
+    {
+      "text": "8%,80",
+      "bbox": [
+        3218.0,
+        4455.0,
+        3430.0,
+        4578.0
+      ],
+      "confidence": 95.44
+    },
+    {
+      "text": "ةيئاذغلا فايلألا",
+      "bbox": [
+        3750.0,
+        4592.0,
+        4074.0,
+        4683.0
+      ],
+      "confidence": 97.53
+    },
+    {
+      "text": "Lf/ Fbe",
+      "bbox": [
+        1798.0,
+        4617.0,
+        2011.0,
+        4717.0
+      ],
+      "confidence": 77.09
+    },
+    {
+      "text": "9,",
+      "bbox": [
+        2788.0,
+        4595.0,
+        2957.0,
+        4738.0
+      ],
+      "confidence": 61.47
+    },
+    {
+      "text": "6%,3",
+      "bbox": [
+        3256.0,
+        4617.0,
+        3409.0,
+        4717.0
+      ],
+      "confidence": 88.32
+    },
+    {
+      "text": "Protein/Protein",
+      "bbox": [
+        1804.0,
+        4748.0,
+        2193.0,
+        4869.0
+      ],
+      "confidence": 95.79
+    },
+    {
+      "text": "3g,0",
+      "bbox": [
+        2804.0,
+        4750.0,
+        2974.0,
+        4883.0
+      ],
+      "confidence": 78.99
+    },
+    {
+      "text": "6%,0",
+      "bbox": [
+        3256.0,
+        4750.0,
+        3418.0,
+        4850.0
+      ],
+      "confidence": 53.41
+    },
+    {
+      "text": "نيتوربإ",
+      "bbox": [
+        3938.0,
+        4750.0,
+        4108.0,
+        4842.0
+      ],
+      "confidence": 68.27
+    },
+    {
+      "text": "Tu/ Sal",
+      "bbox": [
+        1795.0,
+        4889.0,
+        2032.0,
+        5011.0
+      ],
+      "confidence": 79.63
+    },
+    {
+      "text": "gي",
+      "bbox": [
+        2855.0,
+        4908.0,
+        2932.0,
+        5000.0
+      ],
+      "confidence": 53.39
+    },
+    {
+      "text": "0%",
+      "bbox": [
+        3290.0,
+        4900.0,
+        3384.0,
+        4983.0
+      ],
+      "confidence": 52.39
+    },
+    {
+      "text": "ل",
+      "bbox": [
+        4006.0,
+        4900.0,
+        4082.0,
+        4975.0
+      ],
+      "confidence": 57.89
+    },
+    {
+      "text": "2000",
+      "bbox": [
+        2301.0,
+        5067.0,
+        2463.0,
+        5125.0
+      ],
+      "confidence": 75.73
+    },
+    {
+      "text": "لأ ةيمولا ",
+      "bbox": [
+        2497.0,
+        5075.0,
+        2727.0,
+        5158.0
+      ],
+      "confidence": 89.94
+    },
+    {
+      "text": "دنيم",
+      "bbox": [
+        3136.0,
+        5067.0,
+        3247.0,
+        5125.0
+      ],
+      "confidence": 71.32
+    },
+    {
+      "text": "3958",
+      "bbox": [
+        4400.0,
+        5037.0,
+        4692.0,
+        5205.0
+      ],
+      "confidence": 88.76
+    },
+    {
+      "text": "بقلل ةيونمل",
+      "bbox": [
+        2744.0,
+        5083.0,
+        2974.0,
+        5142.0
+      ],
+      "confidence": 87.83
+    },
+    {
+      "text": "2000 kcal",
+      "bbox": [
+        3611.0,
+        5173.0,
+        3931.0,
+        5277.0
+      ],
+      "confidence": 91.69
+    },
+    {
+      "text": "I yetiskinin",
+      "bbox": [
+        2361.0,
+        5208.0,
+        2634.0,
+        5292.0
+      ],
+      "confidence": 93.14
+    },
+    {
+      "text": "I Refeians Alim",
+      "bbox": [
+        2616.0,
+        5208.0,
+        3017.0,
+        5300.0
+      ],
+      "confidence": 98.99
+    },
+    {
+      "text": "n Duzeyini",
+      "bbox": [
+        2991.0,
+        5208.0,
+        3290.0,
+        5292.0
+      ],
+      "confidence": 92.03
+    },
+    {
+      "text": "RA belirtin",
+      "bbox": [
+        3254.0,
+        5190.0,
+        3599.0,
+        5293.0
+      ],
+      "confidence": 89.19
+    },
+    {
+      "text": "Gida sletmecisi / Producer",
+      "bbox": [
+        1839.0,
+        5298.0,
+        2635.0,
+        5427.0
+      ],
+      "confidence": 96.74
+    },
+    {
+      "text": "ةكرسمجتنم",
+      "bbox": [
+        2685.0,
+        5342.0,
+        3026.0,
+        5425.0
+      ],
+      "confidence": 76.48
+    },
+    {
+      "text": "00g",
+      "bbox": [
+        4526.0,
+        5442.0,
+        5105.0,
+        5917.0
+      ],
+      "confidence": 62.11
+    },
+    {
+      "text": "ه",
+      "bbox": [
+        5097.0,
+        5442.0,
+        5250.0,
+        5733.0
+      ],
+      "confidence": 56.45
+    },
+    {
+      "text": "Isletme Adresi /Factory",
+      "bbox": [
+        1847.0,
+        5481.0,
+        2542.0,
+        5619.0
+      ],
+      "confidence": 95.18
+    },
+    {
+      "text": "Adress",
+      "bbox": [
+        2519.0,
+        5514.0,
+        2748.0,
+        5628.0
+      ],
+      "confidence": 94.55
+    },
+    {
+      "text": " Istanbul Yolu 33. Km",
+      "bbox": [
+        3170.0,
+        5516.0,
+        3844.0,
+        5617.0
+      ],
+      "confidence": 95.7
+    },
+    {
+      "text": "/ناونع",
+      "bbox": [
+        2761.0,
+        5550.0,
+        2940.0,
+        5617.0
+      ],
+      "confidence": 95.13
+    },
+    {
+      "text": "Net Agirlik",
+      "bbox": [
+        3942.0,
+        5505.0,
+        4393.0,
+        5662.0
+      ],
+      "confidence": 89.6
+    },
+    {
+      "text": "عنصملا",
+      "bbox": [
+        2954.0,
+        5530.0,
+        3165.0,
+        5628.0
+      ],
+      "confidence": 99.15
+    },
+    {
+      "text": "Bitk Koyu Girisi Kahram",
+      "bbox": [
+        1855.0,
+        5573.0,
+        2542.0,
+        5719.0
+      ],
+      "confidence": 96.23
+    },
+    {
+      "text": "ankazan",
+      "bbox": [
+        2521.0,
+        5623.0,
+        2763.0,
+        5702.0
+      ],
+      "confidence": 99.23
+    },
+    {
+      "text": "ANKARA",
+      "bbox": [
+        2812.0,
+        5633.0,
+        3085.0,
+        5717.0
+      ],
+      "confidence": 79.47
+    },
+    {
+      "text": "TURKIYE",
+      "bbox": [
+        3111.0,
+        5633.0,
+        3392.0,
+        5717.0
+      ],
+      "confidence": 90.58
+    },
+    {
+      "text": "PK.",
+      "bbox": [
+        3392.0,
+        5642.0,
+        3511.0,
+        5708.0
+      ],
+      "confidence": 84.06
+    },
+    {
+      "text": "090",
+      "bbox": [
+        3494.0,
+        5633.0,
+        3690.0,
+        5700.0
+      ],
+      "confidence": 74.72
+    },
+    {
+      "text": "Net Weight",
+      "bbox": [
+        3944.0,
+        5632.0,
+        4425.0,
+        5768.0
+      ],
+      "confidence": 91.68
+    },
+    {
+      "text": "Te 90 312 814",
+      "bbox": [
+        1855.0,
+        5673.0,
+        2329.0,
+        5794.0
+      ],
+      "confidence": 77.27
+    },
+    {
+      "text": "90pbWeb:",
+      "bbox": [
+        2386.0,
+        5708.0,
+        2839.0,
+        5809.0
+      ],
+      "confidence": 86.69
+    },
+    {
+      "text": "55",
+      "bbox": [
+        2301.0,
+        5725.0,
+        2395.0,
+        5783.0
+      ],
+      "confidence": 85.57
+    },
+    {
+      "text": "?Www.mndgida.com.",
+      "bbox": [
+        2838.0,
+        5733.0,
+        3503.0,
+        5817.0
+      ],
+      "confidence": 96.52
+    },
+    {
+      "text": "Isletme Kayt No",
+      "bbox": [
+        1880.0,
+        5764.0,
+        2372.0,
+        5903.0
+      ],
+      "confidence": 86.6
+    },
+    {
+      "text": "نزولا",
+      "bbox": [
+        4229.0,
+        5743.0,
+        4490.0,
+        5906.0
+      ],
+      "confidence": 97.76
+    },
+    {
+      "text": "ياصلا ",
+      "bbox": [
+        3954.0,
+        5752.0,
+        4279.0,
+        5932.0
+      ],
+      "confidence": 82.25
+    },
+    {
+      "text": "TR-06-K-017218",
+      "bbox": [
+        1958.0,
+        5864.0,
+        2432.0,
+        5994.0
+      ],
+      "confidence": 86.57
+    }
+  ],
+  "processing_time_ms": 1774
+}

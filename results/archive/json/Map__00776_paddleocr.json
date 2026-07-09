@@ -1,0 +1,48 @@
+{
+  "document_id": "Map/00776",
+  "engine": "paddleocr",
+  "raw_text": "نانو UKRAINE MOLDOVA افودلو و ايناركوأ",
+  "tokens": [
+    {
+      "text": "نانو",
+      "bbox": [
+        149.0,
+        301.0,
+        370.0,
+        449.0
+      ],
+      "confidence": 99.69
+    },
+    {
+      "text": "UKRAINE",
+      "bbox": [
+        412.0,
+        411.0,
+        1003.0,
+        531.0
+      ],
+      "confidence": 96.64
+    },
+    {
+      "text": "MOLDOVA",
+      "bbox": [
+        1162.0,
+        457.0,
+        1766.0,
+        581.0
+      ],
+      "confidence": 99.52
+    },
+    {
+      "text": "افودلو و ايناركوأ",
+      "bbox": [
+        1937.0,
+        482.0,
+        2610.0,
+        631.0
+      ],
+      "confidence": 93.12
+    }
+  ],
+  "processing_time_ms": 253
+}

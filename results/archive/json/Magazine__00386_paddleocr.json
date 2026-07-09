@@ -1,0 +1,68 @@
+{
+  "document_id": "Magazine/00386",
+  "engine": "paddleocr",
+  "raw_text": "امر ٨ه Da 202 سورع Jean- r",
+  "tokens": [
+    {
+      "text": "امر ٨ه",
+      "bbox": [
+        47.0,
+        625.0,
+        142.0,
+        663.0
+      ],
+      "confidence": 81.34
+    },
+    {
+      "text": "Da",
+      "bbox": [
+        73.0,
+        660.0,
+        183.0,
+        698.0
+      ],
+      "confidence": 54.42
+    },
+    {
+      "text": "202",
+      "bbox": [
+        305.0,
+        680.0,
+        438.0,
+        774.0
+      ],
+      "confidence": 66.26
+    },
+    {
+      "text": "سورع",
+      "bbox": [
+        428.0,
+        695.0,
+        543.0,
+        774.0
+      ],
+      "confidence": 86.94
+    },
+    {
+      "text": "Jean-",
+      "bbox": [
+        44.0,
+        722.0,
+        97.0,
+        754.0
+      ],
+      "confidence": 83.17
+    },
+    {
+      "text": "r",
+      "bbox": [
+        97.0,
+        722.0,
+        145.0,
+        758.0
+      ],
+      "confidence": 98.06
+    }
+  ],
+  "processing_time_ms": 87
+}

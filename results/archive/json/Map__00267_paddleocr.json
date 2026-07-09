@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00267",
+  "engine": "paddleocr",
+  "raw_text": "يدوعسبلا ةيعلا ةكلملا",
+  "tokens": [
+    {
+      "text": "يدوعسبلا ةيعلا",
+      "bbox": [
+        322.0,
+        592.0,
+        444.0,
+        615.0
+      ],
+      "confidence": 83.82
+    },
+    {
+      "text": "ةكلملا",
+      "bbox": [
+        450.0,
+        594.0,
+        503.0,
+        611.0
+      ],
+      "confidence": 87.68
+    }
+  ],
+  "processing_time_ms": 87
+}

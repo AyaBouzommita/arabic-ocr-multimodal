@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00583",
+  "engine": "paddleocr",
+  "raw_text": "٤٢ نانبل",
+  "tokens": [
+    {
+      "text": "٤٢",
+      "bbox": [
+        643.0,
+        535.0,
+        864.0,
+        687.0
+      ],
+      "confidence": 55.15
+    },
+    {
+      "text": "نانبل",
+      "bbox": [
+        645.0,
+        670.0,
+        738.0,
+        734.0
+      ],
+      "confidence": 97.52
+    }
+  ],
+  "processing_time_ms": 75
+}

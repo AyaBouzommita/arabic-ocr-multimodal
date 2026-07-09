@@ -1,0 +1,138 @@
+{
+  "document_id": "Label/00559",
+  "engine": "paddleocr",
+  "raw_text": "creess Epreses h-qualyو peopl eire ٢ ONT CLASSIC عبح يلاج 293000 M 0",
+  "tokens": [
+    {
+      "text": "creess",
+      "bbox": [
+        422.0,
+        51.0,
+        538.0,
+        76.0
+      ],
+      "confidence": 58.76
+    },
+    {
+      "text": "Epreses",
+      "bbox": [
+        331.0,
+        92.0,
+        431.0,
+        122.0
+      ],
+      "confidence": 64.56
+    },
+    {
+      "text": "h-qualyو",
+      "bbox": [
+        305.0,
+        109.0,
+        422.0,
+        143.0
+      ],
+      "confidence": 70.94
+    },
+    {
+      "text": "peopl",
+      "bbox": [
+        435.0,
+        102.0,
+        508.0,
+        124.0
+      ],
+      "confidence": 84.43
+    },
+    {
+      "text": "eire",
+      "bbox": [
+        537.0,
+        104.0,
+        602.0,
+        130.0
+      ],
+      "confidence": 80.27
+    },
+    {
+      "text": "٢",
+      "bbox": [
+        427.0,
+        120.0,
+        472.0,
+        140.0
+      ],
+      "confidence": 90.93
+    },
+    {
+      "text": "ONT",
+      "bbox": [
+        283.0,
+        146.0,
+        349.0,
+        182.0
+      ],
+      "confidence": 87.95
+    },
+    {
+      "text": "CLASSIC",
+      "bbox": [
+        349.0,
+        150.0,
+        475.0,
+        188.0
+      ],
+      "confidence": 85.42
+    },
+    {
+      "text": "عبح",
+      "bbox": [
+        496.0,
+        253.0,
+        540.0,
+        285.0
+      ],
+      "confidence": 78.57
+    },
+    {
+      "text": "يلاج",
+      "bbox": [
+        545.0,
+        254.0,
+        609.0,
+        279.0
+      ],
+      "confidence": 53.24
+    },
+    {
+      "text": "293000",
+      "bbox": [
+        411.0,
+        320.0,
+        561.0,
+        352.0
+      ],
+      "confidence": 88.07
+    },
+    {
+      "text": "M",
+      "bbox": [
+        435.0,
+        483.0,
+        496.0,
+        508.0
+      ],
+      "confidence": 91.47
+    },
+    {
+      "text": "0",
+      "bbox": [
+        509.0,
+        480.0,
+        582.0,
+        509.0
+      ],
+      "confidence": 59.26
+    }
+  ],
+  "processing_time_ms": 139
+}

@@ -1,0 +1,298 @@
+{
+  "document_id": "Receipt/00609",
+  "engine": "paddleocr",
+  "raw_text": "MT لاومألا مالتسال Customer Copy OMTN: 4432-5574-7754 21/112019 1230 PM ABD ELMAJID DEKKO تقولا و خيرا :ملتسم  TREM LEBANON  BAALBAK EL I HERME - BAALBECK 8g /12 INTR 96483 Syrian ID O00 L GHAYAS MAHDI RAAD LBE OnIy ONE Million LEBANESE ABD ELMAJID DEKKO داصتقالا POUND Agent Signature: Customer Signature:",
+  "tokens": [
+    {
+      "text": "MT",
+      "bbox": [
+        1079.0,
+        646.0,
+        1365.0,
+        759.0
+      ],
+      "confidence": 91.38
+    },
+    {
+      "text": "لاومألا مالتسال",
+      "bbox": [
+        1699.0,
+        781.0,
+        1889.0,
+        831.0
+      ],
+      "confidence": 95.75
+    },
+    {
+      "text": "Customer Copy",
+      "bbox": [
+        2304.0,
+        794.0,
+        2536.0,
+        834.0
+      ],
+      "confidence": 99.71
+    },
+    {
+      "text": "OMTN:",
+      "bbox": [
+        1604.0,
+        826.0,
+        1720.0,
+        866.0
+      ],
+      "confidence": 96.71
+    },
+    {
+      "text": "4432-5574-7754",
+      "bbox": [
+        1723.0,
+        817.0,
+        2001.0,
+        870.0
+      ],
+      "confidence": 90.57
+    },
+    {
+      "text": "21/112019 1230 PM",
+      "bbox": [
+        1144.0,
+        885.0,
+        1412.0,
+        933.0
+      ],
+      "confidence": 81.28
+    },
+    {
+      "text": "ABD ELMAJID DEKKO",
+      "bbox": [
+        1984.0,
+        885.0,
+        2280.0,
+        929.0
+      ],
+      "confidence": 85.24
+    },
+    {
+      "text": "تقولا و خيرا",
+      "bbox": [
+        1424.0,
+        897.0,
+        1540.0,
+        925.0
+      ],
+      "confidence": 85.64
+    },
+    {
+      "text": ":ملتسم ",
+      "bbox": [
+        2376.0,
+        897.0,
+        2432.0,
+        925.0
+      ],
+      "confidence": 85.17
+    },
+    {
+      "text": "TREM",
+      "bbox": [
+        1312.0,
+        925.0,
+        1400.0,
+        953.0
+      ],
+      "confidence": 99.47
+    },
+    {
+      "text": "LEBANON",
+      "bbox": [
+        1672.0,
+        949.0,
+        1816.0,
+        989.0
+      ],
+      "confidence": 99.91
+    },
+    {
+      "text": " BAALBAK EL I",
+      "bbox": [
+        1824.0,
+        945.0,
+        2008.0,
+        985.0
+      ],
+      "confidence": 85.77
+    },
+    {
+      "text": "HERME",
+      "bbox": [
+        1996.0,
+        949.0,
+        2092.0,
+        977.0
+      ],
+      "confidence": 97.42
+    },
+    {
+      "text": "- BAALBECK",
+      "bbox": [
+        2124.0,
+        945.0,
+        2272.0,
+        985.0
+      ],
+      "confidence": 96.65
+    },
+    {
+      "text": "8g",
+      "bbox": [
+        1260.0,
+        993.0,
+        1408.0,
+        1032.0
+      ],
+      "confidence": 51.47
+    },
+    {
+      "text": "/12",
+      "bbox": [
+        2168.0,
+        1009.0,
+        2244.0,
+        1036.0
+      ],
+      "confidence": 71.66
+    },
+    {
+      "text": "INTR",
+      "bbox": [
+        1144.0,
+        1036.0,
+        1224.0,
+        1080.0
+      ],
+      "confidence": 82.47
+    },
+    {
+      "text": "96483",
+      "bbox": [
+        1232.0,
+        1040.0,
+        1308.0,
+        1068.0
+      ],
+      "confidence": 83.73
+    },
+    {
+      "text": "Syrian ID",
+      "bbox": [
+        2172.0,
+        1036.0,
+        2280.0,
+        1076.0
+      ],
+      "confidence": 96.22
+    },
+    {
+      "text": "O00 L",
+      "bbox": [
+        1240.0,
+        1072.0,
+        1404.0,
+        1100.0
+      ],
+      "confidence": 54.81
+    },
+    {
+      "text": "GHAYAS MAHDI RAAD",
+      "bbox": [
+        1988.0,
+        1088.0,
+        2280.0,
+        1128.0
+      ],
+      "confidence": 99.37
+    },
+    {
+      "text": "LBE",
+      "bbox": [
+        1336.0,
+        1104.0,
+        1400.0,
+        1132.0
+      ],
+      "confidence": 75.78
+    },
+    {
+      "text": "OnIy ONE Million LEBANESE",
+      "bbox": [
+        1192.0,
+        1120.0,
+        1560.0,
+        1168.0
+      ],
+      "confidence": 88.92
+    },
+    {
+      "text": "ABD ELMAJID DEKKO",
+      "bbox": [
+        1996.0,
+        1136.0,
+        2284.0,
+        1175.0
+      ],
+      "confidence": 90.57
+    },
+    {
+      "text": "داصتقالا",
+      "bbox": [
+        2316.0,
+        1140.0,
+        2384.0,
+        1167.0
+      ],
+      "confidence": 92.52
+    },
+    {
+      "text": "POUND",
+      "bbox": [
+        1456.0,
+        1167.0,
+        1552.0,
+        1195.0
+      ],
+      "confidence": 91.85
+    },
+    {
+      "text": "Agent Signature:",
+      "bbox": [
+        2116.0,
+        1473.0,
+        2352.0,
+        1513.0
+      ],
+      "confidence": 94.54
+    },
+    {
+      "text": "Customer",
+      "bbox": [
+        1044.0,
+        1497.0,
+        1208.0,
+        1537.0
+      ],
+      "confidence": 97.37
+    },
+    {
+      "text": "Signature:",
+      "bbox": [
+        1196.0,
+        1493.0,
+        1352.0,
+        1533.0
+      ],
+      "confidence": 92.51
+    }
+  ],
+  "processing_time_ms": 373
+}

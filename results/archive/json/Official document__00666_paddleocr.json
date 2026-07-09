@@ -1,0 +1,68 @@
+{
+  "document_id": "Official document/00666",
+  "engine": "paddleocr",
+  "raw_text": "Ministry of Health JORDAN  For CErIficate OF Birth ٤٨١١١L ٢ ",
+  "tokens": [
+    {
+      "text": "Ministry of Health",
+      "bbox": [
+        1481.0,
+        1685.0,
+        1758.0,
+        1836.0
+      ],
+      "confidence": 95.83
+    },
+    {
+      "text": "JORDAN",
+      "bbox": [
+        1778.0,
+        1717.0,
+        1887.0,
+        1782.0
+      ],
+      "confidence": 90.61
+    },
+    {
+      "text": " For",
+      "bbox": [
+        2004.0,
+        1797.0,
+        2087.0,
+        1849.0
+      ],
+      "confidence": 68.07
+    },
+    {
+      "text": "CErIficate OF Birth",
+      "bbox": [
+        1429.0,
+        1816.0,
+        1716.0,
+        1969.0
+      ],
+      "confidence": 79.27
+    },
+    {
+      "text": "٤٨١١١L",
+      "bbox": [
+        1930.0,
+        1916.0,
+        2102.0,
+        2022.0
+      ],
+      "confidence": 63.14
+    },
+    {
+      "text": "٢ ",
+      "bbox": [
+        1862.0,
+        2121.0,
+        1964.0,
+        2167.0
+      ],
+      "confidence": 73.72
+    }
+  ],
+  "processing_time_ms": 350
+}

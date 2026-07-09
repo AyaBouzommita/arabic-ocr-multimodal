@@ -1,0 +1,38 @@
+{
+  "document_id": "Receipt/00309",
+  "engine": "paddleocr",
+  "raw_text": "ل ةظغم ا  وش ةصعش ةكرشلا ك",
+  "tokens": [
+    {
+      "text": "ل ةظغم ا  وش ةصعش",
+      "bbox": [
+        312.0,
+        144.0,
+        531.0,
+        173.0
+      ],
+      "confidence": 67.62
+    },
+    {
+      "text": "ةكرشلا",
+      "bbox": [
+        529.0,
+        140.0,
+        586.0,
+        164.0
+      ],
+      "confidence": 92.88
+    },
+    {
+      "text": "ك",
+      "bbox": [
+        224.0,
+        160.0,
+        254.0,
+        171.0
+      ],
+      "confidence": 81.01
+    }
+  ],
+  "processing_time_ms": 68
+}

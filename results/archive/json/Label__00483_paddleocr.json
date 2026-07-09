@@ -1,0 +1,18 @@
+{
+  "document_id": "Label/00483",
+  "engine": "paddleocr",
+  "raw_text": " ف",
+  "tokens": [
+    {
+      "text": " ف",
+      "bbox": [
+        2969.0,
+        1000.0,
+        3110.0,
+        1158.0
+      ],
+      "confidence": 57.92
+    }
+  ],
+  "processing_time_ms": 273
+}

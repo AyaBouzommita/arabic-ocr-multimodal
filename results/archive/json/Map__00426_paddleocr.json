@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/00426",
+  "engine": "paddleocr",
+  "raw_text": "ةيدوعسلا",
+  "tokens": [
+    {
+      "text": "ةيدوعسلا",
+      "bbox": [
+        576.0,
+        440.0,
+        631.0,
+        458.0
+      ],
+      "confidence": 89.25
+    }
+  ],
+  "processing_time_ms": 56
+}

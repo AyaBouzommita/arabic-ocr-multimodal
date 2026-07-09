@@ -1,0 +1,38 @@
+{
+  "document_id": "Administrative form/00589",
+  "engine": "paddleocr",
+  "raw_text": "ح٩ Vaccine هلحلا",
+  "tokens": [
+    {
+      "text": "ح٩",
+      "bbox": [
+        17.0,
+        260.0,
+        121.0,
+        286.0
+      ],
+      "confidence": 62.26
+    },
+    {
+      "text": "Vaccine",
+      "bbox": [
+        197.0,
+        289.0,
+        251.0,
+        306.0
+      ],
+      "confidence": 77.3
+    },
+    {
+      "text": "هلحلا",
+      "bbox": [
+        298.0,
+        286.0,
+        326.0,
+        298.0
+      ],
+      "confidence": 69.92
+    }
+  ],
+  "processing_time_ms": 91
+}

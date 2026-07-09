@@ -1,0 +1,48 @@
+{
+  "document_id": "Book/00240",
+  "engine": "paddleocr",
+  "raw_text": "رماتايرز ذفنقلا ةّصق I RAYYS BOO",
+  "tokens": [
+    {
+      "text": "رماتايرز",
+      "bbox": [
+        816.0,
+        701.0,
+        1703.0,
+        924.0
+      ],
+      "confidence": 93.47
+    },
+    {
+      "text": "ذفنقلا",
+      "bbox": [
+        643.0,
+        1042.0,
+        1848.0,
+        1533.0
+      ],
+      "confidence": 94.63
+    },
+    {
+      "text": "ةّصق",
+      "bbox": [
+        960.0,
+        1775.0,
+        1402.0,
+        2008.0
+      ],
+      "confidence": 91.73
+    },
+    {
+      "text": "I RAYYS BOO",
+      "bbox": [
+        1121.0,
+        3088.0,
+        1295.0,
+        3129.0
+      ],
+      "confidence": 70.92
+    }
+  ],
+  "processing_time_ms": 256
+}

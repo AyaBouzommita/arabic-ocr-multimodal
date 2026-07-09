@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00126",
+  "engine": "paddleocr",
+  "raw_text": "قرزألا راشب ىر",
+  "tokens": [
+    {
+      "text": "قرزألا راشب",
+      "bbox": [
+        334.0,
+        341.0,
+        440.0,
+        369.0
+      ],
+      "confidence": 93.81
+    },
+    {
+      "text": "ىر",
+      "bbox": [
+        155.0,
+        509.0,
+        404.0,
+        661.0
+      ],
+      "confidence": 52.11
+    }
+  ],
+  "processing_time_ms": 56
+}

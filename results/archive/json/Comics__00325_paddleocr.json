@@ -1,0 +1,38 @@
+{
+  "document_id": "Comics/00325",
+  "engine": "paddleocr",
+  "raw_text": "يتاملك ةريخألا",
+  "tokens": [
+    {
+      "text": "يتاملك",
+      "bbox": [
+        296.0,
+        330.0,
+        492.0,
+        421.0
+      ],
+      "confidence": 97.49
+    },
+    {
+      "text": "ةريخألا",
+      "bbox": [
+        301.0,
+        391.0,
+        507.0,
+        476.0
+      ],
+      "confidence": 92.23
+    },
+    {
+      "text": " ",
+      "bbox": [
+        691.0,
+        690.0,
+        713.0,
+        701.0
+      ],
+      "confidence": 54.1
+    }
+  ],
+  "processing_time_ms": 84
+}

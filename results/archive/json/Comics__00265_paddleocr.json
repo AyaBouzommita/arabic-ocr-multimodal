@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/00265",
+  "engine": "paddleocr",
+  "raw_text": "لاد  ما ",
+  "tokens": [
+    {
+      "text": "لاد",
+      "bbox": [
+        1743.0,
+        1096.0,
+        1866.0,
+        1200.0
+      ],
+      "confidence": 52.83
+    },
+    {
+      "text": " ما ",
+      "bbox": [
+        2216.0,
+        1475.0,
+        2271.0,
+        1504.0
+      ],
+      "confidence": 56.61
+    }
+  ],
+  "processing_time_ms": 279
+}

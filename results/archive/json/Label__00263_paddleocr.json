@@ -1,0 +1,188 @@
+{
+  "document_id": "Label/00263",
+  "engine": "paddleocr",
+  "raw_text": "romا Cr.ildren away Yeep Apply Affecte Dosage: leave On fo nd areaS hours لامعس  ل ةرم عضوملا نهد Made in Iehanon",
+  "tokens": [
+    {
+      "text": "romا",
+      "bbox": [
+        590.0,
+        487.0,
+        699.0,
+        537.0
+      ],
+      "confidence": 76.87
+    },
+    {
+      "text": "Cr.ildren",
+      "bbox": [
+        707.0,
+        484.0,
+        854.0,
+        545.0
+      ],
+      "confidence": 97.55
+    },
+    {
+      "text": "away",
+      "bbox": [
+        455.0,
+        493.0,
+        578.0,
+        547.0
+      ],
+      "confidence": 99.16
+    },
+    {
+      "text": "Yeep",
+      "bbox": [
+        353.0,
+        507.0,
+        450.0,
+        561.0
+      ],
+      "confidence": 95.93
+    },
+    {
+      "text": "Apply",
+      "bbox": [
+        562.0,
+        635.0,
+        715.0,
+        700.0
+      ],
+      "confidence": 99.97
+    },
+    {
+      "text": "Affecte",
+      "bbox": [
+        781.0,
+        637.0,
+        883.0,
+        687.0
+      ],
+      "confidence": 89.05
+    },
+    {
+      "text": "Dosage:",
+      "bbox": [
+        358.0,
+        647.0,
+        547.0,
+        713.0
+      ],
+      "confidence": 96.66
+    },
+    {
+      "text": "leave",
+      "bbox": [
+        643.0,
+        717.0,
+        767.0,
+        760.0
+      ],
+      "confidence": 90.72
+    },
+    {
+      "text": "On fo",
+      "bbox": [
+        773.0,
+        709.0,
+        867.0,
+        759.0
+      ],
+      "confidence": 96.04
+    },
+    {
+      "text": "nd",
+      "bbox": [
+        522.0,
+        715.0,
+        627.0,
+        771.0
+      ],
+      "confidence": 65.05
+    },
+    {
+      "text": "areaS",
+      "bbox": [
+        381.0,
+        729.0,
+        512.0,
+        779.0
+      ],
+      "confidence": 89.49
+    },
+    {
+      "text": "hours",
+      "bbox": [
+        748.0,
+        788.0,
+        869.0,
+        845.0
+      ],
+      "confidence": 99.29
+    },
+    {
+      "text": "لامعس",
+      "bbox": [
+        779.0,
+        859.0,
+        889.0,
+        941.0
+      ],
+      "confidence": 91.34
+    },
+    {
+      "text": " ل ةرم",
+      "bbox": [
+        289.0,
+        889.0,
+        454.0,
+        969.0
+      ],
+      "confidence": 82.05
+    },
+    {
+      "text": "عضوملا",
+      "bbox": [
+        477.0,
+        880.0,
+        680.0,
+        970.0
+      ],
+      "confidence": 99.77
+    },
+    {
+      "text": "نهد",
+      "bbox": [
+        684.0,
+        880.0,
+        784.0,
+        950.0
+      ],
+      "confidence": 97.87
+    },
+    {
+      "text": "Made",
+      "bbox": [
+        382.0,
+        993.0,
+        493.0,
+        1035.0
+      ],
+      "confidence": 90.32
+    },
+    {
+      "text": "in Iehanon",
+      "bbox": [
+        494.0,
+        979.0,
+        759.0,
+        1039.0
+      ],
+      "confidence": 97.87
+    }
+  ],
+  "processing_time_ms": 395
+}

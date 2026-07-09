@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/00820",
+  "engine": "paddleocr",
+  "raw_text": "ءاقدضألا بولف ناَطأ",
+  "tokens": [
+    {
+      "text": "ءاقدضألا بولف",
+      "bbox": [
+        166.0,
+        646.0,
+        638.0,
+        793.0
+      ],
+      "confidence": 87.48
+    },
+    {
+      "text": "ناَطأ",
+      "bbox": [
+        340.0,
+        768.0,
+        541.0,
+        878.0
+      ],
+      "confidence": 80.92
+    }
+  ],
+  "processing_time_ms": 73
+}

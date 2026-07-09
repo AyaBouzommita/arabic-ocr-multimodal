@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00680",
+  "engine": "paddleocr",
+  "raw_text": "ءالجب هجهج وبأ",
+  "tokens": [
+    {
+      "text": "ءالجب",
+      "bbox": [
+        258.0,
+        16.0,
+        368.0,
+        105.0
+      ],
+      "confidence": 73.49
+    },
+    {
+      "text": "هجهج وبأ",
+      "bbox": [
+        0.0,
+        0.0,
+        295.0,
+        163.0
+      ],
+      "confidence": 74.83
+    }
+  ],
+  "processing_time_ms": 65
+}

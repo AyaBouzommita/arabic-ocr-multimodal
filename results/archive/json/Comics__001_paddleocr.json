@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/001",
+  "engine": "paddleocr",
+  "raw_text": "زيا  رع",
+  "tokens": [
+    {
+      "text": "زيا",
+      "bbox": [
+        155.0,
+        65.0,
+        362.0,
+        157.0
+      ],
+      "confidence": 70.11
+    },
+    {
+      "text": " رع",
+      "bbox": [
+        469.0,
+        59.0,
+        613.0,
+        156.0
+      ],
+      "confidence": 74.18
+    }
+  ],
+  "processing_time_ms": 60
+}

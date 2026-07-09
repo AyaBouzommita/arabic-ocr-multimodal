@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00645",
+  "engine": "paddleocr",
+  "raw_text": "(ىرخأصصاقأو يفملا ُراو",
+  "tokens": [
+    {
+      "text": "(ىرخأصصاقأو",
+      "bbox": [
+        357.0,
+        404.0,
+        747.0,
+        489.0
+      ],
+      "confidence": 89.25
+    },
+    {
+      "text": "يفملا ُراو",
+      "bbox": [
+        201.0,
+        1499.0,
+        370.0,
+        1567.0
+      ],
+      "confidence": 80.66
+    }
+  ],
+  "processing_time_ms": 73
+}

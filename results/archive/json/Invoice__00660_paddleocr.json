@@ -1,0 +1,38 @@
+{
+  "document_id": "Invoice/00660",
+  "engine": "paddleocr",
+  "raw_text": "PHARMPT Pa نيوبام رف ةيلديس ١",
+  "tokens": [
+    {
+      "text": "PHARMPT Pa",
+      "bbox": [
+        216.0,
+        663.0,
+        357.0,
+        692.0
+      ],
+      "confidence": 67.75
+    },
+    {
+      "text": "نيوبام رف ةيلديس",
+      "bbox": [
+        463.0,
+        661.0,
+        540.0,
+        680.0
+      ],
+      "confidence": 80.91
+    },
+    {
+      "text": "١",
+      "bbox": [
+        550.0,
+        665.0,
+        585.0,
+        683.0
+      ],
+      "confidence": 61.36
+    }
+  ],
+  "processing_time_ms": 55
+}

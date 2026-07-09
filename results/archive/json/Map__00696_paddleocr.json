@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00696",
+  "engine": "paddleocr",
+  "raw_text": "Liba ةيادرغ",
+  "tokens": [
+    {
+      "text": "Liba",
+      "bbox": [
+        2025.0,
+        452.0,
+        2054.0,
+        550.0
+      ],
+      "confidence": 88.19
+    },
+    {
+      "text": "ةيادرغ",
+      "bbox": [
+        3150.0,
+        1406.0,
+        3225.0,
+        1440.0
+      ],
+      "confidence": 72.3
+    }
+  ],
+  "processing_time_ms": 238
+}

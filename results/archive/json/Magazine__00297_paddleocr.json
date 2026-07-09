@@ -1,0 +1,38 @@
+{
+  "document_id": "Magazine/00297",
+  "engine": "paddleocr",
+  "raw_text": "ةي  سو ةرو /",
+  "tokens": [
+    {
+      "text": "ةي ",
+      "bbox": [
+        229.0,
+        1485.0,
+        436.0,
+        1606.0
+      ],
+      "confidence": 76.73
+    },
+    {
+      "text": "سو ةرو",
+      "bbox": [
+        1567.0,
+        3380.0,
+        1929.0,
+        3539.0
+      ],
+      "confidence": 74.96
+    },
+    {
+      "text": "/",
+      "bbox": [
+        1516.0,
+        3402.0,
+        1611.0,
+        3448.0
+      ],
+      "confidence": 79.11
+    }
+  ],
+  "processing_time_ms": 288
+}

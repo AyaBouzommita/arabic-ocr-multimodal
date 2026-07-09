@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/00230",
+  "engine": "paddleocr",
+  "raw_text": "أ لالا هاصل  ىاهالع",
+  "tokens": [
+    {
+      "text": "أ لالا هاصل",
+      "bbox": [
+        320.0,
+        448.0,
+        388.0,
+        463.0
+      ],
+      "confidence": 66.66
+    },
+    {
+      "text": " ىاهالع",
+      "bbox": [
+        405.0,
+        616.0,
+        458.0,
+        635.0
+      ],
+      "confidence": 82.08
+    }
+  ],
+  "processing_time_ms": 70
+}

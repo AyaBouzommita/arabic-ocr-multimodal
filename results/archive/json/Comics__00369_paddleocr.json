@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/00369",
+  "engine": "paddleocr",
+  "raw_text": " وكيرا اهئاقدص",
+  "tokens": [
+    {
+      "text": " وكيرا",
+      "bbox": [
+        1985.0,
+        2534.0,
+        2061.0,
+        2567.0
+      ],
+      "confidence": 78.14
+    },
+    {
+      "text": "اهئاقدص",
+      "bbox": [
+        628.0,
+        3521.0,
+        786.0,
+        3574.0
+      ],
+      "confidence": 97.56
+    }
+  ],
+  "processing_time_ms": 270
+}

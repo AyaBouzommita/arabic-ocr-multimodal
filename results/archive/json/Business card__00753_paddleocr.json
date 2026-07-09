@@ -1,0 +1,178 @@
+{
+  "document_id": "Business card/00753",
+  "engine": "paddleocr",
+  "raw_text": "مالحألارعيبركرش ةحابسلل رفسلاو +964 78 700 00 له 964779700 00 OSpringdreamstravel nfoOspringdreamstravelcom www.springdreamstravel.com كومريلا دادغب ناونعلا عراوش عبرالا",
+  "tokens": [
+    {
+      "text": "مالحألارعيبركرش",
+      "bbox": [
+        395.0,
+        480.0,
+        720.0,
+        544.0
+      ],
+      "confidence": 87.91
+    },
+    {
+      "text": "ةحابسلل",
+      "bbox": [
+        532.0,
+        541.0,
+        700.0,
+        594.0
+      ],
+      "confidence": 96.13
+    },
+    {
+      "text": "رفسلاو",
+      "bbox": [
+        417.0,
+        547.0,
+        529.0,
+        600.0
+      ],
+      "confidence": 99.99
+    },
+    {
+      "text": "+964",
+      "bbox": [
+        558.0,
+        677.0,
+        614.0,
+        700.0
+      ],
+      "confidence": 83.89
+    },
+    {
+      "text": "78",
+      "bbox": [
+        606.0,
+        675.0,
+        663.0,
+        698.0
+      ],
+      "confidence": 56.24
+    },
+    {
+      "text": "700",
+      "bbox": [
+        663.0,
+        675.0,
+        710.0,
+        697.0
+      ],
+      "confidence": 64.19
+    },
+    {
+      "text": "00",
+      "bbox": [
+        703.0,
+        673.0,
+        744.0,
+        693.0
+      ],
+      "confidence": 89.09
+    },
+    {
+      "text": "له",
+      "bbox": [
+        440.0,
+        687.0,
+        511.0,
+        727.0
+      ],
+      "confidence": 68.31
+    },
+    {
+      "text": " ",
+      "bbox": [
+        177.0,
+        700.0,
+        207.0,
+        737.0
+      ],
+      "confidence": 57.59
+    },
+    {
+      "text": "964779700",
+      "bbox": [
+        555.0,
+        698.0,
+        712.0,
+        734.0
+      ],
+      "confidence": 71.98
+    },
+    {
+      "text": "00",
+      "bbox": [
+        708.0,
+        700.0,
+        749.0,
+        725.0
+      ],
+      "confidence": 73.14
+    },
+    {
+      "text": "OSpringdreamstravel",
+      "bbox": [
+        220.0,
+        710.0,
+        415.0,
+        740.0
+      ],
+      "confidence": 95.56
+    },
+    {
+      "text": "nfoOspringdreamstravelcom",
+      "bbox": [
+        494.0,
+        730.0,
+        758.0,
+        765.0
+      ],
+      "confidence": 91.75
+    },
+    {
+      "text": "www.springdreamstravel.com",
+      "bbox": [
+        167.0,
+        738.0,
+        442.0,
+        774.0
+      ],
+      "confidence": 95.88
+    },
+    {
+      "text": "كومريلا",
+      "bbox": [
+        410.0,
+        768.0,
+        502.0,
+        806.0
+      ],
+      "confidence": 95.0
+    },
+    {
+      "text": "دادغب ناونعلا",
+      "bbox": [
+        519.0,
+        758.0,
+        674.0,
+        801.0
+      ],
+      "confidence": 92.71
+    },
+    {
+      "text": "عراوش عبرالا",
+      "bbox": [
+        246.0,
+        771.0,
+        386.0,
+        816.0
+      ],
+      "confidence": 94.69
+    }
+  ],
+  "processing_time_ms": 165
+}

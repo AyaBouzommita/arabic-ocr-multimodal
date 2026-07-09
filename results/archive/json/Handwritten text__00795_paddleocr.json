@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/00795",
+  "engine": "paddleocr",
+  "raw_text": "رط تالرتث",
+  "tokens": [
+    {
+      "text": "رط",
+      "bbox": [
+        1636.0,
+        1417.0,
+        1802.0,
+        1532.0
+      ],
+      "confidence": 72.73
+    },
+    {
+      "text": "تالرتث",
+      "bbox": [
+        971.0,
+        1387.0,
+        1330.0,
+        1629.0
+      ],
+      "confidence": 70.86
+    }
+  ],
+  "processing_time_ms": 282
+}

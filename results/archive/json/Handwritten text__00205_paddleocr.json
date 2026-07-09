@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/00205",
+  "engine": "paddleocr",
+  "raw_text": " ه هادالئدابلا",
+  "tokens": [
+    {
+      "text": " ه",
+      "bbox": [
+        219.0,
+        85.0,
+        327.0,
+        138.0
+      ],
+      "confidence": 76.69
+    },
+    {
+      "text": "هادالئدابلا",
+      "bbox": [
+        846.0,
+        383.0,
+        1193.0,
+        464.0
+      ],
+      "confidence": 67.44
+    }
+  ],
+  "processing_time_ms": 202
+}

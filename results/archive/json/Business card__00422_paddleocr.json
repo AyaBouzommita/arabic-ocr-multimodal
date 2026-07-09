@@ -1,0 +1,78 @@
+{
+  "document_id": "Business card/00422",
+  "engine": "paddleocr",
+  "raw_text": "DANDASHI FOR PFRFUME ةعاسلا لباقم لتلا سبارص",
+  "tokens": [
+    {
+      "text": "DANDASHI",
+      "bbox": [
+        296.0,
+        251.0,
+        489.0,
+        293.0
+      ],
+      "confidence": 93.21
+    },
+    {
+      "text": "FOR",
+      "bbox": [
+        495.0,
+        252.0,
+        574.0,
+        285.0
+      ],
+      "confidence": 99.04
+    },
+    {
+      "text": "PFRFUME",
+      "bbox": [
+        580.0,
+        249.0,
+        754.0,
+        284.0
+      ],
+      "confidence": 86.56
+    },
+    {
+      "text": "ةعاسلا",
+      "bbox": [
+        348.0,
+        607.0,
+        431.0,
+        633.0
+      ],
+      "confidence": 99.26
+    },
+    {
+      "text": "لباقم",
+      "bbox": [
+        433.0,
+        606.0,
+        509.0,
+        633.0
+      ],
+      "confidence": 99.59
+    },
+    {
+      "text": "لتلا",
+      "bbox": [
+        532.0,
+        603.0,
+        586.0,
+        632.0
+      ],
+      "confidence": 99.43
+    },
+    {
+      "text": "سبارص",
+      "bbox": [
+        604.0,
+        603.0,
+        686.0,
+        630.0
+      ],
+      "confidence": 97.81
+    }
+  ],
+  "processing_time_ms": 84
+}

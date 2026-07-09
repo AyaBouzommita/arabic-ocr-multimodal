@@ -1,0 +1,18 @@
+{
+  "document_id": "Business card/00577",
+  "engine": "paddleocr",
+  "raw_text": "ةبّردمتاك ةيتاك ةيم العإ",
+  "tokens": [
+    {
+      "text": "ةبّردمتاك ةيتاك ةيم العإ",
+      "bbox": [
+        600.0,
+        450.0,
+        889.0,
+        493.0
+      ],
+      "confidence": 77.06
+    }
+  ],
+  "processing_time_ms": 58
+}

@@ -1,0 +1,538 @@
+{
+  "document_id": "Label/00268",
+  "engine": "paddleocr",
+  "raw_text": "Memetti Colleclion ٩6eype ٢TXO ١٧٩٩١ memett p3T0 anufacturd prior Uing factory. day ١ memett Crefu echnolog. U٥٧ ٥ al fabricli /i fabricat produ  fs Supenioara memetti pentu placere jaاgr tehnologie  folosi اذم جّتنأ ta folosind ٥ عنصم يف ةيانعب م مادختساب  لىنمتنو ةقناف ايجولونتكت memetti ةنينه مايا www.memetti.com 2windowsive.om collection memetti memetti -mai: Skype: TURKEY N١ MADE",
+  "tokens": [
+    {
+      "text": "Memetti",
+      "bbox": [
+        26.0,
+        36.0,
+        265.0,
+        170.0
+      ],
+      "confidence": 89.5
+    },
+    {
+      "text": "Colleclion",
+      "bbox": [
+        93.0,
+        104.0,
+        209.0,
+        175.0
+      ],
+      "confidence": 89.33
+    },
+    {
+      "text": "٩6eype",
+      "bbox": [
+        169.0,
+        124.0,
+        256.0,
+        175.0
+      ],
+      "confidence": 76.41
+    },
+    {
+      "text": "٢TXO",
+      "bbox": [
+        224.0,
+        156.0,
+        302.0,
+        197.0
+      ],
+      "confidence": 56.44
+    },
+    {
+      "text": "١٧٩٩١",
+      "bbox": [
+        240.0,
+        181.0,
+        283.0,
+        209.0
+      ],
+      "confidence": 66.9
+    },
+    {
+      "text": "memett",
+      "bbox": [
+        84.0,
+        193.0,
+        162.0,
+        241.0
+      ],
+      "confidence": 89.72
+    },
+    {
+      "text": "p3T0",
+      "bbox": [
+        97.0,
+        214.0,
+        162.0,
+        249.0
+      ],
+      "confidence": 65.25
+    },
+    {
+      "text": "anufacturd",
+      "bbox": [
+        201.0,
+        219.0,
+        310.0,
+        281.0
+      ],
+      "confidence": 89.14
+    },
+    {
+      "text": "prior",
+      "bbox": [
+        260.0,
+        231.0,
+        329.0,
+        273.0
+      ],
+      "confidence": 74.04
+    },
+    {
+      "text": "Uing",
+      "bbox": [
+        220.0,
+        254.0,
+        270.0,
+        288.0
+      ],
+      "confidence": 65.41
+    },
+    {
+      "text": "factory.",
+      "bbox": [
+        277.0,
+        247.0,
+        336.0,
+        284.0
+      ],
+      "confidence": 91.88
+    },
+    {
+      "text": "day",
+      "bbox": [
+        282.0,
+        270.0,
+        326.0,
+        300.0
+      ],
+      "confidence": 80.79
+    },
+    {
+      "text": "١",
+      "bbox": [
+        104.0,
+        293.0,
+        138.0,
+        315.0
+      ],
+      "confidence": 74.38
+    },
+    {
+      "text": "memett",
+      "bbox": [
+        195.0,
+        268.0,
+        276.0,
+        319.0
+      ],
+      "confidence": 87.38
+    },
+    {
+      "text": "Crefu",
+      "bbox": [
+        90.0,
+        298.0,
+        159.0,
+        339.0
+      ],
+      "confidence": 90.72
+    },
+    {
+      "text": "echnolog.",
+      "bbox": [
+        94.0,
+        309.0,
+        176.0,
+        358.0
+      ],
+      "confidence": 91.2
+    },
+    {
+      "text": "U٥٧",
+      "bbox": [
+        154.0,
+        323.0,
+        190.0,
+        352.0
+      ],
+      "confidence": 65.22
+    },
+    {
+      "text": "٥",
+      "bbox": [
+        193.0,
+        329.0,
+        223.0,
+        349.0
+      ],
+      "confidence": 83.42
+    },
+    {
+      "text": "al fabricli",
+      "bbox": [
+        245.0,
+        310.0,
+        317.0,
+        353.0
+      ],
+      "confidence": 84.89
+    },
+    {
+      "text": "/i",
+      "bbox": [
+        115.0,
+        335.0,
+        161.0,
+        362.0
+      ],
+      "confidence": 68.44
+    },
+    {
+      "text": "fabricat",
+      "bbox": [
+        275.0,
+        321.0,
+        336.0,
+        361.0
+      ],
+      "confidence": 87.6
+    },
+    {
+      "text": "produ",
+      "bbox": [
+        194.0,
+        334.0,
+        254.0,
+        372.0
+      ],
+      "confidence": 89.57
+    },
+    {
+      "text": " fs",
+      "bbox": [
+        232.0,
+        342.0,
+        282.0,
+        376.0
+      ],
+      "confidence": 70.62
+    },
+    {
+      "text": "Supenioara",
+      "bbox": [
+        283.0,
+        345.0,
+        367.0,
+        394.0
+      ],
+      "confidence": 88.07
+    },
+    {
+      "text": "memetti",
+      "bbox": [
+        159.0,
+        355.0,
+        240.0,
+        407.0
+      ],
+      "confidence": 90.04
+    },
+    {
+      "text": "pentu",
+      "bbox": [
+        210.0,
+        369.0,
+        263.0,
+        404.0
+      ],
+      "confidence": 75.16
+    },
+    {
+      "text": "placere",
+      "bbox": [
+        322.0,
+        357.0,
+        384.0,
+        397.0
+      ],
+      "confidence": 83.36
+    },
+    {
+      "text": "jaاgr",
+      "bbox": [
+        176.0,
+        389.0,
+        216.0,
+        418.0
+      ],
+      "confidence": 57.29
+    },
+    {
+      "text": "tehnologie",
+      "bbox": [
+        204.0,
+        375.0,
+        291.0,
+        425.0
+      ],
+      "confidence": 93.49
+    },
+    {
+      "text": " folosi",
+      "bbox": [
+        240.0,
+        385.0,
+        312.0,
+        430.0
+      ],
+      "confidence": 93.51
+    },
+    {
+      "text": "اذم",
+      "bbox": [
+        350.0,
+        402.0,
+        371.0,
+        419.0
+      ],
+      "confidence": 83.46
+    },
+    {
+      "text": "جّتنأ",
+      "bbox": [
+        369.0,
+        389.0,
+        396.0,
+        414.0
+      ],
+      "confidence": 68.61
+    },
+    {
+      "text": "ta",
+      "bbox": [
+        137.0,
+        400.0,
+        185.0,
+        431.0
+      ],
+      "confidence": 61.63
+    },
+    {
+      "text": "folosind",
+      "bbox": [
+        141.0,
+        409.0,
+        206.0,
+        447.0
+      ],
+      "confidence": 82.53
+    },
+    {
+      "text": "٥",
+      "bbox": [
+        232.0,
+        428.0,
+        263.0,
+        449.0
+      ],
+      "confidence": 79.34
+    },
+    {
+      "text": "عنصم يف ةيانعب م",
+      "bbox": [
+        215.0,
+        423.0,
+        311.0,
+        477.0
+      ],
+      "confidence": 91.39
+    },
+    {
+      "text": "مادختساب",
+      "bbox": [
+        293.0,
+        430.0,
+        346.0,
+        467.0
+      ],
+      "confidence": 96.29
+    },
+    {
+      "text": " لىنمتنو",
+      "bbox": [
+        327.0,
+        448.0,
+        376.0,
+        477.0
+      ],
+      "confidence": 85.62
+    },
+    {
+      "text": "ةقناف",
+      "bbox": [
+        212.0,
+        467.0,
+        252.0,
+        497.0
+      ],
+      "confidence": 87.32
+    },
+    {
+      "text": "ايجولونتكت",
+      "bbox": [
+        240.0,
+        447.0,
+        301.0,
+        490.0
+      ],
+      "confidence": 85.71
+    },
+    {
+      "text": "memetti",
+      "bbox": [
+        144.0,
+        457.0,
+        221.0,
+        504.0
+      ],
+      "confidence": 98.78
+    },
+    {
+      "text": "ةنينه",
+      "bbox": [
+        200.0,
+        502.0,
+        231.0,
+        524.0
+      ],
+      "confidence": 98.55
+    },
+    {
+      "text": "مايا",
+      "bbox": [
+        227.0,
+        494.0,
+        251.0,
+        518.0
+      ],
+      "confidence": 71.02
+    },
+    {
+      "text": "www.memetti.com",
+      "bbox": [
+        255.0,
+        492.0,
+        393.0,
+        561.0
+      ],
+      "confidence": 88.26
+    },
+    {
+      "text": "2windowsive.om",
+      "bbox": [
+        288.0,
+        496.0,
+        447.0,
+        574.0
+      ],
+      "confidence": 84.36
+    },
+    {
+      "text": "collection",
+      "bbox": [
+        338.0,
+        536.0,
+        415.0,
+        581.0
+      ],
+      "confidence": 86.51
+    },
+    {
+      "text": "memetti",
+      "bbox": [
+        230.0,
+        556.0,
+        294.0,
+        596.0
+      ],
+      "confidence": 94.73
+    },
+    {
+      "text": "memetti",
+      "bbox": [
+        276.0,
+        561.0,
+        345.0,
+        605.0
+      ],
+      "confidence": 92.32
+    },
+    {
+      "text": "-mai:",
+      "bbox": [
+        179.0,
+        574.0,
+        239.0,
+        619.0
+      ],
+      "confidence": 92.88
+    },
+    {
+      "text": "Skype:",
+      "bbox": [
+        228.0,
+        586.0,
+        286.0,
+        623.0
+      ],
+      "confidence": 91.51
+    },
+    {
+      "text": "TURKEY",
+      "bbox": [
+        329.0,
+        565.0,
+        445.0,
+        632.0
+      ],
+      "confidence": 98.52
+    },
+    {
+      "text": "N١",
+      "bbox": [
+        304.0,
+        604.0,
+        343.0,
+        641.0
+      ],
+      "confidence": 86.33
+    },
+    {
+      "text": "MADE",
+      "bbox": [
+        225.0,
+        615.0,
+        311.0,
+        671.0
+      ],
+      "confidence": 99.15
+    }
+  ],
+  "processing_time_ms": 509
+}

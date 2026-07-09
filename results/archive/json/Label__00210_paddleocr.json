@@ -1,0 +1,728 @@
+{
+  "document_id": "Label/00210",
+  "engine": "paddleocr",
+  "raw_text": "Nutrition Facts Seving Size 14  (5g Serving er Container 91 Amount pe Serving Calories  Daily Value Total Fat Og Sod I 590 mg 25 ota I Carbohydrates Og Proteins Og Potassium lodate 60-80 mg/kg Anti Caking Agent  536 o Trans fat. , Sat fat ,Cholesterol Vitamin C  Fiber. Vitamin A Calcium Percen and Iron alorie based on a 2000o higher it.٥ Daily Ou Values may be مor lower depending needs you INGREDIENTS: SALT DEXTROSE ODDE POTASSIUM SODIUM YELLOW BICARBONATE PRUSSIATE OF SODA. حويساتوبلا  تايوتحملا ديدوي دايسورب رَك بنحلا حلم تانوبر ركيب مويدوس رفصألا ادوصلا نانبل ف نص",
+  "tokens": [
+    {
+      "text": "Nutrition",
+      "bbox": [
+        634.0,
+        358.0,
+        883.0,
+        450.0
+      ],
+      "confidence": 98.49
+    },
+    {
+      "text": "Facts",
+      "bbox": [
+        888.0,
+        375.0,
+        1073.0,
+        457.0
+      ],
+      "confidence": 92.65
+    },
+    {
+      "text": "Seving Size",
+      "bbox": [
+        634.0,
+        439.0,
+        867.0,
+        521.0
+      ],
+      "confidence": 97.98
+    },
+    {
+      "text": "14 ",
+      "bbox": [
+        855.0,
+        445.0,
+        1011.0,
+        527.0
+      ],
+      "confidence": 66.49
+    },
+    {
+      "text": "(5g",
+      "bbox": [
+        993.0,
+        468.0,
+        1124.0,
+        528.0
+      ],
+      "confidence": 61.76
+    },
+    {
+      "text": "Serving er",
+      "bbox": [
+        637.0,
+        506.0,
+        840.0,
+        582.0
+      ],
+      "confidence": 90.27
+    },
+    {
+      "text": "Container",
+      "bbox": [
+        837.0,
+        519.0,
+        1037.0,
+        585.0
+      ],
+      "confidence": 98.85
+    },
+    {
+      "text": "91",
+      "bbox": [
+        1032.0,
+        536.0,
+        1108.0,
+        584.0
+      ],
+      "confidence": 60.06
+    },
+    {
+      "text": "Amount pe",
+      "bbox": [
+        650.0,
+        587.0,
+        867.0,
+        653.0
+      ],
+      "confidence": 91.64
+    },
+    {
+      "text": "Serving",
+      "bbox": [
+        856.0,
+        603.0,
+        1026.0,
+        661.0
+      ],
+      "confidence": 98.74
+    },
+    {
+      "text": "Calories ",
+      "bbox": [
+        649.0,
+        649.0,
+        832.0,
+        735.0
+      ],
+      "confidence": 79.59
+    },
+    {
+      "text": "Daily",
+      "bbox": [
+        1134.0,
+        751.0,
+        1276.0,
+        813.0
+      ],
+      "confidence": 97.62
+    },
+    {
+      "text": "Value",
+      "bbox": [
+        1286.0,
+        764.0,
+        1398.0,
+        808.0
+      ],
+      "confidence": 99.42
+    },
+    {
+      "text": "Total Fat Og",
+      "bbox": [
+        649.0,
+        786.0,
+        848.0,
+        866.0
+      ],
+      "confidence": 89.86
+    },
+    {
+      "text": "Sod",
+      "bbox": [
+        657.0,
+        866.0,
+        788.0,
+        930.0
+      ],
+      "confidence": 83.73
+    },
+    {
+      "text": "I 590 mg",
+      "bbox": [
+        759.0,
+        873.0,
+        920.0,
+        955.0
+      ],
+      "confidence": 92.86
+    },
+    {
+      "text": "25",
+      "bbox": [
+        1298.0,
+        912.0,
+        1378.0,
+        956.0
+      ],
+      "confidence": 91.15
+    },
+    {
+      "text": "ota",
+      "bbox": [
+        663.0,
+        940.0,
+        739.0,
+        984.0
+      ],
+      "confidence": 89.73
+    },
+    {
+      "text": "I Carbohydrates Og",
+      "bbox": [
+        725.0,
+        942.0,
+        1046.0,
+        1034.0
+      ],
+      "confidence": 96.58
+    },
+    {
+      "text": "Proteins Og",
+      "bbox": [
+        659.0,
+        997.0,
+        842.0,
+        1087.0
+      ],
+      "confidence": 90.67
+    },
+    {
+      "text": "Potassium",
+      "bbox": [
+        664.0,
+        1070.0,
+        836.0,
+        1147.0
+      ],
+      "confidence": 96.87
+    },
+    {
+      "text": "lodate 60-80 mg/kg",
+      "bbox": [
+        820.0,
+        1090.0,
+        1177.0,
+        1182.0
+      ],
+      "confidence": 89.54
+    },
+    {
+      "text": "Anti Caking Agent ",
+      "bbox": [
+        664.0,
+        1133.0,
+        968.0,
+        1235.0
+      ],
+      "confidence": 97.48
+    },
+    {
+      "text": "536",
+      "bbox": [
+        957.0,
+        1188.0,
+        1072.0,
+        1228.0
+      ],
+      "confidence": 63.26
+    },
+    {
+      "text": "o",
+      "bbox": [
+        673.0,
+        1205.0,
+        769.0,
+        1260.0
+      ],
+      "confidence": 73.61
+    },
+    {
+      "text": "Trans fat.",
+      "bbox": [
+        668.0,
+        1245.0,
+        813.0,
+        1319.0
+      ],
+      "confidence": 87.97
+    },
+    {
+      "text": ", Sat fat",
+      "bbox": [
+        1219.0,
+        1256.0,
+        1358.0,
+        1300.0
+      ],
+      "confidence": 90.77
+    },
+    {
+      "text": ",Cholesterol",
+      "bbox": [
+        812.0,
+        1270.0,
+        1018.0,
+        1342.0
+      ],
+      "confidence": 99.01
+    },
+    {
+      "text": "Vitamin C",
+      "bbox": [
+        668.0,
+        1289.0,
+        821.0,
+        1363.0
+      ],
+      "confidence": 86.41
+    },
+    {
+      "text": " Fiber.",
+      "bbox": [
+        1007.0,
+        1295.0,
+        1129.0,
+        1345.0
+      ],
+      "confidence": 91.17
+    },
+    {
+      "text": "Vitamin A",
+      "bbox": [
+        1132.0,
+        1304.0,
+        1310.0,
+        1344.0
+      ],
+      "confidence": 96.35
+    },
+    {
+      "text": "Calcium",
+      "bbox": [
+        824.0,
+        1318.0,
+        979.0,
+        1382.0
+      ],
+      "confidence": 98.06
+    },
+    {
+      "text": "Percen",
+      "bbox": [
+        671.0,
+        1345.0,
+        806.0,
+        1419.0
+      ],
+      "confidence": 82.22
+    },
+    {
+      "text": "and Iron",
+      "bbox": [
+        969.0,
+        1344.0,
+        1120.0,
+        1384.0
+      ],
+      "confidence": 91.17
+    },
+    {
+      "text": "alorie",
+      "bbox": [
+        677.0,
+        1399.0,
+        768.0,
+        1445.0
+      ],
+      "confidence": 87.81
+    },
+    {
+      "text": "based on a 2000o",
+      "bbox": [
+        1067.0,
+        1391.0,
+        1379.0,
+        1465.0
+      ],
+      "confidence": 94.62
+    },
+    {
+      "text": "higher",
+      "bbox": [
+        665.0,
+        1424.0,
+        777.0,
+        1500.0
+      ],
+      "confidence": 89.61
+    },
+    {
+      "text": "it.٥",
+      "bbox": [
+        794.0,
+        1432.0,
+        862.0,
+        1460.0
+      ],
+      "confidence": 60.91
+    },
+    {
+      "text": "Daily",
+      "bbox": [
+        971.0,
+        1434.0,
+        1074.0,
+        1494.0
+      ],
+      "confidence": 91.22
+    },
+    {
+      "text": "Ou",
+      "bbox": [
+        881.0,
+        1444.0,
+        957.0,
+        1476.0
+      ],
+      "confidence": 59.81
+    },
+    {
+      "text": "Values",
+      "bbox": [
+        1087.0,
+        1443.0,
+        1216.0,
+        1493.0
+      ],
+      "confidence": 99.39
+    },
+    {
+      "text": "may be",
+      "bbox": [
+        1227.0,
+        1448.0,
+        1374.0,
+        1492.0
+      ],
+      "confidence": 95.64
+    },
+    {
+      "text": "مor",
+      "bbox": [
+        676.0,
+        1473.0,
+        765.0,
+        1527.0
+      ],
+      "confidence": 80.53
+    },
+    {
+      "text": "lower",
+      "bbox": [
+        844.0,
+        1466.0,
+        959.0,
+        1526.0
+      ],
+      "confidence": 90.09
+    },
+    {
+      "text": "depending",
+      "bbox": [
+        980.0,
+        1483.0,
+        1188.0,
+        1541.0
+      ],
+      "confidence": 91.98
+    },
+    {
+      "text": "needs",
+      "bbox": [
+        784.0,
+        1494.0,
+        888.0,
+        1554.0
+      ],
+      "confidence": 98.8
+    },
+    {
+      "text": "you",
+      "bbox": [
+        1290.0,
+        1492.0,
+        1374.0,
+        1536.0
+      ],
+      "confidence": 85.46
+    },
+    {
+      "text": "INGREDIENTS:",
+      "bbox": [
+        832.0,
+        1650.0,
+        1165.0,
+        1738.0
+      ],
+      "confidence": 98.27
+    },
+    {
+      "text": "SALT",
+      "bbox": [
+        683.0,
+        1672.0,
+        798.0,
+        1752.0
+      ],
+      "confidence": 98.35
+    },
+    {
+      "text": "DEXTROSE",
+      "bbox": [
+        791.0,
+        1699.0,
+        1047.0,
+        1795.0
+      ],
+      "confidence": 99.54
+    },
+    {
+      "text": "ODDE",
+      "bbox": [
+        661.0,
+        1724.0,
+        815.0,
+        1816.0
+      ],
+      "confidence": 72.01
+    },
+    {
+      "text": "POTASSIUM",
+      "bbox": [
+        1048.0,
+        1727.0,
+        1331.0,
+        1793.0
+      ],
+      "confidence": 95.57
+    },
+    {
+      "text": "SODIUM",
+      "bbox": [
+        811.0,
+        1765.0,
+        1015.0,
+        1847.0
+      ],
+      "confidence": 99.34
+    },
+    {
+      "text": "YELLOW",
+      "bbox": [
+        690.0,
+        1788.0,
+        866.0,
+        1888.0
+      ],
+      "confidence": 95.66
+    },
+    {
+      "text": "BICARBONATE",
+      "bbox": [
+        1016.0,
+        1783.0,
+        1351.0,
+        1861.0
+      ],
+      "confidence": 98.17
+    },
+    {
+      "text": "PRUSSIATE",
+      "bbox": [
+        852.0,
+        1830.0,
+        1110.0,
+        1914.0
+      ],
+      "confidence": 97.96
+    },
+    {
+      "text": "OF",
+      "bbox": [
+        1088.0,
+        1860.0,
+        1175.0,
+        1904.0
+      ],
+      "confidence": 72.07
+    },
+    {
+      "text": "SODA.",
+      "bbox": [
+        1179.0,
+        1860.0,
+        1318.0,
+        1904.0
+      ],
+      "confidence": 99.24
+    },
+    {
+      "text": "حويساتوبلا ",
+      "bbox": [
+        660.0,
+        1944.0,
+        879.0,
+        2060.0
+      ],
+      "confidence": 81.47
+    },
+    {
+      "text": "تايوتحملا",
+      "bbox": [
+        856.0,
+        1935.0,
+        1129.0,
+        2021.0
+      ],
+      "confidence": 96.98
+    },
+    {
+      "text": "ديدوي",
+      "bbox": [
+        876.0,
+        2005.0,
+        994.0,
+        2079.0
+      ],
+      "confidence": 98.5
+    },
+    {
+      "text": "دايسورب",
+      "bbox": [
+        710.0,
+        2015.0,
+        887.0,
+        2125.0
+      ],
+      "confidence": 92.84
+    },
+    {
+      "text": "رَك",
+      "bbox": [
+        1151.0,
+        2012.0,
+        1267.0,
+        2076.0
+      ],
+      "confidence": 85.77
+    },
+    {
+      "text": "بنحلا",
+      "bbox": [
+        987.0,
+        2010.0,
+        1138.0,
+        2082.0
+      ],
+      "confidence": 78.36
+    },
+    {
+      "text": "حلم",
+      "bbox": [
+        1236.0,
+        1985.0,
+        1357.0,
+        2087.0
+      ],
+      "confidence": 98.74
+    },
+    {
+      "text": "تانوبر",
+      "bbox": [
+        873.0,
+        2053.0,
+        1033.0,
+        2139.0
+      ],
+      "confidence": 99.48
+    },
+    {
+      "text": "ركيب",
+      "bbox": [
+        1012.0,
+        2084.0,
+        1096.0,
+        2140.0
+      ],
+      "confidence": 98.66
+    },
+    {
+      "text": "مويدوس",
+      "bbox": [
+        1106.0,
+        2079.0,
+        1284.0,
+        2149.0
+      ],
+      "confidence": 98.03
+    },
+    {
+      "text": "رفصألا",
+      "bbox": [
+        824.0,
+        2114.0,
+        990.0,
+        2186.0
+      ],
+      "confidence": 97.89
+    },
+    {
+      "text": "ادوصلا",
+      "bbox": [
+        1005.0,
+        2148.0,
+        1151.0,
+        2192.0
+      ],
+      "confidence": 95.99
+    },
+    {
+      "text": "نانبل ف",
+      "bbox": [
+        855.0,
+        2218.0,
+        1011.0,
+        2290.0
+      ],
+      "confidence": 84.29
+    },
+    {
+      "text": "نص",
+      "bbox": [
+        1005.0,
+        2252.0,
+        1096.0,
+        2296.0
+      ],
+      "confidence": 56.37
+    }
+  ],
+  "processing_time_ms": 673
+}

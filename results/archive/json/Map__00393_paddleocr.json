@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00393",
+  "engine": "paddleocr",
+  "raw_text": "يبرعلا لماكتلا  ٥",
+  "tokens": [
+    {
+      "text": "يبرعلا لماكتلا",
+      "bbox": [
+        559.0,
+        133.0,
+        645.0,
+        160.0
+      ],
+      "confidence": 90.68
+    },
+    {
+      "text": " ٥",
+      "bbox": [
+        579.0,
+        246.0,
+        596.0,
+        255.0
+      ],
+      "confidence": 67.35
+    }
+  ],
+  "processing_time_ms": 48
+}

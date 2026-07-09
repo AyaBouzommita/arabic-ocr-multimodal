@@ -1,0 +1,18 @@
+{
+  "document_id": "Administrative form/00229",
+  "engine": "paddleocr",
+  "raw_text": "ناج و",
+  "tokens": [
+    {
+      "text": "ناج و",
+      "bbox": [
+        1175.0,
+        410.0,
+        1375.0,
+        439.0
+      ],
+      "confidence": 84.35
+    }
+  ],
+  "processing_time_ms": 149
+}

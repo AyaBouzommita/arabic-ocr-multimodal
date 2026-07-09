@@ -1,0 +1,98 @@
+{
+  "document_id": "Business card/00561",
+  "engine": "paddleocr",
+  "raw_text": "CO-FOUNDER كيرش سسؤم floor ,Antwork Bloc Lebanon ,Beirut M",
+  "tokens": [
+    {
+      "text": "CO-FOUNDER",
+      "bbox": [
+        1369.0,
+        1642.0,
+        2039.0,
+        1747.0
+      ],
+      "confidence": 95.6
+    },
+    {
+      "text": "كيرش",
+      "bbox": [
+        1759.0,
+        2058.0,
+        2127.0,
+        2197.0
+      ],
+      "confidence": 99.81
+    },
+    {
+      "text": "سسؤم",
+      "bbox": [
+        1292.0,
+        2061.0,
+        1739.0,
+        2216.0
+      ],
+      "confidence": 90.75
+    },
+    {
+      "text": "floor",
+      "bbox": [
+        2079.0,
+        2526.0,
+        2331.0,
+        2639.0
+      ],
+      "confidence": 98.02
+    },
+    {
+      "text": ",Antwork",
+      "bbox": [
+        1120.0,
+        2543.0,
+        1574.0,
+        2675.0
+      ],
+      "confidence": 98.81
+    },
+    {
+      "text": "Bloc",
+      "bbox": [
+        1595.0,
+        2544.0,
+        1830.0,
+        2661.0
+      ],
+      "confidence": 97.34
+    },
+    {
+      "text": "Lebanon",
+      "bbox": [
+        1688.0,
+        2682.0,
+        2128.0,
+        2796.0
+      ],
+      "confidence": 97.44
+    },
+    {
+      "text": ",Beirut",
+      "bbox": [
+        1347.0,
+        2708.0,
+        1671.0,
+        2804.0
+      ],
+      "confidence": 94.78
+    },
+    {
+      "text": "M",
+      "bbox": [
+        1338.0,
+        2981.0,
+        1423.0,
+        3085.0
+      ],
+      "confidence": 53.84
+    }
+  ],
+  "processing_time_ms": 378
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/0029",
+  "engine": "paddleocr",
+  "raw_text": "Date: :خيراتلا لا ىتيغ",
+  "tokens": [
+    {
+      "text": "Date:",
+      "bbox": [
+        1381.0,
+        2308.0,
+        1645.0,
+        2425.0
+      ],
+      "confidence": 99.47
+    },
+    {
+      "text": ":خيراتلا",
+      "bbox": [
+        4513.0,
+        2330.0,
+        4828.0,
+        2479.0
+      ],
+      "confidence": 89.43
+    },
+    {
+      "text": "لا",
+      "bbox": [
+        1068.0,
+        3503.0,
+        1711.0,
+        3772.0
+      ],
+      "confidence": 89.12
+    },
+    {
+      "text": "ىتيغ",
+      "bbox": [
+        4329.0,
+        3924.0,
+        4986.0,
+        4359.0
+      ],
+      "confidence": 73.99
+    }
+  ],
+  "processing_time_ms": 350
+}

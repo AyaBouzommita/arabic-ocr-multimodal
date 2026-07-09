@@ -1,0 +1,28 @@
+{
+  "document_id": "Official document/00661",
+  "engine": "paddleocr",
+  "raw_text": "يلاعلا ميلعتلا سلج /١/مقر رارقل",
+  "tokens": [
+    {
+      "text": "يلاعلا ميلعتلا سلج",
+      "bbox": [
+        1853.0,
+        1512.0,
+        2042.0,
+        1559.0
+      ],
+      "confidence": 94.83
+    },
+    {
+      "text": "/١/مقر رارقل",
+      "bbox": [
+        1543.0,
+        1592.0,
+        1658.0,
+        1633.0
+      ],
+      "confidence": 84.6
+    }
+  ],
+  "processing_time_ms": 318
+}

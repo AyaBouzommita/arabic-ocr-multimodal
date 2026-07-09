@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00232",
+  "engine": "paddleocr",
+  "raw_text": "٧٤١ لا ًاعا",
+  "tokens": [
+    {
+      "text": "٧٤١",
+      "bbox": [
+        698.0,
+        1309.0,
+        794.0,
+        1342.0
+      ],
+      "confidence": 71.39
+    },
+    {
+      "text": "لا",
+      "bbox": [
+        826.0,
+        1388.0,
+        898.0,
+        1412.0
+      ],
+      "confidence": 63.71
+    },
+    {
+      "text": "ًاعا",
+      "bbox": [
+        888.0,
+        1431.0,
+        974.0,
+        1474.0
+      ],
+      "confidence": 80.94
+    }
+  ],
+  "processing_time_ms": 217
+}

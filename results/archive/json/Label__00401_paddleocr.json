@@ -1,0 +1,48 @@
+{
+  "document_id": "Label/00401",
+  "engine": "paddleocr",
+  "raw_text": "٥ اراي 9 2",
+  "tokens": [
+    {
+      "text": "٥",
+      "bbox": [
+        820.0,
+        252.0,
+        1062.0,
+        443.0
+      ],
+      "confidence": 69.41
+    },
+    {
+      "text": "اراي",
+      "bbox": [
+        885.0,
+        426.0,
+        960.0,
+        491.0
+      ],
+      "confidence": 88.02
+    },
+    {
+      "text": "9",
+      "bbox": [
+        1113.0,
+        470.0,
+        1165.0,
+        515.0
+      ],
+      "confidence": 59.5
+    },
+    {
+      "text": "2",
+      "bbox": [
+        1017.0,
+        555.0,
+        1062.0,
+        595.0
+      ],
+      "confidence": 67.32
+    }
+  ],
+  "processing_time_ms": 97
+}

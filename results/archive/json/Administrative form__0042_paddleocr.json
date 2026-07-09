@@ -1,0 +1,518 @@
+{
+  "document_id": "Administrative form/0042",
+  "engine": "paddleocr",
+  "raw_text": "فليظملاب ةيريلايريخلا ةيعمج ةيرشبلا دراوملا ةرادإ فظوملاب فيرعت باطخ / جذومن Name: Employee I.D ةقاطبلا مقر Citizen O: :ينطاوم نم Contract Start Date دقعلا ةيادب خيرات Contract End Date دقعلا ا ةياهنن خيرات Current Job Fitle: يلاحا ةفيظولا Monthly Basic Salary S.R.  يرهشلا(س  ىساسملا بتارلا Monthly Housing Allow S.R. :سم ر يريشلا نكسلا لنب Monthly Transp. Allow S.R.  :سم ر يرعشلا تلاصاوملا  لدب Yearly Edu. Asst S.R. :سمر يونسلا حيلت لب The Above-Mentioned Employee Worked For بسح ىرد لمدع كردلع هالعأ روكذملا فظوملا As Stated Above .هالعأ ةنيبملا تامولعملا This Certificate Has Been Issued Upon The ندأ نو ه هه ىل هلع هذب هاه ههتردص اهفالخ وأ ةينامةينام ةيلوؤسم Responsibility Financia Legal Or Otherwise .ةكرشلا On The Company Part And This Certificate Is Valid Only When The عيقوتلا نأ ةامتاط ةاملال ةامتاط ةداهشلا هدهو Signature And The Official Stamp Are اهيلع نيرهاظ يمسرلا متخلاو Affixed 13 :جذومثلا قر",
+  "tokens": [
+    {
+      "text": "فليظملاب ةيريلايريخلا ةيعمج",
+      "bbox": [
+        1999.0,
+        846.0,
+        2276.0,
+        888.0
+      ],
+      "confidence": 82.63
+    },
+    {
+      "text": "ةيرشبلا دراوملا ةرادإ",
+      "bbox": [
+        2075.0,
+        896.0,
+        2276.0,
+        938.0
+      ],
+      "confidence": 94.43
+    },
+    {
+      "text": "فظوملاب فيرعت",
+      "bbox": [
+        1299.0,
+        1004.0,
+        1539.0,
+        1054.0
+      ],
+      "confidence": 92.23
+    },
+    {
+      "text": "باطخ / جذومن",
+      "bbox": [
+        1524.0,
+        1003.0,
+        1736.0,
+        1064.0
+      ],
+      "confidence": 86.73
+    },
+    {
+      "text": "Name:",
+      "bbox": [
+        800.0,
+        1086.0,
+        930.0,
+        1143.0
+      ],
+      "confidence": 90.56
+    },
+    {
+      "text": "Employee I.D",
+      "bbox": [
+        814.0,
+        1158.0,
+        1074.0,
+        1209.0
+      ],
+      "confidence": 91.81
+    },
+    {
+      "text": "ةقاطبلا",
+      "bbox": [
+        2118.0,
+        1183.0,
+        2224.0,
+        1221.0
+      ],
+      "confidence": 87.8
+    },
+    {
+      "text": "مقر",
+      "bbox": [
+        2212.0,
+        1188.0,
+        2263.0,
+        1221.0
+      ],
+      "confidence": 99.36
+    },
+    {
+      "text": "Citizen O:",
+      "bbox": [
+        817.0,
+        1237.0,
+        994.0,
+        1293.0
+      ],
+      "confidence": 85.95
+    },
+    {
+      "text": ":ينطاوم نم",
+      "bbox": [
+        2078.0,
+        1249.0,
+        2268.0,
+        1318.0
+      ],
+      "confidence": 84.31
+    },
+    {
+      "text": "Contract Start Date",
+      "bbox": [
+        827.0,
+        1317.0,
+        1134.0,
+        1358.0
+      ],
+      "confidence": 99.61
+    },
+    {
+      "text": "دقعلا",
+      "bbox": [
+        2028.0,
+        1338.0,
+        2101.0,
+        1371.0
+      ],
+      "confidence": 98.16
+    },
+    {
+      "text": "ةيادب خيرات",
+      "bbox": [
+        2092.0,
+        1333.0,
+        2263.0,
+        1379.0
+      ],
+      "confidence": 95.59
+    },
+    {
+      "text": "Contract End Date",
+      "bbox": [
+        822.0,
+        1388.0,
+        1121.0,
+        1429.0
+      ],
+      "confidence": 95.99
+    },
+    {
+      "text": "دقعلا",
+      "bbox": [
+        2024.0,
+        1404.0,
+        2101.0,
+        1438.0
+      ],
+      "confidence": 99.86
+    },
+    {
+      "text": "ا ةياهنن خيرات",
+      "bbox": [
+        2083.0,
+        1395.0,
+        2264.0,
+        1451.0
+      ],
+      "confidence": 86.75
+    },
+    {
+      "text": "Current Job",
+      "bbox": [
+        822.0,
+        1454.0,
+        1027.0,
+        1500.0
+      ],
+      "confidence": 94.18
+    },
+    {
+      "text": "Fitle:",
+      "bbox": [
+        1036.0,
+        1458.0,
+        1099.0,
+        1500.0
+      ],
+      "confidence": 89.77
+    },
+    {
+      "text": "يلاحا ةفيظولا",
+      "bbox": [
+        1982.0,
+        1471.0,
+        2173.0,
+        1512.0
+      ],
+      "confidence": 78.44
+    },
+    {
+      "text": "Monthly Basic",
+      "bbox": [
+        827.0,
+        1525.0,
+        1065.0,
+        1571.0
+      ],
+      "confidence": 97.13
+    },
+    {
+      "text": "Salary S.R.",
+      "bbox": [
+        1053.0,
+        1525.0,
+        1240.0,
+        1567.0
+      ],
+      "confidence": 97.38
+    },
+    {
+      "text": " يرهشلا(س ",
+      "bbox": [
+        1837.0,
+        1542.0,
+        2071.0,
+        1588.0
+      ],
+      "confidence": 74.86
+    },
+    {
+      "text": "ىساسملا بتارلا",
+      "bbox": [
+        2067.0,
+        1538.0,
+        2263.0,
+        1579.0
+      ],
+      "confidence": 85.29
+    },
+    {
+      "text": "Monthly Housing Allow S.R.",
+      "bbox": [
+        814.0,
+        1583.0,
+        1274.0,
+        1646.0
+      ],
+      "confidence": 93.66
+    },
+    {
+      "text": ":سم ر يريشلا نكسلا لنب",
+      "bbox": [
+        1891.0,
+        1595.0,
+        2268.0,
+        1663.0
+      ],
+      "confidence": 77.15
+    },
+    {
+      "text": "Monthly Transp. Allow S.R.",
+      "bbox": [
+        822.0,
+        1667.0,
+        1261.0,
+        1708.0
+      ],
+      "confidence": 98.62
+    },
+    {
+      "text": " :سم ر يرعشلا تلاصاوملا ",
+      "bbox": [
+        1819.0,
+        1666.0,
+        2225.0,
+        1730.0
+      ],
+      "confidence": 81.61
+    },
+    {
+      "text": "لدب",
+      "bbox": [
+        2207.0,
+        1675.0,
+        2259.0,
+        1708.0
+      ],
+      "confidence": 86.65
+    },
+    {
+      "text": "Yearly Edu. Asst S.R.",
+      "bbox": [
+        831.0,
+        1741.0,
+        1177.0,
+        1796.0
+      ],
+      "confidence": 92.16
+    },
+    {
+      "text": ":سمر يونسلا حيلت لب",
+      "bbox": [
+        1922.0,
+        1754.0,
+        2263.0,
+        1804.0
+      ],
+      "confidence": 86.0
+    },
+    {
+      "text": "The Above-Mentioned Employee Worked For",
+      "bbox": [
+        831.0,
+        1817.0,
+        1551.0,
+        1858.0
+      ],
+      "confidence": 98.25
+    },
+    {
+      "text": "بسح ىرد لمدع كردلع هالعأ",
+      "bbox": [
+        1670.0,
+        1821.0,
+        2046.0,
+        1871.0
+      ],
+      "confidence": 80.85
+    },
+    {
+      "text": "روكذملا فظوملا",
+      "bbox": [
+        2054.0,
+        1821.0,
+        2267.0,
+        1867.0
+      ],
+      "confidence": 91.84
+    },
+    {
+      "text": "As Stated Above",
+      "bbox": [
+        831.0,
+        1858.0,
+        1099.0,
+        1900.0
+      ],
+      "confidence": 97.9
+    },
+    {
+      "text": ".هالعأ ةنيبملا تامولعملا",
+      "bbox": [
+        1947.0,
+        1888.0,
+        2267.0,
+        1933.0
+      ],
+      "confidence": 92.01
+    },
+    {
+      "text": "This Certificate Has Been Issued Upon The",
+      "bbox": [
+        827.0,
+        1946.0,
+        1513.0,
+        1996.0
+      ],
+      "confidence": 97.27
+    },
+    {
+      "text": "ندأ نو ه هه ىل هلع هذب هاه ههتردص",
+      "bbox": [
+        1636.0,
+        1950.0,
+        2259.0,
+        2013.0
+      ],
+      "confidence": 73.44
+    },
+    {
+      "text": "اهفالخ وأ ةينامةينام ةيلوؤسم",
+      "bbox": [
+        1824.0,
+        2017.0,
+        2263.0,
+        2071.0
+      ],
+      "confidence": 89.7
+    },
+    {
+      "text": "Responsibility Financia",
+      "bbox": [
+        826.0,
+        2033.0,
+        1202.0,
+        2079.0
+      ],
+      "confidence": 98.52
+    },
+    {
+      "text": "Legal Or Otherwise",
+      "bbox": [
+        1219.0,
+        2029.0,
+        1526.0,
+        2075.0
+      ],
+      "confidence": 97.76
+    },
+    {
+      "text": ".ةكرشلا",
+      "bbox": [
+        1662.0,
+        2033.0,
+        1760.0,
+        2067.0
+      ],
+      "confidence": 90.98
+    },
+    {
+      "text": "On The Company Part",
+      "bbox": [
+        839.0,
+        2075.0,
+        1193.0,
+        2117.0
+      ],
+      "confidence": 96.99
+    },
+    {
+      "text": "And This Certificate Is Valid Only When The",
+      "bbox": [
+        835.0,
+        2104.0,
+        1522.0,
+        2159.0
+      ],
+      "confidence": 94.81
+    },
+    {
+      "text": "عيقوتلا نأ ةامتاط ةاملال ةامتاط ةداهشلا",
+      "bbox": [
+        1644.0,
+        2104.0,
+        2204.0,
+        2175.0
+      ],
+      "confidence": 79.96
+    },
+    {
+      "text": "هدهو",
+      "bbox": [
+        2207.0,
+        2125.0,
+        2263.0,
+        2154.0
+      ],
+      "confidence": 95.25
+    },
+    {
+      "text": "Signature And The Official Stamp Are",
+      "bbox": [
+        830.0,
+        2141.0,
+        1428.0,
+        2209.0
+      ],
+      "confidence": 96.15
+    },
+    {
+      "text": "اهيلع",
+      "bbox": [
+        1909.0,
+        2192.0,
+        1982.0,
+        2225.0
+      ],
+      "confidence": 95.49
+    },
+    {
+      "text": "نيرهاظ يمسرلا متخلاو",
+      "bbox": [
+        1959.0,
+        2170.0,
+        2272.0,
+        2243.0
+      ],
+      "confidence": 94.82
+    },
+    {
+      "text": "Affixed",
+      "bbox": [
+        844.0,
+        2208.0,
+        946.0,
+        2238.0
+      ],
+      "confidence": 90.86
+    },
+    {
+      "text": "13",
+      "bbox": [
+        848.0,
+        2292.0,
+        933.0,
+        2321.0
+      ],
+      "confidence": 96.24
+    },
+    {
+      "text": ":جذومثلا قر",
+      "bbox": [
+        958.0,
+        2283.0,
+        1113.0,
+        2322.0
+      ],
+      "confidence": 87.77
+    }
+  ],
+  "processing_time_ms": 674
+}

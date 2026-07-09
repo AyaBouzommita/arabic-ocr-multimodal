@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/00267",
+  "engine": "paddleocr",
+  "raw_text": "ىئربع عيرهن  ر",
+  "tokens": [
+    {
+      "text": "ىئربع عيرهن ",
+      "bbox": [
+        1102.0,
+        1332.0,
+        1237.0,
+        1389.0
+      ],
+      "confidence": 60.01
+    },
+    {
+      "text": "ر",
+      "bbox": [
+        1240.0,
+        2592.0,
+        1308.0,
+        2621.0
+      ],
+      "confidence": 96.61
+    }
+  ],
+  "processing_time_ms": 360
+}

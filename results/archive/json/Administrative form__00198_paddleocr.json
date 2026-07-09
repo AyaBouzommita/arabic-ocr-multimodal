@@ -1,0 +1,158 @@
+{
+  "document_id": "Administrative form/00198",
+  "engine": "paddleocr",
+  "raw_text": "MEDAIR ٢٧٤٤١ ٢٧٨ o Housclold r/dy١l ٢ C gnatu ٢i50٧Super e٢Signatu امبك/  ادملا لا مد اك 10 Coordinator signature",
+  "tokens": [
+    {
+      "text": "MEDAIR",
+      "bbox": [
+        305.0,
+        289.0,
+        517.0,
+        349.0
+      ],
+      "confidence": 92.55
+    },
+    {
+      "text": "٢٧٤٤١",
+      "bbox": [
+        1350.0,
+        316.0,
+        1431.0,
+        337.0
+      ],
+      "confidence": 59.24
+    },
+    {
+      "text": "٢٧٨",
+      "bbox": [
+        498.0,
+        361.0,
+        585.0,
+        382.0
+      ],
+      "confidence": 63.58
+    },
+    {
+      "text": "o Housclold",
+      "bbox": [
+        422.0,
+        560.0,
+        637.0,
+        603.0
+      ],
+      "confidence": 75.79
+    },
+    {
+      "text": "r/dy١l ٢",
+      "bbox": [
+        990.0,
+        573.0,
+        1146.0,
+        605.0
+      ],
+      "confidence": 74.53
+    },
+    {
+      "text": "C gnatu",
+      "bbox": [
+        1181.0,
+        569.0,
+        1369.0,
+        612.0
+      ],
+      "confidence": 61.18
+    },
+    {
+      "text": "٢i50٧Super",
+      "bbox": [
+        1395.0,
+        576.0,
+        1542.0,
+        605.0
+      ],
+      "confidence": 62.02
+    },
+    {
+      "text": "e٢Signatu",
+      "bbox": [
+        1551.0,
+        573.0,
+        1677.0,
+        602.0
+      ],
+      "confidence": 67.56
+    },
+    {
+      "text": "امبك/ ",
+      "bbox": [
+        486.0,
+        650.0,
+        618.0,
+        680.0
+      ],
+      "confidence": 60.17
+    },
+    {
+      "text": "ادملا",
+      "bbox": [
+        474.0,
+        734.0,
+        555.0,
+        763.0
+      ],
+      "confidence": 77.25
+    },
+    {
+      "text": "لا",
+      "bbox": [
+        573.0,
+        740.0,
+        687.0,
+        760.0
+      ],
+      "confidence": 57.4
+    },
+    {
+      "text": "مد",
+      "bbox": [
+        567.0,
+        778.0,
+        687.0,
+        808.0
+      ],
+      "confidence": 96.2
+    },
+    {
+      "text": "اك",
+      "bbox": [
+        495.0,
+        808.0,
+        576.0,
+        838.0
+      ],
+      "confidence": 66.2
+    },
+    {
+      "text": "10",
+      "bbox": [
+        345.0,
+        1002.0,
+        378.0,
+        1026.0
+      ],
+      "confidence": 52.45
+    },
+    {
+      "text": "Coordinator signature",
+      "bbox": [
+        960.0,
+        1956.0,
+        1248.0,
+        1992.0
+      ],
+      "confidence": 91.94
+    }
+  ],
+  "processing_time_ms": 371
+}

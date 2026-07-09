@@ -1,0 +1,58 @@
+{
+  "document_id": "Handwritten text/00296",
+  "engine": "paddleocr",
+  "raw_text": " //٥/2١/١١ كأم كك ك٤ا ,Webs",
+  "tokens": [
+    {
+      "text": " //٥/2١/١١",
+      "bbox": [
+        558.0,
+        756.0,
+        1012.0,
+        875.0
+      ],
+      "confidence": 59.97
+    },
+    {
+      "text": "كأم",
+      "bbox": [
+        560.0,
+        1203.0,
+        702.0,
+        1262.0
+      ],
+      "confidence": 63.64
+    },
+    {
+      "text": "كك",
+      "bbox": [
+        469.0,
+        1528.0,
+        627.0,
+        1613.0
+      ],
+      "confidence": 66.35
+    },
+    {
+      "text": "ك٤ا",
+      "bbox": [
+        457.0,
+        1651.0,
+        630.0,
+        1731.0
+      ],
+      "confidence": 65.25
+    },
+    {
+      "text": ",Webs",
+      "bbox": [
+        421.0,
+        2126.0,
+        757.0,
+        2218.0
+      ],
+      "confidence": 77.67
+    }
+  ],
+  "processing_time_ms": 238
+}

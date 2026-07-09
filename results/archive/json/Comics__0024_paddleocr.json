@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/0024",
+  "engine": "paddleocr",
+  "raw_text": "نازرط لانغوالا ديس",
+  "tokens": [
+    {
+      "text": "نازرط",
+      "bbox": [
+        207.0,
+        152.0,
+        560.0,
+        300.0
+      ],
+      "confidence": 85.64
+    },
+    {
+      "text": "لانغوالا ديس",
+      "bbox": [
+        302.0,
+        292.0,
+        481.0,
+        337.0
+      ],
+      "confidence": 77.82
+    }
+  ],
+  "processing_time_ms": 59
+}

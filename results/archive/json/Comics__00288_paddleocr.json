@@ -1,0 +1,18 @@
+{
+  "document_id": "Comics/00288",
+  "engine": "paddleocr",
+  "raw_text": "به زلاف ظح نف",
+  "tokens": [
+    {
+      "text": "به زلاف ظح نف",
+      "bbox": [
+        1128.0,
+        2616.0,
+        1301.0,
+        2659.0
+      ],
+      "confidence": 90.83
+    }
+  ],
+  "processing_time_ms": 270
+}

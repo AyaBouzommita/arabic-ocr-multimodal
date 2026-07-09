@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/00235",
+  "engine": "paddleocr",
+  "raw_text": "برع لزتنم اقح رصيف سويلوب",
+  "tokens": [
+    {
+      "text": "برع لزتنم اقح",
+      "bbox": [
+        322.0,
+        704.0,
+        401.0,
+        720.0
+      ],
+      "confidence": 66.17
+    },
+    {
+      "text": "رصيف سويلوب",
+      "bbox": [
+        315.0,
+        928.0,
+        385.0,
+        951.0
+      ],
+      "confidence": 86.68
+    }
+  ],
+  "processing_time_ms": 62
+}

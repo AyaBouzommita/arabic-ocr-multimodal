@@ -1,0 +1,98 @@
+{
+  "document_id": "Label/00451",
+  "engine": "paddleocr",
+  "raw_text": "RammalSupermarket ضرع لصاخ Bella Go عطق 950, ال",
+  "tokens": [
+    {
+      "text": "RammalSupermarket",
+      "bbox": [
+        451.0,
+        287.0,
+        872.0,
+        370.0
+      ],
+      "confidence": 91.02
+    },
+    {
+      "text": "ضرع",
+      "bbox": [
+        946.0,
+        335.0,
+        1046.0,
+        381.0
+      ],
+      "confidence": 95.97
+    },
+    {
+      "text": "لصاخ",
+      "bbox": [
+        1008.0,
+        403.0,
+        1091.0,
+        442.0
+      ],
+      "confidence": 91.97
+    },
+    {
+      "text": "Bella",
+      "bbox": [
+        561.0,
+        470.0,
+        741.0,
+        537.0
+      ],
+      "confidence": 96.04
+    },
+    {
+      "text": "Go",
+      "bbox": [
+        762.0,
+        473.0,
+        866.0,
+        542.0
+      ],
+      "confidence": 72.57
+    },
+    {
+      "text": " ",
+      "bbox": [
+        630.0,
+        566.0,
+        673.0,
+        627.0
+      ],
+      "confidence": 74.49
+    },
+    {
+      "text": "عطق",
+      "bbox": [
+        683.0,
+        551.0,
+        802.0,
+        642.0
+      ],
+      "confidence": 94.85
+    },
+    {
+      "text": "950,",
+      "bbox": [
+        382.0,
+        671.0,
+        718.0,
+        802.0
+      ],
+      "confidence": 82.75
+    },
+    {
+      "text": "ال",
+      "bbox": [
+        763.0,
+        686.0,
+        1017.0,
+        787.0
+      ],
+      "confidence": 66.46
+    }
+  ],
+  "processing_time_ms": 107
+}

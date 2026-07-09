@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/00615",
+  "engine": "paddleocr",
+  "raw_text": " رع",
+  "tokens": [
+    {
+      "text": " رع",
+      "bbox": [
+        538.0,
+        187.0,
+        565.0,
+        194.0
+      ],
+      "confidence": 90.34
+    }
+  ],
+  "processing_time_ms": 38
+}

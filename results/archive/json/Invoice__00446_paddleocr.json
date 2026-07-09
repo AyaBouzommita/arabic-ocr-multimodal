@@ -1,0 +1,38 @@
+{
+  "document_id": "Invoice/00446",
+  "engine": "paddleocr",
+  "raw_text": "ةروتافلا  ةملا ك",
+  "tokens": [
+    {
+      "text": "ةروتافلا",
+      "bbox": [
+        1355.0,
+        742.0,
+        1628.0,
+        954.0
+      ],
+      "confidence": 92.87
+    },
+    {
+      "text": " ةملا",
+      "bbox": [
+        1290.0,
+        821.0,
+        1578.0,
+        1054.0
+      ],
+      "confidence": 65.21
+    },
+    {
+      "text": "ك",
+      "bbox": [
+        2280.0,
+        1558.0,
+        2339.0,
+        1592.0
+      ],
+      "confidence": 59.54
+    }
+  ],
+  "processing_time_ms": 320
+}

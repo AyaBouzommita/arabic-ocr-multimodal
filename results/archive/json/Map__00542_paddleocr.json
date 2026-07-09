@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/00542",
+  "engine": "paddleocr",
+  "raw_text": "Mechret٤",
+  "tokens": [
+    {
+      "text": "Mechret٤",
+      "bbox": [
+        122.0,
+        706.0,
+        279.0,
+        777.0
+      ],
+      "confidence": 84.67
+    }
+  ],
+  "processing_time_ms": 62
+}

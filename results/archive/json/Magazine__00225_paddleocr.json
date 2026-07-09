@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00225",
+  "engine": "paddleocr",
+  "raw_text": "ةنسلا",
+  "tokens": [
+    {
+      "text": "ةنسلا",
+      "bbox": [
+        414.0,
+        214.0,
+        449.0,
+        230.0
+      ],
+      "confidence": 98.14
+    }
+  ],
+  "processing_time_ms": 76
+}

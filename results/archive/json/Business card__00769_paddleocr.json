@@ -1,0 +1,38 @@
+{
+  "document_id": "Business card/00769",
+  "engine": "paddleocr",
+  "raw_text": "ورو دوو ىاما",
+  "tokens": [
+    {
+      "text": "ورو",
+      "bbox": [
+        199.0,
+        353.0,
+        285.0,
+        424.0
+      ],
+      "confidence": 80.77
+    },
+    {
+      "text": "دوو",
+      "bbox": [
+        380.0,
+        444.0,
+        435.0,
+        476.0
+      ],
+      "confidence": 76.12
+    },
+    {
+      "text": "ىاما",
+      "bbox": [
+        412.0,
+        524.0,
+        449.0,
+        540.0
+      ],
+      "confidence": 57.83
+    }
+  ],
+  "processing_time_ms": 80
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "Receipt/00314",
+  "engine": "paddleocr",
+  "raw_text": "يدقت عفن لاصبا ا  عع علا",
+  "tokens": [
+    {
+      "text": "يدقت عفن لاصبا",
+      "bbox": [
+        409.0,
+        136.0,
+        506.0,
+        159.0
+      ],
+      "confidence": 81.81
+    },
+    {
+      "text": "ا ",
+      "bbox": [
+        558.0,
+        227.0,
+        610.0,
+        242.0
+      ],
+      "confidence": 72.02
+    },
+    {
+      "text": "عع علا",
+      "bbox": [
+        562.0,
+        251.0,
+        616.0,
+        269.0
+      ],
+      "confidence": 54.21
+    }
+  ],
+  "processing_time_ms": 82
+}

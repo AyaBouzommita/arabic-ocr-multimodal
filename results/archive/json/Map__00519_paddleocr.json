@@ -1,0 +1,38 @@
+{
+  "document_id": "Map/00519",
+  "engine": "paddleocr",
+  "raw_text": "SA ايسآ اياضو",
+  "tokens": [
+    {
+      "text": "SA",
+      "bbox": [
+        58.0,
+        30.0,
+        132.0,
+        75.0
+      ],
+      "confidence": 66.94
+    },
+    {
+      "text": "ايسآ",
+      "bbox": [
+        681.0,
+        99.0,
+        724.0,
+        125.0
+      ],
+      "confidence": 95.49
+    },
+    {
+      "text": "اياضو",
+      "bbox": [
+        205.0,
+        902.0,
+        227.0,
+        911.0
+      ],
+      "confidence": 55.02
+    }
+  ],
+  "processing_time_ms": 97
+}

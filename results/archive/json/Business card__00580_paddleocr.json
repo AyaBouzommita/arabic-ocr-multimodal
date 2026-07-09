@@ -1,0 +1,28 @@
+{
+  "document_id": "Business card/00580",
+  "engine": "paddleocr",
+  "raw_text": "انخبطم تازرفغملا ماعطإلا تامدخا",
+  "tokens": [
+    {
+      "text": "انخبطم",
+      "bbox": [
+        150.0,
+        461.0,
+        394.0,
+        710.0
+      ],
+      "confidence": 99.44
+    },
+    {
+      "text": "تازرفغملا ماعطإلا تامدخا",
+      "bbox": [
+        111.0,
+        528.0,
+        350.0,
+        750.0
+      ],
+      "confidence": 88.11
+    }
+  ],
+  "processing_time_ms": 68
+}

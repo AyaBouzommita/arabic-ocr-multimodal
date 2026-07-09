@@ -1,0 +1,48 @@
+{
+  "document_id": "Label/00398",
+  "engine": "paddleocr",
+  "raw_text": "تيان Bxer ids و",
+  "tokens": [
+    {
+      "text": "تيان",
+      "bbox": [
+        215.0,
+        31.0,
+        643.0,
+        248.0
+      ],
+      "confidence": 93.05
+    },
+    {
+      "text": "Bxer",
+      "bbox": [
+        837.0,
+        158.0,
+        1069.0,
+        287.0
+      ],
+      "confidence": 64.49
+    },
+    {
+      "text": "ids",
+      "bbox": [
+        659.0,
+        214.0,
+        839.0,
+        340.0
+      ],
+      "confidence": 91.14
+    },
+    {
+      "text": "و",
+      "bbox": [
+        636.0,
+        657.0,
+        656.0,
+        670.0
+      ],
+      "confidence": 90.27
+    }
+  ],
+  "processing_time_ms": 333
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00712",
+  "engine": "paddleocr",
+  "raw_text": "٤ sn q og Ot t",
+  "tokens": [
+    {
+      "text": "٤ sn",
+      "bbox": [
+        2308.0,
+        1436.0,
+        2447.0,
+        1489.0
+      ],
+      "confidence": 52.53
+    },
+    {
+      "text": "q og Ot t",
+      "bbox": [
+        2194.0,
+        1503.0,
+        2426.0,
+        1563.0
+      ],
+      "confidence": 66.93
+    }
+  ],
+  "processing_time_ms": 309
+}

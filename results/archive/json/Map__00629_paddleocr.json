@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00629",
+  "engine": "paddleocr",
+  "raw_text": "ايلا رتسا",
+  "tokens": [
+    {
+      "text": "ايلا",
+      "bbox": [
+        394.0,
+        331.0,
+        508.0,
+        407.0
+      ],
+      "confidence": 99.88
+    },
+    {
+      "text": "رتسا",
+      "bbox": [
+        503.0,
+        324.0,
+        630.0,
+        413.0
+      ],
+      "confidence": 80.11
+    }
+  ],
+  "processing_time_ms": 89
+}

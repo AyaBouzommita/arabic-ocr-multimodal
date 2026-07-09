@@ -1,0 +1,148 @@
+{
+  "document_id": "Business card/00440",
+  "engine": "paddleocr",
+  "raw_text": "مم ETS Hand Tools Hardware Machineries Cell Zahe Cite Industrielle 5 Telefax Zahle B",
+  "tokens": [
+    {
+      "text": "مم",
+      "bbox": [
+        366.0,
+        76.0,
+        676.0,
+        198.0
+      ],
+      "confidence": 63.0
+    },
+    {
+      "text": "ETS",
+      "bbox": [
+        251.0,
+        97.0,
+        353.0,
+        176.0
+      ],
+      "confidence": 97.97
+    },
+    {
+      "text": "Hand",
+      "bbox": [
+        510.0,
+        293.0,
+        603.0,
+        338.0
+      ],
+      "confidence": 99.8
+    },
+    {
+      "text": "Tools",
+      "bbox": [
+        609.0,
+        288.0,
+        699.0,
+        340.0
+      ],
+      "confidence": 90.71
+    },
+    {
+      "text": "Hardware",
+      "bbox": [
+        320.0,
+        295.0,
+        487.0,
+        345.0
+      ],
+      "confidence": 94.51
+    },
+    {
+      "text": "Machineries",
+      "bbox": [
+        746.0,
+        288.0,
+        926.0,
+        333.0
+      ],
+      "confidence": 94.92
+    },
+    {
+      "text": "Cell",
+      "bbox": [
+        840.0,
+        465.0,
+        890.0,
+        504.0
+      ],
+      "confidence": 54.45
+    },
+    {
+      "text": "Zahe",
+      "bbox": [
+        228.0,
+        484.0,
+        302.0,
+        519.0
+      ],
+      "confidence": 78.79
+    },
+    {
+      "text": "Cite",
+      "bbox": [
+        319.0,
+        481.0,
+        375.0,
+        517.0
+      ],
+      "confidence": 88.56
+    },
+    {
+      "text": "Industrielle",
+      "bbox": [
+        380.0,
+        475.0,
+        514.0,
+        513.0
+      ],
+      "confidence": 93.92
+    },
+    {
+      "text": "5",
+      "bbox": [
+        459.0,
+        518.0,
+        520.0,
+        551.0
+      ],
+      "confidence": 72.32
+    },
+    {
+      "text": "Telefax",
+      "bbox": [
+        807.0,
+        513.0,
+        893.0,
+        546.0
+      ],
+      "confidence": 89.31
+    },
+    {
+      "text": "Zahle",
+      "bbox": [
+        239.0,
+        523.0,
+        336.0,
+        557.0
+      ],
+      "confidence": 93.1
+    },
+    {
+      "text": "B",
+      "bbox": [
+        370.0,
+        525.0,
+        408.0,
+        553.0
+      ],
+      "confidence": 99.41
+    }
+  ],
+  "processing_time_ms": 125
+}

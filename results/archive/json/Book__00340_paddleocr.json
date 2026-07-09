@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00340",
+  "engine": "paddleocr",
+  "raw_text": "فيلات عَبط مسأ",
+  "tokens": [
+    {
+      "text": "فيلات",
+      "bbox": [
+        432.0,
+        1947.0,
+        518.0,
+        1998.0
+      ],
+      "confidence": 85.25
+    },
+    {
+      "text": "عَبط مسأ",
+      "bbox": [
+        367.0,
+        1998.0,
+        603.0,
+        2091.0
+      ],
+      "confidence": 73.81
+    }
+  ],
+  "processing_time_ms": 115
+}

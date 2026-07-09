@@ -1,0 +1,28 @@
+{
+  "document_id": "Newspaper/00644",
+  "engine": "paddleocr",
+  "raw_text": " ة  وخلا ع",
+  "tokens": [
+    {
+      "text": " ة ",
+      "bbox": [
+        433.0,
+        346.0,
+        568.0,
+        377.0
+      ],
+      "confidence": 78.21
+    },
+    {
+      "text": "وخلا ع",
+      "bbox": [
+        588.0,
+        348.0,
+        713.0,
+        377.0
+      ],
+      "confidence": 61.96
+    }
+  ],
+  "processing_time_ms": 57
+}

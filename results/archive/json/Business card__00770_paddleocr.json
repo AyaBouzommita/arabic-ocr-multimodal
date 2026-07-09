@@ -1,0 +1,38 @@
+{
+  "document_id": "Business card/00770",
+  "engine": "paddleocr",
+  "raw_text": "رما a ادحلا رك",
+  "tokens": [
+    {
+      "text": "رما",
+      "bbox": [
+        340.0,
+        200.0,
+        473.0,
+        266.0
+      ],
+      "confidence": 76.79
+    },
+    {
+      "text": "a",
+      "bbox": [
+        462.0,
+        250.0,
+        512.0,
+        281.0
+      ],
+      "confidence": 66.84
+    },
+    {
+      "text": "ادحلا رك",
+      "bbox": [
+        284.0,
+        323.0,
+        421.0,
+        421.0
+      ],
+      "confidence": 72.62
+    }
+  ],
+  "processing_time_ms": 48
+}

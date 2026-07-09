@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00642",
+  "engine": "paddleocr",
+  "raw_text": " :عوضوملا خيراتل ٨١",
+  "tokens": [
+    {
+      "text": " :عوضوملا",
+      "bbox": [
+        730.0,
+        32.0,
+        802.0,
+        63.0
+      ],
+      "confidence": 87.44
+    },
+    {
+      "text": "خيراتل",
+      "bbox": [
+        306.0,
+        89.0,
+        368.0,
+        118.0
+      ],
+      "confidence": 99.57
+    },
+    {
+      "text": "٨١",
+      "bbox": [
+        665.0,
+        96.0,
+        749.0,
+        128.0
+      ],
+      "confidence": 68.85
+    }
+  ],
+  "processing_time_ms": 66
+}

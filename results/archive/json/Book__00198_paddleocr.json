@@ -1,0 +1,18 @@
+{
+  "document_id": "Book/00198",
+  "engine": "paddleocr",
+  "raw_text": "ضبالا",
+  "tokens": [
+    {
+      "text": "ضبالا",
+      "bbox": [
+        467.0,
+        247.0,
+        633.0,
+        340.0
+      ],
+      "confidence": 83.37
+    }
+  ],
+  "processing_time_ms": 57
+}

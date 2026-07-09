@@ -1,0 +1,198 @@
+{
+  "document_id": "Invoice/0068",
+  "engine": "paddleocr",
+  "raw_text": "ALRABIEA AL RABIE T 838046-8501261 m lrabiayahoo.com ١٦٢١٥٨ ٦٣٤٨٣٨ نوفلت ٥N MEASUREMENT FORM D ٥١ ٣١٢/٣١ ٧٧٥ Area Measured by Description y",
+  "tokens": [
+    {
+      "text": "ALRABIEA",
+      "bbox": [
+        122.0,
+        301.0,
+        323.0,
+        342.0
+      ],
+      "confidence": 86.67
+    },
+    {
+      "text": "AL",
+      "bbox": [
+        147.0,
+        339.0,
+        196.0,
+        354.0
+      ],
+      "confidence": 63.87
+    },
+    {
+      "text": "RABIE T",
+      "bbox": [
+        193.0,
+        339.0,
+        278.0,
+        361.0
+      ],
+      "confidence": 78.84
+    },
+    {
+      "text": "838046-8501261",
+      "bbox": [
+        170.0,
+        355.0,
+        285.0,
+        377.0
+      ],
+      "confidence": 77.46
+    },
+    {
+      "text": "m",
+      "bbox": [
+        120.0,
+        366.0,
+        165.0,
+        388.0
+      ],
+      "confidence": 59.37
+    },
+    {
+      "text": "lrabiayahoo.com",
+      "bbox": [
+        171.0,
+        369.0,
+        304.0,
+        396.0
+      ],
+      "confidence": 82.76
+    },
+    {
+      "text": "١٦٢١٥٨",
+      "bbox": [
+        435.0,
+        365.0,
+        496.0,
+        383.0
+      ],
+      "confidence": 96.33
+    },
+    {
+      "text": "٦٣٤٨٣٨",
+      "bbox": [
+        509.0,
+        367.0,
+        568.0,
+        382.0
+      ],
+      "confidence": 97.48
+    },
+    {
+      "text": "نوفلت",
+      "bbox": [
+        575.0,
+        363.0,
+        613.0,
+        387.0
+      ],
+      "confidence": 91.26
+    },
+    {
+      "text": "٥N",
+      "bbox": [
+        114.0,
+        391.0,
+        139.0,
+        407.0
+      ],
+      "confidence": 81.05
+    },
+    {
+      "text": "MEASUREMENT FORM",
+      "bbox": [
+        288.0,
+        400.0,
+        453.0,
+        422.0
+      ],
+      "confidence": 93.04
+    },
+    {
+      "text": "D",
+      "bbox": [
+        498.0,
+        405.0,
+        527.0,
+        422.0
+      ],
+      "confidence": 93.79
+    },
+    {
+      "text": "٥١",
+      "bbox": [
+        544.0,
+        404.0,
+        568.0,
+        419.0
+      ],
+      "confidence": 75.1
+    },
+    {
+      "text": "٣١٢/٣١",
+      "bbox": [
+        564.0,
+        398.0,
+        644.0,
+        422.0
+      ],
+      "confidence": 89.66
+    },
+    {
+      "text": "٧٧٥",
+      "bbox": [
+        413.0,
+        436.0,
+        516.0,
+        451.0
+      ],
+      "confidence": 60.33
+    },
+    {
+      "text": "Area",
+      "bbox": [
+        262.0,
+        455.0,
+        294.0,
+        470.0
+      ],
+      "confidence": 75.33
+    },
+    {
+      "text": "Measured by",
+      "bbox": [
+        437.0,
+        458.0,
+        511.0,
+        475.0
+      ],
+      "confidence": 91.75
+    },
+    {
+      "text": "Description",
+      "bbox": [
+        252.0,
+        484.0,
+        333.0,
+        502.0
+      ],
+      "confidence": 97.9
+    },
+    {
+      "text": "y",
+      "bbox": [
+        575.0,
+        490.0,
+        604.0,
+        505.0
+      ],
+      "confidence": 75.15
+    }
+  ],
+  "processing_time_ms": 174
+}

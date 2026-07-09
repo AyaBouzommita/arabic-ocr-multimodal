@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/00227",
+  "engine": "paddleocr",
+  "raw_text": "كلدف لا محنلاو مضتن",
+  "tokens": [
+    {
+      "text": "كلدف",
+      "bbox": [
+        185.0,
+        856.0,
+        218.0,
+        868.0
+      ],
+      "confidence": 64.41
+    },
+    {
+      "text": "لا محنلاو مضتن",
+      "bbox": [
+        174.0,
+        869.0,
+        252.0,
+        891.0
+      ],
+      "confidence": 74.38
+    }
+  ],
+  "processing_time_ms": 58
+}

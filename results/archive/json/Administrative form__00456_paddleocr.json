@@ -1,0 +1,28 @@
+{
+  "document_id": "Administrative form/00456",
+  "engine": "paddleocr",
+  "raw_text": "فثهلا مق راوطلا ةلاح",
+  "tokens": [
+    {
+      "text": "فثهلا مق",
+      "bbox": [
+        1908.0,
+        2424.0,
+        2017.0,
+        2456.0
+      ],
+      "confidence": 91.14
+    },
+    {
+      "text": "راوطلا ةلاح",
+      "bbox": [
+        1620.0,
+        2500.0,
+        1728.0,
+        2524.0
+      ],
+      "confidence": 94.5
+    }
+  ],
+  "processing_time_ms": 188
+}

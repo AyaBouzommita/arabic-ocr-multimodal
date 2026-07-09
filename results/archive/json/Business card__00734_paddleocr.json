@@ -1,0 +1,48 @@
+{
+  "document_id": "Business card/00734",
+  "engine": "paddleocr",
+  "raw_text": "ةيبلحلا تطب ةينه مكتمقل ٣٧ baythalab",
+  "tokens": [
+    {
+      "text": "ةيبلحلا تطب ةينه",
+      "bbox": [
+        288.0,
+        818.0,
+        482.0,
+        843.0
+      ],
+      "confidence": 90.7
+    },
+    {
+      "text": "مكتمقل",
+      "bbox": [
+        477.0,
+        813.0,
+        552.0,
+        846.0
+      ],
+      "confidence": 94.67
+    },
+    {
+      "text": "٣٧",
+      "bbox": [
+        323.0,
+        900.0,
+        369.0,
+        922.0
+      ],
+      "confidence": 50.56
+    },
+    {
+      "text": "baythalab",
+      "bbox": [
+        372.0,
+        902.0,
+        470.0,
+        920.0
+      ],
+      "confidence": 91.78
+    }
+  ],
+  "processing_time_ms": 72
+}

@@ -1,0 +1,138 @@
+{
+  "document_id": "Business card/00506",
+  "engine": "paddleocr",
+  "raw_text": "SCDN ةمادتسملا عمتحملا ةيمنت ةكبش SUSTAINABLE COMMUNITY DEVELOPMENT NETWORK 9 Director Beirut Lebanon",
+  "tokens": [
+    {
+      "text": "SCDN",
+      "bbox": [
+        289.0,
+        220.0,
+        457.0,
+        267.0
+      ],
+      "confidence": 99.72
+    },
+    {
+      "text": "ةمادتسملا",
+      "bbox": [
+        467.0,
+        238.0,
+        548.0,
+        267.0
+      ],
+      "confidence": 94.73
+    },
+    {
+      "text": "عمتحملا",
+      "bbox": [
+        551.0,
+        239.0,
+        617.0,
+        269.0
+      ],
+      "confidence": 91.83
+    },
+    {
+      "text": "ةيمنت",
+      "bbox": [
+        620.0,
+        239.0,
+        666.0,
+        263.0
+      ],
+      "confidence": 79.61
+    },
+    {
+      "text": "ةكبش",
+      "bbox": [
+        670.0,
+        237.0,
+        716.0,
+        260.0
+      ],
+      "confidence": 93.52
+    },
+    {
+      "text": "SUSTAINABLE",
+      "bbox": [
+        289.0,
+        275.0,
+        401.0,
+        296.0
+      ],
+      "confidence": 93.58
+    },
+    {
+      "text": "COMMUNITY",
+      "bbox": [
+        402.0,
+        273.0,
+        507.0,
+        293.0
+      ],
+      "confidence": 94.45
+    },
+    {
+      "text": "DEVELOPMENT",
+      "bbox": [
+        511.0,
+        270.0,
+        632.0,
+        291.0
+      ],
+      "confidence": 99.01
+    },
+    {
+      "text": "NETWORK",
+      "bbox": [
+        634.0,
+        270.0,
+        716.0,
+        288.0
+      ],
+      "confidence": 97.93
+    },
+    {
+      "text": "9",
+      "bbox": [
+        498.0,
+        355.0,
+        533.0,
+        376.0
+      ],
+      "confidence": 58.5
+    },
+    {
+      "text": "Director",
+      "bbox": [
+        396.0,
+        388.0,
+        467.0,
+        407.0
+      ],
+      "confidence": 94.38
+    },
+    {
+      "text": "Beirut",
+      "bbox": [
+        495.0,
+        382.0,
+        554.0,
+        404.0
+      ],
+      "confidence": 97.62
+    },
+    {
+      "text": "Lebanon",
+      "bbox": [
+        568.0,
+        382.0,
+        648.0,
+        400.0
+      ],
+      "confidence": 93.16
+    }
+  ],
+  "processing_time_ms": 119
+}

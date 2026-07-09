@@ -1,0 +1,208 @@
+{
+  "document_id": "Label/00457",
+  "engine": "paddleocr",
+  "raw_text": "closable Bag Lutvniere SATISFACTION 100/% GUARANTEED SPICES Selected Fine دوحأ Extra عاونأ تاراهبلا Bay Eeaves راغ قرو يفاصلا نزوولا ٧",
+  "tokens": [
+    {
+      "text": "closable",
+      "bbox": [
+        0.0,
+        225.0,
+        146.0,
+        272.0
+      ],
+      "confidence": 91.26
+    },
+    {
+      "text": "Bag",
+      "bbox": [
+        150.0,
+        232.0,
+        232.0,
+        283.0
+      ],
+      "confidence": 74.61
+    },
+    {
+      "text": "Lutvniere",
+      "bbox": [
+        271.0,
+        221.0,
+        929.0,
+        453.0
+      ],
+      "confidence": 77.72
+    },
+    {
+      "text": "SATISFACTION",
+      "bbox": [
+        310.0,
+        423.0,
+        567.0,
+        534.0
+      ],
+      "confidence": 88.38
+    },
+    {
+      "text": "100/%",
+      "bbox": [
+        786.0,
+        433.0,
+        884.0,
+        498.0
+      ],
+      "confidence": 57.68
+    },
+    {
+      "text": "GUARANTEED",
+      "bbox": [
+        566.0,
+        465.0,
+        787.0,
+        527.0
+      ],
+      "confidence": 97.66
+    },
+    {
+      "text": "SPICES",
+      "bbox": [
+        661.0,
+        576.0,
+        844.0,
+        656.0
+      ],
+      "confidence": 96.5
+    },
+    {
+      "text": "Selected",
+      "bbox": [
+        440.0,
+        610.0,
+        658.0,
+        697.0
+      ],
+      "confidence": 97.51
+    },
+    {
+      "text": "Fine",
+      "bbox": [
+        326.0,
+        652.0,
+        443.0,
+        719.0
+      ],
+      "confidence": 89.28
+    },
+    {
+      "text": "دوحأ",
+      "bbox": [
+        735.0,
+        652.0,
+        864.0,
+        744.0
+      ],
+      "confidence": 98.41
+    },
+    {
+      "text": "Extra",
+      "bbox": [
+        180.0,
+        674.0,
+        321.0,
+        742.0
+      ],
+      "confidence": 97.42
+    },
+    {
+      "text": "عاونأ",
+      "bbox": [
+        615.0,
+        675.0,
+        746.0,
+        770.0
+      ],
+      "confidence": 92.19
+    },
+    {
+      "text": "تاراهبلا",
+      "bbox": [
+        422.0,
+        707.0,
+        628.0,
+        803.0
+      ],
+      "confidence": 99.98
+    },
+    {
+      "text": "Bay",
+      "bbox": [
+        412.0,
+        1252.0,
+        563.0,
+        1350.0
+      ],
+      "confidence": 94.12
+    },
+    {
+      "text": "Eeaves",
+      "bbox": [
+        581.0,
+        1234.0,
+        844.0,
+        1327.0
+      ],
+      "confidence": 80.07
+    },
+    {
+      "text": "راغ",
+      "bbox": [
+        430.0,
+        1331.0,
+        596.0,
+        1433.0
+      ],
+      "confidence": 96.63
+    },
+    {
+      "text": "قرو",
+      "bbox": [
+        628.0,
+        1331.0,
+        822.0,
+        1414.0
+      ],
+      "confidence": 99.96
+    },
+    {
+      "text": "يفاصلا",
+      "bbox": [
+        651.0,
+        1410.0,
+        755.0,
+        1463.0
+      ],
+      "confidence": 79.8
+    },
+    {
+      "text": "نزوولا",
+      "bbox": [
+        751.0,
+        1407.0,
+        830.0,
+        1455.0
+      ],
+      "confidence": 89.32
+    },
+    {
+      "text": "٧",
+      "bbox": [
+        418.0,
+        1438.0,
+        477.0,
+        1471.0
+      ],
+      "confidence": 50.31
+    }
+  ],
+  "processing_time_ms": 178
+}

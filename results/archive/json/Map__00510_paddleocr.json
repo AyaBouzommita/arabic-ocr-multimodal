@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00510",
+  "engine": "paddleocr",
+  "raw_text": "ي رادعلا ئىداها",
+  "tokens": [
+    {
+      "text": "ي رادعلا",
+      "bbox": [
+        318.0,
+        28.0,
+        355.0,
+        40.0
+      ],
+      "confidence": 65.21
+    },
+    {
+      "text": "ئىداها",
+      "bbox": [
+        216.0,
+        423.0,
+        270.0,
+        441.0
+      ],
+      "confidence": 78.12
+    }
+  ],
+  "processing_time_ms": 78
+}

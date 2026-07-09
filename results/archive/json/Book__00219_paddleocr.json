@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00219",
+  "engine": "paddleocr",
+  "raw_text": "عبارلا ءزجلا م٧٢",
+  "tokens": [
+    {
+      "text": "عبارلا ءزجلا",
+      "bbox": [
+        183.0,
+        734.0,
+        302.0,
+        772.0
+      ],
+      "confidence": 92.15
+    },
+    {
+      "text": "م٧٢",
+      "bbox": [
+        213.0,
+        773.0,
+        276.0,
+        802.0
+      ],
+      "confidence": 81.74
+    }
+  ],
+  "processing_time_ms": 83
+}

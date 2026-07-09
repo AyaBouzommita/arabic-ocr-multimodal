@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/0013",
+  "engine": "paddleocr",
+  "raw_text": "ةزاط كعك ببطا",
+  "tokens": [
+    {
+      "text": "ةزاط كعك",
+      "bbox": [
+        412.0,
+        530.0,
+        2330.0,
+        1120.0
+      ],
+      "confidence": 83.09
+    },
+    {
+      "text": "ببطا",
+      "bbox": [
+        2323.0,
+        688.0,
+        3352.0,
+        1234.0
+      ],
+      "confidence": 88.59
+    }
+  ],
+  "processing_time_ms": 255
+}

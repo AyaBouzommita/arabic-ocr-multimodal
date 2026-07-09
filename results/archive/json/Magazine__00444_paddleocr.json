@@ -1,0 +1,28 @@
+{
+  "document_id": "Magazine/00444",
+  "engine": "paddleocr",
+  "raw_text": "رمس لقتل",
+  "tokens": [
+    {
+      "text": "رمس",
+      "bbox": [
+        183.0,
+        14.0,
+        282.0,
+        72.0
+      ],
+      "confidence": 93.42
+    },
+    {
+      "text": "لقتل",
+      "bbox": [
+        158.0,
+        259.0,
+        259.0,
+        286.0
+      ],
+      "confidence": 71.87
+    }
+  ],
+  "processing_time_ms": 41
+}

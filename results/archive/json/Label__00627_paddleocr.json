@@ -1,0 +1,18 @@
+{
+  "document_id": "Label/00627",
+  "engine": "paddleocr",
+  "raw_text": "ينودرب",
+  "tokens": [
+    {
+      "text": "ينودرب",
+      "bbox": [
+        239.0,
+        653.0,
+        454.0,
+        749.0
+      ],
+      "confidence": 98.9
+    }
+  ],
+  "processing_time_ms": 52
+}

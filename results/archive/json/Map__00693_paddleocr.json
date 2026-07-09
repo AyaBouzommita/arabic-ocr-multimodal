@@ -1,0 +1,48 @@
+{
+  "document_id": "Map/00693",
+  "engine": "paddleocr",
+  "raw_text": "درئازج رابوك يد m d innovat",
+  "tokens": [
+    {
+      "text": "درئازج",
+      "bbox": [
+        967.0,
+        2838.0,
+        1116.0,
+        2883.0
+      ],
+      "confidence": 86.27
+    },
+    {
+      "text": "رابوك",
+      "bbox": [
+        1036.0,
+        2863.0,
+        1154.0,
+        2933.0
+      ],
+      "confidence": 98.73
+    },
+    {
+      "text": "يد",
+      "bbox": [
+        1044.0,
+        3304.0,
+        1116.0,
+        3350.0
+      ],
+      "confidence": 77.23
+    },
+    {
+      "text": "m d innovat",
+      "bbox": [
+        21.0,
+        3396.0,
+        298.0,
+        3438.0
+      ],
+      "confidence": 83.06
+    }
+  ],
+  "processing_time_ms": 312
+}

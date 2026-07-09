@@ -1,0 +1,18 @@
+{
+  "document_id": "Label/00593",
+  "engine": "paddleocr",
+  "raw_text": "ا لإ",
+  "tokens": [
+    {
+      "text": "ا لإ",
+      "bbox": [
+        112.0,
+        108.0,
+        278.0,
+        158.0
+      ],
+      "confidence": 59.64
+    }
+  ],
+  "processing_time_ms": 41
+}

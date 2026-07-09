@@ -1,0 +1,48 @@
+{
+  "document_id": "Magazine/00483",
+  "engine": "paddleocr",
+  "raw_text": "اروو  NORA ٨ك تاطاسلا",
+  "tokens": [
+    {
+      "text": "اروو ",
+      "bbox": [
+        149.0,
+        64.0,
+        485.0,
+        322.0
+      ],
+      "confidence": 83.97
+    },
+    {
+      "text": "NORA",
+      "bbox": [
+        500.0,
+        121.0,
+        729.0,
+        196.0
+      ],
+      "confidence": 79.51
+    },
+    {
+      "text": "٨ك",
+      "bbox": [
+        535.0,
+        935.0,
+        681.0,
+        996.0
+      ],
+      "confidence": 52.34
+    },
+    {
+      "text": "تاطاسلا",
+      "bbox": [
+        449.0,
+        995.0,
+        745.0,
+        1141.0
+      ],
+      "confidence": 91.92
+    }
+  ],
+  "processing_time_ms": 104
+}

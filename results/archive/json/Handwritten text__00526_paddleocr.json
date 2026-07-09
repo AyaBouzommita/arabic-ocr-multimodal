@@ -1,0 +1,18 @@
+{
+  "document_id": "Handwritten text/00526",
+  "engine": "paddleocr",
+  "raw_text": "روصشالح",
+  "tokens": [
+    {
+      "text": "روصشالح",
+      "bbox": [
+        321.0,
+        199.0,
+        864.0,
+        461.0
+      ],
+      "confidence": 58.68
+    }
+  ],
+  "processing_time_ms": 55
+}

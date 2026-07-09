@@ -1,0 +1,18 @@
+{
+  "document_id": "Comics/00273",
+  "engine": "paddleocr",
+  "raw_text": "ةياه",
+  "tokens": [
+    {
+      "text": "ةياه",
+      "bbox": [
+        1128.0,
+        2278.0,
+        1216.0,
+        2318.0
+      ],
+      "confidence": 83.14
+    }
+  ],
+  "processing_time_ms": 254
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "Business card/00145",
+  "engine": "paddleocr",
+  "raw_text": "Sweets Al Faisal",
+  "tokens": [
+    {
+      "text": "Sweets",
+      "bbox": [
+        2449.0,
+        459.0,
+        2716.0,
+        622.0
+      ],
+      "confidence": 91.69
+    },
+    {
+      "text": "Al Faisal",
+      "bbox": [
+        2177.0,
+        552.0,
+        2491.0,
+        730.0
+      ],
+      "confidence": 94.26
+    }
+  ],
+  "processing_time_ms": 237
+}

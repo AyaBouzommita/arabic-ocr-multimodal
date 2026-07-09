@@ -1,0 +1,38 @@
+{
+  "document_id": "Magazine/00599",
+  "engine": "paddleocr",
+  "raw_text": "د ةياثلا ةنسلا و",
+  "tokens": [
+    {
+      "text": "د",
+      "bbox": [
+        98.0,
+        41.0,
+        554.0,
+        223.0
+      ],
+      "confidence": 61.37
+    },
+    {
+      "text": "ةياثلا ةنسلا",
+      "bbox": [
+        146.0,
+        209.0,
+        221.0,
+        227.0
+      ],
+      "confidence": 90.96
+    },
+    {
+      "text": "و",
+      "bbox": [
+        590.0,
+        784.0,
+        606.0,
+        798.0
+      ],
+      "confidence": 56.57
+    }
+  ],
+  "processing_time_ms": 70
+}

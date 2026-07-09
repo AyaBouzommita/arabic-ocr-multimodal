@@ -1,0 +1,68 @@
+{
+  "document_id": "Receipt/00390",
+  "engine": "paddleocr",
+  "raw_text": "MTT C OMTN Ag Signate h 0",
+  "tokens": [
+    {
+      "text": "MTT",
+      "bbox": [
+        54.0,
+        385.0,
+        201.0,
+        453.0
+      ],
+      "confidence": 84.19
+    },
+    {
+      "text": "C",
+      "bbox": [
+        644.0,
+        440.0,
+        755.0,
+        465.0
+      ],
+      "confidence": 74.12
+    },
+    {
+      "text": "OMTN",
+      "bbox": [
+        310.0,
+        516.0,
+        366.0,
+        544.0
+      ],
+      "confidence": 75.99
+    },
+    {
+      "text": "Ag Signate",
+      "bbox": [
+        537.0,
+        714.0,
+        623.0,
+        731.0
+      ],
+      "confidence": 77.08
+    },
+    {
+      "text": "h",
+      "bbox": [
+        365.0,
+        732.0,
+        402.0,
+        750.0
+      ],
+      "confidence": 65.19
+    },
+    {
+      "text": "0",
+      "bbox": [
+        423.0,
+        726.0,
+        468.0,
+        741.0
+      ],
+      "confidence": 80.3
+    }
+  ],
+  "processing_time_ms": 92
+}

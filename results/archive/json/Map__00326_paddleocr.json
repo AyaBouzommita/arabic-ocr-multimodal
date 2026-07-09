@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00326",
+  "engine": "paddleocr",
+  "raw_text": "طفنلل يملاعلا جات مككب",
+  "tokens": [
+    {
+      "text": "طفنلل يملاعلا جات",
+      "bbox": [
+        437.0,
+        313.0,
+        458.0,
+        410.0
+      ],
+      "confidence": 94.11
+    },
+    {
+      "text": "مككب",
+      "bbox": [
+        537.0,
+        945.0,
+        549.0,
+        957.0
+      ],
+      "confidence": 61.45
+    }
+  ],
+  "processing_time_ms": 54
+}

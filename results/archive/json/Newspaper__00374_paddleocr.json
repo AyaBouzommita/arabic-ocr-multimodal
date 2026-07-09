@@ -1,0 +1,38 @@
+{
+  "document_id": "Newspaper/00374",
+  "engine": "paddleocr",
+  "raw_text": "ريفسلا  و رفير دوصم",
+  "tokens": [
+    {
+      "text": "ريفسلا",
+      "bbox": [
+        365.0,
+        173.0,
+        496.0,
+        223.0
+      ],
+      "confidence": 92.65
+    },
+    {
+      "text": " و",
+      "bbox": [
+        727.0,
+        187.0,
+        811.0,
+        210.0
+      ],
+      "confidence": 60.48
+    },
+    {
+      "text": "رفير دوصم",
+      "bbox": [
+        626.0,
+        211.0,
+        667.0,
+        225.0
+      ],
+      "confidence": 60.36
+    }
+  ],
+  "processing_time_ms": 74
+}

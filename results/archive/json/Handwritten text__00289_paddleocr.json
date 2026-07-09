@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/00289",
+  "engine": "paddleocr",
+  "raw_text": "i ٩٩٩٩ طيطنتل  e",
+  "tokens": [
+    {
+      "text": "i",
+      "bbox": [
+        403.0,
+        20.0,
+        466.0,
+        50.0
+      ],
+      "confidence": 52.28
+    },
+    {
+      "text": "٩٩٩٩",
+      "bbox": [
+        504.0,
+        113.0,
+        615.0,
+        139.0
+      ],
+      "confidence": 86.54
+    },
+    {
+      "text": "طيطنتل ",
+      "bbox": [
+        88.0,
+        152.0,
+        150.0,
+        170.0
+      ],
+      "confidence": 65.85
+    },
+    {
+      "text": "e",
+      "bbox": [
+        84.0,
+        276.0,
+        123.0,
+        291.0
+      ],
+      "confidence": 63.22
+    }
+  ],
+  "processing_time_ms": 82
+}

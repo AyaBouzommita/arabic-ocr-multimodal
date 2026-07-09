@@ -1,0 +1,48 @@
+{
+  "document_id": "Business card/0073",
+  "engine": "paddleocr",
+  "raw_text": "Tulip jewellery. بيلوت تارهوجم",
+  "tokens": [
+    {
+      "text": "Tulip",
+      "bbox": [
+        267.0,
+        536.0,
+        377.0,
+        614.0
+      ],
+      "confidence": 86.92
+    },
+    {
+      "text": "jewellery.",
+      "bbox": [
+        370.0,
+        532.0,
+        511.0,
+        604.0
+      ],
+      "confidence": 86.55
+    },
+    {
+      "text": "بيلوت",
+      "bbox": [
+        263.0,
+        617.0,
+        363.0,
+        668.0
+      ],
+      "confidence": 99.88
+    },
+    {
+      "text": "تارهوجم",
+      "bbox": [
+        371.0,
+        611.0,
+        517.0,
+        661.0
+      ],
+      "confidence": 97.27
+    }
+  ],
+  "processing_time_ms": 80
+}

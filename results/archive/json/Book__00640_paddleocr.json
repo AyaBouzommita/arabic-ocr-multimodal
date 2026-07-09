@@ -1,0 +1,18 @@
+{
+  "document_id": "Book/00640",
+  "engine": "paddleocr",
+  "raw_text": "ناَنَبل ةَكَم",
+  "tokens": [
+    {
+      "text": "ناَنَبل ةَكَم",
+      "bbox": [
+        183.0,
+        1262.0,
+        422.0,
+        1318.0
+      ],
+      "confidence": 72.86
+    }
+  ],
+  "processing_time_ms": 64
+}

@@ -1,0 +1,68 @@
+{
+  "document_id": "Magazine/00498",
+  "engine": "paddleocr",
+  "raw_text": "يهط تايزول نودب Amandes Sans Cujisson",
+  "tokens": [
+    {
+      "text": "يهط",
+      "bbox": [
+        219.0,
+        422.0,
+        404.0,
+        524.0
+      ],
+      "confidence": 99.25
+    },
+    {
+      "text": "تايزول",
+      "bbox": [
+        621.0,
+        425.0,
+        841.0,
+        551.0
+      ],
+      "confidence": 95.28
+    },
+    {
+      "text": "نودب",
+      "bbox": [
+        413.0,
+        436.0,
+        615.0,
+        534.0
+      ],
+      "confidence": 99.82
+    },
+    {
+      "text": "Amandes",
+      "bbox": [
+        138.0,
+        523.0,
+        465.0,
+        584.0
+      ],
+      "confidence": 95.3
+    },
+    {
+      "text": "Sans",
+      "bbox": [
+        489.0,
+        544.0,
+        640.0,
+        590.0
+      ],
+      "confidence": 94.6
+    },
+    {
+      "text": "Cujisson",
+      "bbox": [
+        667.0,
+        544.0,
+        918.0,
+        594.0
+      ],
+      "confidence": 82.28
+    }
+  ],
+  "processing_time_ms": 83
+}

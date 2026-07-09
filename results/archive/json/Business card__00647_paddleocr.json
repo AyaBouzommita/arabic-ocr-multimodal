@@ -1,0 +1,58 @@
+{
+  "document_id": "Business card/00647",
+  "engine": "paddleocr",
+  "raw_text": "L KARAMA ةلاركل ةماركلا زجحلل",
+  "tokens": [
+    {
+      "text": "L",
+      "bbox": [
+        390.0,
+        67.0,
+        446.0,
+        103.0
+      ],
+      "confidence": 76.83
+    },
+    {
+      "text": "KARAMA",
+      "bbox": [
+        465.0,
+        70.0,
+        646.0,
+        98.0
+      ],
+      "confidence": 88.76
+    },
+    {
+      "text": "ةلاركل",
+      "bbox": [
+        452.0,
+        137.0,
+        661.0,
+        195.0
+      ],
+      "confidence": 61.7
+    },
+    {
+      "text": "ةماركلا",
+      "bbox": [
+        24.0,
+        172.0,
+        155.0,
+        216.0
+      ],
+      "confidence": 89.19
+    },
+    {
+      "text": "زجحلل",
+      "bbox": [
+        458.0,
+        346.0,
+        584.0,
+        396.0
+      ],
+      "confidence": 99.24
+    }
+  ],
+  "processing_time_ms": 51
+}

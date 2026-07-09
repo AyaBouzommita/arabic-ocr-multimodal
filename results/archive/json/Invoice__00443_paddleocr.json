@@ -1,0 +1,18 @@
+{
+  "document_id": "Invoice/00443",
+  "engine": "paddleocr",
+  "raw_text": "راوامل",
+  "tokens": [
+    {
+      "text": "راوامل",
+      "bbox": [
+        1709.0,
+        1167.0,
+        1781.0,
+        1212.0
+      ],
+      "confidence": 77.94
+    }
+  ],
+  "processing_time_ms": 341
+}

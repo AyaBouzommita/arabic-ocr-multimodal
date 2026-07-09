@@ -1,0 +1,38 @@
+{
+  "document_id": "Business card/00225",
+  "engine": "paddleocr",
+  "raw_text": "ةيبرعلا ص ةيروهم هرسألا هفاطي",
+  "tokens": [
+    {
+      "text": "ةيبرعلا ص ةيروهم",
+      "bbox": [
+        243.0,
+        102.0,
+        396.0,
+        131.0
+      ],
+      "confidence": 70.78
+    },
+    {
+      "text": "هرسألا",
+      "bbox": [
+        93.0,
+        280.0,
+        154.0,
+        311.0
+      ],
+      "confidence": 90.92
+    },
+    {
+      "text": "هفاطي",
+      "bbox": [
+        152.0,
+        275.0,
+        215.0,
+        305.0
+      ],
+      "confidence": 77.46
+    }
+  ],
+  "processing_time_ms": 50
+}

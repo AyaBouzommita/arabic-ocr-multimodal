@@ -1,0 +1,118 @@
+{
+  "document_id": "Business card/00115",
+  "engine": "paddleocr",
+  "raw_text": "جOLOW لامعألا Business لامعألا ةعومهجمةعومجم ةكرش Glow Businesses Group o Www. .Wahajalamal. I.com",
+  "tokens": [
+    {
+      "text": "جOLOW",
+      "bbox": [
+        516.0,
+        286.0,
+        873.0,
+        413.0
+      ],
+      "confidence": 77.96
+    },
+    {
+      "text": "لامعألا",
+      "bbox": [
+        496.0,
+        421.0,
+        647.0,
+        499.0
+      ],
+      "confidence": 99.56
+    },
+    {
+      "text": "Business",
+      "bbox": [
+        717.0,
+        430.0,
+        844.0,
+        482.0
+      ],
+      "confidence": 99.67
+    },
+    {
+      "text": "لامعألا ةعومهجمةعومجم ةكرش",
+      "bbox": [
+        527.0,
+        488.0,
+        815.0,
+        532.0
+      ],
+      "confidence": 87.3
+    },
+    {
+      "text": "Glow",
+      "bbox": [
+        515.0,
+        532.0,
+        574.0,
+        553.0
+      ],
+      "confidence": 67.93
+    },
+    {
+      "text": "Businesses",
+      "bbox": [
+        580.0,
+        530.0,
+        711.0,
+        555.0
+      ],
+      "confidence": 99.84
+    },
+    {
+      "text": "Group",
+      "bbox": [
+        715.0,
+        528.0,
+        792.0,
+        552.0
+      ],
+      "confidence": 98.25
+    },
+    {
+      "text": "o",
+      "bbox": [
+        798.0,
+        528.0,
+        836.0,
+        551.0
+      ],
+      "confidence": 69.08
+    },
+    {
+      "text": "Www.",
+      "bbox": [
+        505.0,
+        582.0,
+        584.0,
+        607.0
+      ],
+      "confidence": 91.67
+    },
+    {
+      "text": ".Wahajalamal.",
+      "bbox": [
+        576.0,
+        573.0,
+        766.0,
+        608.0
+      ],
+      "confidence": 96.72
+    },
+    {
+      "text": "I.com",
+      "bbox": [
+        753.0,
+        576.0,
+        826.0,
+        602.0
+      ],
+      "confidence": 98.63
+    }
+  ],
+  "processing_time_ms": 106
+}

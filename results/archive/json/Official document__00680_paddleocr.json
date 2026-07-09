@@ -1,0 +1,58 @@
+{
+  "document_id": "Official document/00680",
+  "engine": "paddleocr",
+  "raw_text": "٥٥٧٤٩٢ f Health Ministry ةداهش وسا",
+  "tokens": [
+    {
+      "text": "٥٥٧٤٩٢",
+      "bbox": [
+        2254.0,
+        900.0,
+        2405.0,
+        984.0
+      ],
+      "confidence": 90.44
+    },
+    {
+      "text": "f Health",
+      "bbox": [
+        1931.0,
+        984.0,
+        2054.0,
+        1072.0
+      ],
+      "confidence": 83.34
+    },
+    {
+      "text": "Ministry",
+      "bbox": [
+        1825.0,
+        1048.0,
+        1949.0,
+        1124.0
+      ],
+      "confidence": 99.52
+    },
+    {
+      "text": "ةداهش",
+      "bbox": [
+        1959.0,
+        1057.0,
+        2066.0,
+        1133.0
+      ],
+      "confidence": 97.5
+    },
+    {
+      "text": "وسا",
+      "bbox": [
+        1733.0,
+        1402.0,
+        1792.0,
+        1436.0
+      ],
+      "confidence": 69.9
+    }
+  ],
+  "processing_time_ms": 343
+}

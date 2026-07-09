@@ -1,0 +1,138 @@
+{
+  "document_id": "Business card/00674",
+  "engine": "paddleocr",
+  "raw_text": "ةيلحملا ةكرش رقص ديوس Address line 2 Address line 3 Sakkerogmail. .com Mananger Abbvablv رقص.C0mص",
+  "tokens": [
+    {
+      "text": "ةيلحملا",
+      "bbox": [
+        256.0,
+        381.0,
+        382.0,
+        443.0
+      ],
+      "confidence": 99.37
+    },
+    {
+      "text": "ةكرش",
+      "bbox": [
+        472.0,
+        377.0,
+        579.0,
+        449.0
+      ],
+      "confidence": 99.99
+    },
+    {
+      "text": "رقص",
+      "bbox": [
+        387.0,
+        387.0,
+        469.0,
+        443.0
+      ],
+      "confidence": 99.18
+    },
+    {
+      "text": "ديوس",
+      "bbox": [
+        737.0,
+        397.0,
+        774.0,
+        411.0
+      ],
+      "confidence": 98.18
+    },
+    {
+      "text": "Address",
+      "bbox": [
+        736.0,
+        417.0,
+        811.0,
+        439.0
+      ],
+      "confidence": 99.86
+    },
+    {
+      "text": "line 2",
+      "bbox": [
+        806.0,
+        419.0,
+        856.0,
+        438.0
+      ],
+      "confidence": 87.0
+    },
+    {
+      "text": "Address",
+      "bbox": [
+        736.0,
+        446.0,
+        809.0,
+        468.0
+      ],
+      "confidence": 99.95
+    },
+    {
+      "text": "line 3",
+      "bbox": [
+        808.0,
+        447.0,
+        859.0,
+        467.0
+      ],
+      "confidence": 83.48
+    },
+    {
+      "text": "Sakkerogmail.",
+      "bbox": [
+        736.0,
+        504.0,
+        862.0,
+        530.0
+      ],
+      "confidence": 92.22
+    },
+    {
+      "text": ".com",
+      "bbox": [
+        855.0,
+        508.0,
+        900.0,
+        526.0
+      ],
+      "confidence": 83.36
+    },
+    {
+      "text": "Mananger",
+      "bbox": [
+        280.0,
+        518.0,
+        368.0,
+        546.0
+      ],
+      "confidence": 98.04
+    },
+    {
+      "text": "Abbvablv",
+      "bbox": [
+        741.0,
+        582.0,
+        815.0,
+        600.0
+      ],
+      "confidence": 67.31
+    },
+    {
+      "text": "رقص.C0mص",
+      "bbox": [
+        743.0,
+        659.0,
+        817.0,
+        683.0
+      ],
+      "confidence": 75.14
+    }
+  ],
+  "processing_time_ms": 130
+}

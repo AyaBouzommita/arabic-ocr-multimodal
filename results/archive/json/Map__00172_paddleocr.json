@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00172",
+  "engine": "paddleocr",
+  "raw_text": "ةيسايسلا ب6روا",
+  "tokens": [
+    {
+      "text": "ةيسايسلا",
+      "bbox": [
+        1874.0,
+        212.0,
+        2251.0,
+        342.0
+      ],
+      "confidence": 91.21
+    },
+    {
+      "text": "ب6روا",
+      "bbox": [
+        2824.0,
+        1670.0,
+        2883.0,
+        1810.0
+      ],
+      "confidence": 78.57
+    }
+  ],
+  "processing_time_ms": 236
+}

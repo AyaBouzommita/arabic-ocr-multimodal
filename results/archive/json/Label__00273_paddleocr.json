@@ -1,0 +1,58 @@
+{
+  "document_id": "Label/00273",
+  "engine": "paddleocr",
+  "raw_text": "ةماجيب ز e٧si New Season",
+  "tokens": [
+    {
+      "text": "ةماجيب",
+      "bbox": [
+        240.0,
+        382.0,
+        289.0,
+        417.0
+      ],
+      "confidence": 82.89
+    },
+    {
+      "text": "ز",
+      "bbox": [
+        220.0,
+        438.0,
+        239.0,
+        451.0
+      ],
+      "confidence": 98.87
+    },
+    {
+      "text": "e٧si",
+      "bbox": [
+        243.0,
+        431.0,
+        345.0,
+        477.0
+      ],
+      "confidence": 71.22
+    },
+    {
+      "text": "New",
+      "bbox": [
+        135.0,
+        530.0,
+        194.0,
+        575.0
+      ],
+      "confidence": 88.61
+    },
+    {
+      "text": "Season",
+      "bbox": [
+        190.0,
+        547.0,
+        285.0,
+        603.0
+      ],
+      "confidence": 85.36
+    }
+  ],
+  "processing_time_ms": 67
+}

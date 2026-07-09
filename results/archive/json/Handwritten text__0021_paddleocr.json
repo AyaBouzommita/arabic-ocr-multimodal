@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/0021",
+  "engine": "paddleocr",
+  "raw_text": " ايبرص و ةلعلا",
+  "tokens": [
+    {
+      "text": " ايبرص",
+      "bbox": [
+        3615.0,
+        2352.0,
+        4456.0,
+        2639.0
+      ],
+      "confidence": 59.48
+    },
+    {
+      "text": " ",
+      "bbox": [
+        2965.0,
+        2999.0,
+        4459.0,
+        3226.0
+      ],
+      "confidence": 50.48
+    },
+    {
+      "text": "و",
+      "bbox": [
+        2872.0,
+        3042.0,
+        3034.0,
+        3142.0
+      ],
+      "confidence": 67.72
+    },
+    {
+      "text": "ةلعلا",
+      "bbox": [
+        4095.0,
+        3471.0,
+        4530.0,
+        3687.0
+      ],
+      "confidence": 87.67
+    }
+  ],
+  "processing_time_ms": 324
+}

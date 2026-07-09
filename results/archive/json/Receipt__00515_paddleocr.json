@@ -1,0 +1,38 @@
+{
+  "document_id": "Receipt/00515",
+  "engine": "paddleocr",
+  "raw_text": "200. ضيبا ا",
+  "tokens": [
+    {
+      "text": "200.",
+      "bbox": [
+        1322.0,
+        2150.0,
+        1414.0,
+        2225.0
+      ],
+      "confidence": 78.66
+    },
+    {
+      "text": "ضيبا",
+      "bbox": [
+        1389.0,
+        2213.0,
+        1463.0,
+        2275.0
+      ],
+      "confidence": 94.08
+    },
+    {
+      "text": "ا",
+      "bbox": [
+        1026.0,
+        2353.0,
+        1276.0,
+        2584.0
+      ],
+      "confidence": 51.01
+    }
+  ],
+  "processing_time_ms": 293
+}

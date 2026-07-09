@@ -1,0 +1,78 @@
+{
+  "document_id": "Label/00640",
+  "engine": "paddleocr",
+  "raw_text": "GOODY ينادوسلا لوفلا ةدبز PEANUT BUTTER MY مRE",
+  "tokens": [
+    {
+      "text": "GOODY",
+      "bbox": [
+        347.0,
+        800.0,
+        759.0,
+        900.0
+      ],
+      "confidence": 96.93
+    },
+    {
+      "text": "ينادوسلا",
+      "bbox": [
+        264.0,
+        1089.0,
+        555.0,
+        1166.0
+      ],
+      "confidence": 90.56
+    },
+    {
+      "text": "لوفلا",
+      "bbox": [
+        570.0,
+        1082.0,
+        737.0,
+        1173.0
+      ],
+      "confidence": 99.27
+    },
+    {
+      "text": "ةدبز",
+      "bbox": [
+        740.0,
+        1081.0,
+        848.0,
+        1158.0
+      ],
+      "confidence": 93.12
+    },
+    {
+      "text": "PEANUT",
+      "bbox": [
+        276.0,
+        1157.0,
+        557.0,
+        1236.0
+      ],
+      "confidence": 99.75
+    },
+    {
+      "text": "BUTTER",
+      "bbox": [
+        574.0,
+        1153.0,
+        837.0,
+        1234.0
+      ],
+      "confidence": 98.52
+    },
+    {
+      "text": "MY مRE",
+      "bbox": [
+        299.0,
+        1228.0,
+        790.0,
+        1316.0
+      ],
+      "confidence": 61.81
+    }
+  ],
+  "processing_time_ms": 115
+}

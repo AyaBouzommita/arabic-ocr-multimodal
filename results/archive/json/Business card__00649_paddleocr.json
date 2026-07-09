@@ -1,0 +1,58 @@
+{
+  "document_id": "Business card/00649",
+  "engine": "paddleocr",
+  "raw_text": "ولا  يليكشتلا نانفلا  THE ARTST",
+  "tokens": [
+    {
+      "text": "ولا ",
+      "bbox": [
+        686.0,
+        9.0,
+        738.0,
+        43.0
+      ],
+      "confidence": 68.53
+    },
+    {
+      "text": "يليكشتلا",
+      "bbox": [
+        651.0,
+        96.0,
+        795.0,
+        154.0
+      ],
+      "confidence": 99.94
+    },
+    {
+      "text": "نانفلا",
+      "bbox": [
+        792.0,
+        103.0,
+        882.0,
+        147.0
+      ],
+      "confidence": 93.69
+    },
+    {
+      "text": " THE",
+      "bbox": [
+        116.0,
+        540.0,
+        209.0,
+        567.0
+      ],
+      "confidence": 91.4
+    },
+    {
+      "text": "ARTST",
+      "bbox": [
+        222.0,
+        540.0,
+        317.0,
+        566.0
+      ],
+      "confidence": 61.2
+    }
+  ],
+  "processing_time_ms": 63
+}

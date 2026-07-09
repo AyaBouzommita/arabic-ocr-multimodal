@@ -1,0 +1,28 @@
+{
+  "document_id": "Newspaper/00265",
+  "engine": "paddleocr",
+  "raw_text": "ةطلاترلا ٧٤١",
+  "tokens": [
+    {
+      "text": "ةطلاترلا",
+      "bbox": [
+        532.0,
+        81.0,
+        603.0,
+        108.0
+      ],
+      "confidence": 66.17
+    },
+    {
+      "text": "٧٤١",
+      "bbox": [
+        659.0,
+        936.0,
+        698.0,
+        1032.0
+      ],
+      "confidence": 65.15
+    }
+  ],
+  "processing_time_ms": 54
+}

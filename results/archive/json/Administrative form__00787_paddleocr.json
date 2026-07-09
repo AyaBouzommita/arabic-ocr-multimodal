@@ -1,0 +1,208 @@
+{
+  "document_id": "Administrative form/00787",
+  "engine": "paddleocr",
+  "raw_text": "Forms s and Identifying Marks of the Live هاندأ Animals mentioned below: -570ES PLUS ATURALUPA MODE SET تارابيدتدحلا ةتانلا تنالا تالأ تاحلا تاانعضخ :ةظحالم ةيلاتلا ةيئاقولا Ans ٥١ ١ ٦ خيراتب Sanitary Veterinarian ىحصلا يرطيبلا بيبطلا 2r",
+  "tokens": [
+    {
+      "text": "Forms",
+      "bbox": [
+        891.0,
+        646.0,
+        1014.0,
+        692.0
+      ],
+      "confidence": 99.41
+    },
+    {
+      "text": "s and Identifying Marks of the Live",
+      "bbox": [
+        997.0,
+        642.0,
+        1649.0,
+        696.0
+      ],
+      "confidence": 92.61
+    },
+    {
+      "text": "هاندأ",
+      "bbox": [
+        2570.0,
+        662.0,
+        2634.0,
+        704.0
+      ],
+      "confidence": 98.79
+    },
+    {
+      "text": "Animals mentioned below:",
+      "bbox": [
+        891.0,
+        708.0,
+        1376.0,
+        750.0
+      ],
+      "confidence": 93.49
+    },
+    {
+      "text": "-570ES PLUS",
+      "bbox": [
+        307.0,
+        1105.0,
+        639.0,
+        1220.0
+      ],
+      "confidence": 86.98
+    },
+    {
+      "text": "ATURALUPA",
+      "bbox": [
+        18.0,
+        1164.0,
+        468.0,
+        1295.0
+      ],
+      "confidence": 74.42
+    },
+    {
+      "text": "MODE SET",
+      "bbox": [
+        305.0,
+        1682.0,
+        432.0,
+        1743.0
+      ],
+      "confidence": 75.07
+    },
+    {
+      "text": "تارابيدتدحلا ةتانلا تنالا تالأ تاحلا تاانعضخ",
+      "bbox": [
+        1922.0,
+        2679.0,
+        2570.0,
+        2708.0
+      ],
+      "confidence": 65.32
+    },
+    {
+      "text": ":ةظحالم",
+      "bbox": [
+        2582.0,
+        2671.0,
+        2710.0,
+        2712.0
+      ],
+      "confidence": 89.93
+    },
+    {
+      "text": "ةيلاتلا ةيئاقولا",
+      "bbox": [
+        1572.0,
+        2683.0,
+        1756.0,
+        2712.0
+      ],
+      "confidence": 94.29
+    },
+    {
+      "text": "Ans",
+      "bbox": [
+        136.0,
+        2817.0,
+        209.0,
+        2850.0
+      ],
+      "confidence": 68.0
+    },
+    {
+      "text": "٥١",
+      "bbox": [
+        2165.0,
+        3079.0,
+        2280.0,
+        3125.0
+      ],
+      "confidence": 85.38
+    },
+    {
+      "text": "١",
+      "bbox": [
+        2288.0,
+        3079.0,
+        2386.0,
+        3125.0
+      ],
+      "confidence": 64.92
+    },
+    {
+      "text": "٦ خيراتب",
+      "bbox": [
+        2420.0,
+        3088.0,
+        2612.0,
+        3133.0
+      ],
+      "confidence": 81.94
+    },
+    {
+      "text": "Sanitary",
+      "bbox": [
+        1159.0,
+        3242.0,
+        1330.0,
+        3288.0
+      ],
+      "confidence": 96.36
+    },
+    {
+      "text": "Veterinarian",
+      "bbox": [
+        1337.0,
+        3224.0,
+        1586.0,
+        3284.0
+      ],
+      "confidence": 92.31
+    },
+    {
+      "text": "ىحصلا",
+      "bbox": [
+        2348.0,
+        3238.0,
+        2480.0,
+        3279.0
+      ],
+      "confidence": 94.23
+    },
+    {
+      "text": "يرطيبلا",
+      "bbox": [
+        2472.0,
+        3242.0,
+        2625.0,
+        3283.0
+      ],
+      "confidence": 99.73
+    },
+    {
+      "text": "بيبطلا",
+      "bbox": [
+        2629.0,
+        3242.0,
+        2761.0,
+        3288.0
+      ],
+      "confidence": 94.55
+    },
+    {
+      "text": "2r",
+      "bbox": [
+        2133.0,
+        3340.0,
+        2537.0,
+        3431.0
+      ],
+      "confidence": 55.15
+    }
+  ],
+  "processing_time_ms": 353
+}

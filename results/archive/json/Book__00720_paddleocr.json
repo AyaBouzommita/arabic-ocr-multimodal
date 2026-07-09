@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00720",
+  "engine": "paddleocr",
+  "raw_text": "ديعسلا ريمألا ىرخا صصقو",
+  "tokens": [
+    {
+      "text": "ديعسلا ريمألا",
+      "bbox": [
+        238.0,
+        283.0,
+        549.0,
+        351.0
+      ],
+      "confidence": 91.27
+    },
+    {
+      "text": "ىرخا صصقو",
+      "bbox": [
+        312.0,
+        344.0,
+        463.0,
+        379.0
+      ],
+      "confidence": 90.33
+    }
+  ],
+  "processing_time_ms": 118
+}

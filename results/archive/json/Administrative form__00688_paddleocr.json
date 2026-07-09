@@ -1,0 +1,168 @@
+{
+  "document_id": "Administrative form/00688",
+  "engine": "paddleocr",
+  "raw_text": "Facture ةروتاف ٥N Dae Doit نم بولطملا ةيمكلا يهارفما رعسلا عومجملا Designation حرشلا Quantith Prix Unit Total",
+  "tokens": [
+    {
+      "text": "Facture",
+      "bbox": [
+        61.0,
+        157.0,
+        200.0,
+        182.0
+      ],
+      "confidence": 99.26
+    },
+    {
+      "text": "ةروتاف",
+      "bbox": [
+        219.0,
+        150.0,
+        347.0,
+        186.0
+      ],
+      "confidence": 92.75
+    },
+    {
+      "text": "٥N",
+      "bbox": [
+        71.0,
+        222.0,
+        97.0,
+        239.0
+      ],
+      "confidence": 69.35
+    },
+    {
+      "text": "Dae",
+      "bbox": [
+        63.0,
+        270.0,
+        109.0,
+        288.0
+      ],
+      "confidence": 99.02
+    },
+    {
+      "text": "Doit",
+      "bbox": [
+        65.0,
+        337.0,
+        108.0,
+        359.0
+      ],
+      "confidence": 97.28
+    },
+    {
+      "text": "نم",
+      "bbox": [
+        693.0,
+        342.0,
+        718.0,
+        355.0
+      ],
+      "confidence": 84.67
+    },
+    {
+      "text": "بولطملا",
+      "bbox": [
+        716.0,
+        331.0,
+        791.0,
+        359.0
+      ],
+      "confidence": 99.96
+    },
+    {
+      "text": "ةيمكلا",
+      "bbox": [
+        93.0,
+        385.0,
+        146.0,
+        403.0
+      ],
+      "confidence": 93.91
+    },
+    {
+      "text": "يهارفما رعسلا",
+      "bbox": [
+        541.0,
+        373.0,
+        650.0,
+        406.0
+      ],
+      "confidence": 86.68
+    },
+    {
+      "text": "عومجملا",
+      "bbox": [
+        699.0,
+        376.0,
+        762.0,
+        404.0
+      ],
+      "confidence": 98.97
+    },
+    {
+      "text": "Designation",
+      "bbox": [
+        195.0,
+        397.0,
+        304.0,
+        419.0
+      ],
+      "confidence": 99.02
+    },
+    {
+      "text": "حرشلا",
+      "bbox": [
+        420.0,
+        392.0,
+        488.0,
+        422.0
+      ],
+      "confidence": 77.35
+    },
+    {
+      "text": "Quantith",
+      "bbox": [
+        83.0,
+        410.0,
+        163.0,
+        435.0
+      ],
+      "confidence": 92.88
+    },
+    {
+      "text": "Prix",
+      "bbox": [
+        555.0,
+        410.0,
+        593.0,
+        428.0
+      ],
+      "confidence": 88.04
+    },
+    {
+      "text": "Unit",
+      "bbox": [
+        592.0,
+        410.0,
+        633.0,
+        428.0
+      ],
+      "confidence": 95.56
+    },
+    {
+      "text": "Total",
+      "bbox": [
+        707.0,
+        409.0,
+        752.0,
+        427.0
+      ],
+      "confidence": 80.71
+    }
+  ],
+  "processing_time_ms": 141
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "Label/00546",
+  "engine": "paddleocr",
+  "raw_text": "2 ىلاجر طوب 400000",
+  "tokens": [
+    {
+      "text": "2",
+      "bbox": [
+        401.0,
+        214.0,
+        447.0,
+        255.0
+      ],
+      "confidence": 81.24
+    },
+    {
+      "text": "ىلاجر طوب",
+      "bbox": [
+        484.0,
+        216.0,
+        625.0,
+        253.0
+      ],
+      "confidence": 91.91
+    },
+    {
+      "text": "400000",
+      "bbox": [
+        381.0,
+        295.0,
+        567.0,
+        338.0
+      ],
+      "confidence": 94.48
+    }
+  ],
+  "processing_time_ms": 76
+}

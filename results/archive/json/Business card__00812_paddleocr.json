@@ -1,0 +1,78 @@
+{
+  "document_id": "Business card/00812",
+  "engine": "paddleocr",
+  "raw_text": "GROUP IDR يلخاد روكيد WOOD ناهد نيصفج WELL",
+  "tokens": [
+    {
+      "text": "GROUP",
+      "bbox": [
+        1617.0,
+        2363.0,
+        1982.0,
+        2584.0
+      ],
+      "confidence": 75.29
+    },
+    {
+      "text": "IDR",
+      "bbox": [
+        1151.0,
+        2351.0,
+        1603.0,
+        2604.0
+      ],
+      "confidence": 58.01
+    },
+    {
+      "text": "يلخاد روكيد",
+      "bbox": [
+        1208.0,
+        2660.0,
+        1957.0,
+        2818.0
+      ],
+      "confidence": 83.94
+    },
+    {
+      "text": "WOOD",
+      "bbox": [
+        1203.0,
+        2885.0,
+        1570.0,
+        3001.0
+      ],
+      "confidence": 81.84
+    },
+    {
+      "text": "ناهد",
+      "bbox": [
+        1682.0,
+        2890.0,
+        1908.0,
+        2988.0
+      ],
+      "confidence": 99.77
+    },
+    {
+      "text": "نيصفج",
+      "bbox": [
+        1973.0,
+        2886.0,
+        2317.0,
+        2992.0
+      ],
+      "confidence": 94.74
+    },
+    {
+      "text": "WELL",
+      "bbox": [
+        855.0,
+        2897.0,
+        1188.0,
+        3010.0
+      ],
+      "confidence": 96.96
+    }
+  ],
+  "processing_time_ms": 414
+}

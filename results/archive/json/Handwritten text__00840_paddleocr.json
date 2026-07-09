@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/00840",
+  "engine": "paddleocr",
+  "raw_text": "مكتقفار ةمالسل",
+  "tokens": [
+    {
+      "text": "مكتقفار",
+      "bbox": [
+        2192.0,
+        874.0,
+        3003.0,
+        1299.0
+      ],
+      "confidence": 88.9
+    },
+    {
+      "text": "ةمالسل",
+      "bbox": [
+        1149.0,
+        992.0,
+        2059.0,
+        1292.0
+      ],
+      "confidence": 81.3
+    }
+  ],
+  "processing_time_ms": 307
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/00821",
+  "engine": "paddleocr",
+  "raw_text": "نودرهزأ أ كيقسي هحأ",
+  "tokens": [
+    {
+      "text": "نودرهزأ",
+      "bbox": [
+        469.0,
+        750.0,
+        775.0,
+        876.0
+      ],
+      "confidence": 96.08
+    },
+    {
+      "text": "أ",
+      "bbox": [
+        361.0,
+        749.0,
+        487.0,
+        870.0
+      ],
+      "confidence": 60.28
+    },
+    {
+      "text": "كيقسي",
+      "bbox": [
+        136.0,
+        760.0,
+        388.0,
+        913.0
+      ],
+      "confidence": 86.28
+    },
+    {
+      "text": "هحأ",
+      "bbox": [
+        453.0,
+        883.0,
+        581.0,
+        982.0
+      ],
+      "confidence": 99.39
+    }
+  ],
+  "processing_time_ms": 79
+}

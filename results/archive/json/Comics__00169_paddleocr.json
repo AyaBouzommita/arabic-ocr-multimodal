@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/00169",
+  "engine": "paddleocr",
+  "raw_text": "ةيك  ةصاض",
+  "tokens": [
+    {
+      "text": "ةيك",
+      "bbox": [
+        302.0,
+        523.0,
+        353.0,
+        543.0
+      ],
+      "confidence": 64.71
+    },
+    {
+      "text": " ةصاض",
+      "bbox": [
+        263.0,
+        541.0,
+        371.0,
+        579.0
+      ],
+      "confidence": 63.88
+    }
+  ],
+  "processing_time_ms": 56
+}

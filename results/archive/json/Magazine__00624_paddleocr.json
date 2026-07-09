@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00624",
+  "engine": "paddleocr",
+  "raw_text": "بكاكلا",
+  "tokens": [
+    {
+      "text": "بكاكلا",
+      "bbox": [
+        69.0,
+        105.0,
+        210.0,
+        213.0
+      ],
+      "confidence": 90.43
+    }
+  ],
+  "processing_time_ms": 57
+}

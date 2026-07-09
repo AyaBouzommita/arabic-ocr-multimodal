@@ -1,0 +1,38 @@
+{
+  "document_id": "Magazine/00106",
+  "engine": "paddleocr",
+  "raw_text": "ةعابطلا ملاع ٢٧٩ويام م",
+  "tokens": [
+    {
+      "text": "ةعابطلا ملاع",
+      "bbox": [
+        112.0,
+        65.0,
+        498.0,
+        226.0
+      ],
+      "confidence": 85.36
+    },
+    {
+      "text": "٢٧٩ويام",
+      "bbox": [
+        94.0,
+        172.0,
+        201.0,
+        223.0
+      ],
+      "confidence": 71.9
+    },
+    {
+      "text": "م",
+      "bbox": [
+        207.0,
+        202.0,
+        216.0,
+        219.0
+      ],
+      "confidence": 56.36
+    }
+  ],
+  "processing_time_ms": 84
+}

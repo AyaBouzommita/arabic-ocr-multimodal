@@ -1,0 +1,108 @@
+{
+  "document_id": "Business card/00572",
+  "engine": "paddleocr",
+  "raw_text": " و ك Women and men tailor design repair يلاجر يئاسن ةطايخ Beirut",
+  "tokens": [
+    {
+      "text": " و ك",
+      "bbox": [
+        2652.0,
+        913.0,
+        3337.0,
+        1411.0
+      ],
+      "confidence": 64.13
+    },
+    {
+      "text": "Women",
+      "bbox": [
+        291.0,
+        1062.0,
+        1137.0,
+        1330.0
+      ],
+      "confidence": 99.78
+    },
+    {
+      "text": "and",
+      "bbox": [
+        1189.0,
+        1147.0,
+        1550.0,
+        1327.0
+      ],
+      "confidence": 74.11
+    },
+    {
+      "text": "men",
+      "bbox": [
+        1601.0,
+        1178.0,
+        2023.0,
+        1360.0
+      ],
+      "confidence": 84.76
+    },
+    {
+      "text": "tailor",
+      "bbox": [
+        2065.0,
+        1175.0,
+        2576.0,
+        1376.0
+      ],
+      "confidence": 99.68
+    },
+    {
+      "text": "design",
+      "bbox": [
+        326.0,
+        1433.0,
+        997.0,
+        1690.0
+      ],
+      "confidence": 95.26
+    },
+    {
+      "text": "repair",
+      "bbox": [
+        1477.0,
+        1463.0,
+        2060.0,
+        1711.0
+      ],
+      "confidence": 99.53
+    },
+    {
+      "text": "يلاجر",
+      "bbox": [
+        2064.0,
+        2196.0,
+        2556.0,
+        2545.0
+      ],
+      "confidence": 83.78
+    },
+    {
+      "text": "يئاسن ةطايخ",
+      "bbox": [
+        2565.0,
+        2134.0,
+        3420.0,
+        2544.0
+      ],
+      "confidence": 93.59
+    },
+    {
+      "text": "Beirut",
+      "bbox": [
+        1309.0,
+        2581.0,
+        1828.0,
+        2759.0
+      ],
+      "confidence": 99.94
+    }
+  ],
+  "processing_time_ms": 317
+}

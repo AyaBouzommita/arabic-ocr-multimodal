@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00412",
+  "engine": "paddleocr",
+  "raw_text": "يدمح ةلوخد",
+  "tokens": [
+    {
+      "text": "يدمح",
+      "bbox": [
+        171.0,
+        366.0,
+        340.0,
+        424.0
+      ],
+      "confidence": 99.35
+    },
+    {
+      "text": "ةلوخد",
+      "bbox": [
+        357.0,
+        361.0,
+        548.0,
+        435.0
+      ],
+      "confidence": 98.07
+    }
+  ],
+  "processing_time_ms": 60
+}

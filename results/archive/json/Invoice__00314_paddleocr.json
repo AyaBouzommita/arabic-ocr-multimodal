@@ -1,0 +1,128 @@
+{
+  "document_id": "Invoice/00314",
+  "engine": "paddleocr",
+  "raw_text": "phamamedic CE١INVO Deserpt EXPDATE E E صلا جيرا ٨٧ رN  -١ ٨EE ORGNAL",
+  "tokens": [
+    {
+      "text": "phamamedic",
+      "bbox": [
+        461.0,
+        77.0,
+        560.0,
+        98.0
+      ],
+      "confidence": 81.05
+    },
+    {
+      "text": "CE١INVO",
+      "bbox": [
+        484.0,
+        113.0,
+        549.0,
+        131.0
+      ],
+      "confidence": 81.02
+    },
+    {
+      "text": "Deserpt",
+      "bbox": [
+        298.0,
+        151.0,
+        346.0,
+        161.0
+      ],
+      "confidence": 76.43
+    },
+    {
+      "text": "EXPDATE",
+      "bbox": [
+        495.0,
+        152.0,
+        534.0,
+        162.0
+      ],
+      "confidence": 83.72
+    },
+    {
+      "text": "E",
+      "bbox": [
+        575.0,
+        158.0,
+        595.0,
+        169.0
+      ],
+      "confidence": 62.3
+    },
+    {
+      "text": "E",
+      "bbox": [
+        600.0,
+        155.0,
+        638.0,
+        168.0
+      ],
+      "confidence": 57.51
+    },
+    {
+      "text": "صلا جيرا",
+      "bbox": [
+        507.0,
+        166.0,
+        535.0,
+        173.0
+      ],
+      "confidence": 70.36
+    },
+    {
+      "text": "٨٧",
+      "bbox": [
+        686.0,
+        169.0,
+        703.0,
+        176.0
+      ],
+      "confidence": 57.21
+    },
+    {
+      "text": "رN ",
+      "bbox": [
+        208.0,
+        186.0,
+        278.0,
+        198.0
+      ],
+      "confidence": 59.69
+    },
+    {
+      "text": "-١",
+      "bbox": [
+        500.0,
+        195.0,
+        529.0,
+        202.0
+      ],
+      "confidence": 64.43
+    },
+    {
+      "text": "٨EE",
+      "bbox": [
+        206.0,
+        235.0,
+        250.0,
+        247.0
+      ],
+      "confidence": 70.04
+    },
+    {
+      "text": "ORGNAL",
+      "bbox": [
+        521.0,
+        442.0,
+        583.0,
+        461.0
+      ],
+      "confidence": 73.04
+    }
+  ],
+  "processing_time_ms": 251
+}

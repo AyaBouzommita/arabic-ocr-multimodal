@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00603",
+  "engine": "paddleocr",
+  "raw_text": "نطَل ةامب",
+  "tokens": [
+    {
+      "text": "نطَل ةامب",
+      "bbox": [
+        354.0,
+        29.0,
+        549.0,
+        113.0
+      ],
+      "confidence": 54.78
+    }
+  ],
+  "processing_time_ms": 48
+}

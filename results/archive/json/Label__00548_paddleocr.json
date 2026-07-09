@@ -1,0 +1,28 @@
+{
+  "document_id": "Label/00548",
+  "engine": "paddleocr",
+  "raw_text": "Torku 0:٦",
+  "tokens": [
+    {
+      "text": "Torku",
+      "bbox": [
+        393.0,
+        245.0,
+        520.0,
+        290.0
+      ],
+      "confidence": 92.21
+    },
+    {
+      "text": "0:٦",
+      "bbox": [
+        284.0,
+        281.0,
+        629.0,
+        421.0
+      ],
+      "confidence": 55.48
+    }
+  ],
+  "processing_time_ms": 57
+}

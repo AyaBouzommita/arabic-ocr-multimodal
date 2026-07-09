@@ -1,0 +1,48 @@
+{
+  "document_id": "Administrative form/00679",
+  "engine": "paddleocr",
+  "raw_text": "س, ١ ةسردلا لمصلا ةداملا",
+  "tokens": [
+    {
+      "text": "س, ١",
+      "bbox": [
+        674.0,
+        994.0,
+        709.0,
+        1019.0
+      ],
+      "confidence": 59.5
+    },
+    {
+      "text": "ةسردلا",
+      "bbox": [
+        657.0,
+        1033.0,
+        713.0,
+        1057.0
+      ],
+      "confidence": 88.32
+    },
+    {
+      "text": "لمصلا",
+      "bbox": [
+        673.0,
+        1072.0,
+        711.0,
+        1090.0
+      ],
+      "confidence": 59.5
+    },
+    {
+      "text": "ةداملا",
+      "bbox": [
+        675.0,
+        1108.0,
+        718.0,
+        1127.0
+      ],
+      "confidence": 99.78
+    }
+  ],
+  "processing_time_ms": 71
+}

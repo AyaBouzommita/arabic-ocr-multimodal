@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00459",
+  "engine": "paddleocr",
+  "raw_text": "روصلا",
+  "tokens": [
+    {
+      "text": "روصلا",
+      "bbox": [
+        211.0,
+        120.0,
+        369.0,
+        175.0
+      ],
+      "confidence": 86.91
+    }
+  ],
+  "processing_time_ms": 78
+}

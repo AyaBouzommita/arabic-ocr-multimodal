@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00374",
+  "engine": "paddleocr",
+  "raw_text": "برعلا",
+  "tokens": [
+    {
+      "text": "برعلا",
+      "bbox": [
+        8.0,
+        8.0,
+        153.0,
+        54.0
+      ],
+      "confidence": 75.86
+    }
+  ],
+  "processing_time_ms": 30
+}

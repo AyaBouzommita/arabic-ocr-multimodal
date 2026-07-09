@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00736",
+  "engine": "paddleocr",
+  "raw_text": "رصملا",
+  "tokens": [
+    {
+      "text": "رصملا",
+      "bbox": [
+        687.0,
+        41.0,
+        870.0,
+        128.0
+      ],
+      "confidence": 91.76
+    }
+  ],
+  "processing_time_ms": 73
+}

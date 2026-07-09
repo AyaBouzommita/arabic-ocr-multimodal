@@ -1,0 +1,28 @@
+{
+  "document_id": "Book/00156",
+  "engine": "paddleocr",
+  "raw_text": "لامرلا ةرهوجلا ةياور",
+  "tokens": [
+    {
+      "text": "لامرلا ةرهوجلا",
+      "bbox": [
+        851.0,
+        257.0,
+        979.0,
+        319.0
+      ],
+      "confidence": 87.78
+    },
+    {
+      "text": "ةياور",
+      "bbox": [
+        527.0,
+        424.0,
+        581.0,
+        467.0
+      ],
+      "confidence": 94.17
+    }
+  ],
+  "processing_time_ms": 71
+}

@@ -1,0 +1,878 @@
+{
+  "document_id": "Label/00708",
+  "engine": "paddleocr",
+  "raw_text": "Nutritiona Value er 0g Vd gsward 00 ٢ Nahrwert pro لا 100 مارغ 100 ةّقأطلا Energy/Ener gie/Energie٢ ةقاطلا ٢0 Fat/ etten٧ tنوهدلاو of which saturates ٤٥ an٧waar verzadigd. Vetzuren /davon gesattigte Fettsauren/ ةشمملا وملا mono- -nsaturates enkelvoudig ١٥za٢e٧ etzuren/einfach /9ةدرف ungesattigte Fettsauren/ ةعبشملا ريع ةيهداحأا Polyunsaturatd meervoudig nverzadig en٢et2٧ mehrach / 60ول رم ungesattigte Fettsauren/ ةعبشلا ريع ةددوتملا Carbohydrate Koolhydraten /Kohlenhydrate/ با رديه وبركلا /رع of which gars ٥٧٢aa ٢ke ٥٧/a /٣k٢/ تاي ركسلا اهمو ٩/ر Fibre /Ballasttoffe/١/ezel /فايلألا  /ربلا م رع tamin ٥ mi٥٧/٤ ٧ /ا نيماتنف 500 trien vedingwoordereferenties % Nahrtofbezgsee يعجرملل ةيللذفلا ميقلا",
+  "tokens": [
+    {
+      "text": "Nutritiona",
+      "bbox": [
+        135.0,
+        95.0,
+        319.0,
+        147.0
+      ],
+      "confidence": 99.72
+    },
+    {
+      "text": "Value",
+      "bbox": [
+        318.0,
+        101.0,
+        426.0,
+        158.0
+      ],
+      "confidence": 89.72
+    },
+    {
+      "text": "er",
+      "bbox": [
+        421.0,
+        114.0,
+        487.0,
+        160.0
+      ],
+      "confidence": 69.84
+    },
+    {
+      "text": "0g",
+      "bbox": [
+        488.0,
+        108.0,
+        604.0,
+        167.0
+      ],
+      "confidence": 67.16
+    },
+    {
+      "text": "Vd gsward",
+      "bbox": [
+        603.0,
+        109.0,
+        975.0,
+        192.0
+      ],
+      "confidence": 74.7
+    },
+    {
+      "text": "00",
+      "bbox": [
+        965.0,
+        129.0,
+        1043.0,
+        181.0
+      ],
+      "confidence": 52.22
+    },
+    {
+      "text": "٢",
+      "bbox": [
+        1036.0,
+        138.0,
+        1091.0,
+        181.0
+      ],
+      "confidence": 53.56
+    },
+    {
+      "text": "Nahrwert pro",
+      "bbox": [
+        130.0,
+        154.0,
+        366.0,
+        218.0
+      ],
+      "confidence": 98.5
+    },
+    {
+      "text": "لا",
+      "bbox": [
+        714.0,
+        156.0,
+        841.0,
+        221.0
+      ],
+      "confidence": 80.57
+    },
+    {
+      "text": "100",
+      "bbox": [
+        366.0,
+        170.0,
+        432.0,
+        216.0
+      ],
+      "confidence": 72.05
+    },
+    {
+      "text": "مارغ",
+      "bbox": [
+        481.0,
+        168.0,
+        568.0,
+        221.0
+      ],
+      "confidence": 98.81
+    },
+    {
+      "text": "100",
+      "bbox": [
+        578.0,
+        170.0,
+        649.0,
+        225.0
+      ],
+      "confidence": 65.46
+    },
+    {
+      "text": "ةّقأطلا",
+      "bbox": [
+        845.0,
+        177.0,
+        946.0,
+        225.0
+      ],
+      "confidence": 79.45
+    },
+    {
+      "text": "Energy/Ener",
+      "bbox": [
+        126.0,
+        231.0,
+        308.0,
+        294.0
+      ],
+      "confidence": 89.91
+    },
+    {
+      "text": "gie/Energie٢",
+      "bbox": [
+        293.0,
+        245.0,
+        460.0,
+        294.0
+      ],
+      "confidence": 92.43
+    },
+    {
+      "text": "ةقاطلا",
+      "bbox": [
+        458.0,
+        252.0,
+        552.0,
+        293.0
+      ],
+      "confidence": 92.2
+    },
+    {
+      "text": "٢0",
+      "bbox": [
+        620.0,
+        259.0,
+        713.0,
+        300.0
+      ],
+      "confidence": 55.41
+    },
+    {
+      "text": "Fat/",
+      "bbox": [
+        131.0,
+        295.0,
+        189.0,
+        333.0
+      ],
+      "confidence": 71.07
+    },
+    {
+      "text": "etten٧",
+      "bbox": [
+        185.0,
+        298.0,
+        288.0,
+        338.0
+      ],
+      "confidence": 90.72
+    },
+    {
+      "text": "tنوهدلاو",
+      "bbox": [
+        285.0,
+        300.0,
+        467.0,
+        359.0
+      ],
+      "confidence": 81.2
+    },
+    {
+      "text": "of which saturates",
+      "bbox": [
+        125.0,
+        344.0,
+        404.0,
+        401.0
+      ],
+      "confidence": 92.52
+    },
+    {
+      "text": "٤٥",
+      "bbox": [
+        1160.0,
+        336.0,
+        1246.0,
+        371.0
+      ],
+      "confidence": 62.55
+    },
+    {
+      "text": "an٧waar",
+      "bbox": [
+        407.0,
+        363.0,
+        528.0,
+        408.0
+      ],
+      "confidence": 91.41
+    },
+    {
+      "text": "verzadigd.",
+      "bbox": [
+        525.0,
+        367.0,
+        686.0,
+        414.0
+      ],
+      "confidence": 89.57
+    },
+    {
+      "text": "Vetzuren",
+      "bbox": [
+        129.0,
+        395.0,
+        252.0,
+        430.0
+      ],
+      "confidence": 91.43
+    },
+    {
+      "text": "/davon",
+      "bbox": [
+        246.0,
+        396.0,
+        337.0,
+        439.0
+      ],
+      "confidence": 82.11
+    },
+    {
+      "text": "gesattigte",
+      "bbox": [
+        335.0,
+        403.0,
+        476.0,
+        450.0
+      ],
+      "confidence": 97.86
+    },
+    {
+      "text": "Fettsauren/",
+      "bbox": [
+        477.0,
+        405.0,
+        652.0,
+        454.0
+      ],
+      "confidence": 85.43
+    },
+    {
+      "text": "ةشمملا",
+      "bbox": [
+        671.0,
+        420.0,
+        741.0,
+        456.0
+      ],
+      "confidence": 79.2
+    },
+    {
+      "text": "وملا",
+      "bbox": [
+        763.0,
+        417.0,
+        862.0,
+        469.0
+      ],
+      "confidence": 64.04
+    },
+    {
+      "text": "mono-",
+      "bbox": [
+        129.0,
+        446.0,
+        226.0,
+        482.0
+      ],
+      "confidence": 73.22
+    },
+    {
+      "text": "-nsaturates",
+      "bbox": [
+        216.0,
+        449.0,
+        409.0,
+        491.0
+      ],
+      "confidence": 95.97
+    },
+    {
+      "text": "enkelvoudig",
+      "bbox": [
+        408.0,
+        452.0,
+        575.0,
+        503.0
+      ],
+      "confidence": 93.27
+    },
+    {
+      "text": "١٥za٢e٧",
+      "bbox": [
+        577.0,
+        468.0,
+        709.0,
+        506.0
+      ],
+      "confidence": 56.67
+    },
+    {
+      "text": "etzuren/einfach",
+      "bbox": [
+        128.0,
+        482.0,
+        351.0,
+        533.0
+      ],
+      "confidence": 92.34
+    },
+    {
+      "text": "/9ةدرف",
+      "bbox": [
+        1039.0,
+        477.0,
+        1178.0,
+        526.0
+      ],
+      "confidence": 57.94
+    },
+    {
+      "text": "ungesattigte",
+      "bbox": [
+        353.0,
+        495.0,
+        526.0,
+        547.0
+      ],
+      "confidence": 91.64
+    },
+    {
+      "text": "Fettsauren/",
+      "bbox": [
+        527.0,
+        505.0,
+        686.0,
+        546.0
+      ],
+      "confidence": 94.99
+    },
+    {
+      "text": "ةعبشملا",
+      "bbox": [
+        674.0,
+        508.0,
+        795.0,
+        558.0
+      ],
+      "confidence": 89.51
+    },
+    {
+      "text": "ريع",
+      "bbox": [
+        800.0,
+        519.0,
+        847.0,
+        560.0
+      ],
+      "confidence": 87.39
+    },
+    {
+      "text": "ةيهداحأا",
+      "bbox": [
+        853.0,
+        510.0,
+        972.0,
+        566.0
+      ],
+      "confidence": 86.11
+    },
+    {
+      "text": "Polyunsaturatd",
+      "bbox": [
+        130.0,
+        538.0,
+        381.0,
+        585.0
+      ],
+      "confidence": 91.88
+    },
+    {
+      "text": "meervoudig",
+      "bbox": [
+        368.0,
+        552.0,
+        539.0,
+        597.0
+      ],
+      "confidence": 93.52
+    },
+    {
+      "text": "nverzadig",
+      "bbox": [
+        542.0,
+        557.0,
+        726.0,
+        608.0
+      ],
+      "confidence": 84.02
+    },
+    {
+      "text": "en٢et2٧",
+      "bbox": [
+        724.0,
+        564.0,
+        854.0,
+        608.0
+      ],
+      "confidence": 67.94
+    },
+    {
+      "text": "mehrach",
+      "bbox": [
+        128.0,
+        574.0,
+        254.0,
+        618.0
+      ],
+      "confidence": 87.71
+    },
+    {
+      "text": "/ 60ول رم",
+      "bbox": [
+        1039.0,
+        571.0,
+        1170.0,
+        618.0
+      ],
+      "confidence": 50.51
+    },
+    {
+      "text": "ungesattigte",
+      "bbox": [
+        255.0,
+        584.0,
+        423.0,
+        631.0
+      ],
+      "confidence": 90.75
+    },
+    {
+      "text": "Fettsauren/",
+      "bbox": [
+        424.0,
+        592.0,
+        577.0,
+        636.0
+      ],
+      "confidence": 96.96
+    },
+    {
+      "text": "ةعبشلا",
+      "bbox": [
+        562.0,
+        599.0,
+        680.0,
+        647.0
+      ],
+      "confidence": 92.92
+    },
+    {
+      "text": "ريع",
+      "bbox": [
+        684.0,
+        610.0,
+        734.0,
+        652.0
+      ],
+      "confidence": 77.29
+    },
+    {
+      "text": "ةددوتملا",
+      "bbox": [
+        741.0,
+        608.0,
+        870.0,
+        649.0
+      ],
+      "confidence": 84.97
+    },
+    {
+      "text": "Carbohydrate",
+      "bbox": [
+        128.0,
+        625.0,
+        340.0,
+        684.0
+      ],
+      "confidence": 96.17
+    },
+    {
+      "text": "Koolhydraten",
+      "bbox": [
+        338.0,
+        639.0,
+        527.0,
+        689.0
+      ],
+      "confidence": 96.0
+    },
+    {
+      "text": "/Kohlenhydrate/",
+      "bbox": [
+        517.0,
+        648.0,
+        732.0,
+        704.0
+      ],
+      "confidence": 92.34
+    },
+    {
+      "text": "با",
+      "bbox": [
+        724.0,
+        666.0,
+        768.0,
+        698.0
+      ],
+      "confidence": 66.74
+    },
+    {
+      "text": "رديه",
+      "bbox": [
+        772.0,
+        667.0,
+        845.0,
+        709.0
+      ],
+      "confidence": 85.49
+    },
+    {
+      "text": "وبركلا",
+      "bbox": [
+        844.0,
+        667.0,
+        933.0,
+        708.0
+      ],
+      "confidence": 85.67
+    },
+    {
+      "text": "/رع",
+      "bbox": [
+        1052.0,
+        666.0,
+        1186.0,
+        712.0
+      ],
+      "confidence": 70.46
+    },
+    {
+      "text": "of which",
+      "bbox": [
+        127.0,
+        679.0,
+        256.0,
+        731.0
+      ],
+      "confidence": 90.94
+    },
+    {
+      "text": "gars",
+      "bbox": [
+        253.0,
+        693.0,
+        367.0,
+        737.0
+      ],
+      "confidence": 79.28
+    },
+    {
+      "text": "٥٧٢aa",
+      "bbox": [
+        362.0,
+        698.0,
+        480.0,
+        739.0
+      ],
+      "confidence": 73.23
+    },
+    {
+      "text": "٢ke",
+      "bbox": [
+        484.0,
+        701.0,
+        580.0,
+        742.0
+      ],
+      "confidence": 69.14
+    },
+    {
+      "text": "٥٧/a",
+      "bbox": [
+        562.0,
+        706.0,
+        666.0,
+        750.0
+      ],
+      "confidence": 64.77
+    },
+    {
+      "text": "/٣k٢/",
+      "bbox": [
+        670.0,
+        713.0,
+        768.0,
+        748.0
+      ],
+      "confidence": 61.06
+    },
+    {
+      "text": "تاي",
+      "bbox": [
+        764.0,
+        714.0,
+        817.0,
+        754.0
+      ],
+      "confidence": 84.77
+    },
+    {
+      "text": "ركسلا",
+      "bbox": [
+        819.0,
+        716.0,
+        903.0,
+        758.0
+      ],
+      "confidence": 99.0
+    },
+    {
+      "text": "اهمو",
+      "bbox": [
+        898.0,
+        718.0,
+        982.0,
+        767.0
+      ],
+      "confidence": 89.61
+    },
+    {
+      "text": "٩/ر",
+      "bbox": [
+        1068.0,
+        720.0,
+        1202.0,
+        766.0
+      ],
+      "confidence": 69.87
+    },
+    {
+      "text": "Fibre",
+      "bbox": [
+        128.0,
+        735.0,
+        217.0,
+        780.0
+      ],
+      "confidence": 85.44
+    },
+    {
+      "text": "/Ballasttoffe/١/ezel",
+      "bbox": [
+        198.0,
+        742.0,
+        486.0,
+        791.0
+      ],
+      "confidence": 80.25
+    },
+    {
+      "text": "/فايلألا",
+      "bbox": [
+        469.0,
+        749.0,
+        575.0,
+        801.0
+      ],
+      "confidence": 89.31
+    },
+    {
+      "text": " /ربلا",
+      "bbox": [
+        123.0,
+        786.0,
+        603.0,
+        862.0
+      ],
+      "confidence": 57.41
+    },
+    {
+      "text": "م رع",
+      "bbox": [
+        1084.0,
+        834.0,
+        1196.0,
+        877.0
+      ],
+      "confidence": 56.83
+    },
+    {
+      "text": "tamin",
+      "bbox": [
+        123.0,
+        895.0,
+        253.0,
+        947.0
+      ],
+      "confidence": 74.83
+    },
+    {
+      "text": "٥",
+      "bbox": [
+        1061.0,
+        883.0,
+        1201.0,
+        933.0
+      ],
+      "confidence": 51.45
+    },
+    {
+      "text": "mi٥٧/٤",
+      "bbox": [
+        243.0,
+        905.0,
+        396.0,
+        953.0
+      ],
+      "confidence": 70.99
+    },
+    {
+      "text": "٧",
+      "bbox": [
+        417.0,
+        917.0,
+        540.0,
+        961.0
+      ],
+      "confidence": 92.35
+    },
+    {
+      "text": "/ا",
+      "bbox": [
+        526.0,
+        919.0,
+        599.0,
+        974.0
+      ],
+      "confidence": 50.95
+    },
+    {
+      "text": "نيماتنف",
+      "bbox": [
+        602.0,
+        932.0,
+        700.0,
+        974.0
+      ],
+      "confidence": 74.67
+    },
+    {
+      "text": "500",
+      "bbox": [
+        883.0,
+        937.0,
+        973.0,
+        979.0
+      ],
+      "confidence": 72.56
+    },
+    {
+      "text": "trien",
+      "bbox": [
+        112.0,
+        984.0,
+        228.0,
+        1030.0
+      ],
+      "confidence": 94.51
+    },
+    {
+      "text": "vedingwoordereferenties",
+      "bbox": [
+        482.0,
+        1004.0,
+        831.0,
+        1063.0
+      ],
+      "confidence": 81.78
+    },
+    {
+      "text": "% Nahrtofbezgsee",
+      "bbox": [
+        839.0,
+        1019.0,
+        1203.0,
+        1078.0
+      ],
+      "confidence": 68.52
+    },
+    {
+      "text": "يعجرملل",
+      "bbox": [
+        1203.0,
+        1034.0,
+        1335.0,
+        1086.0
+      ],
+      "confidence": 89.16
+    },
+    {
+      "text": "ةيللذفلا",
+      "bbox": [
+        1338.0,
+        1035.0,
+        1441.0,
+        1077.0
+      ],
+      "confidence": 87.02
+    },
+    {
+      "text": "ميقلا",
+      "bbox": [
+        1437.0,
+        1027.0,
+        1518.0,
+        1081.0
+      ],
+      "confidence": 81.4
+    }
+  ],
+  "processing_time_ms": 708
+}

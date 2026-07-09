@@ -1,0 +1,238 @@
+{
+  "document_id": "Label/00224",
+  "engine": "paddleocr",
+  "raw_text": "Sweet Golden Corn ةيبهذ ةرذ .حلمو ركس :تايوتحملا ءام ةرذ Sweet Golden Corn Ingredients: 8 Salt. ,Corn ,Water Sugar Mais Doux or Ingredients: mais. ,a Sucre et sel.",
+  "tokens": [
+    {
+      "text": "Sweet",
+      "bbox": [
+        1232.0,
+        1798.0,
+        1513.0,
+        1927.0
+      ],
+      "confidence": 91.41
+    },
+    {
+      "text": "Golden",
+      "bbox": [
+        1523.0,
+        1826.0,
+        1823.0,
+        1933.0
+      ],
+      "confidence": 99.14
+    },
+    {
+      "text": "Corn",
+      "bbox": [
+        1838.0,
+        1840.0,
+        2036.0,
+        1932.0
+      ],
+      "confidence": 97.67
+    },
+    {
+      "text": "ةيبهذ ةرذ",
+      "bbox": [
+        1806.0,
+        1980.0,
+        2103.0,
+        2123.0
+      ],
+      "confidence": 93.67
+    },
+    {
+      "text": ".حلمو",
+      "bbox": [
+        1297.0,
+        2113.0,
+        1478.0,
+        2226.0
+      ],
+      "confidence": 83.73
+    },
+    {
+      "text": "ركس",
+      "bbox": [
+        1469.0,
+        2125.0,
+        1624.0,
+        2222.0
+      ],
+      "confidence": 99.86
+    },
+    {
+      "text": ":تايوتحملا",
+      "bbox": [
+        1829.0,
+        2091.0,
+        2097.0,
+        2235.0
+      ],
+      "confidence": 89.98
+    },
+    {
+      "text": "ءام",
+      "bbox": [
+        1637.0,
+        2142.0,
+        1731.0,
+        2218.0
+      ],
+      "confidence": 93.57
+    },
+    {
+      "text": "ةرذ",
+      "bbox": [
+        1753.0,
+        2142.0,
+        1834.0,
+        2222.0
+      ],
+      "confidence": 95.1
+    },
+    {
+      "text": "Sweet",
+      "bbox": [
+        1104.0,
+        2175.0,
+        1306.0,
+        2298.0
+      ],
+      "confidence": 97.13
+    },
+    {
+      "text": "Golden",
+      "bbox": [
+        1294.0,
+        2206.0,
+        1511.0,
+        2321.0
+      ],
+      "confidence": 96.84
+    },
+    {
+      "text": "Corn",
+      "bbox": [
+        1506.0,
+        2229.0,
+        1660.0,
+        2324.0
+      ],
+      "confidence": 98.37
+    },
+    {
+      "text": "Ingredients:",
+      "bbox": [
+        1112.0,
+        2290.0,
+        1431.0,
+        2414.0
+      ],
+      "confidence": 95.65
+    },
+    {
+      "text": "8 Salt.",
+      "bbox": [
+        1903.0,
+        2323.0,
+        2045.0,
+        2402.0
+      ],
+      "confidence": 95.78
+    },
+    {
+      "text": ",Corn",
+      "bbox": [
+        1433.0,
+        2333.0,
+        1583.0,
+        2421.0
+      ],
+      "confidence": 95.21
+    },
+    {
+      "text": ",Water",
+      "bbox": [
+        1585.0,
+        2348.0,
+        1744.0,
+        2423.0
+      ],
+      "confidence": 89.95
+    },
+    {
+      "text": "Sugar",
+      "bbox": [
+        1742.0,
+        2338.0,
+        1900.0,
+        2429.0
+      ],
+      "confidence": 99.66
+    },
+    {
+      "text": "Mais",
+      "bbox": [
+        1112.0,
+        2403.0,
+        1267.0,
+        2515.0
+      ],
+      "confidence": 89.0
+    },
+    {
+      "text": "Doux or",
+      "bbox": [
+        1246.0,
+        2427.0,
+        1501.0,
+        2553.0
+      ],
+      "confidence": 69.34
+    },
+    {
+      "text": "Ingredients:",
+      "bbox": [
+        1103.0,
+        2504.0,
+        1436.0,
+        2637.0
+      ],
+      "confidence": 94.15
+    },
+    {
+      "text": "mais.",
+      "bbox": [
+        1420.0,
+        2556.0,
+        1561.0,
+        2635.0
+      ],
+      "confidence": 87.88
+    },
+    {
+      "text": ",a",
+      "bbox": [
+        1564.0,
+        2575.0,
+        1680.0,
+        2638.0
+      ],
+      "confidence": 95.72
+    },
+    {
+      "text": "Sucre et sel.",
+      "bbox": [
+        1673.0,
+        2542.0,
+        1953.0,
+        2645.0
+      ],
+      "confidence": 98.92
+    }
+  ],
+  "processing_time_ms": 358
+}

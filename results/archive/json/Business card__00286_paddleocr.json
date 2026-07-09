@@ -1,0 +1,18 @@
+{
+  "document_id": "Business card/00286",
+  "engine": "paddleocr",
+  "raw_text": "Beit E-Set.",
+  "tokens": [
+    {
+      "text": "Beit E-Set.",
+      "bbox": [
+        1777.0,
+        1426.0,
+        2080.0,
+        1621.0
+      ],
+      "confidence": 78.02
+    }
+  ],
+  "processing_time_ms": 245
+}

@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/00422",
+  "engine": "paddleocr",
+  "raw_text": "لاروعس لا طيف",
+  "tokens": [
+    {
+      "text": "لاروعس لا طيف",
+      "bbox": [
+        15.0,
+        273.0,
+        109.0,
+        298.0
+      ],
+      "confidence": 72.26
+    }
+  ],
+  "processing_time_ms": 50
+}

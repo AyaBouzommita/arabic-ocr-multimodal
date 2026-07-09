@@ -1,0 +1,18 @@
+{
+  "document_id": "Label/00391",
+  "engine": "paddleocr",
+  "raw_text": "يكرت يتاس",
+  "tokens": [
+    {
+      "text": "يكرت يتاس",
+      "bbox": [
+        614.0,
+        965.0,
+        733.0,
+        1037.0
+      ],
+      "confidence": 75.01
+    }
+  ],
+  "processing_time_ms": 60
+}

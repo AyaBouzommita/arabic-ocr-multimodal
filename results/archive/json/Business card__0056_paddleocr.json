@@ -1,0 +1,138 @@
+{
+  "document_id": "Business card/0056",
+  "engine": "paddleocr",
+  "raw_text": "نايكلاة ,كرش تاروي - تشت تالواقم 1229994 ALKAYAN alkayandecoration20agmail.com تاروكيد alkayandecoration20 تاواقم ٥ alkayandecoration20 ىلبق ةرمشا ما روش10  ",
+  "tokens": [
+    {
+      "text": "نايكلاة",
+      "bbox": [
+        764.0,
+        353.0,
+        892.0,
+        399.0
+      ],
+      "confidence": 96.23
+    },
+    {
+      "text": ",كرش",
+      "bbox": [
+        869.0,
+        353.0,
+        1013.0,
+        396.0
+      ],
+      "confidence": 58.11
+    },
+    {
+      "text": "تاروي - تشت",
+      "bbox": [
+        754.0,
+        407.0,
+        931.0,
+        435.0
+      ],
+      "confidence": 87.09
+    },
+    {
+      "text": "تالواقم",
+      "bbox": [
+        945.0,
+        410.0,
+        1014.0,
+        431.0
+      ],
+      "confidence": 93.34
+    },
+    {
+      "text": "1229994",
+      "bbox": [
+        719.0,
+        529.0,
+        878.0,
+        547.0
+      ],
+      "confidence": 73.11
+    },
+    {
+      "text": "ALKAYAN",
+      "bbox": [
+        412.0,
+        572.0,
+        627.0,
+        609.0
+      ],
+      "confidence": 96.76
+    },
+    {
+      "text": "alkayandecoration20agmail.com",
+      "bbox": [
+        716.0,
+        570.0,
+        1008.0,
+        591.0
+      ],
+      "confidence": 97.11
+    },
+    {
+      "text": "تاروكيد",
+      "bbox": [
+        409.0,
+        612.0,
+        474.0,
+        630.0
+      ],
+      "confidence": 98.41
+    },
+    {
+      "text": "alkayandecoration20",
+      "bbox": [
+        715.0,
+        603.0,
+        900.0,
+        629.0
+      ],
+      "confidence": 96.85
+    },
+    {
+      "text": "تاواقم",
+      "bbox": [
+        564.0,
+        613.0,
+        631.0,
+        629.0
+      ],
+      "confidence": 96.08
+    },
+    {
+      "text": "٥",
+      "bbox": [
+        669.0,
+        640.0,
+        694.0,
+        668.0
+      ],
+      "confidence": 50.24
+    },
+    {
+      "text": "alkayandecoration20",
+      "bbox": [
+        715.0,
+        640.0,
+        902.0,
+        665.0
+      ],
+      "confidence": 97.15
+    },
+    {
+      "text": "ىلبق ةرمشا ما روش10  ",
+      "bbox": [
+        714.0,
+        682.0,
+        902.0,
+        701.0
+      ],
+      "confidence": 62.56
+    }
+  ],
+  "processing_time_ms": 172
+}

@@ -1,0 +1,38 @@
+{
+  "document_id": "Magazine/00682",
+  "engine": "paddleocr",
+  "raw_text": "رغَصلا رَعلا اركس",
+  "tokens": [
+    {
+      "text": "رغَصلا",
+      "bbox": [
+        139.0,
+        169.0,
+        334.0,
+        288.0
+      ],
+      "confidence": 76.03
+    },
+    {
+      "text": "رَعلا",
+      "bbox": [
+        316.0,
+        156.0,
+        589.0,
+        304.0
+      ],
+      "confidence": 76.38
+    },
+    {
+      "text": "اركس",
+      "bbox": [
+        224.0,
+        427.0,
+        285.0,
+        460.0
+      ],
+      "confidence": 52.58
+    }
+  ],
+  "processing_time_ms": 72
+}

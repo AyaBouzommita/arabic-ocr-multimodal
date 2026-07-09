@@ -1,0 +1,58 @@
+{
+  "document_id": "Magazine/00509",
+  "engine": "paddleocr",
+  "raw_text": "fatafeat تيفاتف دومحم دمحأ لانم",
+  "tokens": [
+    {
+      "text": "fatafeat",
+      "bbox": [
+        437.0,
+        170.0,
+        806.0,
+        299.0
+      ],
+      "confidence": 99.19
+    },
+    {
+      "text": "تيفاتف",
+      "bbox": [
+        187.0,
+        374.0,
+        831.0,
+        625.0
+      ],
+      "confidence": 90.5
+    },
+    {
+      "text": "دومحم",
+      "bbox": [
+        345.0,
+        709.0,
+        445.0,
+        740.0
+      ],
+      "confidence": 99.83
+    },
+    {
+      "text": "دمحأ",
+      "bbox": [
+        442.0,
+        704.0,
+        524.0,
+        749.0
+      ],
+      "confidence": 92.27
+    },
+    {
+      "text": "لانم",
+      "bbox": [
+        526.0,
+        709.0,
+        602.0,
+        758.0
+      ],
+      "confidence": 99.55
+    }
+  ],
+  "processing_time_ms": 113
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "Administrative form/00318",
+  "engine": "paddleocr",
+  "raw_text": "EndeI Ende",
+  "tokens": [
+    {
+      "text": "EndeI",
+      "bbox": [
+        390.0,
+        316.0,
+        519.0,
+        344.0
+      ],
+      "confidence": 80.73
+    },
+    {
+      "text": "Ende",
+      "bbox": [
+        689.0,
+        506.0,
+        749.0,
+        533.0
+      ],
+      "confidence": 88.15
+    }
+  ],
+  "processing_time_ms": 55
+}

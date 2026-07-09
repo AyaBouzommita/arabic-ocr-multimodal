@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/0041",
+  "engine": "paddleocr",
+  "raw_text": "نيدلا عونمم MUTE VOicE",
+  "tokens": [
+    {
+      "text": "نيدلا",
+      "bbox": [
+        1342.0,
+        1200.0,
+        2156.0,
+        1575.0
+      ],
+      "confidence": 97.28
+    },
+    {
+      "text": "عونمم",
+      "bbox": [
+        916.0,
+        1574.0,
+        1948.0,
+        2205.0
+      ],
+      "confidence": 81.64
+    },
+    {
+      "text": "MUTE",
+      "bbox": [
+        848.0,
+        2821.0,
+        980.0,
+        2867.0
+      ],
+      "confidence": 77.26
+    },
+    {
+      "text": "VOicE",
+      "bbox": [
+        1087.0,
+        2846.0,
+        1227.0,
+        2875.0
+      ],
+      "confidence": 76.95
+    }
+  ],
+  "processing_time_ms": 337
+}

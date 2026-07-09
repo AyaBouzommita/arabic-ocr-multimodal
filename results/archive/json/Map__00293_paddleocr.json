@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00293",
+  "engine": "paddleocr",
+  "raw_text": "طيحما  طحل",
+  "tokens": [
+    {
+      "text": "طيحما",
+      "bbox": [
+        100.0,
+        437.0,
+        138.0,
+        454.0
+      ],
+      "confidence": 93.94
+    },
+    {
+      "text": " طحل",
+      "bbox": [
+        837.0,
+        503.0,
+        872.0,
+        520.0
+      ],
+      "confidence": 70.98
+    }
+  ],
+  "processing_time_ms": 68
+}

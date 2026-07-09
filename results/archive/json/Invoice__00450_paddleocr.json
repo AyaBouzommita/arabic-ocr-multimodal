@@ -1,0 +1,128 @@
+{
+  "document_id": "Invoice/00450",
+  "engine": "paddleocr",
+  "raw_text": "ةروتاعل 89/2020 باعلأل دجام روس هلح CustomerServiceom .000ل 1280000 nch Doll lothes  .0لل CottionVehics  Iitle ikes Easy Score Basetball e",
+  "tokens": [
+    {
+      "text": "ةروتاعل",
+      "bbox": [
+        955.0,
+        1221.0,
+        1053.0,
+        1254.0
+      ],
+      "confidence": 90.73
+    },
+    {
+      "text": "89/2020",
+      "bbox": [
+        1098.0,
+        1332.0,
+        1224.0,
+        1389.0
+      ],
+      "confidence": 69.3
+    },
+    {
+      "text": "باعلأل دجام",
+      "bbox": [
+        1784.0,
+        1327.0,
+        2035.0,
+        1410.0
+      ],
+      "confidence": 99.11
+    },
+    {
+      "text": "روس هلح",
+      "bbox": [
+        1939.0,
+        1454.0,
+        2016.0,
+        1488.0
+      ],
+      "confidence": 87.91
+    },
+    {
+      "text": "CustomerServiceom",
+      "bbox": [
+        1754.0,
+        1477.0,
+        1920.0,
+        1539.0
+      ],
+      "confidence": 91.75
+    },
+    {
+      "text": ".000ل",
+      "bbox": [
+        897.0,
+        1769.0,
+        1050.0,
+        1831.0
+      ],
+      "confidence": 57.76
+    },
+    {
+      "text": "1280000",
+      "bbox": [
+        891.0,
+        1833.0,
+        1014.0,
+        1875.0
+      ],
+      "confidence": 67.78
+    },
+    {
+      "text": "nch Doll lothes ",
+      "bbox": [
+        1831.0,
+        1861.0,
+        2000.0,
+        1918.0
+      ],
+      "confidence": 86.53
+    },
+    {
+      "text": ".0لل",
+      "bbox": [
+        890.0,
+        1882.0,
+        1045.0,
+        1934.0
+      ],
+      "confidence": 59.96
+    },
+    {
+      "text": "  ",
+      "bbox": [
+        1796.0,
+        1902.0,
+        2005.0,
+        1973.0
+      ],
+      "confidence": 55.03
+    },
+    {
+      "text": "CottionVehics ",
+      "bbox": [
+        1758.0,
+        1953.0,
+        1988.0,
+        2018.0
+      ],
+      "confidence": 55.75
+    },
+    {
+      "text": "Iitle ikes Easy Score Basetball e",
+      "bbox": [
+        1694.0,
+        1994.0,
+        1988.0,
+        2073.0
+      ],
+      "confidence": 82.2
+    }
+  ],
+  "processing_time_ms": 395
+}

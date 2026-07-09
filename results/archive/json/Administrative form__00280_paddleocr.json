@@ -1,0 +1,18 @@
+{
+  "document_id": "Administrative form/00280",
+  "engine": "paddleocr",
+  "raw_text": " لاو يقوت ",
+  "tokens": [
+    {
+      "text": " لاو يقوت ",
+      "bbox": [
+        1235.0,
+        2182.0,
+        1356.0,
+        2283.0
+      ],
+      "confidence": 87.13
+    }
+  ],
+  "processing_time_ms": 242
+}

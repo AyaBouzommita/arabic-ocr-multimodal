@@ -1,0 +1,178 @@
+{
+  "document_id": "Newspaper/00202",
+  "engine": "paddleocr",
+  "raw_text": "زربأ نيلحارلا نع ةضايرلا ه  يف MSUN6٨S ٥ ٥ Abboud ٧٤0 2-0umayma -Charline Haddad 4-Charbel Tannous ME SREE harac bbe",
+  "tokens": [
+    {
+      "text": "زربأ",
+      "bbox": [
+        388.0,
+        184.0,
+        451.0,
+        239.0
+      ],
+      "confidence": 99.97
+    },
+    {
+      "text": "نيلحارلا",
+      "bbox": [
+        277.0,
+        203.0,
+        404.0,
+        277.0
+      ],
+      "confidence": 90.11
+    },
+    {
+      "text": "نع",
+      "bbox": [
+        219.0,
+        248.0,
+        282.0,
+        296.0
+      ],
+      "confidence": 99.92
+    },
+    {
+      "text": "ةضايرلا",
+      "bbox": [
+        100.0,
+        262.0,
+        228.0,
+        338.0
+      ],
+      "confidence": 99.53
+    },
+    {
+      "text": "ه ",
+      "bbox": [
+        0.0,
+        328.0,
+        36.0,
+        364.0
+      ],
+      "confidence": 64.45
+    },
+    {
+      "text": "يف",
+      "bbox": [
+        34.0,
+        300.0,
+        112.0,
+        364.0
+      ],
+      "confidence": 99.96
+    },
+    {
+      "text": "MSUN6٨S",
+      "bbox": [
+        707.0,
+        427.0,
+        778.0,
+        440.0
+      ],
+      "confidence": 88.08
+    },
+    {
+      "text": "٥",
+      "bbox": [
+        111.0,
+        488.0,
+        183.0,
+        521.0
+      ],
+      "confidence": 74.26
+    },
+    {
+      "text": "٥",
+      "bbox": [
+        74.0,
+        504.0,
+        125.0,
+        533.0
+      ],
+      "confidence": 58.01
+    },
+    {
+      "text": "Abboud",
+      "bbox": [
+        535.0,
+        1024.0,
+        593.0,
+        1070.0
+      ],
+      "confidence": 89.0
+    },
+    {
+      "text": "٧٤0",
+      "bbox": [
+        192.0,
+        1045.0,
+        239.0,
+        1078.0
+      ],
+      "confidence": 59.0
+    },
+    {
+      "text": "2-0umayma",
+      "bbox": [
+        464.0,
+        1049.0,
+        549.0,
+        1104.0
+      ],
+      "confidence": 90.15
+    },
+    {
+      "text": "-Charline Haddad",
+      "bbox": [
+        471.0,
+        1045.0,
+        595.0,
+        1123.0
+      ],
+      "confidence": 92.6
+    },
+    {
+      "text": "4-Charbel Tannous",
+      "bbox": [
+        481.0,
+        1064.0,
+        601.0,
+        1137.0
+      ],
+      "confidence": 91.38
+    },
+    {
+      "text": "ME SREE",
+      "bbox": [
+        350.0,
+        1096.0,
+        433.0,
+        1153.0
+      ],
+      "confidence": 68.59
+    },
+    {
+      "text": "harac",
+      "bbox": [
+        310.0,
+        1157.0,
+        356.0,
+        1188.0
+      ],
+      "confidence": 83.66
+    },
+    {
+      "text": "bbe",
+      "bbox": [
+        305.0,
+        1175.0,
+        341.0,
+        1206.0
+      ],
+      "confidence": 74.83
+    }
+  ],
+  "processing_time_ms": 179
+}

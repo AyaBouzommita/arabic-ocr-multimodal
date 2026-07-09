@@ -1,0 +1,38 @@
+{
+  "document_id": "Official document/00673",
+  "engine": "paddleocr",
+  "raw_text": "راجئتساو راجآ دقع",
+  "tokens": [
+    {
+      "text": "راجئتساو",
+      "bbox": [
+        1502.0,
+        1295.0,
+        1737.0,
+        1426.0
+      ],
+      "confidence": 94.82
+    },
+    {
+      "text": "راجآ",
+      "bbox": [
+        1727.0,
+        1379.0,
+        1874.0,
+        1475.0
+      ],
+      "confidence": 99.88
+    },
+    {
+      "text": "دقع",
+      "bbox": [
+        1860.0,
+        1426.0,
+        1966.0,
+        1499.0
+      ],
+      "confidence": 97.1
+    }
+  ],
+  "processing_time_ms": 220
+}

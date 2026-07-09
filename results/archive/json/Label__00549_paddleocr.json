@@ -1,0 +1,58 @@
+{
+  "document_id": "Label/00549",
+  "engine": "paddleocr",
+  "raw_text": "رشتيوس dida  85000 M 549",
+  "tokens": [
+    {
+      "text": "رشتيوس",
+      "bbox": [
+        697.0,
+        192.0,
+        748.0,
+        215.0
+      ],
+      "confidence": 85.9
+    },
+    {
+      "text": "dida ",
+      "bbox": [
+        570.0,
+        195.0,
+        690.0,
+        233.0
+      ],
+      "confidence": 79.39
+    },
+    {
+      "text": "85000",
+      "bbox": [
+        599.0,
+        243.0,
+        690.0,
+        276.0
+      ],
+      "confidence": 91.66
+    },
+    {
+      "text": "M",
+      "bbox": [
+        621.0,
+        358.0,
+        669.0,
+        385.0
+      ],
+      "confidence": 86.19
+    },
+    {
+      "text": "549",
+      "bbox": [
+        673.0,
+        351.0,
+        730.0,
+        378.0
+      ],
+      "confidence": 76.91
+    }
+  ],
+  "processing_time_ms": 65
+}

@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00523",
+  "engine": "paddleocr",
+  "raw_text": "ةنو",
+  "tokens": [
+    {
+      "text": "ةنو",
+      "bbox": [
+        279.0,
+        365.0,
+        301.0,
+        376.0
+      ],
+      "confidence": 58.6
+    }
+  ],
+  "processing_time_ms": 29
+}

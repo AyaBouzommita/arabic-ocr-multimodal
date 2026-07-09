@@ -1,0 +1,378 @@
+{
+  "document_id": "Label/00368",
+  "engine": "paddleocr",
+  "raw_text": "E-Glucose omegranate extract 2 Wat Acidity regulator 30F0d rg150 Nature-identical arma of pomegranate نامرلاءام لداعم ءام زوكيلغ:تايوتحملا  لدعم ضمح يعيبط نامر هكنم GB-Store in a cold and dry place fter Opening. Keep away from sunlight. ناكم يف ظفحت حتفلا دعب -R ةعشأ نع دربؤ فاج سمشلا ديعب EN Expiry dae and atch serial number son the packaging. g Made in Turkey ايكرتت يف  عنص",
+  "tokens": [
+    {
+      "text": "E-Glucose",
+      "bbox": [
+        286.0,
+        276.0,
+        360.0,
+        303.0
+      ],
+      "confidence": 72.98
+    },
+    {
+      "text": "omegranate extract 2 Wat",
+      "bbox": [
+        352.0,
+        270.0,
+        528.0,
+        300.0
+      ],
+      "confidence": 88.23
+    },
+    {
+      "text": "Acidity regulator",
+      "bbox": [
+        287.0,
+        301.0,
+        375.0,
+        324.0
+      ],
+      "confidence": 88.47
+    },
+    {
+      "text": "30F0d",
+      "bbox": [
+        377.0,
+        297.0,
+        450.0,
+        324.0
+      ],
+      "confidence": 72.89
+    },
+    {
+      "text": "rg150",
+      "bbox": [
+        450.0,
+        294.0,
+        532.0,
+        320.0
+      ],
+      "confidence": 60.61
+    },
+    {
+      "text": "Nature-identical",
+      "bbox": [
+        286.0,
+        327.0,
+        372.0,
+        345.0
+      ],
+      "confidence": 93.41
+    },
+    {
+      "text": "arma of pomegranate",
+      "bbox": [
+        368.0,
+        320.0,
+        495.0,
+        347.0
+      ],
+      "confidence": 84.05
+    },
+    {
+      "text": "نامرلاءام لداعم ءام",
+      "bbox": [
+        282.0,
+        360.0,
+        420.0,
+        394.0
+      ],
+      "confidence": 90.41
+    },
+    {
+      "text": "زوكيلغ:تايوتحملا ",
+      "bbox": [
+        410.0,
+        354.0,
+        542.0,
+        394.0
+      ],
+      "confidence": 90.2
+    },
+    {
+      "text": "لدعم",
+      "bbox": [
+        474.0,
+        389.0,
+        519.0,
+        415.0
+      ],
+      "confidence": 97.47
+    },
+    {
+      "text": "ضمح",
+      "bbox": [
+        511.0,
+        391.0,
+        541.0,
+        413.0
+      ],
+      "confidence": 91.77
+    },
+    {
+      "text": "يعيبط نامر هكنم",
+      "bbox": [
+        446.0,
+        404.0,
+        551.0,
+        454.0
+      ],
+      "confidence": 90.34
+    },
+    {
+      "text": "GB-Store in a cold and dry place fter",
+      "bbox": [
+        272.0,
+        445.0,
+        531.0,
+        486.0
+      ],
+      "confidence": 88.02
+    },
+    {
+      "text": "Opening.",
+      "bbox": [
+        278.0,
+        484.0,
+        336.0,
+        504.0
+      ],
+      "confidence": 92.12
+    },
+    {
+      "text": "Keep",
+      "bbox": [
+        339.0,
+        484.0,
+        377.0,
+        504.0
+      ],
+      "confidence": 84.66
+    },
+    {
+      "text": "away",
+      "bbox": [
+        375.0,
+        483.0,
+        418.0,
+        505.0
+      ],
+      "confidence": 86.46
+    },
+    {
+      "text": "from sunlight.",
+      "bbox": [
+        415.0,
+        474.0,
+        510.0,
+        503.0
+      ],
+      "confidence": 95.31
+    },
+    {
+      "text": "ناكم يف",
+      "bbox": [
+        310.0,
+        511.0,
+        386.0,
+        535.0
+      ],
+      "confidence": 94.61
+    },
+    {
+      "text": "ظفحت",
+      "bbox": [
+        377.0,
+        512.0,
+        434.0,
+        532.0
+      ],
+      "confidence": 94.97
+    },
+    {
+      "text": "حتفلا",
+      "bbox": [
+        427.0,
+        503.0,
+        483.0,
+        536.0
+      ],
+      "confidence": 91.86
+    },
+    {
+      "text": "دعب",
+      "bbox": [
+        483.0,
+        507.0,
+        515.0,
+        527.0
+      ],
+      "confidence": 88.16
+    },
+    {
+      "text": "-R",
+      "bbox": [
+        511.0,
+        499.0,
+        545.0,
+        523.0
+      ],
+      "confidence": 79.38
+    },
+    {
+      "text": "ةعشأ نع",
+      "bbox": [
+        342.0,
+        528.0,
+        428.0,
+        560.0
+      ],
+      "confidence": 98.48
+    },
+    {
+      "text": "دربؤ",
+      "bbox": [
+        469.0,
+        526.0,
+        514.0,
+        555.0
+      ],
+      "confidence": 80.95
+    },
+    {
+      "text": "فاج",
+      "bbox": [
+        518.0,
+        524.0,
+        548.0,
+        547.0
+      ],
+      "confidence": 96.72
+    },
+    {
+      "text": "سمشلا",
+      "bbox": [
+        277.0,
+        531.0,
+        348.0,
+        564.0
+      ],
+      "confidence": 90.51
+    },
+    {
+      "text": "ديعب",
+      "bbox": [
+        429.0,
+        535.0,
+        470.0,
+        556.0
+      ],
+      "confidence": 91.24
+    },
+    {
+      "text": "EN Expiry",
+      "bbox": [
+        275.0,
+        565.0,
+        346.0,
+        594.0
+      ],
+      "confidence": 86.23
+    },
+    {
+      "text": "dae and",
+      "bbox": [
+        342.0,
+        568.0,
+        411.0,
+        591.0
+      ],
+      "confidence": 95.06
+    },
+    {
+      "text": "atch",
+      "bbox": [
+        406.0,
+        563.0,
+        455.0,
+        590.0
+      ],
+      "confidence": 92.07
+    },
+    {
+      "text": "serial number",
+      "bbox": [
+        453.0,
+        554.0,
+        546.0,
+        587.0
+      ],
+      "confidence": 88.03
+    },
+    {
+      "text": "son the",
+      "bbox": [
+        277.0,
+        588.0,
+        343.0,
+        612.0
+      ],
+      "confidence": 77.26
+    },
+    {
+      "text": "packaging.",
+      "bbox": [
+        335.0,
+        591.0,
+        413.0,
+        613.0
+      ],
+      "confidence": 91.44
+    },
+    {
+      "text": "g",
+      "bbox": [
+        141.0,
+        641.0,
+        276.0,
+        732.0
+      ],
+      "confidence": 54.59
+    },
+    {
+      "text": "Made in Turkey",
+      "bbox": [
+        284.0,
+        664.0,
+        412.0,
+        696.0
+      ],
+      "confidence": 86.38
+    },
+    {
+      "text": "ايكرتت يف",
+      "bbox": [
+        288.0,
+        694.0,
+        366.0,
+        730.0
+      ],
+      "confidence": 87.91
+    },
+    {
+      "text": " عنص",
+      "bbox": [
+        353.0,
+        703.0,
+        413.0,
+        728.0
+      ],
+      "confidence": 92.92
+    }
+  ],
+  "processing_time_ms": 308
+}

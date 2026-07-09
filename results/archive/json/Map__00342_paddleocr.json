@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00342",
+  "engine": "paddleocr",
+  "raw_text": "توريب ةمق",
+  "tokens": [
+    {
+      "text": "توريب",
+      "bbox": [
+        116.0,
+        376.0,
+        159.0,
+        395.0
+      ],
+      "confidence": 97.12
+    },
+    {
+      "text": "ةمق",
+      "bbox": [
+        440.0,
+        702.0,
+        457.0,
+        713.0
+      ],
+      "confidence": 60.51
+    }
+  ],
+  "processing_time_ms": 49
+}

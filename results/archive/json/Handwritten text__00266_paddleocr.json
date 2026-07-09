@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00266",
+  "engine": "paddleocr",
+  "raw_text": "لل و٢ لحم",
+  "tokens": [
+    {
+      "text": "لل",
+      "bbox": [
+        289.0,
+        226.0,
+        335.0,
+        244.0
+      ],
+      "confidence": 68.36
+    },
+    {
+      "text": "و٢",
+      "bbox": [
+        503.0,
+        228.0,
+        589.0,
+        256.0
+      ],
+      "confidence": 73.02
+    },
+    {
+      "text": "لحم",
+      "bbox": [
+        514.0,
+        304.0,
+        565.0,
+        325.0
+      ],
+      "confidence": 71.53
+    }
+  ],
+  "processing_time_ms": 67
+}

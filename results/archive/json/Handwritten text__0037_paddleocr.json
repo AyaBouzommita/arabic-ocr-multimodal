@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/0037",
+  "engine": "paddleocr",
+  "raw_text": "ثالب ة نوعمتممحريخ",
+  "tokens": [
+    {
+      "text": "ثالب ة",
+      "bbox": [
+        1063.0,
+        1427.0,
+        1873.0,
+        1598.0
+      ],
+      "confidence": 64.13
+    },
+    {
+      "text": "نوعمتممحريخ",
+      "bbox": [
+        782.0,
+        1611.0,
+        1702.0,
+        1960.0
+      ],
+      "confidence": 72.55
+    }
+  ],
+  "processing_time_ms": 325
+}

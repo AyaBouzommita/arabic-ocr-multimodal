@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/00574",
+  "engine": "paddleocr",
+  "raw_text": "و هه",
+  "tokens": [
+    {
+      "text": "و",
+      "bbox": [
+        123.0,
+        392.0,
+        190.0,
+        449.0
+      ],
+      "confidence": 99.58
+    },
+    {
+      "text": "هه",
+      "bbox": [
+        423.0,
+        509.0,
+        548.0,
+        565.0
+      ],
+      "confidence": 79.21
+    }
+  ],
+  "processing_time_ms": 60
+}

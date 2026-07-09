@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/00719",
+  "engine": "paddleocr",
+  "raw_text": " 2 ",
+  "tokens": [
+    {
+      "text": " 2 ",
+      "bbox": [
+        1044.0,
+        228.0,
+        1148.0,
+        598.0
+      ],
+      "confidence": 52.44
+    }
+  ],
+  "processing_time_ms": 242
+}

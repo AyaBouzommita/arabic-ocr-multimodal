@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/00140",
+  "engine": "paddleocr",
+  "raw_text": "يلمتال تآو او توتأ أرئحإ",
+  "tokens": [
+    {
+      "text": "يلمتال",
+      "bbox": [
+        187.0,
+        381.0,
+        355.0,
+        501.0
+      ],
+      "confidence": 91.29
+    },
+    {
+      "text": "تآو",
+      "bbox": [
+        339.0,
+        394.0,
+        454.0,
+        474.0
+      ],
+      "confidence": 98.98
+    },
+    {
+      "text": "او توتأ",
+      "bbox": [
+        414.0,
+        408.0,
+        594.0,
+        496.0
+      ],
+      "confidence": 74.01
+    },
+    {
+      "text": "أرئحإ",
+      "bbox": [
+        574.0,
+        420.0,
+        660.0,
+        514.0
+      ],
+      "confidence": 85.89
+    }
+  ],
+  "processing_time_ms": 69
+}

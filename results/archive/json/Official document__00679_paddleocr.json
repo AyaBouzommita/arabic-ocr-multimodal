@@ -1,0 +1,18 @@
+{
+  "document_id": "Official document/00679",
+  "engine": "paddleocr",
+  "raw_text": "٨٢٨٢ ",
+  "tokens": [
+    {
+      "text": "٨٢٨٢ ",
+      "bbox": [
+        1991.0,
+        715.0,
+        2163.0,
+        823.0
+      ],
+      "confidence": 71.84
+    }
+  ],
+  "processing_time_ms": 250
+}

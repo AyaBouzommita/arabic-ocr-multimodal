@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/0049",
+  "engine": "paddleocr",
+  "raw_text": "سانلا ترأ ًاثيدح سانا نع",
+  "tokens": [
+    {
+      "text": "سانلا ترأ",
+      "bbox": [
+        243.0,
+        219.0,
+        669.0,
+        476.0
+      ],
+      "confidence": 87.55
+    },
+    {
+      "text": "ًاثيدح",
+      "bbox": [
+        533.0,
+        398.0,
+        712.0,
+        532.0
+      ],
+      "confidence": 70.85
+    },
+    {
+      "text": "سانا نع",
+      "bbox": [
+        168.0,
+        437.0,
+        578.0,
+        635.0
+      ],
+      "confidence": 82.78
+    }
+  ],
+  "processing_time_ms": 66
+}

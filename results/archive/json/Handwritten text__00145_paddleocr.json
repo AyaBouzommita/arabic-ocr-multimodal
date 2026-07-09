@@ -1,0 +1,18 @@
+{
+  "document_id": "Handwritten text/00145",
+  "engine": "paddleocr",
+  "raw_text": "SpotLiner ",
+  "tokens": [
+    {
+      "text": "SpotLiner ",
+      "bbox": [
+        672.0,
+        461.0,
+        947.0,
+        878.0
+      ],
+      "confidence": 87.99
+    }
+  ],
+  "processing_time_ms": 227
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "Administrative form/00282",
+  "engine": "paddleocr",
+  "raw_text": "ملعلا غرفتلا تاناي",
+  "tokens": [
+    {
+      "text": "ملعلا",
+      "bbox": [
+        1927.0,
+        1435.0,
+        2036.0,
+        1494.0
+      ],
+      "confidence": 88.78
+    },
+    {
+      "text": "غرفتلا تاناي",
+      "bbox": [
+        2011.0,
+        1460.0,
+        2211.0,
+        1592.0
+      ],
+      "confidence": 92.0
+    }
+  ],
+  "processing_time_ms": 311
+}

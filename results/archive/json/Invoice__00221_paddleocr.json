@@ -1,0 +1,18 @@
+{
+  "document_id": "Invoice/00221",
+  "engine": "paddleocr",
+  "raw_text": "مص",
+  "tokens": [
+    {
+      "text": "مص",
+      "bbox": [
+        597.0,
+        741.0,
+        645.0,
+        753.0
+      ],
+      "confidence": 55.87
+    }
+  ],
+  "processing_time_ms": 66
+}

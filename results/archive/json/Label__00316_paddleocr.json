@@ -1,0 +1,58 @@
+{
+  "document_id": "Label/00316",
+  "engine": "paddleocr",
+  "raw_text": "Style No.: ناعنك ياباع ٥٥٥5",
+  "tokens": [
+    {
+      "text": "Style",
+      "bbox": [
+        270.0,
+        390.0,
+        413.0,
+        472.0
+      ],
+      "confidence": 90.17
+    },
+    {
+      "text": "No.:",
+      "bbox": [
+        411.0,
+        410.0,
+        524.0,
+        471.0
+      ],
+      "confidence": 97.35
+    },
+    {
+      "text": "ناعنك",
+      "bbox": [
+        242.0,
+        758.0,
+        338.0,
+        917.0
+      ],
+      "confidence": 97.4
+    },
+    {
+      "text": "ياباع",
+      "bbox": [
+        329.0,
+        791.0,
+        394.0,
+        904.0
+      ],
+      "confidence": 95.72
+    },
+    {
+      "text": "٥٥٥5",
+      "bbox": [
+        379.0,
+        789.0,
+        463.0,
+        944.0
+      ],
+      "confidence": 67.63
+    }
+  ],
+  "processing_time_ms": 81
+}

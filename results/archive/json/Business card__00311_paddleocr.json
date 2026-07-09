@@ -1,0 +1,148 @@
+{
+  "document_id": "Business card/00311",
+  "engine": "paddleocr",
+  "raw_text": "تاَيرصبلل اغأ ماشب زكرم asm Agha Opical Center 992 Fbookcm BAgh0pl HATSAP ١ 1699 bssgho0plic gmollo",
+  "tokens": [
+    {
+      "text": "تاَيرصبلل اغأ",
+      "bbox": [
+        239.0,
+        386.0,
+        344.0,
+        414.0
+      ],
+      "confidence": 90.68
+    },
+    {
+      "text": "ماشب",
+      "bbox": [
+        344.0,
+        389.0,
+        397.0,
+        416.0
+      ],
+      "confidence": 96.52
+    },
+    {
+      "text": "زكرم",
+      "bbox": [
+        395.0,
+        391.0,
+        441.0,
+        418.0
+      ],
+      "confidence": 99.97
+    },
+    {
+      "text": "asm",
+      "bbox": [
+        239.0,
+        410.0,
+        294.0,
+        431.0
+      ],
+      "confidence": 55.91
+    },
+    {
+      "text": "Agha",
+      "bbox": [
+        293.0,
+        412.0,
+        335.0,
+        434.0
+      ],
+      "confidence": 68.3
+    },
+    {
+      "text": "Opical",
+      "bbox": [
+        336.0,
+        415.0,
+        390.0,
+        433.0
+      ],
+      "confidence": 74.38
+    },
+    {
+      "text": "Center",
+      "bbox": [
+        388.0,
+        415.0,
+        441.0,
+        437.0
+      ],
+      "confidence": 83.85
+    },
+    {
+      "text": "992",
+      "bbox": [
+        309.0,
+        431.0,
+        365.0,
+        448.0
+      ],
+      "confidence": 68.16
+    },
+    {
+      "text": "Fbookcm",
+      "bbox": [
+        158.0,
+        491.0,
+        244.0,
+        508.0
+      ],
+      "confidence": 73.71
+    },
+    {
+      "text": "BAgh0pl",
+      "bbox": [
+        158.0,
+        504.0,
+        257.0,
+        524.0
+      ],
+      "confidence": 71.48
+    },
+    {
+      "text": "HATSAP",
+      "bbox": [
+        316.0,
+        498.0,
+        374.0,
+        509.0
+      ],
+      "confidence": 79.6
+    },
+    {
+      "text": "١ 1699",
+      "bbox": [
+        313.0,
+        508.0,
+        377.0,
+        526.0
+      ],
+      "confidence": 60.56
+    },
+    {
+      "text": "bssgho0plic",
+      "bbox": [
+        440.0,
+        501.0,
+        547.0,
+        520.0
+      ],
+      "confidence": 78.38
+    },
+    {
+      "text": "gmollo",
+      "bbox": [
+        441.0,
+        515.0,
+        513.0,
+        532.0
+      ],
+      "confidence": 68.13
+    }
+  ],
+  "processing_time_ms": 151
+}

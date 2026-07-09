@@ -1,0 +1,18 @@
+{
+  "document_id": "Book/00235",
+  "engine": "paddleocr",
+  "raw_text": "سيلاطوطرأ",
+  "tokens": [
+    {
+      "text": "سيلاطوطرأ",
+      "bbox": [
+        234.0,
+        503.0,
+        546.0,
+        614.0
+      ],
+      "confidence": 84.82
+    }
+  ],
+  "processing_time_ms": 55
+}

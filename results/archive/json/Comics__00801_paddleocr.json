@@ -1,0 +1,48 @@
+{
+  "document_id": "Comics/00801",
+  "engine": "paddleocr",
+  "raw_text": "estseh. S ا ةرابمل كزهجل!",
+  "tokens": [
+    {
+      "text": "estseh.",
+      "bbox": [
+        3552.0,
+        77.0,
+        3707.0,
+        137.0
+      ],
+      "confidence": 87.14
+    },
+    {
+      "text": "S",
+      "bbox": [
+        4181.0,
+        97.0,
+        4318.0,
+        172.0
+      ],
+      "confidence": 65.53
+    },
+    {
+      "text": "ا",
+      "bbox": [
+        4441.0,
+        460.0,
+        4744.0,
+        641.0
+      ],
+      "confidence": 54.77
+    },
+    {
+      "text": "ةرابمل كزهجل!",
+      "bbox": [
+        2883.0,
+        505.0,
+        3160.0,
+        560.0
+      ],
+      "confidence": 76.59
+    }
+  ],
+  "processing_time_ms": 316
+}

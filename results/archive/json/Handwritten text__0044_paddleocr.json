@@ -1,0 +1,28 @@
+{
+  "document_id": "Handwritten text/0044",
+  "engine": "paddleocr",
+  "raw_text": "ديطعيفوسلو رضرتف لبر",
+  "tokens": [
+    {
+      "text": "ديطعيفوسلو",
+      "bbox": [
+        673.0,
+        808.0,
+        3323.0,
+        1498.0
+      ],
+      "confidence": 79.35
+    },
+    {
+      "text": "رضرتف لبر",
+      "bbox": [
+        783.0,
+        1449.0,
+        3304.0,
+        2024.0
+      ],
+      "confidence": 82.24
+    }
+  ],
+  "processing_time_ms": 338
+}

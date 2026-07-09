@@ -1,0 +1,28 @@
+{
+  "document_id": "Comics/00809",
+  "engine": "paddleocr",
+  "raw_text": "زيا يَع في ي ",
+  "tokens": [
+    {
+      "text": "زيا يَع",
+      "bbox": [
+        140.0,
+        2.0,
+        617.0,
+        240.0
+      ],
+      "confidence": 63.96
+    },
+    {
+      "text": "في ي ",
+      "bbox": [
+        173.0,
+        286.0,
+        347.0,
+        388.0
+      ],
+      "confidence": 53.61
+    }
+  ],
+  "processing_time_ms": 63
+}

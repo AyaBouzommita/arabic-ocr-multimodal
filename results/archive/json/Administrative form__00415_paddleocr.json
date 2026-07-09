@@ -1,0 +1,568 @@
+{
+  "document_id": "Administrative form/00415",
+  "engine": "paddleocr",
+  "raw_text": "ةيدوعسلا ةيبرعلا ةكلملا o i Arabia ينقتلا بيردتل ةماعلا ةسسوؤوملا Technical and Vocational training corporatio ينهملاو econdary nusrastitea Dhahrana نارهظب يوناثلا يعانصلا دهعملا e٥ط بونجلا ايتاتحلم ويلالا يساحلا ةزرعجأ ةتايص بلط جذومن Maintenances equet form of computer and accessorie ساسألا تانايبلا Mi da Otherر Manualي (Phoneا Postدر ةلماعملا مالتسا ةقيرط Method of Receiving .لطلا Nmسأ of the applicant لاوجل(obil تيلا(Pn tion مستاSin :خيراتتلاا Da normation١Falr  Networkةش ( Pراج ر Software لعلا عباط Printer alure Deription ofproblem ٥Rpr technician نلا م Name Sg خيراتلا Appant noes",
+  "tokens": [
+    {
+      "text": "ةيدوعسلا",
+      "bbox": [
+        478.0,
+        250.0,
+        547.0,
+        274.0
+      ],
+      "confidence": 93.45
+    },
+    {
+      "text": "ةيبرعلا ةكلملا",
+      "bbox": [
+        545.0,
+        249.0,
+        649.0,
+        270.0
+      ],
+      "confidence": 98.84
+    },
+    {
+      "text": "o i",
+      "bbox": [
+        156.0,
+        275.0,
+        261.0,
+        288.0
+      ],
+      "confidence": 63.64
+    },
+    {
+      "text": "Arabia",
+      "bbox": [
+        260.0,
+        275.0,
+        303.0,
+        288.0
+      ],
+      "confidence": 94.08
+    },
+    {
+      "text": "ينقتلا",
+      "bbox": [
+        464.0,
+        267.0,
+        510.0,
+        291.0
+      ],
+      "confidence": 86.56
+    },
+    {
+      "text": "بيردتل ةماعلا",
+      "bbox": [
+        510.0,
+        265.0,
+        603.0,
+        288.0
+      ],
+      "confidence": 99.06
+    },
+    {
+      "text": "ةسسوؤوملا",
+      "bbox": [
+        600.0,
+        265.0,
+        664.0,
+        288.0
+      ],
+      "confidence": 81.34
+    },
+    {
+      "text": "Technical and",
+      "bbox": [
+        102.0,
+        289.0,
+        187.0,
+        303.0
+      ],
+      "confidence": 90.11
+    },
+    {
+      "text": "Vocational training corporatio",
+      "bbox": [
+        181.0,
+        288.0,
+        358.0,
+        304.0
+      ],
+      "confidence": 87.07
+    },
+    {
+      "text": "ينهملاو",
+      "bbox": [
+        538.0,
+        285.0,
+        592.0,
+        306.0
+      ],
+      "confidence": 76.99
+    },
+    {
+      "text": "econdary",
+      "bbox": [
+        103.0,
+        305.0,
+        168.0,
+        319.0
+      ],
+      "confidence": 95.2
+    },
+    {
+      "text": "nusrastitea Dhahrana",
+      "bbox": [
+        172.0,
+        307.0,
+        355.0,
+        316.0
+      ],
+      "confidence": 70.1
+    },
+    {
+      "text": "نارهظب",
+      "bbox": [
+        466.0,
+        307.0,
+        513.0,
+        321.0
+      ],
+      "confidence": 91.7
+    },
+    {
+      "text": "يوناثلا",
+      "bbox": [
+        513.0,
+        302.0,
+        565.0,
+        323.0
+      ],
+      "confidence": 94.99
+    },
+    {
+      "text": "يعانصلا",
+      "bbox": [
+        562.0,
+        302.0,
+        622.0,
+        319.0
+      ],
+      "confidence": 91.39
+    },
+    {
+      "text": "دهعملا",
+      "bbox": [
+        623.0,
+        299.0,
+        668.0,
+        321.0
+      ],
+      "confidence": 85.89
+    },
+    {
+      "text": "e٥ط",
+      "bbox": [
+        210.0,
+        320.0,
+        253.0,
+        333.0
+      ],
+      "confidence": 50.94
+    },
+    {
+      "text": "بونجلا",
+      "bbox": [
+        543.0,
+        320.0,
+        589.0,
+        338.0
+      ],
+      "confidence": 98.94
+    },
+    {
+      "text": "ايتاتحلم ويلالا يساحلا ةزرعجأ",
+      "bbox": [
+        296.0,
+        379.0,
+        416.0,
+        396.0
+      ],
+      "confidence": 73.64
+    },
+    {
+      "text": "ةتايص",
+      "bbox": [
+        414.0,
+        380.0,
+        441.0,
+        391.0
+      ],
+      "confidence": 80.29
+    },
+    {
+      "text": "بلط جذومن",
+      "bbox": [
+        441.0,
+        379.0,
+        486.0,
+        392.0
+      ],
+      "confidence": 91.09
+    },
+    {
+      "text": "Maintenances",
+      "bbox": [
+        234.0,
+        396.0,
+        311.0,
+        409.0
+      ],
+      "confidence": 90.42
+    },
+    {
+      "text": "equet form of computer and accessorie",
+      "bbox": [
+        313.0,
+        389.0,
+        542.0,
+        411.0
+      ],
+      "confidence": 85.11
+    },
+    {
+      "text": "ساسألا تانايبلا",
+      "bbox": [
+        334.0,
+        408.0,
+        388.0,
+        421.0
+      ],
+      "confidence": 85.98
+    },
+    {
+      "text": "Mi",
+      "bbox": [
+        392.0,
+        408.0,
+        430.0,
+        421.0
+      ],
+      "confidence": 74.25
+    },
+    {
+      "text": "da",
+      "bbox": [
+        426.0,
+        409.0,
+        455.0,
+        419.0
+      ],
+      "confidence": 52.45
+    },
+    {
+      "text": "Otherر",
+      "bbox": [
+        107.0,
+        434.0,
+        172.0,
+        452.0
+      ],
+      "confidence": 79.61
+    },
+    {
+      "text": "Manualي",
+      "bbox": [
+        191.0,
+        437.0,
+        264.0,
+        451.0
+      ],
+      "confidence": 84.51
+    },
+    {
+      "text": "(Phoneا",
+      "bbox": [
+        289.0,
+        433.0,
+        362.0,
+        449.0
+      ],
+      "confidence": 79.97
+    },
+    {
+      "text": "Postدر",
+      "bbox": [
+        385.0,
+        435.0,
+        442.0,
+        448.0
+      ],
+      "confidence": 65.38
+    },
+    {
+      "text": "ةلماعملا مالتسا ةقيرط",
+      "bbox": [
+        522.0,
+        428.0,
+        608.0,
+        444.0
+      ],
+      "confidence": 93.62
+    },
+    {
+      "text": "Method of Receiving",
+      "bbox": [
+        509.0,
+        443.0,
+        620.0,
+        459.0
+      ],
+      "confidence": 73.23
+    },
+    {
+      "text": ".لطلا",
+      "bbox": [
+        467.0,
+        479.0,
+        487.0,
+        489.0
+      ],
+      "confidence": 84.69
+    },
+    {
+      "text": "Nmسأ",
+      "bbox": [
+        489.0,
+        476.0,
+        569.0,
+        491.0
+      ],
+      "confidence": 52.39
+    },
+    {
+      "text": "of the applicant",
+      "bbox": [
+        566.0,
+        476.0,
+        648.0,
+        489.0
+      ],
+      "confidence": 92.62
+    },
+    {
+      "text": "لاوجل(obil",
+      "bbox": [
+        240.0,
+        512.0,
+        311.0,
+        525.0
+      ],
+      "confidence": 73.11
+    },
+    {
+      "text": "تيلا(Pn",
+      "bbox": [
+        401.0,
+        506.0,
+        473.0,
+        526.0
+      ],
+      "confidence": 67.71
+    },
+    {
+      "text": "tion مستاSin",
+      "bbox": [
+        578.0,
+        502.0,
+        649.0,
+        520.0
+      ],
+      "confidence": 65.22
+    },
+    {
+      "text": ":خيراتتلاا",
+      "bbox": [
+        327.0,
+        554.0,
+        370.0,
+        571.0
+      ],
+      "confidence": 80.05
+    },
+    {
+      "text": "Da",
+      "bbox": [
+        373.0,
+        556.0,
+        409.0,
+        569.0
+      ],
+      "confidence": 76.29
+    },
+    {
+      "text": "normation١Falr ",
+      "bbox": [
+        368.0,
+        581.0,
+        483.0,
+        596.0
+      ],
+      "confidence": 68.64
+    },
+    {
+      "text": "Networkةش",
+      "bbox": [
+        239.0,
+        612.0,
+        319.0,
+        625.0
+      ],
+      "confidence": 70.58
+    },
+    {
+      "text": "( Pراج ر",
+      "bbox": [
+        371.0,
+        608.0,
+        447.0,
+        624.0
+      ],
+      "confidence": 57.71
+    },
+    {
+      "text": "Software",
+      "bbox": [
+        488.0,
+        605.0,
+        569.0,
+        621.0
+      ],
+      "confidence": 90.16
+    },
+    {
+      "text": "لعلا",
+      "bbox": [
+        617.0,
+        604.0,
+        640.0,
+        615.0
+      ],
+      "confidence": 94.53
+    },
+    {
+      "text": "عباط",
+      "bbox": [
+        124.0,
+        616.0,
+        149.0,
+        627.0
+      ],
+      "confidence": 90.46
+    },
+    {
+      "text": "Printer",
+      "bbox": [
+        149.0,
+        616.0,
+        194.0,
+        629.0
+      ],
+      "confidence": 96.47
+    },
+    {
+      "text": "alure",
+      "bbox": [
+        611.0,
+        616.0,
+        649.0,
+        629.0
+      ],
+      "confidence": 82.58
+    },
+    {
+      "text": "Deription ofproblem",
+      "bbox": [
+        500.0,
+        641.0,
+        670.0,
+        660.0
+      ],
+      "confidence": 76.49
+    },
+    {
+      "text": "٥Rpr",
+      "bbox": [
+        335.0,
+        771.0,
+        387.0,
+        780.0
+      ],
+      "confidence": 59.83
+    },
+    {
+      "text": "technician",
+      "bbox": [
+        479.0,
+        765.0,
+        537.0,
+        775.0
+      ],
+      "confidence": 97.9
+    },
+    {
+      "text": "نلا م",
+      "bbox": [
+        580.0,
+        833.0,
+        640.0,
+        850.0
+      ],
+      "confidence": 61.0
+    },
+    {
+      "text": "Name",
+      "bbox": [
+        635.0,
+        835.0,
+        673.0,
+        848.0
+      ],
+      "confidence": 86.74
+    },
+    {
+      "text": "Sg",
+      "bbox": [
+        555.0,
+        879.0,
+        676.0,
+        896.0
+      ],
+      "confidence": 53.33
+    },
+    {
+      "text": "خيراتلا",
+      "bbox": [
+        230.0,
+        896.0,
+        255.0,
+        907.0
+      ],
+      "confidence": 83.03
+    },
+    {
+      "text": "Appant noes",
+      "bbox": [
+        398.0,
+        928.0,
+        496.0,
+        946.0
+      ],
+      "confidence": 70.34
+    }
+  ],
+  "processing_time_ms": 410
+}

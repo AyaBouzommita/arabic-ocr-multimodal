@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/00781",
+  "engine": "paddleocr",
+  "raw_text": "ينبا تمدن مهرخب نم",
+  "tokens": [
+    {
+      "text": "ينبا",
+      "bbox": [
+        31.0,
+        675.0,
+        84.0,
+        733.0
+      ],
+      "confidence": 65.35
+    },
+    {
+      "text": "تمدن",
+      "bbox": [
+        62.0,
+        655.0,
+        164.0,
+        726.0
+      ],
+      "confidence": 90.24
+    },
+    {
+      "text": "مهرخب",
+      "bbox": [
+        277.0,
+        643.0,
+        437.0,
+        742.0
+      ],
+      "confidence": 77.7
+    },
+    {
+      "text": "نم",
+      "bbox": [
+        247.0,
+        698.0,
+        297.0,
+        744.0
+      ],
+      "confidence": 83.97
+    }
+  ],
+  "processing_time_ms": 58
+}

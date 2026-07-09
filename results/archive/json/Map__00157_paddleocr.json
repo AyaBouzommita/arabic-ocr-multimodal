@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00157",
+  "engine": "paddleocr",
+  "raw_text": "مللم ٥٢٢ نم لقا ٤٩ك",
+  "tokens": [
+    {
+      "text": "مللم ٥٢٢ نم لقا",
+      "bbox": [
+        968.0,
+        2591.0,
+        1159.0,
+        2637.0
+      ],
+      "confidence": 84.52
+    },
+    {
+      "text": "٤٩ك",
+      "bbox": [
+        1530.0,
+        3315.0,
+        1577.0,
+        3344.0
+      ],
+      "confidence": 52.6
+    }
+  ],
+  "processing_time_ms": 321
+}

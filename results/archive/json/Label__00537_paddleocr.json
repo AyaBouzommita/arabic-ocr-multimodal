@@ -1,0 +1,48 @@
+{
+  "document_id": "Label/00537",
+  "engine": "paddleocr",
+  "raw_text": "1ك نولطلب I 85000 MC 059",
+  "tokens": [
+    {
+      "text": "1ك نولطلب",
+      "bbox": [
+        492.0,
+        134.0,
+        656.0,
+        180.0
+      ],
+      "confidence": 81.33
+    },
+    {
+      "text": "I 85000",
+      "bbox": [
+        471.0,
+        214.0,
+        620.0,
+        246.0
+      ],
+      "confidence": 83.82
+    },
+    {
+      "text": "MC",
+      "bbox": [
+        487.0,
+        373.0,
+        553.0,
+        402.0
+      ],
+      "confidence": 76.93
+    },
+    {
+      "text": "059",
+      "bbox": [
+        568.0,
+        375.0,
+        640.0,
+        402.0
+      ],
+      "confidence": 52.08
+    }
+  ],
+  "processing_time_ms": 104
+}

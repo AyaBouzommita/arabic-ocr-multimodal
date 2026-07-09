@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/00756",
+  "engine": "paddleocr",
+  "raw_text": "ةيارعلا تاعداصملا",
+  "tokens": [
+    {
+      "text": "ةيارعلا تاعداصملا",
+      "bbox": [
+        906.0,
+        3713.0,
+        1099.0,
+        3812.0
+      ],
+      "confidence": 67.31
+    }
+  ],
+  "processing_time_ms": 248
+}

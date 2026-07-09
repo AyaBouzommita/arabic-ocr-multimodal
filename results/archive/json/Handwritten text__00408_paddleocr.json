@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00408",
+  "engine": "paddleocr",
+  "raw_text": "Topic اليب ةيدوعسلا",
+  "tokens": [
+    {
+      "text": "Topic",
+      "bbox": [
+        59.0,
+        15.0,
+        104.0,
+        40.0
+      ],
+      "confidence": 97.51
+    },
+    {
+      "text": "اليب",
+      "bbox": [
+        357.0,
+        338.0,
+        400.0,
+        353.0
+      ],
+      "confidence": 81.87
+    },
+    {
+      "text": "ةيدوعسلا",
+      "bbox": [
+        343.0,
+        893.0,
+        388.0,
+        913.0
+      ],
+      "confidence": 78.62
+    }
+  ],
+  "processing_time_ms": 62
+}

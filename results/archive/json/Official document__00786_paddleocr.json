@@ -1,0 +1,418 @@
+{
+  "document_id": "Official document/00786",
+  "engine": "paddleocr",
+  "raw_text": "Syrian Arab Republic ةيروسلا ةبيرعلا  ةيروهمجلا ةيلخادلا ةرازو Ministry Of Intcrior Police Traffic Dept رورلا ةرادإ ب ةئف ةيصوصخ قوس ةزاجإ PRIVATE DRIVING LICENCE YPE B  N 6570 اهبحاصإ زاهذه لوحخت نط // ىلع يلامجلا نزو ديزرب  تلا ةيمومعلا This License entitles its bearer to drive Privato smal Cars which their seats do not Eetiver's eed /8 sea excepthe Driveseal Trucks where the total load does not exceed /4/ Tons  8 the Public Trucks where  the total load  nxed /2To.",
+  "tokens": [
+    {
+      "text": "Syrian",
+      "bbox": [
+        1388.0,
+        959.0,
+        1567.0,
+        1018.0
+      ],
+      "confidence": 99.34
+    },
+    {
+      "text": "Arab",
+      "bbox": [
+        1583.0,
+        967.0,
+        1708.0,
+        1014.0
+      ],
+      "confidence": 98.55
+    },
+    {
+      "text": "Republic",
+      "bbox": [
+        1717.0,
+        963.0,
+        1946.0,
+        1023.0
+      ],
+      "confidence": 99.13
+    },
+    {
+      "text": "ةيروسلا ةبيرعلا ",
+      "bbox": [
+        2262.0,
+        962.0,
+        2584.0,
+        1045.0
+      ],
+      "confidence": 80.99
+    },
+    {
+      "text": "ةيروهمجلا",
+      "bbox": [
+        2575.0,
+        976.0,
+        2783.0,
+        1036.0
+      ],
+      "confidence": 94.02
+    },
+    {
+      "text": "ةيلخادلا ةرازو",
+      "bbox": [
+        2391.0,
+        1013.0,
+        2659.0,
+        1087.0
+      ],
+      "confidence": 97.14
+    },
+    {
+      "text": "Ministry",
+      "bbox": [
+        1479.0,
+        1027.0,
+        1654.0,
+        1074.0
+      ],
+      "confidence": 99.04
+    },
+    {
+      "text": "Of Intcrior",
+      "bbox": [
+        1650.0,
+        1031.0,
+        1867.0,
+        1074.0
+      ],
+      "confidence": 93.84
+    },
+    {
+      "text": "Police",
+      "bbox": [
+        1615.0,
+        1068.0,
+        1760.0,
+        1131.0
+      ],
+      "confidence": 83.42
+    },
+    {
+      "text": "Traffic",
+      "bbox": [
+        1475.0,
+        1078.0,
+        1617.0,
+        1121.0
+      ],
+      "confidence": 93.4
+    },
+    {
+      "text": "Dept",
+      "bbox": [
+        1746.0,
+        1082.0,
+        1862.0,
+        1129.0
+      ],
+      "confidence": 94.71
+    },
+    {
+      "text": "رورلا ةرادإ",
+      "bbox": [
+        2428.0,
+        1073.0,
+        2630.0,
+        1143.0
+      ],
+      "confidence": 75.74
+    },
+    {
+      "text": "ب",
+      "bbox": [
+        1583.0,
+        1168.0,
+        1683.0,
+        1240.0
+      ],
+      "confidence": 80.5
+    },
+    {
+      "text": "ةئف",
+      "bbox": [
+        1758.0,
+        1168.0,
+        1850.0,
+        1240.0
+      ],
+      "confidence": 98.03
+    },
+    {
+      "text": "ةيصوصخ",
+      "bbox": [
+        1870.0,
+        1167.0,
+        2193.0,
+        1271.0
+      ],
+      "confidence": 99.84
+    },
+    {
+      "text": "قوس",
+      "bbox": [
+        2217.0,
+        1172.0,
+        2421.0,
+        1266.0
+      ],
+      "confidence": 99.81
+    },
+    {
+      "text": "ةزاجإ",
+      "bbox": [
+        2425.0,
+        1180.0,
+        2646.0,
+        1270.0
+      ],
+      "confidence": 99.21
+    },
+    {
+      "text": "PRIVATE",
+      "bbox": [
+        1703.0,
+        1252.0,
+        1947.0,
+        1326.0
+      ],
+      "confidence": 95.5
+    },
+    {
+      "text": "DRIVING",
+      "bbox": [
+        1958.0,
+        1266.0,
+        2204.0,
+        1325.0
+      ],
+      "confidence": 98.0
+    },
+    {
+      "text": "LICENCE",
+      "bbox": [
+        2212.0,
+        1274.0,
+        2467.0,
+        1321.0
+      ],
+      "confidence": 96.79
+    },
+    {
+      "text": "YPE B ",
+      "bbox": [
+        1970.0,
+        1320.0,
+        2201.0,
+        1377.0
+      ],
+      "confidence": 74.07
+    },
+    {
+      "text": "N",
+      "bbox": [
+        1838.0,
+        1423.0,
+        1950.0,
+        1517.0
+      ],
+      "confidence": 65.8
+    },
+    {
+      "text": "6570",
+      "bbox": [
+        2004.0,
+        1428.0,
+        2296.0,
+        1517.0
+      ],
+      "confidence": 77.92
+    },
+    {
+      "text": "اهبحاصإ زاهذه لوحخت",
+      "bbox": [
+        2421.0,
+        1551.0,
+        2812.0,
+        1611.0
+      ],
+      "confidence": 78.5
+    },
+    {
+      "text": "نط // ىلع",
+      "bbox": [
+        1774.0,
+        1653.0,
+        1993.0,
+        1722.0
+      ],
+      "confidence": 78.06
+    },
+    {
+      "text": "يلامجلا نزو ديزرب ",
+      "bbox": [
+        1988.0,
+        1662.0,
+        2258.0,
+        1722.0
+      ],
+      "confidence": 74.03
+    },
+    {
+      "text": "تلا ةيمومعلا",
+      "bbox": [
+        2267.0,
+        1670.0,
+        2421.0,
+        1717.0
+      ],
+      "confidence": 85.57
+    },
+    {
+      "text": "This License entitles its bearer to",
+      "bbox": [
+        1417.0,
+        1722.0,
+        1971.0,
+        1777.0
+      ],
+      "confidence": 97.24
+    },
+    {
+      "text": "drive",
+      "bbox": [
+        1971.0,
+        1726.0,
+        2058.0,
+        1773.0
+      ],
+      "confidence": 96.95
+    },
+    {
+      "text": "Privato",
+      "bbox": [
+        2062.0,
+        1726.0,
+        2183.0,
+        1773.0
+      ],
+      "confidence": 97.31
+    },
+    {
+      "text": "smal",
+      "bbox": [
+        2192.0,
+        1734.0,
+        2271.0,
+        1768.0
+      ],
+      "confidence": 80.05
+    },
+    {
+      "text": "Cars which their",
+      "bbox": [
+        2279.0,
+        1726.0,
+        2554.0,
+        1773.0
+      ],
+      "confidence": 94.12
+    },
+    {
+      "text": "seats do not",
+      "bbox": [
+        2546.0,
+        1730.0,
+        2758.0,
+        1773.0
+      ],
+      "confidence": 90.56
+    },
+    {
+      "text": "Eetiver's eed /8 sea excepthe Driveseal",
+      "bbox": [
+        1371.0,
+        1764.0,
+        2062.0,
+        1820.0
+      ],
+      "confidence": 79.54
+    },
+    {
+      "text": "Trucks",
+      "bbox": [
+        2258.0,
+        1777.0,
+        2371.0,
+        1807.0
+      ],
+      "confidence": 99.1
+    },
+    {
+      "text": "where the total load does",
+      "bbox": [
+        2379.0,
+        1773.0,
+        2804.0,
+        1815.0
+      ],
+      "confidence": 92.97
+    },
+    {
+      "text": "not exceed /4/ Tons",
+      "bbox": [
+        1350.0,
+        1807.0,
+        1696.0,
+        1862.0
+      ],
+      "confidence": 94.02
+    },
+    {
+      "text": " 8 the Public",
+      "bbox": [
+        1679.0,
+        1811.0,
+        1908.0,
+        1858.0
+      ],
+      "confidence": 91.02
+    },
+    {
+      "text": "Trucks where",
+      "bbox": [
+        1892.0,
+        1811.0,
+        2142.0,
+        1858.0
+      ],
+      "confidence": 99.17
+    },
+    {
+      "text": " the total load",
+      "bbox": [
+        2120.0,
+        1802.0,
+        2359.0,
+        1863.0
+      ],
+      "confidence": 99.43
+    },
+    {
+      "text": " nxed /2To.",
+      "bbox": [
+        2358.0,
+        1807.0,
+        2825.0,
+        1862.0
+      ],
+      "confidence": 69.91
+    }
+  ],
+  "processing_time_ms": 522
+}

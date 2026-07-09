@@ -1,0 +1,48 @@
+{
+  "document_id": "Label/00379",
+  "engine": "paddleocr",
+  "raw_text": "AKKUZU 8yas كرت85 يدالو ناتسف",
+  "tokens": [
+    {
+      "text": "AKKUZU",
+      "bbox": [
+        510.0,
+        57.0,
+        753.0,
+        158.0
+      ],
+      "confidence": 75.98
+    },
+    {
+      "text": "8yas",
+      "bbox": [
+        646.0,
+        133.0,
+        750.0,
+        183.0
+      ],
+      "confidence": 74.34
+    },
+    {
+      "text": "كرت85",
+      "bbox": [
+        514.0,
+        599.0,
+        615.0,
+        638.0
+      ],
+      "confidence": 85.72
+    },
+    {
+      "text": "يدالو ناتسف",
+      "bbox": [
+        618.0,
+        611.0,
+        765.0,
+        657.0
+      ],
+      "confidence": 90.24
+    }
+  ],
+  "processing_time_ms": 71
+}

@@ -1,0 +1,18 @@
+{
+  "document_id": "Handwritten text/00439",
+  "engine": "paddleocr",
+  "raw_text": "اليلا مي",
+  "tokens": [
+    {
+      "text": "اليلا مي",
+      "bbox": [
+        129.0,
+        561.0,
+        163.0,
+        611.0
+      ],
+      "confidence": 53.78
+    }
+  ],
+  "processing_time_ms": 51
+}

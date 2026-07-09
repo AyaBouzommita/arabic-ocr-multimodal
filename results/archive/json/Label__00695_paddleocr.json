@@ -1,0 +1,88 @@
+{
+  "document_id": "Label/00695",
+  "engine": "paddleocr",
+  "raw_text": "ARABIA MOPILE ايبا ليابوم SAMSUiG ١HUAWE arabiamobiles.com Www",
+  "tokens": [
+    {
+      "text": "ARABIA",
+      "bbox": [
+        246.0,
+        306.0,
+        764.0,
+        401.0
+      ],
+      "confidence": 79.96
+    },
+    {
+      "text": "MOPILE",
+      "bbox": [
+        825.0,
+        312.0,
+        1306.0,
+        404.0
+      ],
+      "confidence": 88.39
+    },
+    {
+      "text": "ايبا",
+      "bbox": [
+        814.0,
+        408.0,
+        1191.0,
+        572.0
+      ],
+      "confidence": 97.74
+    },
+    {
+      "text": "ليابوم",
+      "bbox": [
+        221.0,
+        413.0,
+        760.0,
+        563.0
+      ],
+      "confidence": 95.88
+    },
+    {
+      "text": "SAMSUiG",
+      "bbox": [
+        189.0,
+        751.0,
+        504.0,
+        808.0
+      ],
+      "confidence": 73.38
+    },
+    {
+      "text": "١HUAWE",
+      "bbox": [
+        1346.0,
+        837.0,
+        1587.0,
+        876.0
+      ],
+      "confidence": 74.91
+    },
+    {
+      "text": "arabiamobiles.com",
+      "bbox": [
+        547.0,
+        983.0,
+        1375.0,
+        1073.0
+      ],
+      "confidence": 99.42
+    },
+    {
+      "text": "Www",
+      "bbox": [
+        317.0,
+        1001.0,
+        523.0,
+        1054.0
+      ],
+      "confidence": 66.27
+    }
+  ],
+  "processing_time_ms": 104
+}

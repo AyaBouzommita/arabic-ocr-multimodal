@@ -1,0 +1,18 @@
+{
+  "document_id": "Handwritten text/00768",
+  "engine": "paddleocr",
+  "raw_text": "سكيليف",
+  "tokens": [
+    {
+      "text": "سكيليف",
+      "bbox": [
+        233.0,
+        202.0,
+        587.0,
+        318.0
+      ],
+      "confidence": 87.11
+    }
+  ],
+  "processing_time_ms": 44
+}

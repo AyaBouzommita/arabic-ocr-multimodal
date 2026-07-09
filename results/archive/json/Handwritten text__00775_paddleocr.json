@@ -1,0 +1,18 @@
+{
+  "document_id": "Handwritten text/00775",
+  "engine": "paddleocr",
+  "raw_text": "اهي ال هللا",
+  "tokens": [
+    {
+      "text": "اهي ال هللا",
+      "bbox": [
+        166.0,
+        215.0,
+        460.0,
+        396.0
+      ],
+      "confidence": 66.16
+    }
+  ],
+  "processing_time_ms": 51
+}

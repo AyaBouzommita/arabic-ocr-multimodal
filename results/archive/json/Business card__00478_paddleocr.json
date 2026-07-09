@@ -1,0 +1,38 @@
+{
+  "document_id": "Business card/00478",
+  "engine": "paddleocr",
+  "raw_text": "امندلا تملو ءابك",
+  "tokens": [
+    {
+      "text": "امندلا",
+      "bbox": [
+        590.0,
+        171.0,
+        1103.0,
+        428.0
+      ],
+      "confidence": 64.99
+    },
+    {
+      "text": "تملو",
+      "bbox": [
+        545.0,
+        434.0,
+        838.0,
+        626.0
+      ],
+      "confidence": 66.55
+    },
+    {
+      "text": "ءابك",
+      "bbox": [
+        844.0,
+        455.0,
+        1041.0,
+        648.0
+      ],
+      "confidence": 63.23
+    }
+  ],
+  "processing_time_ms": 72
+}

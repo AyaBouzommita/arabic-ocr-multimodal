@@ -1,0 +1,28 @@
+{
+  "document_id": "Administrative form/00840",
+  "engine": "paddleocr",
+  "raw_text": "اليافسل فلك/ جدو",
+  "tokens": [
+    {
+      "text": "اليافسل",
+      "bbox": [
+        370.0,
+        309.0,
+        405.0,
+        319.0
+      ],
+      "confidence": 69.67
+    },
+    {
+      "text": "فلك/ جدو",
+      "bbox": [
+        458.0,
+        305.0,
+        527.0,
+        322.0
+      ],
+      "confidence": 92.69
+    }
+  ],
+  "processing_time_ms": 58
+}

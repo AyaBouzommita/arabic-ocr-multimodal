@@ -1,0 +1,168 @@
+{
+  "document_id": "Business card/0077",
+  "engine": "paddleocr",
+  "raw_text": "University Lebanese ersity Faculty Sciences Delivery Hero ةزيمم ةمد ةسوردم راع  ٥٥ لا كوت a SAJOU nf Farth",
+  "tokens": [
+    {
+      "text": "University",
+      "bbox": [
+        2096.0,
+        0.0,
+        3489.0,
+        304.0
+      ],
+      "confidence": 99.92
+    },
+    {
+      "text": "Lebanese",
+      "bbox": [
+        788.0,
+        12.0,
+        1981.0,
+        210.0
+      ],
+      "confidence": 99.94
+    },
+    {
+      "text": "ersity",
+      "bbox": [
+        0.0,
+        352.0,
+        211.0,
+        464.0
+      ],
+      "confidence": 92.4
+    },
+    {
+      "text": "Faculty",
+      "bbox": [
+        813.0,
+        412.0,
+        1816.0,
+        744.0
+      ],
+      "confidence": 95.25
+    },
+    {
+      "text": "Sciences",
+      "bbox": [
+        2282.0,
+        457.0,
+        3427.0,
+        691.0
+      ],
+      "confidence": 99.93
+    },
+    {
+      "text": "Delivery Hero",
+      "bbox": [
+        2592.0,
+        853.0,
+        3382.0,
+        1538.0
+      ],
+      "confidence": 84.09
+    },
+    {
+      "text": "ةزيمم",
+      "bbox": [
+        794.0,
+        1017.0,
+        990.0,
+        1117.0
+      ],
+      "confidence": 91.38
+    },
+    {
+      "text": "ةمد",
+      "bbox": [
+        966.0,
+        1010.0,
+        1150.0,
+        1106.0
+      ],
+      "confidence": 93.89
+    },
+    {
+      "text": "ةسوردم",
+      "bbox": [
+        744.0,
+        1163.0,
+        1022.0,
+        1281.0
+      ],
+      "confidence": 98.17
+    },
+    {
+      "text": "راع ",
+      "bbox": [
+        1033.0,
+        1191.0,
+        1122.0,
+        1252.0
+      ],
+      "confidence": 80.94
+    },
+    {
+      "text": "٥٥",
+      "bbox": [
+        4.0,
+        1453.0,
+        525.0,
+        1850.0
+      ],
+      "confidence": 72.33
+    },
+    {
+      "text": "لا كوت",
+      "bbox": [
+        1828.0,
+        1992.0,
+        2677.0,
+        2297.0
+      ],
+      "confidence": 95.05
+    },
+    {
+      "text": "a",
+      "bbox": [
+        0.0,
+        2124.0,
+        594.0,
+        2589.0
+      ],
+      "confidence": 73.1
+    },
+    {
+      "text": "SAJOU",
+      "bbox": [
+        750.0,
+        2347.0,
+        1285.0,
+        2549.0
+      ],
+      "confidence": 82.04
+    },
+    {
+      "text": "nf",
+      "bbox": [
+        13.0,
+        2893.0,
+        397.0,
+        3055.0
+      ],
+      "confidence": 56.35
+    },
+    {
+      "text": "Farth",
+      "bbox": [
+        1830.0,
+        2889.0,
+        2505.0,
+        3071.0
+      ],
+      "confidence": 87.18
+    }
+  ],
+  "processing_time_ms": 482
+}

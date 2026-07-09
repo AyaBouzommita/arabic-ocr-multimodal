@@ -1,0 +1,108 @@
+{
+  "document_id": "Business card/00377",
+  "engine": "paddleocr",
+  "raw_text": "Restaurant A A-Mar نيع ايراف لجارل دارتسوتوا Autostrade Hrajel Faraya",
+  "tokens": [
+    {
+      "text": "Restaurant",
+      "bbox": [
+        389.0,
+        192.0,
+        565.0,
+        221.0
+      ],
+      "confidence": 98.67
+    },
+    {
+      "text": "A",
+      "bbox": [
+        201.0,
+        222.0,
+        312.0,
+        284.0
+      ],
+      "confidence": 56.66
+    },
+    {
+      "text": "A-Mar",
+      "bbox": [
+        336.0,
+        223.0,
+        570.0,
+        291.0
+      ],
+      "confidence": 82.23
+    },
+    {
+      "text": "نيع",
+      "bbox": [
+        990.0,
+        219.0,
+        1118.0,
+        309.0
+      ],
+      "confidence": 99.36
+    },
+    {
+      "text": "ايراف",
+      "bbox": [
+        785.0,
+        625.0,
+        875.0,
+        678.0
+      ],
+      "confidence": 75.99
+    },
+    {
+      "text": "لجارل",
+      "bbox": [
+        876.0,
+        625.0,
+        988.0,
+        681.0
+      ],
+      "confidence": 74.2
+    },
+    {
+      "text": "دارتسوتوا",
+      "bbox": [
+        989.0,
+        629.0,
+        1139.0,
+        680.0
+      ],
+      "confidence": 93.09
+    },
+    {
+      "text": "Autostrade",
+      "bbox": [
+        179.0,
+        687.0,
+        349.0,
+        720.0
+      ],
+      "confidence": 95.77
+    },
+    {
+      "text": "Hrajel",
+      "bbox": [
+        376.0,
+        685.0,
+        473.0,
+        729.0
+      ],
+      "confidence": 96.73
+    },
+    {
+      "text": "Faraya",
+      "bbox": [
+        479.0,
+        686.0,
+        587.0,
+        729.0
+      ],
+      "confidence": 92.45
+    }
+  ],
+  "processing_time_ms": 120
+}

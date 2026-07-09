@@ -1,0 +1,78 @@
+{
+  "document_id": "Label/00553",
+  "engine": "paddleocr",
+  "raw_text": "NO COLOR SZE STYLE 0 BLACK 8912-",
+  "tokens": [
+    {
+      "text": "NO",
+      "bbox": [
+        574.0,
+        802.0,
+        711.0,
+        877.0
+      ],
+      "confidence": 84.48
+    },
+    {
+      "text": "COLOR",
+      "bbox": [
+        823.0,
+        806.0,
+        1102.0,
+        864.0
+      ],
+      "confidence": 96.41
+    },
+    {
+      "text": "SZE",
+      "bbox": [
+        1343.0,
+        803.0,
+        1523.0,
+        864.0
+      ],
+      "confidence": 62.9
+    },
+    {
+      "text": "STYLE",
+      "bbox": [
+        280.0,
+        809.0,
+        555.0,
+        882.0
+      ],
+      "confidence": 88.73
+    },
+    {
+      "text": "0",
+      "bbox": [
+        1348.0,
+        948.0,
+        1432.0,
+        1012.0
+      ],
+      "confidence": 70.28
+    },
+    {
+      "text": "BLACK",
+      "bbox": [
+        1012.0,
+        957.0,
+        1231.0,
+        1029.0
+      ],
+      "confidence": 94.97
+    },
+    {
+      "text": "8912-",
+      "bbox": [
+        702.0,
+        971.0,
+        939.0,
+        1044.0
+      ],
+      "confidence": 63.71
+    }
+  ],
+  "processing_time_ms": 157
+}

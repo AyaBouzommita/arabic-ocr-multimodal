@@ -1,0 +1,68 @@
+{
+  "document_id": "Magazine/00398",
+  "engine": "paddleocr",
+  "raw_text": "Exclusive Richard ie Precios Statement Cha",
+  "tokens": [
+    {
+      "text": "Exclusive",
+      "bbox": [
+        523.0,
+        582.0,
+        632.0,
+        625.0
+      ],
+      "confidence": 84.22
+    },
+    {
+      "text": "Richard",
+      "bbox": [
+        487.0,
+        625.0,
+        586.0,
+        665.0
+      ],
+      "confidence": 90.95
+    },
+    {
+      "text": "ie",
+      "bbox": [
+        594.0,
+        624.0,
+        660.0,
+        666.0
+      ],
+      "confidence": 68.67
+    },
+    {
+      "text": "Precios",
+      "bbox": [
+        304.0,
+        785.0,
+        430.0,
+        833.0
+      ],
+      "confidence": 96.7
+    },
+    {
+      "text": "Statement",
+      "bbox": [
+        274.0,
+        826.0,
+        418.0,
+        871.0
+      ],
+      "confidence": 84.13
+    },
+    {
+      "text": "Cha",
+      "bbox": [
+        291.0,
+        873.0,
+        434.0,
+        923.0
+      ],
+      "confidence": 80.45
+    }
+  ],
+  "processing_time_ms": 98
+}

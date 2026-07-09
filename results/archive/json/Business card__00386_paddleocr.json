@@ -1,0 +1,68 @@
+{
+  "document_id": "Business card/00386",
+  "engine": "paddleocr",
+  "raw_text": "LGB BANK ت نانبل كنب جيلخلاو",
+  "tokens": [
+    {
+      "text": "LGB",
+      "bbox": [
+        979.0,
+        583.0,
+        1197.0,
+        676.0
+      ],
+      "confidence": 86.99
+    },
+    {
+      "text": "BANK",
+      "bbox": [
+        1215.0,
+        585.0,
+        1510.0,
+        674.0
+      ],
+      "confidence": 96.46
+    },
+    {
+      "text": "ت",
+      "bbox": [
+        847.0,
+        617.0,
+        932.0,
+        687.0
+      ],
+      "confidence": 51.49
+    },
+    {
+      "text": "نانبل",
+      "bbox": [
+        1223.0,
+        673.0,
+        1382.0,
+        743.0
+      ],
+      "confidence": 99.94
+    },
+    {
+      "text": "كنب",
+      "bbox": [
+        1391.0,
+        671.0,
+        1519.0,
+        737.0
+      ],
+      "confidence": 99.98
+    },
+    {
+      "text": "جيلخلاو",
+      "bbox": [
+        979.0,
+        673.0,
+        1219.0,
+        758.0
+      ],
+      "confidence": 98.94
+    }
+  ],
+  "processing_time_ms": 83
+}

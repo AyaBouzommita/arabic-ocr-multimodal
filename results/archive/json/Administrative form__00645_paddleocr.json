@@ -1,0 +1,28 @@
+{
+  "document_id": "Administrative form/00645",
+  "engine": "paddleocr",
+  "raw_text": "Students Grades",
+  "tokens": [
+    {
+      "text": "Students",
+      "bbox": [
+        333.0,
+        166.0,
+        401.0,
+        188.0
+      ],
+      "confidence": 97.14
+    },
+    {
+      "text": "Grades",
+      "bbox": [
+        400.0,
+        165.0,
+        455.0,
+        190.0
+      ],
+      "confidence": 90.7
+    }
+  ],
+  "processing_time_ms": 61
+}

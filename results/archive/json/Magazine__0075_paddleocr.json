@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/0075",
+  "engine": "paddleocr",
+  "raw_text": "روتاكيراك",
+  "tokens": [
+    {
+      "text": "روتاكيراك",
+      "bbox": [
+        1961.0,
+        987.0,
+        2167.0,
+        1040.0
+      ],
+      "confidence": 94.45
+    }
+  ],
+  "processing_time_ms": 228
+}

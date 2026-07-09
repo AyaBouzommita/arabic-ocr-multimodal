@@ -1,0 +1,58 @@
+{
+  "document_id": "Administrative form/00756",
+  "engine": "paddleocr",
+  "raw_text": "Reccipt of materials داومالتمسا رضحم ةبمكلا ةباب ",
+  "tokens": [
+    {
+      "text": "Reccipt of materials",
+      "bbox": [
+        1289.0,
+        878.0,
+        1804.0,
+        981.0
+      ],
+      "confidence": 98.71
+    },
+    {
+      "text": "داومالتمسا",
+      "bbox": [
+        1359.0,
+        962.0,
+        1577.0,
+        1008.0
+      ],
+      "confidence": 97.27
+    },
+    {
+      "text": "رضحم",
+      "bbox": [
+        1607.0,
+        979.0,
+        1717.0,
+        1025.0
+      ],
+      "confidence": 91.74
+    },
+    {
+      "text": "ةبمكلا",
+      "bbox": [
+        1474.0,
+        1300.0,
+        1555.0,
+        1329.0
+      ],
+      "confidence": 89.52
+    },
+    {
+      "text": "ةباب ",
+      "bbox": [
+        1244.0,
+        2850.0,
+        1304.0,
+        2879.0
+      ],
+      "confidence": 71.47
+    }
+  ],
+  "processing_time_ms": 306
+}

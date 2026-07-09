@@ -1,0 +1,38 @@
+{
+  "document_id": "Label/00404",
+  "engine": "paddleocr",
+  "raw_text": "ا رز ةماجيب وو",
+  "tokens": [
+    {
+      "text": "ا",
+      "bbox": [
+        565.0,
+        348.0,
+        1013.0,
+        785.0
+      ],
+      "confidence": 53.93
+    },
+    {
+      "text": "رز ةماجيب",
+      "bbox": [
+        827.0,
+        441.0,
+        1021.0,
+        597.0
+      ],
+      "confidence": 87.93
+    },
+    {
+      "text": "وو",
+      "bbox": [
+        770.0,
+        648.0,
+        840.0,
+        701.0
+      ],
+      "confidence": 80.63
+    }
+  ],
+  "processing_time_ms": 157
+}

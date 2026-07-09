@@ -1,0 +1,18 @@
+{
+  "document_id": "Handwritten text/0058",
+  "engine": "paddleocr",
+  "raw_text": "باجتساو",
+  "tokens": [
+    {
+      "text": "باجتساو",
+      "bbox": [
+        447.0,
+        730.0,
+        594.0,
+        876.0
+      ],
+      "confidence": 85.16
+    }
+  ],
+  "processing_time_ms": 54
+}

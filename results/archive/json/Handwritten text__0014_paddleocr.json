@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/0014",
+  "engine": "paddleocr",
+  "raw_text": "مويلا ةفخو ايلا  لا",
+  "tokens": [
+    {
+      "text": "مويلا ةفخو",
+      "bbox": [
+        1375.0,
+        632.0,
+        2106.0,
+        851.0
+      ],
+      "confidence": 90.81
+    },
+    {
+      "text": "ايلا ",
+      "bbox": [
+        822.0,
+        1046.0,
+        1449.0,
+        1304.0
+      ],
+      "confidence": 67.49
+    },
+    {
+      "text": "لا",
+      "bbox": [
+        1730.0,
+        1096.0,
+        1956.0,
+        1296.0
+      ],
+      "confidence": 77.57
+    }
+  ],
+  "processing_time_ms": 335
+}

@@ -1,0 +1,68 @@
+{
+  "document_id": "Administrative form/00765",
+  "engine": "paddleocr",
+  "raw_text": "Subject: Participatory I Assessment Social workers: Date: Co-facilitator:",
+  "tokens": [
+    {
+      "text": "Subject:",
+      "bbox": [
+        661.0,
+        557.0,
+        855.0,
+        623.0
+      ],
+      "confidence": 99.34
+    },
+    {
+      "text": "Participatory",
+      "bbox": [
+        849.0,
+        570.0,
+        1142.0,
+        627.0
+      ],
+      "confidence": 97.13
+    },
+    {
+      "text": "I Assessment",
+      "bbox": [
+        1120.0,
+        579.0,
+        1380.0,
+        631.0
+      ],
+      "confidence": 97.89
+    },
+    {
+      "text": "Social workers:",
+      "bbox": [
+        1937.0,
+        596.0,
+        2263.0,
+        661.0
+      ],
+      "confidence": 98.46
+    },
+    {
+      "text": "Date:",
+      "bbox": [
+        671.0,
+        686.0,
+        792.0,
+        733.0
+      ],
+      "confidence": 98.55
+    },
+    {
+      "text": "Co-facilitator:",
+      "bbox": [
+        1941.0,
+        707.0,
+        2226.0,
+        776.0
+      ],
+      "confidence": 96.38
+    }
+  ],
+  "processing_time_ms": 248
+}

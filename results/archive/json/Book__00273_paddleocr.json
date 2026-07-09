@@ -1,0 +1,18 @@
+{
+  "document_id": "Book/00273",
+  "engine": "paddleocr",
+  "raw_text": "بتعي",
+  "tokens": [
+    {
+      "text": "بتعي",
+      "bbox": [
+        1318.0,
+        1514.0,
+        1371.0,
+        1560.0
+      ],
+      "confidence": 94.74
+    }
+  ],
+  "processing_time_ms": 240
+}

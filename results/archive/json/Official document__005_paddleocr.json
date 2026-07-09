@@ -1,0 +1,118 @@
+{
+  "document_id": "Official document/005",
+  "engine": "paddleocr",
+  "raw_text": "ةيروسلا ةيبرعلا ةيروهمجلا SYRIAN ARAB REPUBLJQUR ARABB REPUBLIC SYRIRNNK رفس زاوج PASSPORT PASSEPORT",
+  "tokens": [
+    {
+      "text": "ةيروسلا",
+      "bbox": [
+        933.0,
+        455.0,
+        1346.0,
+        687.0
+      ],
+      "confidence": 98.9
+    },
+    {
+      "text": "ةيبرعلا",
+      "bbox": [
+        1301.0,
+        517.0,
+        1687.0,
+        774.0
+      ],
+      "confidence": 98.12
+    },
+    {
+      "text": "ةيروهمجلا",
+      "bbox": [
+        1618.0,
+        595.0,
+        2119.0,
+        868.0
+      ],
+      "confidence": 99.55
+    },
+    {
+      "text": "SYRIAN ARAB",
+      "bbox": [
+        1081.0,
+        699.0,
+        1531.0,
+        884.0
+      ],
+      "confidence": 96.71
+    },
+    {
+      "text": "REPUBLJQUR ARABB",
+      "bbox": [
+        957.0,
+        799.0,
+        1600.0,
+        1030.0
+      ],
+      "confidence": 85.9
+    },
+    {
+      "text": "REPUBLIC",
+      "bbox": [
+        1503.0,
+        791.0,
+        1864.0,
+        955.0
+      ],
+      "confidence": 86.16
+    },
+    {
+      "text": "SYRIRNNK",
+      "bbox": [
+        1580.0,
+        945.0,
+        1931.0,
+        1096.0
+      ],
+      "confidence": 91.59
+    },
+    {
+      "text": "رفس",
+      "bbox": [
+        971.0,
+        2083.0,
+        1159.0,
+        2221.0
+      ],
+      "confidence": 99.68
+    },
+    {
+      "text": "زاوج",
+      "bbox": [
+        1137.0,
+        2112.0,
+        1398.0,
+        2297.0
+      ],
+      "confidence": 99.87
+    },
+    {
+      "text": "PASSPORT",
+      "bbox": [
+        996.0,
+        2228.0,
+        1305.0,
+        2372.0
+      ],
+      "confidence": 98.31
+    },
+    {
+      "text": "PASSEPORT",
+      "bbox": [
+        958.0,
+        2316.0,
+        1305.0,
+        2468.0
+      ],
+      "confidence": 94.72
+    }
+  ],
+  "processing_time_ms": 298
+}

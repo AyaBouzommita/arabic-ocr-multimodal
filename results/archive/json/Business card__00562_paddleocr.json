@@ -1,0 +1,28 @@
+{
+  "document_id": "Business card/00562",
+  "engine": "paddleocr",
+  "raw_text": "يبأورلا ٧١٦١٣/١",
+  "tokens": [
+    {
+      "text": "يبأورلا",
+      "bbox": [
+        547.0,
+        502.0,
+        833.0,
+        674.0
+      ],
+      "confidence": 92.73
+    },
+    {
+      "text": "٧١٦١٣/١",
+      "bbox": [
+        656.0,
+        694.0,
+        820.0,
+        742.0
+      ],
+      "confidence": 98.05
+    }
+  ],
+  "processing_time_ms": 78
+}

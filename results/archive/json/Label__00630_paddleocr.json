@@ -1,0 +1,188 @@
+{
+  "document_id": "Label/00630",
+  "engine": "paddleocr",
+  "raw_text": "n٥Nutriti Facts ةيئاذغلا تاملعملا سوت MExICAN SALS ةيكيسكم ةصص م  DaherFood MDE N LEONE اماش Faceookm/MatorChip nagrm/Mer TORTILLA CHIPS ةرذلا قئاقر",
+  "tokens": [
+    {
+      "text": "n٥Nutriti",
+      "bbox": [
+        293.0,
+        399.0,
+        389.0,
+        421.0
+      ],
+      "confidence": 92.57
+    },
+    {
+      "text": "Facts",
+      "bbox": [
+        390.0,
+        399.0,
+        446.0,
+        417.0
+      ],
+      "confidence": 80.14
+    },
+    {
+      "text": "ةيئاذغلا تاملعملا",
+      "bbox": [
+        290.0,
+        413.0,
+        445.0,
+        436.0
+      ],
+      "confidence": 93.03
+    },
+    {
+      "text": "سوت",
+      "bbox": [
+        543.0,
+        427.0,
+        584.0,
+        440.0
+      ],
+      "confidence": 82.92
+    },
+    {
+      "text": "MExICAN",
+      "bbox": [
+        533.0,
+        600.0,
+        621.0,
+        624.0
+      ],
+      "confidence": 83.52
+    },
+    {
+      "text": "SALS",
+      "bbox": [
+        615.0,
+        597.0,
+        673.0,
+        619.0
+      ],
+      "confidence": 83.94
+    },
+    {
+      "text": "ةيكيسكم",
+      "bbox": [
+        538.0,
+        624.0,
+        621.0,
+        647.0
+      ],
+      "confidence": 95.86
+    },
+    {
+      "text": "ةصص",
+      "bbox": [
+        615.0,
+        620.0,
+        671.0,
+        642.0
+      ],
+      "confidence": 99.46
+    },
+    {
+      "text": "م ",
+      "bbox": [
+        559.0,
+        743.0,
+        581.0,
+        761.0
+      ],
+      "confidence": 67.95
+    },
+    {
+      "text": "DaherFood",
+      "bbox": [
+        578.0,
+        737.0,
+        675.0,
+        763.0
+      ],
+      "confidence": 95.35
+    },
+    {
+      "text": "MDE N LEONE",
+      "bbox": [
+        292.0,
+        933.0,
+        386.0,
+        955.0
+      ],
+      "confidence": 72.04
+    },
+    {
+      "text": "اماش",
+      "bbox": [
+        525.0,
+        988.0,
+        573.0,
+        1015.0
+      ],
+      "confidence": 63.23
+    },
+    {
+      "text": "Faceookm/MatorChip",
+      "bbox": [
+        567.0,
+        983.0,
+        702.0,
+        1000.0
+      ],
+      "confidence": 73.14
+    },
+    {
+      "text": "nagrm/Mer",
+      "bbox": [
+        574.0,
+        999.0,
+        702.0,
+        1016.0
+      ],
+      "confidence": 62.47
+    },
+    {
+      "text": "TORTILLA",
+      "bbox": [
+        559.0,
+        1047.0,
+        650.0,
+        1069.0
+      ],
+      "confidence": 96.56
+    },
+    {
+      "text": "CHIPS",
+      "bbox": [
+        648.0,
+        1045.0,
+        708.0,
+        1069.0
+      ],
+      "confidence": 80.4
+    },
+    {
+      "text": "ةرذلا",
+      "bbox": [
+        573.0,
+        1071.0,
+        629.0,
+        1100.0
+      ],
+      "confidence": 99.38
+    },
+    {
+      "text": "قئاقر",
+      "bbox": [
+        629.0,
+        1072.0,
+        694.0,
+        1101.0
+      ],
+      "confidence": 99.72
+    }
+  ],
+  "processing_time_ms": 175
+}

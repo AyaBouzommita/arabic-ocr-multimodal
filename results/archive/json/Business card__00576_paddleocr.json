@@ -1,0 +1,48 @@
+{
+  "document_id": "Business card/00576",
+  "engine": "paddleocr",
+  "raw_text": "IAMA ةماجح SALON MOUSTAK",
+  "tokens": [
+    {
+      "text": "IAMA",
+      "bbox": [
+        317.0,
+        271.0,
+        540.0,
+        373.0
+      ],
+      "confidence": 70.06
+    },
+    {
+      "text": "ةماجح",
+      "bbox": [
+        682.0,
+        390.0,
+        804.0,
+        441.0
+      ],
+      "confidence": 94.85
+    },
+    {
+      "text": "SALON",
+      "bbox": [
+        431.0,
+        501.0,
+        577.0,
+        539.0
+      ],
+      "confidence": 97.32
+    },
+    {
+      "text": "MOUSTAK",
+      "bbox": [
+        589.0,
+        495.0,
+        820.0,
+        536.0
+      ],
+      "confidence": 99.31
+    }
+  ],
+  "processing_time_ms": 73
+}

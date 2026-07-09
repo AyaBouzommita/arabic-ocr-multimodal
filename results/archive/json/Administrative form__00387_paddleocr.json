@@ -1,0 +1,38 @@
+{
+  "document_id": "Administrative form/00387",
+  "engine": "paddleocr",
+  "raw_text": ":ةردابملا مس روضح لودج :ةيرالا ",
+  "tokens": [
+    {
+      "text": ":ةردابملا مس",
+      "bbox": [
+        3160.0,
+        710.0,
+        3328.0,
+        757.0
+      ],
+      "confidence": 91.37
+    },
+    {
+      "text": "روضح لودج",
+      "bbox": [
+        1984.0,
+        762.0,
+        2182.0,
+        810.0
+      ],
+      "confidence": 93.98
+    },
+    {
+      "text": ":ةيرالا ",
+      "bbox": [
+        3232.0,
+        762.0,
+        3343.0,
+        815.0
+      ],
+      "confidence": 90.52
+    }
+  ],
+  "processing_time_ms": 325
+}

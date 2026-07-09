@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/0011",
+  "engine": "paddleocr",
+  "raw_text": "ةل مومو e ality",
+  "tokens": [
+    {
+      "text": "ةل",
+      "bbox": [
+        831.0,
+        1125.0,
+        1219.0,
+        1312.0
+      ],
+      "confidence": 99.61
+    },
+    {
+      "text": "مومو",
+      "bbox": [
+        477.0,
+        1170.0,
+        848.0,
+        1351.0
+      ],
+      "confidence": 62.94
+    },
+    {
+      "text": "e",
+      "bbox": [
+        1910.0,
+        1859.0,
+        2711.0,
+        2228.0
+      ],
+      "confidence": 87.46
+    },
+    {
+      "text": "ality",
+      "bbox": [
+        1811.0,
+        2258.0,
+        2233.0,
+        2496.0
+      ],
+      "confidence": 83.95
+    }
+  ],
+  "processing_time_ms": 275
+}

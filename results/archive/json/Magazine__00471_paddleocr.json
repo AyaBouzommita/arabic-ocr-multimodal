@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00471",
+  "engine": "paddleocr",
+  "raw_text": "لبا",
+  "tokens": [
+    {
+      "text": "لبا",
+      "bbox": [
+        238.0,
+        272.0,
+        263.0,
+        287.0
+      ],
+      "confidence": 58.99
+    }
+  ],
+  "processing_time_ms": 43
+}

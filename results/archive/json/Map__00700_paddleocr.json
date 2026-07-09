@@ -1,0 +1,108 @@
+{
+  "document_id": "Map/00700",
+  "engine": "paddleocr",
+  "raw_text": "امش ٥ Courriel  , spcomousj.edu.b  Tpie :,e1: 9611.421 000 Www.usj.edu.Ib 9611.421005 rvice  Liban,I 104 2020 Beyrouth هاتملاة Universite pour tous",
+  "tokens": [
+    {
+      "text": "امش ٥",
+      "bbox": [
+        776.0,
+        1400.0,
+        857.0,
+        1429.0
+      ],
+      "confidence": 76.39
+    },
+    {
+      "text": "Courriel",
+      "bbox": [
+        2840.0,
+        1572.0,
+        2994.0,
+        1644.0
+      ],
+      "confidence": 98.54
+    },
+    {
+      "text": " , spcomousj.edu.b",
+      "bbox": [
+        2506.0,
+        1588.0,
+        2846.0,
+        1708.0
+      ],
+      "confidence": 91.78
+    },
+    {
+      "text": " Tpie :,e1: 9611.421 000",
+      "bbox": [
+        2601.0,
+        1614.0,
+        2999.0,
+        1732.0
+      ],
+      "confidence": 73.57
+    },
+    {
+      "text": "Www.usj.edu.Ib",
+      "bbox": [
+        2119.0,
+        1681.0,
+        2364.0,
+        1774.0
+      ],
+      "confidence": 86.1
+    },
+    {
+      "text": "9611.421005",
+      "bbox": [
+        2387.0,
+        1681.0,
+        2619.0,
+        1765.0
+      ],
+      "confidence": 82.87
+    },
+    {
+      "text": "rvice",
+      "bbox": [
+        2883.0,
+        1711.0,
+        2989.0,
+        1764.0
+      ],
+      "confidence": 83.43
+    },
+    {
+      "text": " Liban,I 104 2020 Beyrouth",
+      "bbox": [
+        1957.0,
+        1768.0,
+        2351.0,
+        1882.0
+      ],
+      "confidence": 89.88
+    },
+    {
+      "text": "هاتملاة",
+      "bbox": [
+        724.0,
+        1946.0,
+        822.0,
+        1975.0
+      ],
+      "confidence": 89.31
+    },
+    {
+      "text": "Universite pour tous",
+      "bbox": [
+        2696.0,
+        2190.0,
+        2976.0,
+        2255.0
+      ],
+      "confidence": 90.67
+    }
+  ],
+  "processing_time_ms": 301
+}

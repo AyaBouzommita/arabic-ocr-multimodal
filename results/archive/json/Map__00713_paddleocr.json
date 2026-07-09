@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/00713",
+  "engine": "paddleocr",
+  "raw_text": "يراَضَحلا قرْشلا",
+  "tokens": [
+    {
+      "text": "يراَضَحلا قرْشلا",
+      "bbox": [
+        1592.0,
+        2224.0,
+        1898.0,
+        2314.0
+      ],
+      "confidence": 73.12
+    }
+  ],
+  "processing_time_ms": 275
+}

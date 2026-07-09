@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/00427",
+  "engine": "paddleocr",
+  "raw_text": "الإ هم ١١ ٧٧",
+  "tokens": [
+    {
+      "text": "الإ",
+      "bbox": [
+        501.0,
+        449.0,
+        998.0,
+        571.0
+      ],
+      "confidence": 69.36
+    },
+    {
+      "text": "هم",
+      "bbox": [
+        298.0,
+        473.0,
+        487.0,
+        568.0
+      ],
+      "confidence": 70.61
+    },
+    {
+      "text": "١١",
+      "bbox": [
+        1110.0,
+        898.0,
+        1140.0,
+        972.0
+      ],
+      "confidence": 66.1
+    },
+    {
+      "text": "٧٧",
+      "bbox": [
+        1097.0,
+        953.0,
+        1144.0,
+        1245.0
+      ],
+      "confidence": 71.81
+    }
+  ],
+  "processing_time_ms": 102
+}

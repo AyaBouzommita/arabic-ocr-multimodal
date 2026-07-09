@@ -1,0 +1,38 @@
+{
+  "document_id": "Magazine/00206",
+  "engine": "paddleocr",
+  "raw_text": "دلك  ليجلا زاتمم",
+  "tokens": [
+    {
+      "text": "دلك ",
+      "bbox": [
+        153.0,
+        144.0,
+        223.0,
+        216.0
+      ],
+      "confidence": 67.6
+    },
+    {
+      "text": "ليجلا",
+      "bbox": [
+        236.0,
+        143.0,
+        640.0,
+        373.0
+      ],
+      "confidence": 76.89
+    },
+    {
+      "text": "زاتمم",
+      "bbox": [
+        82.0,
+        199.0,
+        181.0,
+        288.0
+      ],
+      "confidence": 99.9
+    }
+  ],
+  "processing_time_ms": 61
+}

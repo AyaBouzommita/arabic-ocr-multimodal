@@ -1,0 +1,1008 @@
+{
+  "document_id": "Official document/00275",
+  "engine": "paddleocr",
+  "raw_text": "قيفر ىفشتسم يعماجلا يريرحلا HOSPITAL MEDICAL LAB RAFIK يبطلا ربتخملا HARIRI UNIVERSITYI RHUH Name: Medical Number: 1704307 Guarantor: Referring RHUH OD PATIENTS Physician: External Doctor g Sex: Test Result Unit Reference Value Molecular e SARS-CO-2 RTPR Method Time RT-PCR nstrument١ B 50 Sample y Collection Dae 5//202 Report Date 5//202 Egene Not Detected Interpretation Not detected indicates ha SARS-CoVZ RA is either not present in the Specimen concentration below the ssay ower limit of detection. This esumay ythe tage fthe h qualityof the esting Repeat est if deemed necessary fter 2 h5. Reviewed d e-Signed B MS-HMIS ىعماجلا يريرحلا قيفر ىفشنس  ربسلا رئا د ستلر روتكدلا NU ٩٧٢/ ةباقنلا مفر ماج يريرحتلا وفورظش يبطلا ربتخملا ٤١٢ ماع ٩٧٢ مقررارق HUH 0Eii :سكاف فشام ١٦٩ ٣٨ نسح رنب تورب نانبل Coe:LD-R-101",
+  "tokens": [
+    {
+      "text": "قيفر",
+      "bbox": [
+        489.0,
+        95.0,
+        542.0,
+        128.0
+      ],
+      "confidence": 99.63
+    },
+    {
+      "text": "ىفشتسم",
+      "bbox": [
+        541.0,
+        75.0,
+        650.0,
+        126.0
+      ],
+      "confidence": 96.88
+    },
+    {
+      "text": "يعماجلا",
+      "bbox": [
+        284.0,
+        98.0,
+        382.0,
+        132.0
+      ],
+      "confidence": 98.95
+    },
+    {
+      "text": "يريرحلا",
+      "bbox": [
+        384.0,
+        96.0,
+        485.0,
+        136.0
+      ],
+      "confidence": 99.74
+    },
+    {
+      "text": "HOSPITAL",
+      "bbox": [
+        545.0,
+        114.0,
+        648.0,
+        154.0
+      ],
+      "confidence": 93.0
+    },
+    {
+      "text": "MEDICAL",
+      "bbox": [
+        768.0,
+        118.0,
+        871.0,
+        147.0
+      ],
+      "confidence": 90.97
+    },
+    {
+      "text": "LAB",
+      "bbox": [
+        876.0,
+        115.0,
+        927.0,
+        153.0
+      ],
+      "confidence": 73.91
+    },
+    {
+      "text": "RAFIK",
+      "bbox": [
+        283.0,
+        133.0,
+        346.0,
+        158.0
+      ],
+      "confidence": 90.59
+    },
+    {
+      "text": "يبطلا",
+      "bbox": [
+        932.0,
+        109.0,
+        1009.0,
+        163.0
+      ],
+      "confidence": 99.85
+    },
+    {
+      "text": "ربتخملا",
+      "bbox": [
+        1007.0,
+        118.0,
+        1083.0,
+        156.0
+      ],
+      "confidence": 89.06
+    },
+    {
+      "text": "HARIRI",
+      "bbox": [
+        353.0,
+        137.0,
+        421.0,
+        160.0
+      ],
+      "confidence": 84.13
+    },
+    {
+      "text": "UNIVERSITYI",
+      "bbox": [
+        426.0,
+        130.0,
+        558.0,
+        159.0
+      ],
+      "confidence": 86.31
+    },
+    {
+      "text": "RHUH",
+      "bbox": [
+        156.0,
+        158.0,
+        262.0,
+        201.0
+      ],
+      "confidence": 98.04
+    },
+    {
+      "text": "Name:",
+      "bbox": [
+        147.0,
+        206.0,
+        217.0,
+        236.0
+      ],
+      "confidence": 96.95
+    },
+    {
+      "text": "Medical",
+      "bbox": [
+        147.0,
+        229.0,
+        224.0,
+        261.0
+      ],
+      "confidence": 99.52
+    },
+    {
+      "text": "Number:",
+      "bbox": [
+        221.0,
+        238.0,
+        307.0,
+        264.0
+      ],
+      "confidence": 99.53
+    },
+    {
+      "text": "1704307",
+      "bbox": [
+        311.0,
+        241.0,
+        382.0,
+        269.0
+      ],
+      "confidence": 88.41
+    },
+    {
+      "text": "Guarantor:",
+      "bbox": [
+        618.0,
+        238.0,
+        725.0,
+        271.0
+      ],
+      "confidence": 97.03
+    },
+    {
+      "text": "Referring",
+      "bbox": [
+        146.0,
+        252.0,
+        240.0,
+        287.0
+      ],
+      "confidence": 85.65
+    },
+    {
+      "text": "RHUH",
+      "bbox": [
+        724.0,
+        245.0,
+        786.0,
+        263.0
+      ],
+      "confidence": 96.65
+    },
+    {
+      "text": "OD",
+      "bbox": [
+        782.0,
+        245.0,
+        825.0,
+        263.0
+      ],
+      "confidence": 83.17
+    },
+    {
+      "text": "PATIENTS",
+      "bbox": [
+        828.0,
+        247.0,
+        914.0,
+        265.0
+      ],
+      "confidence": 95.47
+    },
+    {
+      "text": "Physician: External Doctor",
+      "bbox": [
+        237.0,
+        263.0,
+        462.0,
+        297.0
+      ],
+      "confidence": 85.63
+    },
+    {
+      "text": "g",
+      "bbox": [
+        618.0,
+        265.0,
+        689.0,
+        294.0
+      ],
+      "confidence": 73.38
+    },
+    {
+      "text": "Sex:",
+      "bbox": [
+        728.0,
+        272.0,
+        770.0,
+        290.0
+      ],
+      "confidence": 88.73
+    },
+    {
+      "text": "Test",
+      "bbox": [
+        286.0,
+        294.0,
+        330.0,
+        319.0
+      ],
+      "confidence": 80.36
+    },
+    {
+      "text": "Result",
+      "bbox": [
+        553.0,
+        289.0,
+        618.0,
+        321.0
+      ],
+      "confidence": 90.97
+    },
+    {
+      "text": "Unit",
+      "bbox": [
+        730.0,
+        298.0,
+        772.0,
+        318.0
+      ],
+      "confidence": 91.54
+    },
+    {
+      "text": "Reference",
+      "bbox": [
+        864.0,
+        296.0,
+        960.0,
+        322.0
+      ],
+      "confidence": 97.84
+    },
+    {
+      "text": "Value",
+      "bbox": [
+        961.0,
+        300.0,
+        1015.0,
+        322.0
+      ],
+      "confidence": 79.78
+    },
+    {
+      "text": "Molecular",
+      "bbox": [
+        554.0,
+        411.0,
+        668.0,
+        439.0
+      ],
+      "confidence": 98.95
+    },
+    {
+      "text": "e",
+      "bbox": [
+        144.0,
+        456.0,
+        189.0,
+        481.0
+      ],
+      "confidence": 52.57
+    },
+    {
+      "text": "SARS-CO-2 RTPR",
+      "bbox": [
+        469.0,
+        475.0,
+        643.0,
+        500.0
+      ],
+      "confidence": 72.22
+    },
+    {
+      "text": "Method",
+      "bbox": [
+        141.0,
+        488.0,
+        214.0,
+        517.0
+      ],
+      "confidence": 98.62
+    },
+    {
+      "text": "Time RT-PCR",
+      "bbox": [
+        509.0,
+        510.0,
+        622.0,
+        537.0
+      ],
+      "confidence": 78.89
+    },
+    {
+      "text": "nstrument١",
+      "bbox": [
+        137.0,
+        524.0,
+        238.0,
+        554.0
+      ],
+      "confidence": 86.38
+    },
+    {
+      "text": "B",
+      "bbox": [
+        470.0,
+        548.0,
+        508.0,
+        567.0
+      ],
+      "confidence": 59.53
+    },
+    {
+      "text": "50",
+      "bbox": [
+        506.0,
+        548.0,
+        545.0,
+        568.0
+      ],
+      "confidence": 75.85
+    },
+    {
+      "text": "Sample",
+      "bbox": [
+        137.0,
+        558.0,
+        204.0,
+        587.0
+      ],
+      "confidence": 92.96
+    },
+    {
+      "text": "y",
+      "bbox": [
+        210.0,
+        568.0,
+        249.0,
+        588.0
+      ],
+      "confidence": 85.25
+    },
+    {
+      "text": "Collection",
+      "bbox": [
+        137.0,
+        593.0,
+        233.0,
+        622.0
+      ],
+      "confidence": 97.71
+    },
+    {
+      "text": "Dae",
+      "bbox": [
+        231.0,
+        599.0,
+        277.0,
+        626.0
+      ],
+      "confidence": 84.91
+    },
+    {
+      "text": "5//202",
+      "bbox": [
+        465.0,
+        611.0,
+        554.0,
+        639.0
+      ],
+      "confidence": 61.98
+    },
+    {
+      "text": "Report Date",
+      "bbox": [
+        136.0,
+        630.0,
+        248.0,
+        659.0
+      ],
+      "confidence": 71.69
+    },
+    {
+      "text": "5//202",
+      "bbox": [
+        465.0,
+        643.0,
+        551.0,
+        672.0
+      ],
+      "confidence": 81.38
+    },
+    {
+      "text": "Egene",
+      "bbox": [
+        134.0,
+        664.0,
+        197.0,
+        696.0
+      ],
+      "confidence": 81.17
+    },
+    {
+      "text": "Not Detected",
+      "bbox": [
+        462.0,
+        680.0,
+        580.0,
+        707.0
+      ],
+      "confidence": 85.97
+    },
+    {
+      "text": "Interpretation",
+      "bbox": [
+        132.0,
+        699.0,
+        258.0,
+        734.0
+      ],
+      "confidence": 96.53
+    },
+    {
+      "text": "Not detected indicates",
+      "bbox": [
+        462.0,
+        713.0,
+        650.0,
+        742.0
+      ],
+      "confidence": 95.72
+    },
+    {
+      "text": "ha",
+      "bbox": [
+        653.0,
+        723.0,
+        687.0,
+        737.0
+      ],
+      "confidence": 68.89
+    },
+    {
+      "text": "SARS-CoVZ",
+      "bbox": [
+        690.0,
+        722.0,
+        791.0,
+        738.0
+      ],
+      "confidence": 81.99
+    },
+    {
+      "text": "RA is either not present in the",
+      "bbox": [
+        791.0,
+        718.0,
+        1069.0,
+        743.0
+      ],
+      "confidence": 83.6
+    },
+    {
+      "text": "Specimen",
+      "bbox": [
+        467.0,
+        742.0,
+        544.0,
+        753.0
+      ],
+      "confidence": 88.89
+    },
+    {
+      "text": "concentration",
+      "bbox": [
+        673.0,
+        743.0,
+        808.0,
+        760.0
+      ],
+      "confidence": 92.07
+    },
+    {
+      "text": "below the",
+      "bbox": [
+        805.0,
+        743.0,
+        890.0,
+        760.0
+      ],
+      "confidence": 91.2
+    },
+    {
+      "text": "ssay",
+      "bbox": [
+        891.0,
+        745.0,
+        944.0,
+        762.0
+      ],
+      "confidence": 80.06
+    },
+    {
+      "text": "ower limit of",
+      "bbox": [
+        939.0,
+        743.0,
+        1062.0,
+        760.0
+      ],
+      "confidence": 89.61
+    },
+    {
+      "text": "detection.",
+      "bbox": [
+        465.0,
+        757.0,
+        547.0,
+        773.0
+      ],
+      "confidence": 96.28
+    },
+    {
+      "text": "This",
+      "bbox": [
+        551.0,
+        754.0,
+        591.0,
+        777.0
+      ],
+      "confidence": 95.24
+    },
+    {
+      "text": "esumay",
+      "bbox": [
+        585.0,
+        760.0,
+        678.0,
+        777.0
+      ],
+      "confidence": 73.06
+    },
+    {
+      "text": "ythe",
+      "bbox": [
+        793.0,
+        762.0,
+        849.0,
+        778.0
+      ],
+      "confidence": 98.06
+    },
+    {
+      "text": "tage",
+      "bbox": [
+        851.0,
+        762.0,
+        897.0,
+        778.0
+      ],
+      "confidence": 78.85
+    },
+    {
+      "text": "fthe",
+      "bbox": [
+        903.0,
+        763.0,
+        955.0,
+        775.0
+      ],
+      "confidence": 87.45
+    },
+    {
+      "text": "h qualityof the",
+      "bbox": [
+        464.0,
+        773.0,
+        604.0,
+        793.0
+      ],
+      "confidence": 84.58
+    },
+    {
+      "text": "esting",
+      "bbox": [
+        790.0,
+        774.0,
+        860.0,
+        799.0
+      ],
+      "confidence": 96.89
+    },
+    {
+      "text": "Repeat",
+      "bbox": [
+        461.0,
+        789.0,
+        529.0,
+        814.0
+      ],
+      "confidence": 95.95
+    },
+    {
+      "text": "est if deemed necessary",
+      "bbox": [
+        520.0,
+        793.0,
+        728.0,
+        813.0
+      ],
+      "confidence": 85.37
+    },
+    {
+      "text": "fter",
+      "bbox": [
+        731.0,
+        798.0,
+        774.0,
+        813.0
+      ],
+      "confidence": 78.8
+    },
+    {
+      "text": "2 h5.",
+      "bbox": [
+        770.0,
+        793.0,
+        836.0,
+        814.0
+      ],
+      "confidence": 70.46
+    },
+    {
+      "text": "Reviewed",
+      "bbox": [
+        780.0,
+        1016.0,
+        880.0,
+        1044.0
+      ],
+      "confidence": 98.92
+    },
+    {
+      "text": "d",
+      "bbox": [
+        883.0,
+        1022.0,
+        924.0,
+        1042.0
+      ],
+      "confidence": 52.16
+    },
+    {
+      "text": "e-Signed",
+      "bbox": [
+        926.0,
+        1022.0,
+        1021.0,
+        1045.0
+      ],
+      "confidence": 97.55
+    },
+    {
+      "text": "B",
+      "bbox": [
+        1014.0,
+        1025.0,
+        1047.0,
+        1045.0
+      ],
+      "confidence": 68.75
+    },
+    {
+      "text": "MS-HMIS",
+      "bbox": [
+        66.0,
+        1096.0,
+        186.0,
+        1124.0
+      ],
+      "confidence": 94.48
+    },
+    {
+      "text": "ىعماجلا",
+      "bbox": [
+        810.0,
+        1118.0,
+        852.0,
+        1137.0
+      ],
+      "confidence": 83.65
+    },
+    {
+      "text": "يريرحلا قيفر ىفشنس",
+      "bbox": [
+        857.0,
+        1109.0,
+        984.0,
+        1142.0
+      ],
+      "confidence": 86.14
+    },
+    {
+      "text": " ربسلا رئا د ستلر",
+      "bbox": [
+        855.0,
+        1130.0,
+        984.0,
+        1159.0
+      ],
+      "confidence": 67.37
+    },
+    {
+      "text": "روتكدلا",
+      "bbox": [
+        910.0,
+        1153.0,
+        983.0,
+        1179.0
+      ],
+      "confidence": 93.31
+    },
+    {
+      "text": "NU",
+      "bbox": [
+        1007.0,
+        1167.0,
+        1053.0,
+        1183.0
+      ],
+      "confidence": 69.48
+    },
+    {
+      "text": "٩٧٢/",
+      "bbox": [
+        834.0,
+        1180.0,
+        900.0,
+        1197.0
+      ],
+      "confidence": 88.05
+    },
+    {
+      "text": "ةباقنلا",
+      "bbox": [
+        902.0,
+        1178.0,
+        958.0,
+        1195.0
+      ],
+      "confidence": 93.14
+    },
+    {
+      "text": "مفر",
+      "bbox": [
+        955.0,
+        1180.0,
+        990.0,
+        1193.0
+      ],
+      "confidence": 99.63
+    },
+    {
+      "text": "ماج",
+      "bbox": [
+        419.0,
+        1300.0,
+        455.0,
+        1313.0
+      ],
+      "confidence": 72.3
+    },
+    {
+      "text": "يريرحتلا وفورظش",
+      "bbox": [
+        463.0,
+        1290.0,
+        590.0,
+        1320.0
+      ],
+      "confidence": 71.51
+    },
+    {
+      "text": "يبطلا",
+      "bbox": [
+        441.0,
+        1318.0,
+        507.0,
+        1361.0
+      ],
+      "confidence": 93.82
+    },
+    {
+      "text": "ربتخملا",
+      "bbox": [
+        503.0,
+        1313.0,
+        578.0,
+        1355.0
+      ],
+      "confidence": 92.65
+    },
+    {
+      "text": "٤١٢ ماع",
+      "bbox": [
+        406.0,
+        1360.0,
+        477.0,
+        1378.0
+      ],
+      "confidence": 79.26
+    },
+    {
+      "text": "٩٧٢",
+      "bbox": [
+        486.0,
+        1358.0,
+        528.0,
+        1377.0
+      ],
+      "confidence": 82.03
+    },
+    {
+      "text": "مقررارق",
+      "bbox": [
+        530.0,
+        1351.0,
+        595.0,
+        1379.0
+      ],
+      "confidence": 92.11
+    },
+    {
+      "text": "HUH",
+      "bbox": [
+        603.0,
+        1352.0,
+        651.0,
+        1370.0
+      ],
+      "confidence": 67.37
+    },
+    {
+      "text": "0Eii",
+      "bbox": [
+        92.0,
+        1515.0,
+        193.0,
+        1538.0
+      ],
+      "confidence": 70.04
+    },
+    {
+      "text": ":سكاف",
+      "bbox": [
+        522.0,
+        1505.0,
+        579.0,
+        1540.0
+      ],
+      "confidence": 91.32
+    },
+    {
+      "text": "فشام",
+      "bbox": [
+        585.0,
+        1507.0,
+        627.0,
+        1538.0
+      ],
+      "confidence": 89.33
+    },
+    {
+      "text": "١٦٩",
+      "bbox": [
+        374.0,
+        1514.0,
+        432.0,
+        1542.0
+      ],
+      "confidence": 96.29
+    },
+    {
+      "text": "٣٨",
+      "bbox": [
+        455.0,
+        1518.0,
+        527.0,
+        1537.0
+      ],
+      "confidence": 98.86
+    },
+    {
+      "text": "نسح",
+      "bbox": [
+        638.0,
+        1523.0,
+        680.0,
+        1542.0
+      ],
+      "confidence": 99.91
+    },
+    {
+      "text": "رنب",
+      "bbox": [
+        685.0,
+        1525.0,
+        712.0,
+        1545.0
+      ],
+      "confidence": 97.8
+    },
+    {
+      "text": "تورب",
+      "bbox": [
+        718.0,
+        1523.0,
+        780.0,
+        1552.0
+      ],
+      "confidence": 84.8
+    },
+    {
+      "text": "نانبل",
+      "bbox": [
+        791.0,
+        1527.0,
+        832.0,
+        1552.0
+      ],
+      "confidence": 92.56
+    },
+    {
+      "text": "Coe:LD-R-101",
+      "bbox": [
+        1046.0,
+        1531.0,
+        1187.0,
+        1559.0
+      ],
+      "confidence": 82.62
+    }
+  ],
+  "processing_time_ms": 664
+}

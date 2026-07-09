@@ -1,0 +1,28 @@
+{
+  "document_id": "Business card/00229",
+  "engine": "paddleocr",
+  "raw_text": "Notre-Dame du Puits بيلصلا تابهار ةّيعمجل",
+  "tokens": [
+    {
+      "text": "Notre-Dame du Puits",
+      "bbox": [
+        1163.0,
+        1951.0,
+        1552.0,
+        2151.0
+      ],
+      "confidence": 94.71
+    },
+    {
+      "text": "بيلصلا تابهار ةّيعمجل",
+      "bbox": [
+        1135.0,
+        2060.0,
+        1517.0,
+        2246.0
+      ],
+      "confidence": 89.86
+    }
+  ],
+  "processing_time_ms": 308
+}

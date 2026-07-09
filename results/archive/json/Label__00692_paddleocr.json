@@ -1,0 +1,68 @@
+{
+  "document_id": "Label/00692",
+  "engine": "paddleocr",
+  "raw_text": "ie رسكين و تالا وكس Biscolata Siscolata  D",
+  "tokens": [
+    {
+      "text": " ",
+      "bbox": [
+        319.0,
+        19.0,
+        373.0,
+        30.0
+      ],
+      "confidence": 56.25
+    },
+    {
+      "text": "ie",
+      "bbox": [
+        358.0,
+        58.0,
+        481.0,
+        139.0
+      ],
+      "confidence": 58.35
+    },
+    {
+      "text": "رسكين و تالا وكس",
+      "bbox": [
+        355.0,
+        309.0,
+        447.0,
+        325.0
+      ],
+      "confidence": 70.75
+    },
+    {
+      "text": "Biscolata",
+      "bbox": [
+        385.0,
+        420.0,
+        524.0,
+        491.0
+      ],
+      "confidence": 92.6
+    },
+    {
+      "text": "Siscolata ",
+      "bbox": [
+        76.0,
+        472.0,
+        239.0,
+        514.0
+      ],
+      "confidence": 82.96
+    },
+    {
+      "text": "D",
+      "bbox": [
+        105.0,
+        505.0,
+        176.0,
+        530.0
+      ],
+      "confidence": 69.37
+    }
+  ],
+  "processing_time_ms": 122
+}

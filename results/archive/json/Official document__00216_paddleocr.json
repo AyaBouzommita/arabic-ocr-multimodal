@@ -1,0 +1,448 @@
+{
+  "document_id": "Official document/00216",
+  "engine": "paddleocr",
+  "raw_text": "American University هر Th Beirut توريب ةيكريمألا ةعماجلا Regional External Programs ةيميلقإإلا ةيجراخلا جماربلا Continuing Education Center رمتسحلا ميلعتلا زكرب Certifies ha نا رين has satisfied the requirements for the يف يميلعت ةواهش حاجنب َُمأ دق Education ةطسوتملا Middle School ةلحرملا Teaching Certificate Awarded  Bein Le6anon  h  ,ay of May 019 Director Cotiig Eation Center Regioal Extera Programs",
+  "tokens": [
+    {
+      "text": "American",
+      "bbox": [
+        269.0,
+        70.0,
+        360.0,
+        96.0
+      ],
+      "confidence": 99.46
+    },
+    {
+      "text": "University",
+      "bbox": [
+        365.0,
+        66.0,
+        473.0,
+        101.0
+      ],
+      "confidence": 98.01
+    },
+    {
+      "text": "هر",
+      "bbox": [
+        468.0,
+        64.0,
+        512.0,
+        109.0
+      ],
+      "confidence": 68.46
+    },
+    {
+      "text": "Th",
+      "bbox": [
+        232.0,
+        75.0,
+        265.0,
+        97.0
+      ],
+      "confidence": 82.92
+    },
+    {
+      "text": "Beirut",
+      "bbox": [
+        498.0,
+        73.0,
+        566.0,
+        107.0
+      ],
+      "confidence": 91.81
+    },
+    {
+      "text": "توريب",
+      "bbox": [
+        757.0,
+        77.0,
+        831.0,
+        111.0
+      ],
+      "confidence": 98.43
+    },
+    {
+      "text": "ةيكريمألا",
+      "bbox": [
+        850.0,
+        64.0,
+        952.0,
+        112.0
+      ],
+      "confidence": 87.16
+    },
+    {
+      "text": "ةعماجلا",
+      "bbox": [
+        947.0,
+        71.0,
+        1014.0,
+        112.0
+      ],
+      "confidence": 87.57
+    },
+    {
+      "text": "Regional",
+      "bbox": [
+        266.0,
+        121.0,
+        347.0,
+        151.0
+      ],
+      "confidence": 96.1
+    },
+    {
+      "text": "External",
+      "bbox": [
+        344.0,
+        123.0,
+        436.0,
+        147.0
+      ],
+      "confidence": 93.06
+    },
+    {
+      "text": "Programs",
+      "bbox": [
+        435.0,
+        122.0,
+        529.0,
+        158.0
+      ],
+      "confidence": 99.12
+    },
+    {
+      "text": "ةيميلقإإلا",
+      "bbox": [
+        761.0,
+        129.0,
+        862.0,
+        173.0
+      ],
+      "confidence": 92.33
+    },
+    {
+      "text": "ةيجراخلا",
+      "bbox": [
+        861.0,
+        129.0,
+        943.0,
+        173.0
+      ],
+      "confidence": 92.51
+    },
+    {
+      "text": "جماربلا",
+      "bbox": [
+        941.0,
+        132.0,
+        1011.0,
+        172.0
+      ],
+      "confidence": 93.74
+    },
+    {
+      "text": "Continuing",
+      "bbox": [
+        271.0,
+        189.0,
+        368.0,
+        212.0
+      ],
+      "confidence": 99.96
+    },
+    {
+      "text": "Education",
+      "bbox": [
+        371.0,
+        185.0,
+        463.0,
+        209.0
+      ],
+      "confidence": 95.26
+    },
+    {
+      "text": "Center",
+      "bbox": [
+        466.0,
+        186.0,
+        526.0,
+        215.0
+      ],
+      "confidence": 93.91
+    },
+    {
+      "text": "رمتسحلا",
+      "bbox": [
+        788.0,
+        189.0,
+        867.0,
+        227.0
+      ],
+      "confidence": 84.8
+    },
+    {
+      "text": "ميلعتلا",
+      "bbox": [
+        867.0,
+        186.0,
+        946.0,
+        227.0
+      ],
+      "confidence": 87.73
+    },
+    {
+      "text": "زكرب",
+      "bbox": [
+        940.0,
+        191.0,
+        985.0,
+        224.0
+      ],
+      "confidence": 80.74
+    },
+    {
+      "text": "Certifies",
+      "bbox": [
+        344.0,
+        261.0,
+        413.0,
+        285.0
+      ],
+      "confidence": 99.41
+    },
+    {
+      "text": "ha",
+      "bbox": [
+        417.0,
+        265.0,
+        451.0,
+        281.0
+      ],
+      "confidence": 89.77
+    },
+    {
+      "text": "نا رين",
+      "bbox": [
+        855.0,
+        256.0,
+        929.0,
+        296.0
+      ],
+      "confidence": 77.29
+    },
+    {
+      "text": "has satisfied the",
+      "bbox": [
+        249.0,
+        371.0,
+        379.0,
+        396.0
+      ],
+      "confidence": 94.94
+    },
+    {
+      "text": "requirements for the",
+      "bbox": [
+        381.0,
+        369.0,
+        540.0,
+        396.0
+      ],
+      "confidence": 92.55
+    },
+    {
+      "text": "يف يميلعت ةواهش",
+      "bbox": [
+        777.0,
+        365.0,
+        913.0,
+        398.0
+      ],
+      "confidence": 86.92
+    },
+    {
+      "text": "حاجنب َُمأ دق",
+      "bbox": [
+        910.0,
+        357.0,
+        1011.0,
+        400.0
+      ],
+      "confidence": 71.01
+    },
+    {
+      "text": "Education",
+      "bbox": [
+        528.0,
+        418.0,
+        613.0,
+        442.0
+      ],
+      "confidence": 94.85
+    },
+    {
+      "text": "ةطسوتملا",
+      "bbox": [
+        810.0,
+        410.0,
+        904.0,
+        446.0
+      ],
+      "confidence": 89.13
+    },
+    {
+      "text": "Middle",
+      "bbox": [
+        385.0,
+        421.0,
+        457.0,
+        443.0
+      ],
+      "confidence": 83.13
+    },
+    {
+      "text": "School",
+      "bbox": [
+        461.0,
+        420.0,
+        525.0,
+        443.0
+      ],
+      "confidence": 85.8
+    },
+    {
+      "text": "ةلحرملا",
+      "bbox": [
+        905.0,
+        412.0,
+        979.0,
+        445.0
+      ],
+      "confidence": 99.75
+    },
+    {
+      "text": "Teaching",
+      "bbox": [
+        165.0,
+        424.0,
+        252.0,
+        451.0
+      ],
+      "confidence": 93.37
+    },
+    {
+      "text": "Certificate",
+      "bbox": [
+        255.0,
+        424.0,
+        357.0,
+        447.0
+      ],
+      "confidence": 97.06
+    },
+    {
+      "text": "Awarded ",
+      "bbox": [
+        204.0,
+        525.0,
+        281.0,
+        544.0
+      ],
+      "confidence": 93.2
+    },
+    {
+      "text": "Bein",
+      "bbox": [
+        279.0,
+        525.0,
+        324.0,
+        544.0
+      ],
+      "confidence": 78.31
+    },
+    {
+      "text": "Le6anon",
+      "bbox": [
+        331.0,
+        524.0,
+        391.0,
+        543.0
+      ],
+      "confidence": 87.31
+    },
+    {
+      "text": " h ",
+      "bbox": [
+        393.0,
+        520.0,
+        472.0,
+        543.0
+      ],
+      "confidence": 60.0
+    },
+    {
+      "text": ",ay of May",
+      "bbox": [
+        466.0,
+        516.0,
+        550.0,
+        542.0
+      ],
+      "confidence": 78.77
+    },
+    {
+      "text": "019",
+      "bbox": [
+        551.0,
+        518.0,
+        581.0,
+        533.0
+      ],
+      "confidence": 74.94
+    },
+    {
+      "text": "Director",
+      "bbox": [
+        236.0,
+        616.0,
+        287.0,
+        638.0
+      ],
+      "confidence": 95.56
+    },
+    {
+      "text": "Cotiig",
+      "bbox": [
+        177.0,
+        647.0,
+        243.0,
+        662.0
+      ],
+      "confidence": 89.65
+    },
+    {
+      "text": "Eation Center",
+      "bbox": [
+        234.0,
+        646.0,
+        339.0,
+        666.0
+      ],
+      "confidence": 80.52
+    },
+    {
+      "text": "Regioal Extera Programs",
+      "bbox": [
+        443.0,
+        632.0,
+        602.0,
+        665.0
+      ],
+      "confidence": 83.09
+    }
+  ],
+  "processing_time_ms": 303
+}

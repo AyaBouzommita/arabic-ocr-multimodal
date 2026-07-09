@@ -1,0 +1,38 @@
+{
+  "document_id": "Newspaper/00418",
+  "engine": "paddleocr",
+  "raw_text": "L ةضيالا ةكشلا لولح ايدومع",
+  "tokens": [
+    {
+      "text": "L",
+      "bbox": [
+        637.0,
+        29.0,
+        676.0,
+        55.0
+      ],
+      "confidence": 74.43
+    },
+    {
+      "text": "ةضيالا ةكشلا لولح",
+      "bbox": [
+        643.0,
+        553.0,
+        711.0,
+        564.0
+      ],
+      "confidence": 81.85
+    },
+    {
+      "text": "ايدومع",
+      "bbox": [
+        744.0,
+        599.0,
+        773.0,
+        610.0
+      ],
+      "confidence": 71.78
+    }
+  ],
+  "processing_time_ms": 85
+}

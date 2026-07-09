@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00396",
+  "engine": "paddleocr",
+  "raw_text": "كوزز SUD ةيدوعسلا",
+  "tokens": [
+    {
+      "text": "كوزز",
+      "bbox": [
+        520.0,
+        577.0,
+        600.0,
+        599.0
+      ],
+      "confidence": 60.4
+    },
+    {
+      "text": "SUD",
+      "bbox": [
+        218.0,
+        973.0,
+        259.0,
+        988.0
+      ],
+      "confidence": 83.22
+    },
+    {
+      "text": "ةيدوعسلا",
+      "bbox": [
+        305.0,
+        971.0,
+        359.0,
+        987.0
+      ],
+      "confidence": 94.67
+    }
+  ],
+  "processing_time_ms": 62
+}

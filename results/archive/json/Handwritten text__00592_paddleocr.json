@@ -1,0 +1,48 @@
+{
+  "document_id": "Handwritten text/00592",
+  "engine": "paddleocr",
+  "raw_text": "٢راذ يأ ووأ",
+  "tokens": [
+    {
+      "text": "٢راذ",
+      "bbox": [
+        112.0,
+        70.0,
+        639.0,
+        254.0
+      ],
+      "confidence": 72.63
+    },
+    {
+      "text": " ",
+      "bbox": [
+        419.0,
+        615.0,
+        438.0,
+        636.0
+      ],
+      "confidence": 76.04
+    },
+    {
+      "text": "يأ",
+      "bbox": [
+        193.0,
+        634.0,
+        344.0,
+        800.0
+      ],
+      "confidence": 99.54
+    },
+    {
+      "text": "ووأ",
+      "bbox": [
+        415.0,
+        623.0,
+        531.0,
+        769.0
+      ],
+      "confidence": 80.33
+    }
+  ],
+  "processing_time_ms": 73
+}

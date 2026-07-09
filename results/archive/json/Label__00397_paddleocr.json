@@ -1,0 +1,18 @@
+{
+  "document_id": "Label/00397",
+  "engine": "paddleocr",
+  "raw_text": "14-10",
+  "tokens": [
+    {
+      "text": "14-10",
+      "bbox": [
+        506.0,
+        799.0,
+        645.0,
+        888.0
+      ],
+      "confidence": 90.89
+    }
+  ],
+  "processing_time_ms": 137
+}

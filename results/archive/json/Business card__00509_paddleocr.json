@@ -1,0 +1,48 @@
+{
+  "document_id": "Business card/00509",
+  "engine": "paddleocr",
+  "raw_text": "نوسيلا ison١ ةيسبلا ةبفار ةيطف",
+  "tokens": [
+    {
+      "text": "نوسيلا",
+      "bbox": [
+        541.0,
+        256.0,
+        798.0,
+        366.0
+      ],
+      "confidence": 98.13
+    },
+    {
+      "text": "ison١",
+      "bbox": [
+        305.0,
+        324.0,
+        451.0,
+        378.0
+      ],
+      "confidence": 76.23
+    },
+    {
+      "text": "ةيسبلا",
+      "bbox": [
+        741.0,
+        327.0,
+        805.0,
+        360.0
+      ],
+      "confidence": 81.67
+    },
+    {
+      "text": "ةبفار ةيطف",
+      "bbox": [
+        619.0,
+        335.0,
+        745.0,
+        378.0
+      ],
+      "confidence": 84.72
+    }
+  ],
+  "processing_time_ms": 76
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "Business card/00565",
+  "engine": "paddleocr",
+  "raw_text": "رو  :فتاه- اموت ااب -ق:",
+  "tokens": [
+    {
+      "text": "رو",
+      "bbox": [
+        1179.0,
+        2007.0,
+        1467.0,
+        2189.0
+      ],
+      "confidence": 52.63
+    },
+    {
+      "text": " :فتاه- اموت ااب -ق:",
+      "bbox": [
+        1124.0,
+        2356.0,
+        2074.0,
+        2583.0
+      ],
+      "confidence": 76.75
+    }
+  ],
+  "processing_time_ms": 394
+}

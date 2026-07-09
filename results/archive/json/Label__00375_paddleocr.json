@@ -1,0 +1,78 @@
+{
+  "document_id": "Label/00375",
+  "engine": "paddleocr",
+  "raw_text": "DENIM Kind Color Siz Model Price ٥",
+  "tokens": [
+    {
+      "text": "DENIM",
+      "bbox": [
+        203.0,
+        307.0,
+        597.0,
+        393.0
+      ],
+      "confidence": 99.46
+    },
+    {
+      "text": "Kind",
+      "bbox": [
+        160.0,
+        458.0,
+        261.0,
+        507.0
+      ],
+      "confidence": 97.5
+    },
+    {
+      "text": "Color",
+      "bbox": [
+        154.0,
+        556.0,
+        278.0,
+        609.0
+      ],
+      "confidence": 98.98
+    },
+    {
+      "text": "Siz",
+      "bbox": [
+        144.0,
+        656.0,
+        241.0,
+        708.0
+      ],
+      "confidence": 88.27
+    },
+    {
+      "text": "Model",
+      "bbox": [
+        133.0,
+        759.0,
+        260.0,
+        810.0
+      ],
+      "confidence": 92.47
+    },
+    {
+      "text": "Price",
+      "bbox": [
+        118.0,
+        863.0,
+        239.0,
+        917.0
+      ],
+      "confidence": 94.76
+    },
+    {
+      "text": "٥",
+      "bbox": [
+        362.0,
+        868.0,
+        453.0,
+        940.0
+      ],
+      "confidence": 71.19
+    }
+  ],
+  "processing_time_ms": 86
+}

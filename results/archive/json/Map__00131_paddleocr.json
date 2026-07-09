@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/00131",
+  "engine": "paddleocr",
+  "raw_text": "اَورو",
+  "tokens": [
+    {
+      "text": "اَورو",
+      "bbox": [
+        1860.0,
+        21.0,
+        2156.0,
+        92.0
+      ],
+      "confidence": 66.24
+    }
+  ],
+  "processing_time_ms": 328
+}

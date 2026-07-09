@@ -1,0 +1,28 @@
+{
+  "document_id": "Invoice/00454",
+  "engine": "paddleocr",
+  "raw_text": "ةروتافلا 22ةرونافلا",
+  "tokens": [
+    {
+      "text": "ةروتافلا",
+      "bbox": [
+        1277.0,
+        1299.0,
+        1467.0,
+        1413.0
+      ],
+      "confidence": 99.94
+    },
+    {
+      "text": "22ةرونافلا",
+      "bbox": [
+        1322.0,
+        1463.0,
+        1482.0,
+        1541.0
+      ],
+      "confidence": 68.09
+    }
+  ],
+  "processing_time_ms": 315
+}

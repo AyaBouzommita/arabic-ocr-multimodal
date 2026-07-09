@@ -1,0 +1,38 @@
+{
+  "document_id": "Handwritten text/00480",
+  "engine": "paddleocr",
+  "raw_text": "رككَد سنت هللا",
+  "tokens": [
+    {
+      "text": "رككَد",
+      "bbox": [
+        1044.0,
+        875.0,
+        1833.0,
+        1471.0
+      ],
+      "confidence": 58.69
+    },
+    {
+      "text": "سنت",
+      "bbox": [
+        1931.0,
+        966.0,
+        2870.0,
+        1392.0
+      ],
+      "confidence": 81.91
+    },
+    {
+      "text": "هللا",
+      "bbox": [
+        1578.0,
+        1305.0,
+        2719.0,
+        1964.0
+      ],
+      "confidence": 72.61
+    }
+  ],
+  "processing_time_ms": 353
+}

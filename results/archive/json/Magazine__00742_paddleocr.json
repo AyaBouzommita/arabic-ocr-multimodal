@@ -1,0 +1,38 @@
+{
+  "document_id": "Magazine/00742",
+  "engine": "paddleocr",
+  "raw_text": "ةع نيرعلا ىلع ايح واموي ٥ ٣",
+  "tokens": [
+    {
+      "text": "ةع",
+      "bbox": [
+        108.0,
+        32.0,
+        158.0,
+        59.0
+      ],
+      "confidence": 54.8
+    },
+    {
+      "text": "نيرعلا ىلع ايح واموي ٥",
+      "bbox": [
+        45.0,
+        241.0,
+        147.0,
+        269.0
+      ],
+      "confidence": 75.23
+    },
+    {
+      "text": "٣",
+      "bbox": [
+        154.0,
+        251.0,
+        172.0,
+        272.0
+      ],
+      "confidence": 89.25
+    }
+  ],
+  "processing_time_ms": 43
+}

@@ -1,0 +1,18 @@
+{
+  "document_id": "Magazine/00639",
+  "engine": "paddleocr",
+  "raw_text": "هكحل سراو مكاحلا",
+  "tokens": [
+    {
+      "text": "هكحل سراو مكاحلا",
+      "bbox": [
+        63.0,
+        263.0,
+        163.0,
+        280.0
+      ],
+      "confidence": 72.5
+    }
+  ],
+  "processing_time_ms": 32
+}

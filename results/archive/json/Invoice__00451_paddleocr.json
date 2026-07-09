@@ -1,0 +1,28 @@
+{
+  "document_id": "Invoice/00451",
+  "engine": "paddleocr",
+  "raw_text": "ةروتافلا  227ةرواملا م",
+  "tokens": [
+    {
+      "text": "ةروتافلا",
+      "bbox": [
+        1881.0,
+        581.0,
+        2083.0,
+        756.0
+      ],
+      "confidence": 98.56
+    },
+    {
+      "text": " 227ةرواملا م",
+      "bbox": [
+        1897.0,
+        773.0,
+        2062.0,
+        908.0
+      ],
+      "confidence": 57.76
+    }
+  ],
+  "processing_time_ms": 240
+}

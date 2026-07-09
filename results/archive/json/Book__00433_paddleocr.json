@@ -1,0 +1,18 @@
+{
+  "document_id": "Book/00433",
+  "engine": "paddleocr",
+  "raw_text": "Akalemat",
+  "tokens": [
+    {
+      "text": "Akalemat",
+      "bbox": [
+        1183.0,
+        1163.0,
+        1318.0,
+        1286.0
+      ],
+      "confidence": 83.97
+    }
+  ],
+  "processing_time_ms": 150
+}

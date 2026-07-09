@@ -1,0 +1,48 @@
+{
+  "document_id": "Business card/00573",
+  "engine": "paddleocr",
+  "raw_text": "ةيماحملا دمتعم يئاضق Mob",
+  "tokens": [
+    {
+      "text": "ةيماحملا",
+      "bbox": [
+        319.0,
+        343.0,
+        388.0,
+        366.0
+      ],
+      "confidence": 95.5
+    },
+    {
+      "text": "دمتعم",
+      "bbox": [
+        189.0,
+        378.0,
+        238.0,
+        398.0
+      ],
+      "confidence": 95.36
+    },
+    {
+      "text": "يئاضق",
+      "bbox": [
+        233.0,
+        377.0,
+        297.0,
+        400.0
+      ],
+      "confidence": 98.76
+    },
+    {
+      "text": "Mob",
+      "bbox": [
+        169.0,
+        442.0,
+        218.0,
+        465.0
+      ],
+      "confidence": 96.57
+    }
+  ],
+  "processing_time_ms": 78
+}

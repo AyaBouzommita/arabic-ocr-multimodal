@@ -1,0 +1,48 @@
+{
+  "document_id": "Map/00530",
+  "engine": "paddleocr",
+  "raw_text": "RO ةيقا رعلا كلمملا",
+  "tokens": [
+    {
+      "text": "RO",
+      "bbox": [
+        174.0,
+        8.0,
+        274.0,
+        44.0
+      ],
+      "confidence": 54.3
+    },
+    {
+      "text": "ةيقا",
+      "bbox": [
+        641.0,
+        30.0,
+        700.0,
+        76.0
+      ],
+      "confidence": 90.09
+    },
+    {
+      "text": "رعلا",
+      "bbox": [
+        692.0,
+        53.0,
+        742.0,
+        90.0
+      ],
+      "confidence": 93.37
+    },
+    {
+      "text": "كلمملا",
+      "bbox": [
+        575.0,
+        885.0,
+        615.0,
+        904.0
+      ],
+      "confidence": 87.66
+    }
+  ],
+  "processing_time_ms": 65
+}

@@ -1,0 +1,18 @@
+{
+  "document_id": "Map/00701",
+  "engine": "paddleocr",
+  "raw_text": "edu.,Wwws",
+  "tokens": [
+    {
+      "text": "edu.,Wwws",
+      "bbox": [
+        293.0,
+        2899.0,
+        478.0,
+        2951.0
+      ],
+      "confidence": 68.61
+    }
+  ],
+  "processing_time_ms": 263
+}

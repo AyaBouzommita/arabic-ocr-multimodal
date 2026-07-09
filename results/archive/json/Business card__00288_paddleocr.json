@@ -1,0 +1,48 @@
+{
+  "document_id": "Business card/00288",
+  "engine": "paddleocr",
+  "raw_text": "Beit EL-Set. Zahleh Boul",
+  "tokens": [
+    {
+      "text": "Beit EL-Set.",
+      "bbox": [
+        805.0,
+        2349.0,
+        1193.0,
+        2684.0
+      ],
+      "confidence": 73.93
+    },
+    {
+      "text": "Zahleh",
+      "bbox": [
+        1409.0,
+        2883.0,
+        1590.0,
+        3037.0
+      ],
+      "confidence": 97.91
+    },
+    {
+      "text": "Boul",
+      "bbox": [
+        1569.0,
+        3004.0,
+        1720.0,
+        3137.0
+      ],
+      "confidence": 77.61
+    },
+    {
+      "text": " ",
+      "bbox": [
+        1700.0,
+        3112.0,
+        1722.0,
+        3133.0
+      ],
+      "confidence": 71.37
+    }
+  ],
+  "processing_time_ms": 248
+}

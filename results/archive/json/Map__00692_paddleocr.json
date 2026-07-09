@@ -1,0 +1,28 @@
+{
+  "document_id": "Map/00692",
+  "engine": "paddleocr",
+  "raw_text": "1S1.edu.J  2Zل",
+  "tokens": [
+    {
+      "text": "1S1.edu.J",
+      "bbox": [
+        638.0,
+        17.0,
+        683.0,
+        230.0
+      ],
+      "confidence": 88.59
+    },
+    {
+      "text": " 2Zل",
+      "bbox": [
+        870.0,
+        59.0,
+        955.0,
+        355.0
+      ],
+      "confidence": 52.48
+    }
+  ],
+  "processing_time_ms": 369
+}

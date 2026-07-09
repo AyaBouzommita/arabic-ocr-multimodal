@@ -1,0 +1,78 @@
+{
+  "document_id": "Label/00462",
+  "engine": "paddleocr",
+  "raw_text": "لم000 Eau de Blossom رهزلا Fleur ءام Water",
+  "tokens": [
+    {
+      "text": "لم000",
+      "bbox": [
+        1271.0,
+        1078.0,
+        1390.0,
+        1969.0
+      ],
+      "confidence": 71.32
+    },
+    {
+      "text": "Eau de",
+      "bbox": [
+        2069.0,
+        1079.0,
+        2207.0,
+        1346.0
+      ],
+      "confidence": 91.92
+    },
+    {
+      "text": "Blossom",
+      "bbox": [
+        2236.0,
+        1317.0,
+        2320.0,
+        1760.0
+      ],
+      "confidence": 99.83
+    },
+    {
+      "text": "رهزلا",
+      "bbox": [
+        2017.0,
+        1324.0,
+        2127.0,
+        1567.0
+      ],
+      "confidence": 99.68
+    },
+    {
+      "text": "Fleur",
+      "bbox": [
+        2138.0,
+        1330.0,
+        2210.0,
+        1565.0
+      ],
+      "confidence": 93.77
+    },
+    {
+      "text": "ءام",
+      "bbox": [
+        2040.0,
+        1552.0,
+        2104.0,
+        1691.0
+      ],
+      "confidence": 97.49
+    },
+    {
+      "text": "Water",
+      "bbox": [
+        2207.0,
+        1743.0,
+        2332.0,
+        2025.0
+      ],
+      "confidence": 98.66
+    }
+  ],
+  "processing_time_ms": 362
+}

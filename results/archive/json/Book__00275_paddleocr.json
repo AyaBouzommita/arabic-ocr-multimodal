@@ -1,0 +1,38 @@
+{
+  "document_id": "Book/00275",
+  "engine": "paddleocr",
+  "raw_text": "اا APo Ww daralsaql-com",
+  "tokens": [
+    {
+      "text": "اا",
+      "bbox": [
+        2057.0,
+        1963.0,
+        2273.0,
+        2085.0
+      ],
+      "confidence": 55.79
+    },
+    {
+      "text": "APo",
+      "bbox": [
+        2004.0,
+        2024.0,
+        2092.0,
+        2075.0
+      ],
+      "confidence": 51.96
+    },
+    {
+      "text": "Ww daralsaql-com",
+      "bbox": [
+        2037.0,
+        2097.0,
+        2217.0,
+        2139.0
+      ],
+      "confidence": 76.45
+    }
+  ],
+  "processing_time_ms": 351
+}

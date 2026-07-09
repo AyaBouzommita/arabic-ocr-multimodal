@@ -1,0 +1,38 @@
+{
+  "document_id": "Magazine/00621",
+  "engine": "paddleocr",
+  "raw_text": "نُمل الهأ تا ةق س",
+  "tokens": [
+    {
+      "text": "نُمل",
+      "bbox": [
+        67.0,
+        26.0,
+        152.0,
+        80.0
+      ],
+      "confidence": 66.99
+    },
+    {
+      "text": "الهأ",
+      "bbox": [
+        145.0,
+        17.0,
+        272.0,
+        75.0
+      ],
+      "confidence": 98.41
+    },
+    {
+      "text": "تا ةق س",
+      "bbox": [
+        157.0,
+        76.0,
+        206.0,
+        83.0
+      ],
+      "confidence": 55.9
+    }
+  ],
+  "processing_time_ms": 42
+}

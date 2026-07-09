@@ -1,0 +1,38 @@
+{
+  "document_id": "Business card/00805",
+  "engine": "paddleocr",
+  "raw_text": "فانقتسلاب ماحم :فتاه",
+  "tokens": [
+    {
+      "text": "فانقتسلاب",
+      "bbox": [
+        1806.0,
+        1352.0,
+        2614.0,
+        1613.0
+      ],
+      "confidence": 81.05
+    },
+    {
+      "text": "ماحم",
+      "bbox": [
+        2603.0,
+        1332.0,
+        3003.0,
+        1597.0
+      ],
+      "confidence": 97.38
+    },
+    {
+      "text": ":فتاه",
+      "bbox": [
+        2556.0,
+        2288.0,
+        3228.0,
+        2645.0
+      ],
+      "confidence": 73.03
+    }
+  ],
+  "processing_time_ms": 339
+}
