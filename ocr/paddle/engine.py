@@ -281,6 +281,21 @@ class PaddleOCREngine(OCREngine):
     # PaddleOCR output parsing
     # ------------------------------------------------------------------
 
+    def _fix_arabic_bidi(self, text: str) -> str:
+        """Fix bidirectional Arabic text in OCR output.
+
+        PaddleOCR extracts Arabic text in visual LTR order, which reverses
+        both characters within words and word order within Arabic phrases.
+        This reverses Arabic segments to restore logical RTL reading order.
+        """
+        import re
+        if not text:
+            return ""
+        # Match sequences of Arabic characters and spaces between them
+        arabic_char = r"[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]"
+        arabic_block = f"{arabic_char}+(?:\s+{arabic_char}+)*"
+        return re.sub(arabic_block, lambda m: m.group(0)[::-1], text)
+
     def _parse_paddle_output(self, paddle_result) -> List[OCRToken]:
         """Convert raw PaddleOCR output to a list of OCRToken objects.
 
@@ -313,7 +328,7 @@ class PaddleOCREngine(OCREngine):
 
                 tokens.append(
                     OCRToken(
-                        text=text,
+                        text=self._fix_arabic_bidi(text),
                         bbox=[x1, y1, x2, y2],
                         confidence=round(float(confidence) * 100, 2),
                     )
@@ -335,9 +350,10 @@ class PaddleOCREngine(OCREngine):
             x1, y1, x2, y2 = (float(v) for v in box)
             tokens.append(
                 OCRToken(
-                    text=str(text),
+                    text=self._fix_arabic_bidi(str(text)),
                     bbox=[x1, y1, x2, y2],
                     confidence=round(float(confidence) * 100, 2),
                 )
             )
         return tokens
+
