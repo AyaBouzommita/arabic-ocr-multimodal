@@ -143,42 +143,75 @@ def main():
 
     # --- CHART 3: Confidence vs Aligned CER Scatter Plot ---
     if "avg_confidence" in df.columns:
-        print("Generating Chart 3: Confidence vs CER...")
+        print("Generating Chart 3a: Confidence Distribution...")
+        valid_data = df.dropna(subset=["avg_confidence", "cer_aligned"]).copy()
+        
+        # --- Chart 3a: Confidence Distribution ---
+        fig, ax = plt.subplots(figsize=(10, 5))
+        sns.histplot(
+            valid_data["avg_confidence"],
+            bins=40,
+            kde=True,
+            color="#457b9d",
+            ax=ax
+        )
+        ax.set_title("Distribution des Scores de Confiance (Modèle OCR)", fontsize=14, fontweight="bold", pad=15)
+        ax.set_xlabel("Confiance du Modèle (%)", fontsize=12)
+        ax.set_ylabel("Nombre de documents", fontsize=12)
+        ax.set_xlim(0, 105)
+        
+        plt.tight_layout()
+        chart3a_path = output_dir / "confidence_distribution.png"
+        plt.savefig(chart3a_path, dpi=300, bbox_inches='tight')
+        plt.close()
+        print(f" Saved: {chart3a_path}")
+
+        # --- Chart 3b: Boxplot of CER by Confidence Bins ---
+        print("Generating Chart 3b: Boxplot CER by Confidence Bins...")
         fig, ax = plt.subplots(figsize=(10, 6))
         
-        # Plot Hexbin or scatter with alpha for dense plots
-        hb = ax.hexbin(
-            df["avg_confidence"],
-            df["cer_aligned"] * 100,
-            gridsize=30,
-            cmap="YlGnBu",
-            mincnt=1
+        # Create bins for confidence
+        bins = [0, 60, 70, 80, 90, 100]
+        labels = ["< 60%", "60-70%", "70-80%", "80-90%", "90-100%"]
+        valid_data["conf_bin"] = pd.cut(valid_data["avg_confidence"], bins=bins, labels=labels, right=True)
+        
+        # Filter extreme CER for a clean boxplot and scale to %
+        valid_data_capped = valid_data[valid_data["cer_aligned"] <= 1.1].copy()
+        valid_data_capped["cer_pct"] = valid_data_capped["cer_aligned"] * 100
+        
+        # Plot the boxplot (showfliers=False prevents drawing thousands of outlier dots)
+        sns.boxplot(
+            x="conf_bin",
+            y="cer_pct",
+            data=valid_data_capped,
+            palette="Blues",
+            showfliers=False,
+            width=0.6,
+            ax=ax
         )
         
-        cb = fig.colorbar(hb, ax=ax)
-        cb.set_label("Number of Documents", fontsize=11)
+        # Add a light stripplot on top to show the actual bimodal clusters (0 and 100)
+        sns.stripplot(
+            x="conf_bin",
+            y="cer_pct",
+            data=valid_data_capped,
+            color="#e76f51",
+            alpha=0.15,
+            size=3,
+            jitter=0.25,
+            ax=ax
+        )
         
-        # Add a trend line (simple linear fit)
-        # Filter NaNs just in case
-        valid_data = df.dropna(subset=["avg_confidence", "cer_aligned"])
-        x = valid_data["avg_confidence"]
-        y = valid_data["cer_aligned"] * 100
-        if len(x) > 1:
-            m, b = np.polyfit(x, y, 1)
-            ax.plot(x, m*x + b, color="#e76f51", linestyle="-", linewidth=2.5, label="Trendline")
-
-        ax.set_title("OCR Confidence Score vs. Actual CER", fontsize=14, fontweight="bold", pad=15)
-        ax.set_xlabel("Model Confidence Score (%)", fontsize=12)
+        ax.set_title("Taux d'Erreur (CER) par Intervalle de Confiance", fontsize=14, fontweight="bold", pad=15)
+        ax.set_xlabel("Intervalle de Confiance", fontsize=12)
         ax.set_ylabel("Character Error Rate (CER %)", fontsize=12)
-        ax.set_ylim(-5, 105)
-        ax.set_xlim(df["avg_confidence"].min() - 5, 105)
-        ax.legend(fontsize=11)
-
+        ax.set_ylim(-5, 115)
+        
         plt.tight_layout()
-        chart3_path = output_dir / "confidence_vs_cer.png"
-        plt.savefig(chart3_path, dpi=300)
+        chart3b_path = output_dir / "cer_by_confidence_boxplot.png"
+        plt.savefig(chart3b_path, dpi=300, bbox_inches='tight')
         plt.close()
-        print(f" Saved: {chart3_path}")
+        print(f" Saved: {chart3b_path}")
 
     print("\n🎉 Visualizations generated successfully in results/archive/!")
 
