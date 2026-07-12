@@ -1,0 +1,3 @@
+﻿document_id,image_path,ground_truth,ocr_text,cer,wer,avg_confidence,processing_time_ms,token_count
+sample,data\raw\sample.png,لا حياة لمن تنادي,Arabic uotes ةايح نمل يدانت Falling deaf ars https:l/playaling.com,3.5294,2.25,95.69571680492825,99680,9
+sample2,data\raw\sample2.png,الله أكبر,DngTree DngTree Dnigtree ?DNgT eرDnGT DngTre DngTree DngTree,6.4444,4.0,82.7344112098217,837,8
