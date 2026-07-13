@@ -149,3 +149,9 @@ arabic_ocr_platform/media/
 arabic_ocr_platform/static/
 .env
 .env.local
+
+# Vision detection dataset (large — linked locally via junction, not versioned)
+data/vision/detection/
+data/vision/florence_annotations/
+results/florence2/model/
+results/florence2/predictions/

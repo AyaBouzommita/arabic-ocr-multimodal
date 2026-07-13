@@ -1,0 +1,46 @@
+# Project config for the team object-detection dataset (YOLO format).
+# Dataset source: teammate export at Downloads/dataset_for_object_detection
+# Linked via junction: data/vision/detection/
+
+path: detection
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: text
+  1: table
+  2: picture
+  3: signature
+  4: stamp
+  5: qr_code
+  6: 3en
+  7: 5aaa
+  8: 5en
+  9: aleph
+  10: baaa
+  11: daal
+  12: dad
+  13: faaa
+  14: geem
+  15: haaa
+  16: hamza
+  17: hamzasater
+  18: kaaf
+  19: lam
+  20: mem
+  21: non
+  22: qaf
+  23: raaa
+  24: sad
+  25: sen
+  26: sheen
+  27: taaa
+  28: thaa
+  29: thal
+  30: then
+  31: ttaa
+  32: waaa
+  33: yaaa
+  34: zaaa
+  35: letters
