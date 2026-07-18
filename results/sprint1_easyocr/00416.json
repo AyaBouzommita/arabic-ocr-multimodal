@@ -1,0 +1,458 @@
+{
+  "document_id": "00416",
+  "engine": "easyocr",
+  "raw_text": "fnternattnnal  تاللبجسنانتتالاولئيكختانا Clie fBoatb of CrusteeB, upon flie retonmenbntiDn 0f flje fatultp إن تجلم الأمناء بناء على ثوميةافيئةالتعلمثًة anb bp birfue of tle authoritp bestcb in it وإل التقالقانوفيالغظ كممن bp flc Republir of Zebanan  الجمهورتية اللبنانية ljis tontettcb Ilpon luclelur uf Arts منن بكالوريوس  in هتnnianicatitt Arta frtn anu Geirtisi نذون التوامل / الراديو والتلمزيون bitla finir بتفوق tuitl all Iic riglts, pribilegeg aitb responsiuiliticg تمعكلمالهذه الدًرجة برحتوق وامتيازاث ومسووئيات tljeteunI٥ appertaining  Jn testimonp ساlرPreof, tljis hiploma, واقرآرابذلك ,فان هذه الشهادة حاملة تواقيع المسؤولين hcaring Ibc sigatatures of tle authoriaco offirials arb وخة الجامعة , قداعطت ي لبنان the Scal of the Uiniberaitp las been giben in Zcbanon, Cراi5 25I]1 ٥a0 ؟f والعشرين من آرار فالتوم in Ihjع Peat tmp tllmuauia aib ninciccat وتمعة عمد ع? سسنت _ لق  3Dresibcnt _22 Brpbost 24I1د fLcbanese ntbersitp التامع آثآاك الفرن",
+  "tokens": [
+    {
+      "text": "fnternattnnal",
+      "bbox": [
+        439.0,
+        81.0,
+        844.0,
+        161.0
+      ],
+      "confidence": 0.45898503054368545
+    },
+    {
+      "text": " تاللبجسنانتتالاولئيكختانا",
+      "bbox": [
+        328.0,
+        192.0,
+        851.0,
+        280.0
+      ],
+      "confidence": 0.02562234774928463
+    },
+    {
+      "text": "Clie fBoatb of CrusteeB,",
+      "bbox": [
+        200.0,
+        290.0,
+        406.0,
+        316.0
+      ],
+      "confidence": 0.16852327650005539
+    },
+    {
+      "text": "upon flie retonmenbntiDn 0f flje fatultp",
+      "bbox": [
+        140.0,
+        311.0,
+        462.0,
+        342.0
+      ],
+      "confidence": 0.16641706371150525
+    },
+    {
+      "text": "إن تجلم الأمناء بناء على ثوميةافيئةالتعلمثًة",
+      "bbox": [
+        863.0,
+        298.0,
+        1202.0,
+        346.0
+      ],
+      "confidence": 0.07854644651160186
+    },
+    {
+      "text": "anb bp birfue of tle authoritp bestcb in it",
+      "bbox": [
+        134.0,
+        334.0,
+        470.0,
+        360.0
+      ],
+      "confidence": 0.3412195734328572
+    },
+    {
+      "text": "وإل التقالقانوفيالغظ كممن",
+      "bbox": [
+        913.0,
+        328.0,
+        1150.0,
+        369.0
+      ],
+      "confidence": 0.04081601487515694
+    },
+    {
+      "text": "bp flc Republir of Zebanan ",
+      "bbox": [
+        184.0,
+        354.0,
+        414.0,
+        381.0
+      ],
+      "confidence": 0.43620529244593587
+    },
+    {
+      "text": "الجمهورتية اللبنانية",
+      "bbox": [
+        963.0,
+        359.0,
+        1104.0,
+        391.0
+      ],
+      "confidence": 0.32006031777255733
+    },
+    {
+      "text": "ljis tontettcb Ilpon",
+      "bbox": [
+        222.0,
+        378.0,
+        382.0,
+        402.0
+      ],
+      "confidence": 0.16200766489828225
+    },
+    {
+      "text": "luclelur uf Arts",
+      "bbox": [
+        210.0,
+        476.0,
+        383.0,
+        514.0
+      ],
+      "confidence": 0.3085495769129332
+    },
+    {
+      "text": "منن",
+      "bbox": [
+        969.0,
+        499.0,
+        1011.0,
+        517.0
+      ],
+      "confidence": 0.3962353588572386
+    },
+    {
+      "text": "بكالوريوس ",
+      "bbox": [
+        1005.0,
+        489.0,
+        1094.0,
+        526.0
+      ],
+      "confidence": 0.3150506123753439
+    },
+    {
+      "text": "in هتnnianicatitt Arta",
+      "bbox": [
+        114.0,
+        524.0,
+        298.0,
+        554.0
+      ],
+      "confidence": 0.13991344548200702
+    },
+    {
+      "text": "frtn anu Geirtisi",
+      "bbox": [
+        308.0,
+        528.0,
+        482.0,
+        554.0
+      ],
+      "confidence": 0.09123197804999554
+    },
+    {
+      "text": "نذون التوامل / الراديو والتلمزيون",
+      "bbox": [
+        877.0,
+        528.0,
+        1104.0,
+        559.0
+      ],
+      "confidence": 0.5325464700545055
+    },
+    {
+      "text": "bitla finir",
+      "bbox": [
+        248.0,
+        570.0,
+        346.0,
+        596.0
+      ],
+      "confidence": 0.11354792737583375
+    },
+    {
+      "text": "بتفوق",
+      "bbox": [
+        1009.0,
+        577.0,
+        1051.0,
+        597.0
+      ],
+      "confidence": 0.7773239141713739
+    },
+    {
+      "text": "tuitl all Iic riglts, pribilegeg aitb responsiuiliticg",
+      "bbox": [
+        108.0,
+        640.0,
+        488.0,
+        666.0
+      ],
+      "confidence": 0.21145692193390728
+    },
+    {
+      "text": "تمعكلمالهذه الدًرجة برحتوق وامتيازاث ومسووئيات",
+      "bbox": [
+        862.0,
+        634.0,
+        1203.0,
+        679.0
+      ],
+      "confidence": 0.07136892433995434
+    },
+    {
+      "text": "tljeteunI٥ appertaining ",
+      "bbox": [
+        206.0,
+        662.0,
+        386.0,
+        686.0
+      ],
+      "confidence": 0.20315912852747586
+    },
+    {
+      "text": "Jn testimonp ساlرPreof, tljis hiploma,",
+      "bbox": [
+        158.0,
+        679.0,
+        436.0,
+        706.0
+      ],
+      "confidence": 0.24416162639031166
+    },
+    {
+      "text": "واقرآرابذلك ,فان هذه الشهادة حاملة تواقيع المسؤولين",
+      "bbox": [
+        861.0,
+        666.0,
+        1203.0,
+        711.0
+      ],
+      "confidence": 0.11779080927036645
+    },
+    {
+      "text": "hcaring Ibc sigatatures of tle authoriaco offirials arb",
+      "bbox": [
+        97.0,
+        696.0,
+        497.0,
+        726.0
+      ],
+      "confidence": 0.12648615559253273
+    },
+    {
+      "text": "وخة الجامعة , قداعطت ي لبنان",
+      "bbox": [
+        932.0,
+        697.0,
+        1172.0,
+        729.0
+      ],
+      "confidence": 0.4494413722090232
+    },
+    {
+      "text": "the Scal of the Uiniberaitp las been giben in Zcbanon,",
+      "bbox": [
+        90.0,
+        716.0,
+        502.0,
+        746.0
+      ],
+      "confidence": 0.11427102752963124
+    },
+    {
+      "text": "Cراi5",
+      "bbox": [
+        112.0,
+        738.0,
+        156.0,
+        762.0
+      ],
+      "confidence": 0.20276629234733287
+    },
+    {
+      "text": "25I]1",
+      "bbox": [
+        185.0,
+        733.0,
+        231.0,
+        760.0
+      ],
+      "confidence": 0.06845061315313573
+    },
+    {
+      "text": "٥a0 ؟f",
+      "bbox": [
+        261.0,
+        743.0,
+        311.0,
+        763.0
+      ],
+      "confidence": 0.500752640549806
+    },
+    {
+      "text": "والعشرين من آرار",
+      "bbox": [
+        954.0,
+        732.0,
+        1072.0,
+        760.0
+      ],
+      "confidence": 0.2523195756527433
+    },
+    {
+      "text": "فالتوم",
+      "bbox": [
+        1148.0,
+        738.0,
+        1200.0,
+        768.0
+      ],
+      "confidence": 0.26607044113968437
+    },
+    {
+      "text": "in Ihjع Peat",
+      "bbox": [
+        110.0,
+        772.0,
+        198.0,
+        796.0
+      ],
+      "confidence": 0.31521242372052216
+    },
+    {
+      "text": "tmp tllmuauia aib ninciccat",
+      "bbox": [
+        214.0,
+        770.0,
+        428.0,
+        794.0
+      ],
+      "confidence": 0.018045552477572835
+    },
+    {
+      "text": "وتمعة عمد",
+      "bbox": [
+        983.0,
+        779.0,
+        1057.0,
+        799.0
+      ],
+      "confidence": 0.10612864549280018
+    },
+    {
+      "text": "ع? سسنت",
+      "bbox": [
+        1120.0,
+        776.0,
+        1200.0,
+        802.0
+      ],
+      "confidence": 0.14293074347189497
+    },
+    {
+      "text": "_ لق ",
+      "bbox": [
+        598.0,
+        786.0,
+        744.0,
+        818.0
+      ],
+      "confidence": 0.02436459804404145
+    },
+    {
+      "text": "3Dresibcnt",
+      "bbox": [
+        606.0,
+        826.0,
+        694.0,
+        850.0
+      ],
+      "confidence": 0.6162387636030701
+    },
+    {
+      "text": "_22",
+      "bbox": [
+        946.0,
+        821.0,
+        1112.0,
+        877.0
+      ],
+      "confidence": 0.14548990623015481
+    },
+    {
+      "text": "Brpbost",
+      "bbox": [
+        260.0,
+        868.0,
+        336.0,
+        892.0
+      ],
+      "confidence": 0.4003620346189271
+    },
+    {
+      "text": "24I1د",
+      "bbox": [
+        1007.0,
+        877.0,
+        1053.0,
+        893.0
+      ],
+      "confidence": 0.13523069041184088
+    },
+    {
+      "text": "fLcbanese",
+      "bbox": [
+        137.80768079480958,
+        78.60849993751721,
+        452.1923192051904,
+        218.39150006248278
+      ],
+      "confidence": 0.284261158869183
+    },
+    {
+      "text": "ntbersitp",
+      "bbox": [
+        827.0280069011154,
+        76.01899769944032,
+        1166.9719930988845,
+        257.9810023005597
+      ],
+      "confidence": 0.6897707663502112
+    },
+    {
+      "text": "التامع",
+      "bbox": [
+        1066.4100031799906,
+        731.393373923925,
+        1114.5899968200094,
+        760.606626076075
+      ],
+      "confidence": 0.594995550707172
+    },
+    {
+      "text": "آثآاك",
+      "bbox": [
+        334.1165161768103,
+        737.1333087875939,
+        379.8834838231897,
+        766.8666912124061
+      ],
+      "confidence": 0.01824319951444409
+    },
+    {
+      "text": "الفرن",
+      "bbox": [
+        1051.8375236125619,
+        774.8290188923113,
+        1098.1624763874381,
+        803.1709811076887
+      ],
+      "confidence": 0.8939155725170979
+    }
+  ],
+  "processing_time_ms": 48834
+}
