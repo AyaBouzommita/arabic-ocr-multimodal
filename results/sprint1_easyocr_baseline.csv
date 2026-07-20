@@ -1,3 +1,0 @@
-﻿document_id,image_path,ground_truth,ocr_text,cer,wer,avg_confidence,processing_time_ms,token_count
-sample,data\raw\sample.png,لا حياة لمن تنادي,"66 5،مسو ىزط٥ ""لا حياة لمن ^٥ ق^ت ٥ 5ع=ع عدع _هف 8عنادرهام 5رععط 95 تنادي",3.2941,3.25,28.338519817078474,660101,8
-sample2,data\raw\sample2.png,الله أكبر,0 0 0 9٥[آ٨٩ ؟ ٩ اته ؟ ث٨٩ ؟ ٨٩9٥,3.4444,5.5,44.07158460956355,678,11
