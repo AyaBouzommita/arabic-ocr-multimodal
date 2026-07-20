@@ -38,6 +38,7 @@ def ensure_florence_annotations(
     splits: Optional[List[str]] = None,
     limit_per_split: Optional[int] = None,
     dataset_yaml: Optional[Path] = None,
+    max_boxes_per_image: Optional[int] = None,
 ) -> Dict[str, Path]:
     """Create per-split Florence annotation JSON files."""
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -49,6 +50,7 @@ def ensure_florence_annotations(
             splits=[split],
             limit_per_split=limit_per_split,
             dataset_yaml=dataset_yaml,
+            max_boxes_per_image=max_boxes_per_image,
         )
         split_paths[split] = path
     return split_paths

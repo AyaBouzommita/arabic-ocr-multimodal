@@ -8,9 +8,13 @@ from typing import Dict, List, Optional, Set
 
 import torch
 from PIL import Image
-from transformers import AutoModelForCausalLM, AutoProcessor
 
 from arabic_ocr_platform.pipeline.vision.florence2.config import Florence2Config
+from arabic_ocr_platform.pipeline.vision.florence2.model_loading import (
+    load_florence2_for_inference,
+    load_florence2_processor,
+    should_use_low_vram,
+)
 
 
 class Florence2Detector:
@@ -18,19 +22,28 @@ class Florence2Detector:
 
     def __init__(self, config: Optional[Florence2Config] = None, model_dir: Optional[Path] = None):
         self.config = config or Florence2Config()
+        self.low_vram = should_use_low_vram(self.config)
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.checkpoint = str(model_dir) if model_dir else self.config.checkpoint
-        self.processor = AutoProcessor.from_pretrained(
-            self.checkpoint,
-            trust_remote_code=True,
+        adapter_dir = str(model_dir) if model_dir else None
+        base_checkpoint = self.config.checkpoint
+
+        self.processor = load_florence2_processor(self.checkpoint, self.config.revision)
+        self.model, _ = load_florence2_for_inference(
+            checkpoint=base_checkpoint,
             revision=self.config.revision,
+            config=self.config,
+            adapter_dir=adapter_dir,
         )
-        self.model = AutoModelForCausalLM.from_pretrained(
-            self.checkpoint,
-            trust_remote_code=True,
-            revision=self.config.revision,
-        ).to(self.device)
         self.model.eval()
+
+    def _resize_image(self, image: Image.Image) -> Image.Image:
+        max_size = self.config.max_image_size
+        width, height = image.size
+        scale = min(max_size / max(width, height), 1.0)
+        if scale >= 1.0:
+            return image
+        return image.resize((int(width * scale), int(height * scale)), Image.BILINEAR)
 
     def predict_image(
         self,
@@ -38,8 +51,11 @@ class Florence2Detector:
         allowed_classes: Optional[Set[str]] = None,
     ) -> Dict:
         """Run OD inference on a single PIL image."""
+        image = self._resize_image(image)
         task = self.config.task_prompt
-        inputs = self.processor(text=task, images=image, return_tensors="pt").to(self.device)
+        inputs = self.processor(text=task, images=image, return_tensors="pt")
+        device = self.device if not self.low_vram else inputs["input_ids"].device
+        inputs = {k: v.to(device) for k, v in inputs.items()}
 
         start = time.perf_counter()
         with torch.no_grad():

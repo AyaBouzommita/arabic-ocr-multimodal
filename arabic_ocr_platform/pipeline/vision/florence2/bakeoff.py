@@ -47,6 +47,8 @@ def generate_florence_candidate_report(metrics: Dict, output_path: Path) -> None
 - Final val loss: {metrics.get('final_val_loss', 'N/A')}
 
 ## Evaluation (test split)
+- Precision: **{metrics.get('precision', 'N/A')}**
+- Recall: **{metrics.get('recall', 'N/A')}**
 - mAP@0.5: **{metrics.get('map50', 'N/A')}**
 - mAP@0.5:0.95 (class-avg): **{metrics.get('map50_95', 'N/A')}**
 - Avg inference speed: **{metrics.get('avg_inference_ms', 'N/A')} ms/image**
@@ -66,9 +68,9 @@ def generate_florence_candidate_report(metrics: Dict, output_path: Path) -> None
 - Class vocabulary is open-ended, so post-filtering by allowed classes is required.
 
 ## Artifacts
-- Model: `{metrics.get('model_dir', 'results/florence2/model')}`
-- Metrics: `{metrics.get('metrics_path', 'results/florence2/metrics.json')}`
-- Predictions: `{metrics.get('predictions_dir', 'results/florence2/predictions')}`
+- Model: `{metrics.get('model_dir', 'results/florence2/evaluation/florence_comparison/florence2')}`
+- Metrics: `{metrics.get('metrics_path', 'results/florence2/evaluation/florence_comparison/florence2/metrics.json')}`
+- Predictions: `{metrics.get('predictions_dir', 'results/florence2/evaluation/florence_comparison/florence2/predictions')}`
 """
     output_path.write_text(content, encoding="utf-8")
 
@@ -85,11 +87,12 @@ def generate_bakeoff_comparison(
     def row(name: str, data: Optional[Dict], integration_key: str) -> str:
         if not data:
             return (
-                f"| {name} | TBD | TBD | TBD | "
-                f"{INTEGRATION_SCORES[integration_key]['score']}/5 | Pending teammate results |"
+                f"| {name} | TBD | TBD | TBD | TBD | "
+                f"TBD | {INTEGRATION_SCORES[integration_key]['score']}/5 | Pending teammate results |"
             )
         return (
-            f"| {name} | {data.get('map50', 'TBD')} | {data.get('map50_95', 'TBD')} | "
+            f"| {name} | {data.get('precision', 'TBD')} | {data.get('recall', 'TBD')} | "
+            f"{data.get('map50', 'TBD')} | {data.get('map50_95', 'TBD')} | "
             f"{data.get('avg_inference_ms', 'TBD')} | "
             f"{INTEGRATION_SCORES[integration_key]['score']}/5 | "
             f"{INTEGRATION_SCORES[integration_key]['notes']} |"
@@ -99,9 +102,9 @@ def generate_bakeoff_comparison(
 
 Comparison used for the team decision between detection candidates.
 
-| Candidate | mAP@0.5 | mAP@0.5:0.95 | Speed (ms/img) | Integration effort | Notes |
-|---|---:|---:|---:|---:|---|
-{row('YOLOv8 / PP-YOLOE', yolo, 'yolov8')}
+| Candidate | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 | Speed (ms/img) | Integration effort | Notes |
+|---|---:|---:|---:|---:|---:|---:|---|
+{row('YOLOv11s', yolo, 'yolov8')}
 {row('Detectron2', detectron, 'detectron2')}
 {row('Florence-2 (ours)', florence_metrics, 'florence2')}
 
@@ -117,7 +120,7 @@ Comparison used for the team decision between detection candidates.
 
 ## Florence-2 Evidence
 - Test images evaluated: {florence_metrics.get('eval_images', 'N/A')}
-- Metrics file: `results/florence2/metrics.json`
+- Metrics file: `results/florence2/evaluation/florence_comparison/florence2/metrics.json`
 """
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(content, encoding="utf-8")

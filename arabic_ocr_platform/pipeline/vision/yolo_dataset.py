@@ -76,10 +76,11 @@ def class_names_from_config(config: Dict) -> Dict[int, str]:
 
 
 def split_dirs(dataset_root: Path, config: Dict) -> Dict[str, Path]:
+    """Map split names to their YOLO folders (e.g. train/, valid/, test/)."""
     return {
-        "train": dataset_root / Path(config["train"]).parent.parent.name,
-        "valid": dataset_root / Path(config["val"]).parent.parent.name,
-        "test": dataset_root / Path(config["test"]).parent.parent.name,
+        "train": dataset_root / Path(config["train"]).parent,
+        "valid": dataset_root / Path(config["val"]).parent,
+        "test": dataset_root / Path(config["test"]).parent,
     }
 
 
@@ -157,6 +158,7 @@ def export_florence_annotations(
     splits: Optional[List[str]] = None,
     limit_per_split: Optional[int] = None,
     dataset_yaml: Optional[Path] = None,
+    max_boxes_per_image: Optional[int] = None,
 ) -> Path:
     """Export Florence-2 OD JSON annotations for selected splits."""
     splits = splits or ["train", "valid", "test"]
@@ -165,7 +167,10 @@ def export_florence_annotations(
     for split in splits:
         for sample in load_split_samples(split, limit=limit_per_split, dataset_yaml=dataset_yaml):
             suffix_parts = []
-            for box in sample.boxes:
+            boxes = sample.boxes
+            if max_boxes_per_image:
+                boxes = boxes[:max_boxes_per_image]
+            for box in boxes:
                 x1, y1, x2, y2 = box.to_xyxy_pixels(sample.image_width, sample.image_height)
                 qx1 = int(round((x1 / sample.image_width) * 1000))
                 qy1 = int(round((y1 / sample.image_height) * 1000))

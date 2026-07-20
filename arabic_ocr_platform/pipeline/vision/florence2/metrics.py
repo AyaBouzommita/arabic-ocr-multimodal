@@ -84,6 +84,48 @@ def average_precision(
     return ap
 
 
+def compute_precision_recall(
+    pred_by_image: Dict[str, List[Detection]],
+    gt_by_image: Dict[str, List[Detection]],
+    iou_threshold: float = 0.5,
+) -> Dict[str, float]:
+    """Compute global precision and recall at a given IoU threshold."""
+    tp = fp = fn = 0
+
+    for image_id, ground_truth in gt_by_image.items():
+        predictions = sorted(
+            pred_by_image.get(image_id, []),
+            key=lambda p: p.confidence,
+            reverse=True,
+        )
+        matched = [False] * len(ground_truth)
+
+        for pred in predictions:
+            best_iou = 0.0
+            best_idx = -1
+            for idx, gt in enumerate(ground_truth):
+                if matched[idx] or pred.label != gt.label:
+                    continue
+                iou = box_iou(pred.bbox, gt.bbox)
+                if iou > best_iou:
+                    best_iou = iou
+                    best_idx = idx
+            if best_iou >= iou_threshold and best_idx >= 0:
+                matched[best_idx] = True
+                tp += 1
+            else:
+                fp += 1
+
+        fn += sum(1 for m in matched if not m)
+
+    precision = tp / (tp + fp) if (tp + fp) else 0.0
+    recall = tp / (tp + fn) if (tp + fn) else 0.0
+    return {
+        "precision": round(precision, 4),
+        "recall": round(recall, 4),
+    }
+
+
 def compute_map(
     pred_by_image: Dict[str, List[Detection]],
     gt_by_image: Dict[str, List[Detection]],

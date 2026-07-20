@@ -2,37 +2,33 @@
 
 from __future__ import annotations
 
+import gc
 import json
 from pathlib import Path
 from typing import Dict, Optional
 
 import torch
-from peft import LoraConfig, get_peft_model
+from PIL import Image
 from torch.optim import AdamW
 from torch.utils.data import DataLoader
-from transformers import AutoModelForCausalLM, AutoProcessor, get_scheduler
+from transformers import get_scheduler
 
 from arabic_ocr_platform.pipeline.vision.florence2.config import Florence2Config
 from arabic_ocr_platform.pipeline.vision.florence2.dataset import FlorenceODDataset, ensure_florence_annotations
+from arabic_ocr_platform.pipeline.vision.florence2.model_loading import (
+    load_florence2_model,
+    load_florence2_processor,
+    should_use_low_vram,
+)
 
 
 class Florence2Trainer:
     """Fine-tune Florence-2 on the shared YOLO dataset."""
 
-    TARGET_MODULES = [
-        "q_proj",
-        "o_proj",
-        "k_proj",
-        "v_proj",
-        "linear",
-        "Conv2d",
-        "lm_head",
-        "fc2",
-    ]
-
     def __init__(self, config: Optional[Florence2Config] = None):
         self.config = config or Florence2Config()
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.low_vram = should_use_low_vram(self.config)
 
     def prepare_annotations(
         self,
@@ -43,50 +39,66 @@ class Florence2Trainer:
             splits=["train", "valid"],
             limit_per_split=limit_per_split,
             dataset_yaml=self.config.dataset_yaml,
+            max_boxes_per_image=self.config.max_boxes_per_image,
         )
+
+    def _resize_image(self, image: Image.Image) -> Image.Image:
+        max_size = self.config.max_image_size
+        width, height = image.size
+        scale = min(max_size / max(width, height), 1.0)
+        if scale >= 1.0:
+            return image
+        return image.resize((int(width * scale), int(height * scale)), Image.BILINEAR)
 
     def _build_model(self):
-        model = AutoModelForCausalLM.from_pretrained(
-            self.config.checkpoint,
-            trust_remote_code=True,
+        model, self.low_vram = load_florence2_model(
+            checkpoint=self.config.checkpoint,
             revision=self.config.revision,
-        ).to(self.device)
-        processor = AutoProcessor.from_pretrained(
-            self.config.checkpoint,
-            trust_remote_code=True,
-            revision=self.config.revision,
-        )
-
-        lora_config = LoraConfig(
-            r=self.config.lora_r,
+            config=self.config,
+            for_training=True,
+            lora_r=self.config.lora_r,
             lora_alpha=self.config.lora_alpha,
-            target_modules=self.TARGET_MODULES,
-            task_type="CAUSAL_LM",
             lora_dropout=self.config.lora_dropout,
-            bias="none",
-            inference_mode=False,
-            use_rslora=True,
-            init_lora_weights="gaussian",
         )
-        model = get_peft_model(model, lora_config)
+        processor = load_florence2_processor(self.config.checkpoint, self.config.revision)
+        if self.low_vram:
+            print(
+                f"⚙️  Low-VRAM mode: 4-bit QLoRA | image {self.config.max_image_size}px | "
+                f"seq {self.config.max_seq_length} | max {self.config.max_boxes_per_image} boxes/img"
+            )
         return model, processor
 
     def _collate(self, processor, batch):
-        images = [item["image"] for item in batch]
+        images = [self._resize_image(item["image"]) for item in batch]
         prefixes = [item["prefix"] for item in batch]
         suffixes = [item["suffix"] for item in batch]
 
-        inputs = processor(text=prefixes, images=images, return_tensors="pt", padding=True)
+        inputs = processor(
+            text=prefixes,
+            images=images,
+            return_tensors="pt",
+            padding=True,
+            truncation=True,
+            max_length=self.config.max_seq_length,
+        )
         labels = processor.tokenizer(
             text=suffixes,
             return_tensors="pt",
             padding=True,
+            truncation=True,
+            max_length=self.config.max_seq_length,
             return_token_type_ids=False,
-        ).input_ids.to(self.device)
+        ).input_ids
+
+        pad_id = processor.tokenizer.pad_token_id
+        if pad_id is not None:
+            labels[labels == pad_id] = -100
+
+        device = self.device if not self.low_vram else inputs["input_ids"].device
         return {
-            "input_ids": inputs["input_ids"].to(self.device),
-            "pixel_values": inputs["pixel_values"].to(self.device),
-            "labels": labels,
+            "input_ids": inputs["input_ids"].to(device),
+            "pixel_values": inputs["pixel_values"].to(device),
+            "labels": labels.to(device),
         }
 
     def train(
@@ -94,6 +106,9 @@ class Florence2Trainer:
         limit_per_split: Optional[int] = None,
         epochs: Optional[int] = None,
     ) -> Dict:
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+
         annotation_paths = self.prepare_annotations(limit_per_split=limit_per_split)
         train_dataset = FlorenceODDataset(annotation_paths["train"])
         val_dataset = FlorenceODDataset(annotation_paths["valid"])
@@ -127,17 +142,21 @@ class Florence2Trainer:
             model.train()
             train_loss = 0.0
             for batch in train_loader:
-                outputs = model(
-                    input_ids=batch["input_ids"],
-                    pixel_values=batch["pixel_values"],
-                    labels=batch["labels"],
-                )
-                loss = outputs.loss
+                with torch.cuda.amp.autocast(enabled=self.low_vram):
+                    outputs = model(
+                        input_ids=batch["input_ids"],
+                        pixel_values=batch["pixel_values"],
+                        labels=batch["labels"],
+                    )
+                    loss = outputs.loss
                 loss.backward()
                 optimizer.step()
                 lr_scheduler.step()
-                optimizer.zero_grad()
+                optimizer.zero_grad(set_to_none=True)
                 train_loss += loss.item()
+                del outputs, loss
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
             avg_train = train_loss / max(len(train_loader), 1)
             history["train_loss"].append(round(avg_train, 4))
 
@@ -151,19 +170,26 @@ class Florence2Trainer:
                         labels=batch["labels"],
                     )
                     val_loss += outputs.loss.item()
+                    del outputs
+                    if torch.cuda.is_available():
+                        torch.cuda.empty_cache()
             avg_val = val_loss / max(len(val_loader), 1)
             history["val_loss"].append(round(avg_val, 4))
+            gc.collect()
 
         self.config.model_dir.mkdir(parents=True, exist_ok=True)
         model.save_pretrained(self.config.model_dir)
         processor.save_pretrained(self.config.model_dir)
 
         summary = {
+            "model": "florence2",
             "checkpoint": self.config.checkpoint,
             "epochs": num_epochs,
             "train_samples": len(train_dataset),
             "val_samples": len(val_dataset),
             "device": str(self.device),
+            "low_vram_mode": self.low_vram,
+            "dataset": str(self.config.dataset_yaml),
             "history": history,
             "model_dir": str(self.config.model_dir),
         }
