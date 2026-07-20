@@ -63,7 +63,7 @@ class Florence2Trainer:
         processor = load_florence2_processor(self.config.checkpoint, self.config.revision)
         if self.low_vram:
             print(
-                f"⚙️  Low-VRAM mode: 4-bit QLoRA | image {self.config.max_image_size}px | "
+                f"[Low-VRAM Mode] 4-bit QLoRA | image {self.config.max_image_size}px | "
                 f"seq {self.config.max_seq_length} | max {self.config.max_boxes_per_image} boxes/img"
             )
         return model, processor
@@ -78,8 +78,6 @@ class Florence2Trainer:
             images=images,
             return_tensors="pt",
             padding=True,
-            truncation=True,
-            max_length=self.config.max_seq_length,
         )
         labels = processor.tokenizer(
             text=suffixes,
@@ -94,11 +92,87 @@ class Florence2Trainer:
         if pad_id is not None:
             labels[labels == pad_id] = -100
 
-        device = self.device if not self.low_vram else inputs["input_ids"].device
+        device = self.device
         return {
             "input_ids": inputs["input_ids"].to(device),
             "pixel_values": inputs["pixel_values"].to(device),
             "labels": labels.to(device),
+        }
+
+    def _evaluate_metrics(self, model, processor, limit_per_split: Optional[int] = None) -> Dict[str, float]:
+        """Compute precision, recall, map50, map50_95 on the validation set."""
+        from PIL import Image
+        from arabic_ocr_platform.pipeline.vision.yolo_dataset import load_split_samples, class_names_from_config, load_dataset_config
+        from arabic_ocr_platform.pipeline.vision.florence2.metrics import Detection, compute_map, compute_precision_recall
+        from arabic_ocr_platform.pipeline.vision.florence2.engine import Florence2Detector
+        
+        dataset_cfg = load_dataset_config(self.config.dataset_yaml)
+        class_map = class_names_from_config(dataset_cfg)
+        allowed_classes = set(class_map.values())
+        
+        val_samples = load_split_samples("valid", limit=limit_per_split, dataset_yaml=self.config.dataset_yaml)
+        
+        pred_by_image = {}
+        gt_by_image = {}
+        
+        model.eval()
+        with torch.no_grad():
+            for sample in val_samples:
+                image_id = sample.image_path.stem
+                gt_by_image[image_id] = [
+                    Detection(
+                        label=box.class_name,
+                        bbox=list(box.to_xyxy_pixels(sample.image_width, sample.image_height)),
+                        confidence=1.0,
+                    )
+                    for box in sample.boxes
+                ]
+                
+                with Image.open(sample.image_path) as img:
+                    image = img.convert("RGB")
+                
+                image = self._resize_image(image)
+                inputs = processor(text=self.config.task_prompt, images=image, return_tensors="pt")
+                device = self.device
+                inputs = {k: v.to(device) for k, v in inputs.items()}
+                
+                with torch.cuda.amp.autocast(enabled=self.low_vram):
+                    generated_ids = model.generate(
+                        input_ids=inputs["input_ids"],
+                        pixel_values=inputs["pixel_values"],
+                        max_new_tokens=self.config.max_new_tokens,
+                        num_beams=self.config.num_beams,
+                    )
+                
+                generated_text = processor.batch_decode(generated_ids, skip_special_tokens=False)[0]
+                parsed = processor.post_process_generation(
+                    generated_text,
+                    task=self.config.task_prompt,
+                    image_size=image.size,
+                )
+                
+                objects = Florence2Detector._parse_objects(parsed, allowed_classes)
+                pred_by_image[image_id] = [
+                    Detection(label=obj["label"], bbox=obj["bbox"], confidence=obj["confidence"])
+                    for obj in objects
+                ]
+                
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+        
+        map_metrics = compute_map(
+            pred_by_image,
+            gt_by_image,
+            class_names=sorted(allowed_classes),
+            iou_thresholds=[0.5],
+        )
+        pr_metrics = compute_precision_recall(pred_by_image, gt_by_image, iou_threshold=0.5)
+        
+        return {
+            "precision": pr_metrics["precision"],
+            "recall": pr_metrics["recall"],
+            "map50": map_metrics["map50"],
+            "map50_95": map_metrics["map50_95"],
         }
 
     def train(
@@ -106,6 +180,8 @@ class Florence2Trainer:
         limit_per_split: Optional[int] = None,
         epochs: Optional[int] = None,
     ) -> Dict:
+        import time as time_lib
+
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
 
@@ -137,8 +213,19 @@ class Florence2Trainer:
             num_training_steps=num_training_steps,
         )
 
+        # Initialize results.csv
+        self.config.model_dir.mkdir(parents=True, exist_ok=True)
+        csv_path = self.config.model_dir / "results.csv"
+        with open(csv_path, "w", encoding="utf-8") as f:
+            f.write(
+                "epoch,time,train/box_loss,train/cls_loss,train/dfl_loss,"
+                "metrics/precision(B),metrics/recall(B),metrics/mAP50(B),metrics/mAP50-95(B),"
+                "val/box_loss,val/cls_loss,val/dfl_loss\n"
+            )
+
         history = {"train_loss": [], "val_loss": []}
         for epoch in range(num_epochs):
+            epoch_start = time_lib.perf_counter()
             model.train()
             train_loss = 0.0
             for batch in train_loader:
@@ -175,6 +262,22 @@ class Florence2Trainer:
                         torch.cuda.empty_cache()
             avg_val = val_loss / max(len(val_loader), 1)
             history["val_loss"].append(round(avg_val, 4))
+            
+            epoch_time = time_lib.perf_counter() - epoch_start
+            
+            # Evaluate validation set metrics
+            print(f"Epoch {epoch+1}/{num_epochs}: Running validation set evaluation...")
+            val_metrics = self._evaluate_metrics(model, processor, limit_per_split=limit_per_split)
+            
+            # Write to results.csv
+            with open(csv_path, "a", encoding="utf-8") as f:
+                f.write(
+                    f"{epoch+1},{epoch_time:.4f},{avg_train:.4f},0.0,0.0,"
+                    f"{val_metrics['precision']:.4f},{val_metrics['recall']:.4f},"
+                    f"{val_metrics['map50']:.4f},{val_metrics['map50_95']:.4f},"
+                    f"{avg_val:.4f},0.0,0.0\n"
+                )
+            
             gc.collect()
 
         self.config.model_dir.mkdir(parents=True, exist_ok=True)

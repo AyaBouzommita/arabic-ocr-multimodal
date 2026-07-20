@@ -43,15 +43,21 @@ def freeze_vision_encoder(model) -> None:
     for attr in ("vision_tower", "image_projection", "visual"):
         module = getattr(model, attr, None)
         if module is not None:
-            for param in module.parameters():
-                param.requires_grad = False
+            if hasattr(module, "parameters"):
+                for param in module.parameters():
+                    param.requires_grad = False
+            elif isinstance(module, torch.nn.Parameter):
+                module.requires_grad = False
 
     base = getattr(model, "model", model)
     for attr in ("vision_tower", "image_projection", "visual", "encoder"):
         module = getattr(base, attr, None)
         if module is not None and attr != "encoder":
-            for param in module.parameters():
-                param.requires_grad = False
+            if hasattr(module, "parameters"):
+                for param in module.parameters():
+                    param.requires_grad = False
+            elif isinstance(module, torch.nn.Parameter):
+                module.requires_grad = False
 
 
 def load_florence2_model(
