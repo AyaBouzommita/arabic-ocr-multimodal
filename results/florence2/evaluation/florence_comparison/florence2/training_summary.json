@@ -1,0 +1,25 @@
+{
+  "model": "florence2",
+  "checkpoint": "microsoft/Florence-2-base-ft",
+  "epochs": 4,
+  "train_samples": 10,
+  "val_samples": 10,
+  "device": "cuda",
+  "low_vram_mode": false,
+  "dataset": "/content/arabic-ocr-multimodal/data/vision/dataset.yaml",
+  "history": {
+    "train_loss": [
+      7.9664,
+      7.8492,
+      7.6663,
+      7.621
+    ],
+    "val_loss": [
+      7.482,
+      7.4099,
+      7.3668,
+      7.3506
+    ]
+  },
+  "model_dir": "results/florence2/evaluation/florence_comparison/florence2"
+}
