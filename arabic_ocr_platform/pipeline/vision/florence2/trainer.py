@@ -278,6 +278,12 @@ class Florence2Trainer:
                     f"{avg_val:.4f},0.0,0.0\n"
                 )
             
+            # Save checkpoint for this epoch
+            checkpoint_dir = self.config.model_dir / f"epoch_{epoch+1}"
+            checkpoint_dir.mkdir(parents=True, exist_ok=True)
+            model.save_pretrained(checkpoint_dir)
+            processor.save_pretrained(checkpoint_dir)
+
             gc.collect()
 
         self.config.model_dir.mkdir(parents=True, exist_ok=True)
