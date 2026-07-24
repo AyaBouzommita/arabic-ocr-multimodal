@@ -1,0 +1,22 @@
+{
+  "model": "florence2",
+  "objects": [],
+  "processing_time_ms": 303,
+  "raw_response": {
+    "<OD>": {
+      "bboxes": [
+        [
+          119.34000396728516,
+          30.780000686645508,
+          281.3399963378906,
+          153.90000915527344
+        ]
+      ],
+      "labels": [
+        "sports ball"
+      ]
+    }
+  },
+  "document_id": "ocr_mixv2_0014_jpg.rf.c4f923fdf27b0158a5e4ac266cc38ec9",
+  "image_path": "/content/arabic-ocr-multimodal/data/vision/detection/test/images/ocr_mixv2_0014_jpg.rf.c4f923fdf27b0158a5e4ac266cc38ec9.jpg"
+}

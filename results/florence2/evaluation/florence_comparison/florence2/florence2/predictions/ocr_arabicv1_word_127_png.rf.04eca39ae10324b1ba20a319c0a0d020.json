@@ -1,0 +1,22 @@
+{
+  "model": "florence2",
+  "objects": [],
+  "processing_time_ms": 253,
+  "raw_response": {
+    "<OD>": {
+      "bboxes": [
+        [
+          0.3199999928474426,
+          0.3199999928474426,
+          639.0399780273438,
+          639.0399780273438
+        ]
+      ],
+      "labels": [
+        "poster"
+      ]
+    }
+  },
+  "document_id": "ocr_arabicv1_word_127_png.rf.04eca39ae10324b1ba20a319c0a0d020",
+  "image_path": "/content/arabic-ocr-multimodal/data/vision/detection/test/images/ocr_arabicv1_word_127_png.rf.04eca39ae10324b1ba20a319c0a0d020.jpg"
+}

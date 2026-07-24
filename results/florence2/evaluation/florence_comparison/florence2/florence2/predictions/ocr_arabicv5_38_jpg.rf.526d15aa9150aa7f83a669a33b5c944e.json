@@ -1,0 +1,29 @@
+{
+  "model": "florence2",
+  "objects": [],
+  "processing_time_ms": 332,
+  "raw_response": {
+    "<OD>": {
+      "bboxes": [
+        [
+          469.44000244140625,
+          201.27999877929688,
+          505.91998291015625,
+          259.5199890136719
+        ],
+        [
+          445.1199951171875,
+          187.83999633789062,
+          537.9199829101562,
+          329.2799987792969
+        ]
+      ],
+      "labels": [
+        "human face",
+        "person"
+      ]
+    }
+  },
+  "document_id": "ocr_arabicv5_38_jpg.rf.526d15aa9150aa7f83a669a33b5c944e",
+  "image_path": "/content/arabic-ocr-multimodal/data/vision/detection/test/images/ocr_arabicv5_38_jpg.rf.526d15aa9150aa7f83a669a33b5c944e.jpg"
+}

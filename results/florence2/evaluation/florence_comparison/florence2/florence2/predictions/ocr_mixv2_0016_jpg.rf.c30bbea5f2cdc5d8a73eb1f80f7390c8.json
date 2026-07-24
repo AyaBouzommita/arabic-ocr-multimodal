@@ -1,0 +1,22 @@
+{
+  "model": "florence2",
+  "objects": [],
+  "processing_time_ms": 302,
+  "raw_response": {
+    "<OD>": {
+      "bboxes": [
+        [
+          0.5400000214576721,
+          0.5400000214576721,
+          1078.3800048828125,
+          1078.3800048828125
+        ]
+      ],
+      "labels": [
+        "poster"
+      ]
+    }
+  },
+  "document_id": "ocr_mixv2_0016_jpg.rf.c30bbea5f2cdc5d8a73eb1f80f7390c8",
+  "image_path": "/content/arabic-ocr-multimodal/data/vision/detection/test/images/ocr_mixv2_0016_jpg.rf.c30bbea5f2cdc5d8a73eb1f80f7390c8.jpg"
+}

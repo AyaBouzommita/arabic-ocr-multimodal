@@ -1,0 +1,43 @@
+{
+  "model": "florence2",
+  "objects": [],
+  "processing_time_ms": 449,
+  "raw_response": {
+    "<OD>": {
+      "bboxes": [
+        [
+          250.55999755859375,
+          85.43999481201172,
+          412.47998046875,
+          189.1199951171875
+        ],
+        [
+          56.63999938964844,
+          345.2799987792969,
+          105.91999816894531,
+          422.7200012207031
+        ],
+        [
+          27.84000015258789,
+          276.1600036621094,
+          146.239990234375,
+          612.1599731445312
+        ],
+        [
+          29.119998931884766,
+          50.87999725341797,
+          620.47998046875,
+          623.6799926757812
+        ]
+      ],
+      "labels": [
+        "hat",
+        "human face",
+        "person",
+        "poster"
+      ]
+    }
+  },
+  "document_id": "en-data_card3_jpg.rf.132cf6835740ab704be0d3bc6f071ca3",
+  "image_path": "/content/arabic-ocr-multimodal/data/vision/detection/test/images/en-data_card3_jpg.rf.132cf6835740ab704be0d3bc6f071ca3.jpg"
+}

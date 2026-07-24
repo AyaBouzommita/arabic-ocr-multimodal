@@ -1,0 +1,16 @@
+{
+  "checkpoint": "/content/florence2-model",
+  "epochs": 1,
+  "train_samples": 50,
+  "val_samples": 50,
+  "device": "cuda",
+  "history": {
+    "train_loss": [
+      7.5458
+    ],
+    "val_loss": [
+      6.3241
+    ]
+  },
+  "model_dir": "results/florence2/model"
+}
