@@ -27,9 +27,11 @@ import numpy as np
 import pandas as pd
 from ultralytics import YOLO
 
-from ocr.paddleocr.engine import PaddleOCREngine
+from ocr.easyocr.engine import EasyOCREngine
 from ocr.result import OCRResult, OCRToken
+from ocr.postprocessing.bilingual_corrector import BilingualCorrector
 from ocr.preprocessing import ImageEnhancer
+from ocr.utils import sort_boxes_rtl
 from evaluation.ground_truth import GroundTruthLoader
 from evaluation.metrics import compute_cer, compute_wer, corpus_summary
 
@@ -65,19 +67,18 @@ def fix_arabic_direction(text: str) -> str:
     return " ".join(fixed_words[::-1])
 
 
-def run_paddleocr_alone(engine, image_path, document_id=None):
-    """Run PaddleOCR directly on the full image (baseline)."""
+def run_easyocr_alone(engine, image_path, document_id=None):
+    """Run EasyOCR directly on the full image (baseline)."""
     result = engine.extract_text(str(image_path), document_id=document_id)
-    result.raw_text = fix_arabic_direction(result.raw_text)
     return result
 
 
-def run_yolo_paddleocr_pipeline(yolo_model, engine, image_path, document_id=None, conf_thresh=0.25, enhancer=None):
-    """Run YOLOv11s → crop text regions → (optional enhance) → PaddleOCR on each crop.
+def run_yolo_easyocr_pipeline(yolo_model, engine, image_path, document_id=None, conf_thresh=0.25, enhancer=None):
+    """Run YOLOv11s → crop text regions → (optional enhance) → EasyOCR on each crop.
     
     Args:
         yolo_model: Loaded YOLO model.
-        engine: PaddleOCREngine instance.
+        engine: EasyOCREngine instance.
         image_path: Path to the input image.
         document_id: Optional document ID.
         conf_thresh: YOLO confidence threshold.
@@ -140,8 +141,8 @@ def run_yolo_paddleocr_pipeline(yolo_model, engine, image_path, document_id=None
                         "crop": image[y1:y2, x1:x2].copy(),
                     })
 
-    # Sort regions: top-to-bottom, then left-to-right
-    text_regions.sort(key=lambda r: (r["bbox"][1], r["bbox"][0]))
+    # Sort regions Right-to-Left (Top-to-Bottom first)
+    text_regions = sort_boxes_rtl(text_regions, lambda r: r["bbox"])
 
     # Run PaddleOCR on each cropped region
     all_tokens = []
@@ -152,7 +153,7 @@ def run_yolo_paddleocr_pipeline(yolo_model, engine, image_path, document_id=None
         result = engine.extract_text(str(image_path), document_id=doc_id)
         elapsed_ms = int((time.perf_counter() - start_time) * 1000)
         result.processing_time_ms = elapsed_ms
-        result.engine = "yolo+paddleocr"
+        result.engine = "yolo+easyocr"
         return result
 
     for region in text_regions:
@@ -162,43 +163,48 @@ def run_yolo_paddleocr_pipeline(yolo_model, engine, image_path, document_id=None
         if enhancer is not None:
             crop = enhancer.enhance_crop(crop)
 
-        # Save crop to a temp file (PaddleOCR needs a file path or numpy array)
-        ocr = engine._get_ocr()
-        paddle_results = ocr.ocr(crop, cls=engine.use_angle_cls)
+        reader = engine._get_reader()
+        easyocr_results = reader.readtext(crop, detail=engine.detail, paragraph=engine.paragraph)
 
-        if paddle_results and paddle_results[0]:
-            for line in paddle_results[0]:
-                box_points = line[0]
-                text = line[1][0]
-                conf = line[1][1]
+        # Sort crop results Right-to-Left as well
+        def get_item_bbox(item):
+            box_p = item[0]
+            return [min(p[0] for p in box_p), min(p[1] for p in box_p),
+                    max(p[0] for p in box_p), max(p[1] for p in box_p)]
+        easyocr_results = sort_boxes_rtl(easyocr_results, get_item_bbox)
 
-                if not text.strip():
-                    continue
+        for result_item in easyocr_results:
+            box_points = result_item[0]
+            text = result_item[1]
+            conf = result_item[2]
 
-                # Convert local crop bbox to global image coordinates
-                xs = [p[0] for p in box_points]
-                ys = [p[1] for p in box_points]
-                global_bbox = [
-                    float(min(xs)) + bbox_offset[0],
-                    float(min(ys)) + bbox_offset[1],
-                    float(max(xs)) + bbox_offset[0],
-                    float(max(ys)) + bbox_offset[1],
-                ]
+            if not text.strip():
+                continue
 
-                token = OCRToken(
-                    text=text.strip(),
-                    bbox=global_bbox,
-                    confidence=float(conf) * 100.0,
-                )
-                all_tokens.append(token)
-                all_text_parts.append(text.strip())
+            # Convert local crop bbox to global image coordinates
+            xs = [p[0] for p in box_points]
+            ys = [p[1] for p in box_points]
+            global_bbox = [
+                float(min(xs)) + bbox_offset[0],
+                float(min(ys)) + bbox_offset[1],
+                float(max(xs)) + bbox_offset[0],
+                float(max(ys)) + bbox_offset[1],
+            ]
 
-    raw_text = fix_arabic_direction(" ".join(all_text_parts))
+            token = OCRToken(
+                text=text.strip(),
+                bbox=global_bbox,
+                confidence=float(conf) * 100.0,
+            )
+            all_tokens.append(token)
+            all_text_parts.append(text.strip())
+
+    raw_text = " ".join(all_text_parts)
     elapsed_ms = int((time.perf_counter() - start_time) * 1000)
 
     return OCRResult(
         document_id=doc_id,
-        engine="yolo+paddleocr",
+        engine="yolo+easyocr",
         raw_text=raw_text,
         tokens=all_tokens,
         processing_time_ms=elapsed_ms,
@@ -230,11 +236,11 @@ def main():
         print(f"  GPU:      {torch.cuda.get_device_name(0)}")
 
     # ── Load models ──
-    print(f"\n[Loading] YOLOv11s weights: {args.yolo_weights}")
+    print("\n[Loading] YOLOv11s weights: {args.yolo_weights}")
     yolo_model = YOLO(args.yolo_weights)
     
-    print("[Loading] PaddleOCR engine...")
-    paddle_engine = PaddleOCREngine(lang="ar", use_gpu=args.use_gpu)
+    print("[Loading] EasyOCR engine (ar, en)...")
+    easyocr_engine = EasyOCREngine(languages=["ar", "en"], gpu=args.use_gpu)
 
     # ── Load ground truth ──
     loader = GroundTruthLoader(image_dir=args.image_dir, gt_dir=args.gt_dir)
@@ -259,16 +265,16 @@ def main():
         doc_id = image_path.stem
         print(f"  Processing: {doc_id}")
 
-        # --- PaddleOCR alone (baseline) ---
-        print(f"    [1/2] PaddleOCR alone...", end=" ")
-        result_baseline = run_paddleocr_alone(paddle_engine, image_path, doc_id)
+        # --- EasyOCR alone (baseline) ---
+        print(f"    [1/2] EasyOCR alone...", end=" ")
+        result_baseline = run_easyocr_alone(easyocr_engine, image_path, doc_id)
         cer_b = compute_cer(gt_text, result_baseline.raw_text)
         wer_b = compute_wer(gt_text, result_baseline.raw_text)
         print(f"CER={cer_b:.4f}  WER={wer_b:.4f}")
 
         records_baseline.append({
             "document_id": doc_id,
-            "method": "PaddleOCR Alone",
+            "method": "EasyOCR Alone",
             "ground_truth": gt_text,
             "ocr_text": result_baseline.raw_text,
             "cer": cer_b,
@@ -278,10 +284,15 @@ def main():
             "token_count": result_baseline.word_count,
         })
 
-        # --- YOLO + PaddleOCR pipeline ---
-        print(f"    [2/2] YOLOv11s + PaddleOCR...", end=" ")
-        result_pipeline = run_yolo_paddleocr_pipeline(
-            yolo_model, paddle_engine, image_path, doc_id, conf_thresh=args.conf
+        # --- YOLO + EasyOCR pipeline ---
+        print(f"    [2/2] YOLOv11s + EasyOCR...", end=" ")
+        result_pipeline = run_yolo_easyocr_pipeline(
+            yolo_model=yolo_model,
+            engine=easyocr_engine,
+            image_path=image_path,
+            document_id=doc_id,
+            conf_thresh=args.conf,
+            enhancer=None,
         )
         cer_p = compute_cer(gt_text, result_pipeline.raw_text)
         wer_p = compute_wer(gt_text, result_pipeline.raw_text)
@@ -289,7 +300,7 @@ def main():
 
         records_pipeline.append({
             "document_id": doc_id,
-            "method": "YOLOv11s + PaddleOCR",
+            "method": "YOLOv11s + EasyOCR",
             "ground_truth": gt_text,
             "ocr_text": result_pipeline.raw_text,
             "cer": cer_p,

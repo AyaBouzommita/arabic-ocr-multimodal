@@ -1,19 +1,15 @@
-"""Run Tesseract Arabic baseline evaluation on the full corpus.
+"""Run EasyOCR Arabic baseline evaluation on the full corpus.
 
-This script is the primary deliverable for US-04:
-    'As the assigned engineer, I implement Tesseract Arabic baseline
-     and measure CER/WER'
-
-It runs Tesseract on every image in data/raw/ that has a matching
-ground-truth file in data/ground_truth/, computes CER/WER metrics,
+This script mirrors the Tesseract baseline script (run_tesseract_baseline.py)
+for EasyOCR. It runs EasyOCR on every image in data/raw/ that has a
+matching ground-truth file in data/ground_truth/, computes CER/WER metrics,
 and saves:
-    - results/sprint1_tesseract_baseline.csv  (per-document results)
-    - results/sprint1_baseline.csv            (same, DoD reference name)
+    - results/sprint1_easyocr_baseline.csv  (per-document results)
     - Console summary with aggregate metrics
 
 Usage:
-    python -m scripts.run_tesseract_baseline
-    python -m scripts.run_tesseract_baseline --image-dir data/raw --gt-dir data/ground_truth
+    python -m scripts.run_easyocr_baseline
+    python -m scripts.run_easyocr_baseline --image-dir data/raw --gt-dir data/ground_truth
 """
 
 import argparse
@@ -26,15 +22,15 @@ import torch
 project_root = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(project_root))
 
-from ocr.tesseract import TesseractEngine
+from ocr.easyocr import EasyOCREngine
 from evaluation.ground_truth import GroundTruthLoader
 from evaluation.metrics import evaluate_corpus, corpus_summary
 
 
 def main():
-    """Run the Tesseract baseline evaluation pipeline."""
+    """Run the EasyOCR baseline evaluation pipeline."""
     parser = argparse.ArgumentParser(
-        description="Run Tesseract Arabic OCR baseline and measure CER/WER"
+        description="Run EasyOCR Arabic OCR baseline and measure CER/WER"
     )
     parser.add_argument(
         "--image-dir",
@@ -53,24 +49,19 @@ def main():
     )
     parser.add_argument(
         "--lang",
-        default="ara",
-        help="Tesseract language code (default: ara)",
+        nargs="+",
+        default=["ar"],
+        help="EasyOCR language codes (default: ar). Use 'ar en' for Arabic + English.",
     )
     parser.add_argument(
-        "--psm",
-        type=int,
-        default=3,
-        help="Tesseract Page Segmentation Mode (default: 3)",
-    )
-    parser.add_argument(
-        "--threshold",
+        "--use-gpu",
         action="store_true",
-        help="Enable Otsu binary thresholding during preprocessing",
+        help="Enable GPU acceleration",
     )
     parser.add_argument(
-        "--no-denoise",
+        "--paragraph",
         action="store_true",
-        help="Disable denoising during preprocessing",
+        help="Combine results into paragraphs",
     )
     parser.add_argument(
         "--save-json",
@@ -81,7 +72,7 @@ def main():
 
     # --- Setup ---
     print("=" * 60)
-    print("  TESSERACT ARABIC BASELINE — Sprint 1 (US-04)")
+    print("  EASYOCR ARABIC BASELINE")
     print("=" * 60)
 
     output_dir = Path(args.output_dir)
@@ -94,47 +85,40 @@ def main():
 
     # Print corpus summary
     summary = loader.summary()
-    print(f"\n📂 Corpus: {args.image_dir}")
+    print(f"\n[Corpus] {args.image_dir}")
     print(f"   Total images:    {summary['total_images']}")
     print(f"   With ground GT:  {summary['paired']}")
     print(f"   Without GT:      {summary['unpaired']}")
 
     if summary["paired"] == 0:
-        print("\n❌ No image/ground-truth pairs found. Cannot evaluate.")
+        print("\n[ERROR] No image/ground-truth pairs found. Cannot evaluate.")
         print("   Make sure each data/raw/foo.png has a data/ground_truth/foo.txt")
         sys.exit(1)
 
     unpaired = loader.get_unpaired_images()
     if unpaired:
-        print(f"\n⚠️  Skipping {len(unpaired)} images without ground truth:")
+        print(f"\n[WARNING] Skipping {len(unpaired)} images without ground truth:")
         for img in unpaired:
             print(f"     - {img.name}")
 
-    # --- Initialize Tesseract engine ---
-    engine = TesseractEngine(
-        lang=args.lang,
-        psm=args.psm,
-        enable_denoise=not args.no_denoise,
-        enable_threshold=args.threshold,
+    # --- Initialize EasyOCR engine ---
+    engine = EasyOCREngine(
+        languages=args.lang,
+        gpu=args.use_gpu,
+        paragraph=args.paragraph,
     )
-    print(f"\n🔧 Engine: Tesseract (lang={args.lang}, psm={args.psm})")
-    print(f"   Preprocessing: grayscale=True, denoise={not args.no_denoise}, "
-          f"threshold={args.threshold}")
+    print(f"\n[Engine] EasyOCR (languages={args.lang}, gpu={args.use_gpu})")
+    print(f"   Paragraph mode: {args.paragraph}")
 
     # --- Run evaluation ---
-    print(f"\n🚀 Running Tesseract on {summary['paired']} documents...\n")
+    print(f"\n[Running] EasyOCR on {summary['paired']} documents...\n")
 
     df = evaluate_corpus(engine, loader)
 
     # --- Save per-document results ---
-    csv_path = output_dir / "sprint1_tesseract_baseline.csv"
+    csv_path = output_dir / "sprint1_easyocr_baseline.csv"
     df.to_csv(csv_path, index=False, encoding="utf-8-sig")
-    print(f"📊 Per-document results saved to: {csv_path}")
-
-    # Also save as sprint1_baseline.csv (DoD reference name)
-    baseline_path = output_dir / "sprint1_baseline.csv"
-    df.to_csv(baseline_path, index=False, encoding="utf-8-sig")
-    print(f"📊 Baseline CSV saved to: {baseline_path}")
+    print(f"[Saved] Per-document results: {csv_path}")
 
     # --- Save JSON outputs if requested ---
     if args.save_json:
@@ -144,14 +128,14 @@ def main():
             engine_result = engine.extract_text(
                 row["image_path"], document_id=row["document_id"]
             )
-            json_path = json_dir / f"{row['document_id']}_tesseract.json"
+            json_path = json_dir / f"{row['document_id']}_easyocr.json"
             json_path.write_text(engine_result.to_json(), encoding="utf-8")
-        print(f"📄 JSON outputs saved to: {json_dir}")
+        print(f"[Saved] JSON outputs: {json_dir}")
 
     # --- Print per-document results ---
-    print("\n" + "─" * 60)
+    print("\n" + "-" * 60)
     print(f"{'Document':<20} {'CER':>8} {'WER':>8} {'Conf':>8} {'Time(ms)':>10}")
-    print("─" * 60)
+    print("-" * 60)
 
     for _, row in df.iterrows():
         print(
@@ -183,12 +167,12 @@ def main():
     print("  OCR OUTPUT SAMPLES (for error analysis)")
     print("=" * 60)
     for _, row in df.iterrows():
-        print(f"\n📄 {row['document_id']}:")
+        print(f"\n[Doc] {row['document_id']}:")
         print(f"   Ground Truth:  {row['ground_truth']}")
         print(f"   OCR Output:    {row['ocr_text']}")
         print(f"   CER: {row['cer']:.4f}  |  WER: {row['wer']:.4f}")
 
-    print("\n✅ Tesseract baseline evaluation complete.")
+    print("\n[DONE] EasyOCR baseline evaluation complete.")
     print(f"   Results in: {csv_path}")
     return df
 

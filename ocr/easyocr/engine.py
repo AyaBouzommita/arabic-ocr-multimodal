@@ -18,7 +18,8 @@ import easyocr
 
 from ocr.base_engine import OCREngine
 from ocr.result import OCRResult, OCRToken
-
+from ocr.utils import sort_boxes_rtl
+from ocr.postprocessing.normalizer import normalize_arabic_numerals
 
 class EasyOCREngine(OCREngine):
     """EasyOCR engine for Arabic document text extraction.
@@ -115,23 +116,34 @@ class EasyOCREngine(OCREngine):
         # preprocessing, so no grayscale/threshold conversion.
         image = self.load_image(image_path)
 
-        # Run EasyOCR
+        # Run EasyOCR with tuned parameters for better symbol detection
         reader = self._get_reader()
         easyocr_results = reader.readtext(
             image,
             detail=self.detail,
             paragraph=self.paragraph,
+            text_threshold=0.5,  # Lowered from 0.7 to catch small punctuation
+            mag_ratio=1.5,       # Magnify to help with tiny symbols
         )
 
         # Parse tokens from EasyOCR output
         tokens = []
         text_parts = []
 
+        # Sort tokens Right-to-Left for Arabic layout support
+        def get_item_bbox(item):
+            box_p = item[0]
+            return [min(p[0] for p in box_p), min(p[1] for p in box_p),
+                    max(p[0] for p in box_p), max(p[1] for p in box_p)]
+                    
+        easyocr_results = sort_boxes_rtl(easyocr_results, get_item_bbox)
+
         # EasyOCR returns list of (bbox, text, confidence)
         # bbox is [[x1,y1],[x2,y2],[x3,y3],[x4,y4]]
         for result_item in easyocr_results:
             box_points = result_item[0]  # 4-point polygon
             text = result_item[1]        # recognized text
+            text = normalize_arabic_numerals(text)
             conf = result_item[2]        # confidence (0.0-1.0)
 
             if not text.strip():
