@@ -30,8 +30,9 @@ from ultralytics import YOLO
 from ocr.easyocr.engine import EasyOCREngine
 from ocr.result import OCRResult, OCRToken
 from ocr.postprocessing.bilingual_corrector import BilingualCorrector
+from ocr.postprocessing.noise_filter import OCRNoiseFilter
 from ocr.preprocessing import ImageEnhancer
-from ocr.utils import sort_boxes_rtl
+from ocr.utils import sort_boxes_smart
 from evaluation.ground_truth import GroundTruthLoader
 from evaluation.metrics import compute_cer, compute_wer, corpus_summary
 
@@ -73,16 +74,22 @@ def run_easyocr_alone(engine, image_path, document_id=None):
     return result
 
 
-def run_yolo_easyocr_pipeline(yolo_model, engine, image_path, document_id=None, conf_thresh=0.25, enhancer=None):
-    """Run YOLOv11s → crop text regions → (optional enhance) → EasyOCR on each crop.
+def run_yolo_easyocr_pipeline(yolo_model, engine_ar_en, engine_fr_en, image_path, document_id=None, conf_thresh=0.25, enhancer=None, paddle_ar=None):
+    """Run YOLOv11s → crop text regions → OCR on each crop.
+    
+    For Arabic documents: runs EasyOCR + PaddleOCR Arabic ensemble,
+    picks the higher-confidence result per crop.
+    For French/Latin documents: runs PaddleOCR v4 (French).
     
     Args:
         yolo_model: Loaded YOLO model.
-        engine: EasyOCREngine instance.
+        engine_ar_en: EasyOCR engine (ar+en) for Arabic text.
+        engine_fr_en: PaddleOCR instance (lang='fr') for French/Latin text.
         image_path: Path to the input image.
         document_id: Optional document ID.
         conf_thresh: YOLO confidence threshold.
         enhancer: Optional ImageEnhancer instance.
+        paddle_ar: Optional PaddleOCR instance (lang='ar') for ensemble.
     
     Returns:
         OCRResult with combined text from all detected text regions.
@@ -118,10 +125,19 @@ def run_yolo_easyocr_pipeline(yolo_model, engine, image_path, document_id=None, 
                 cls_id = int(boxes.cls[i].item())
                 conf = float(boxes.conf[i].item())
                 cls_name = class_names.get(cls_id, "unknown")
+                x1, y1, x2, y2 = boxes.xyxy[i].tolist()
+
+                # Mask out non-text regions (stamps, signatures, pictures, QR codes)
+                # to prevent OCR from reading text inside them.
+                if cls_name in {"stamp", "signature", "picture", "qr_code"}:
+                    x1_int, y1_int = max(0, int(x1)), max(0, int(y1))
+                    x2_int, y2_int = min(w, int(x2)), min(h, int(y2))
+                    # Fill with white (assuming document background is mostly white)
+                    cv2.rectangle(image, (x1_int, y1_int), (x2_int, y2_int), (255, 255, 255), -1)
+                    continue
 
                 # Only process text-like regions and Arabic letters
                 if cls_name in TEXT_CLASSES or cls_name in ARABIC_LETTER_CLASSES:
-                    x1, y1, x2, y2 = boxes.xyxy[i].tolist()
                     
                     # Clamp to image bounds and add small padding
                     pad = 5
@@ -140,75 +156,311 @@ def run_yolo_easyocr_pipeline(yolo_model, engine, image_path, document_id=None, 
                         "conf": conf,
                         "crop": image[y1:y2, x1:x2].copy(),
                     })
+                    
+    # Filter out overlapping/nested boxes to prevent duplicate text extraction
+    def filter_overlapping_boxes(regions, iou_thresh=0.4, iom_thresh=0.7):
+        # Sort by confidence descending
+        regions = sorted(regions, key=lambda x: x["conf"], reverse=True)
+        keep = []
+        for i, r1 in enumerate(regions):
+            b1 = r1["bbox"]
+            area1 = (b1[2] - b1[0]) * (b1[3] - b1[1])
+            is_redundant = False
+            
+            for r2 in keep:
+                b2 = r2["bbox"]
+                area2 = (b2[2] - b2[0]) * (b2[3] - b2[1])
+                
+                # Intersection
+                ix1 = max(b1[0], b2[0])
+                iy1 = max(b1[1], b2[1])
+                ix2 = min(b1[2], b2[2])
+                iy2 = min(b1[3], b2[3])
+                
+                iw = max(0, ix2 - ix1)
+                ih = max(0, iy2 - iy1)
+                inter_area = iw * ih
+                
+                if inter_area > 0:
+                    iou = inter_area / (area1 + area2 - inter_area)
+                    iom = inter_area / min(area1, area2)
+                    
+                    if iou > iou_thresh or iom > iom_thresh:
+                        is_redundant = True
+                        break
+            
+            if not is_redundant:
+                keep.append(r1)
+                
+        return keep
 
-    # Sort regions Right-to-Left (Top-to-Bottom first)
-    text_regions = sort_boxes_rtl(text_regions, lambda r: r["bbox"])
+    text_regions = filter_overlapping_boxes(text_regions)
 
-    # Run PaddleOCR on each cropped region
+    # Detect primary language by sampling 10 regions evenly distributed across the document
+    is_rtl = False
+    is_arabic_detected = False
+    
+    step = max(1, len(text_regions) // 10)
+    sample_regions = text_regions[::step][:10]
+    total_arabic_chars = 0
+    total_alpha_chars = 0
+    
+    for region in sample_regions:
+        try:
+            reader_ar = engine_ar_en._get_reader()
+            res = reader_ar.readtext(region["crop"], detail=0)
+            text = " ".join(res)
+            
+            for char in text:
+                if '\u0600' <= char <= '\u06FF':
+                    total_arabic_chars += 1
+                    total_alpha_chars += 1
+                elif char.isalpha():
+                    total_alpha_chars += 1
+                    
+        except Exception:
+            pass
+        
+    # Require >15% of alphabetical characters to be Arabic, OR a very large absolute number of Arabic chars
+    if total_alpha_chars > 0:
+        arabic_ratio = total_arabic_chars / total_alpha_chars
+        if arabic_ratio > 0.15 or total_arabic_chars > 30:
+            is_rtl = True
+            is_arabic_detected = True
+
+    # Sort regions Top-to-Bottom, then Left-to-Right (or Right-to-Left for Arabic)
+    text_regions = sort_boxes_smart(text_regions, lambda r: r["bbox"], is_rtl=is_rtl)
+
     all_tokens = []
     all_text_parts = []
 
     if not text_regions:
-        # Fallback: if YOLO found nothing, run OCR on full image
-        result = engine.extract_text(str(image_path), document_id=doc_id)
-        elapsed_ms = int((time.perf_counter() - start_time) * 1000)
-        result.processing_time_ms = elapsed_ms
-        result.engine = "yolo+easyocr"
-        return result
+        # Fallback: if YOLO found nothing, run full image
+        try:
+            if is_arabic_detected:
+                result = engine_ar_en.extract_text(str(image_path), document_id=doc_id)
+                elapsed_ms = int((time.perf_counter() - start_time) * 1000)
+                result.processing_time_ms = elapsed_ms
+                result.engine = "yolo+easyocr"
+                return result
+            else:
+                paddle_results = engine_fr_en.ocr(str(image_path), cls=True)
+                if paddle_results and paddle_results[0]:
+                    for line in paddle_results[0]:
+                        text = line[1][0]
+                        conf = line[1][1]
+                        if text.strip():
+                            all_text_parts.append(text.strip())
+                            all_tokens.append(OCRToken(
+                                text=text.strip(),
+                                bbox=[0, 0, w, h],
+                                confidence=float(conf) * 100.0,
+                            ))
+                raw_text = " ".join(all_text_parts)
+                elapsed_ms = int((time.perf_counter() - start_time) * 1000)
+                return OCRResult(
+                    document_id=doc_id,
+                    engine="yolo+paddleocr",
+                    raw_text=raw_text,
+                    tokens=all_tokens,
+                    processing_time_ms=elapsed_ms,
+                )
+        except Exception:
+            pass
 
     for region in text_regions:
         crop = region["crop"]
         bbox_offset = region["bbox"]  # [x1, y1, x2, y2] in original image
 
-        if enhancer is not None:
-            crop = enhancer.enhance_crop(crop)
+        if is_arabic_detected:
+            # ── Arabic Ensemble: EasyOCR + PaddleOCR Arabic ──────────────
+            # Apply Arabic-optimized preprocessing (upscale, bilateral, CLAHE, unsharp)
+            if enhancer is not None:
+                enhanced_crop = enhancer.enhance_crop_arabic(crop)
+            else:
+                # Fallback: at minimum upscale small crops
+                h_crop, w_crop = crop.shape[:2]
+                if h_crop < 128:
+                    scale = 128 / h_crop
+                    enhanced_crop = cv2.resize(crop, (int(w_crop * scale), int(h_crop * scale)), interpolation=cv2.INTER_CUBIC)
+                else:
+                    enhanced_crop = crop
+            
+            # ── Engine A: EasyOCR (tuned parameters) ──
+            easyocr_tokens = []
+            easyocr_avg_conf = 0.0
+            try:
+                reader = engine_ar_en._get_reader()
+                easyocr_results = reader.readtext(
+                    enhanced_crop,
+                    detail=1,
+                    paragraph=False,
+                    text_threshold=0.45,    # lower to catch thin ligatures & dots
+                    low_text=0.25,          # group cursive letters better
+                    link_threshold=0.35,    # merge Arabic word fragments
+                    mag_ratio=1.5,          # upscale for diacritics
+                    decoder='beamsearch',   # contextual decoding
+                    beamWidth=10,
+                    slope_ths=0.2,          # line detection tolerance
+                    add_margin=0.1,         # don't clip character edges
+                )
+                
+                def get_item_bbox(item):
+                    box_p = item[0]
+                    return [min(p[0] for p in box_p), min(p[1] for p in box_p),
+                            max(p[0] for p in box_p), max(p[1] for p in box_p)]
+                easyocr_results = sort_boxes_smart(easyocr_results, get_item_bbox, is_rtl=is_rtl)
 
-        reader = engine._get_reader()
-        easyocr_results = reader.readtext(crop, detail=engine.detail, paragraph=engine.paragraph)
+                confs = []
+                for result_item in easyocr_results:
+                    box_points = result_item[0]
+                    text = result_item[1]
+                    conf = result_item[2]
+                    from ocr.postprocessing.normalizer import normalize_arabic_numerals, normalize_arabic_text
+                    text = normalize_arabic_numerals(text)
+                    text = normalize_arabic_text(text)
 
-        # Sort crop results Right-to-Left as well
-        def get_item_bbox(item):
-            box_p = item[0]
-            return [min(p[0] for p in box_p), min(p[1] for p in box_p),
-                    max(p[0] for p in box_p), max(p[1] for p in box_p)]
-        easyocr_results = sort_boxes_rtl(easyocr_results, get_item_bbox)
+                    if not text.strip():
+                        continue
 
-        for result_item in easyocr_results:
-            box_points = result_item[0]
-            text = result_item[1]
-            conf = result_item[2]
+                    xs = [p[0] for p in box_points]
+                    ys = [p[1] for p in box_points]
+                    global_bbox = [
+                        float(min(xs)) + bbox_offset[0],
+                        float(min(ys)) + bbox_offset[1],
+                        float(max(xs)) + bbox_offset[0],
+                        float(max(ys)) + bbox_offset[1],
+                    ]
 
-            if not text.strip():
+                    easyocr_tokens.append(OCRToken(
+                        text=text.strip(),
+                        bbox=global_bbox,
+                        confidence=float(conf) * 100.0,
+                    ))
+                    confs.append(float(conf))
+                
+                if confs:
+                    easyocr_avg_conf = sum(confs) / len(confs)
+            except Exception:
+                pass
+            
+            # ── Engine B: PaddleOCR Arabic (ensemble partner) ──
+            paddle_tokens = []
+            paddle_avg_conf = 0.0
+            if paddle_ar is not None:
+                try:
+                    paddle_results = paddle_ar.ocr(enhanced_crop, cls=True)
+                    if paddle_results and paddle_results[0]:
+                        confs_p = []
+                        for line in paddle_results[0]:
+                            box_points = line[0]
+                            text = line[1][0]
+                            conf = line[1][1]
+                            from ocr.postprocessing.normalizer import normalize_arabic_numerals, normalize_arabic_text
+                            text = normalize_arabic_numerals(text)
+                            text = normalize_arabic_text(text)
+
+                            if not text.strip():
+                                continue
+
+                            xs = [p[0] for p in box_points]
+                            ys = [p[1] for p in box_points]
+                            global_bbox = [
+                                float(min(xs)) + bbox_offset[0],
+                                float(min(ys)) + bbox_offset[1],
+                                float(max(xs)) + bbox_offset[0],
+                                float(max(ys)) + bbox_offset[1],
+                            ]
+
+                            paddle_tokens.append(OCRToken(
+                                text=text.strip(),
+                                bbox=global_bbox,
+                                confidence=float(conf) * 100.0,
+                            ))
+                            confs_p.append(float(conf))
+                        
+                        if confs_p:
+                            paddle_avg_conf = sum(confs_p) / len(confs_p)
+                except Exception:
+                    pass
+            
+            # ── Pick the winner: EasyOCR is primary for Arabic (better BiDi logic) ──
+            # Only use PaddleOCR as a fallback if EasyOCR failed to extract anything.
+            if easyocr_tokens:
+                chosen_tokens = easyocr_tokens
+            elif paddle_tokens:
+                chosen_tokens = paddle_tokens
+            else:
+                continue
+            
+            for token in chosen_tokens:
+                all_tokens.append(token)
+                all_text_parts.append(token.text)
+        else:
+            # Use standard enhancement for French/Latin documents
+            if enhancer is not None:
+                crop = enhancer.enhance_crop(crop)
+            
+            # Use PaddleOCR v4 for French/Latin documents
+            try:
+                paddle_results = engine_fr_en.ocr(crop, cls=True)
+                if not paddle_results or not paddle_results[0]:
+                    continue
+
+                def get_paddle_bbox(line):
+                    box_p = line[0]
+                    return [min(p[0] for p in box_p), min(p[1] for p in box_p),
+                            max(p[0] for p in box_p), max(p[1] for p in box_p)]
+                
+                paddle_lines = sorted(paddle_results[0], key=lambda l: get_paddle_bbox(l)[1])
+
+                for line in paddle_lines:
+                    box_points = line[0]   # [[x1,y1],[x2,y2],[x3,y3],[x4,y4]]
+                    text = line[1][0]      # recognized text
+                    conf = line[1][1]      # confidence (0.0-1.0)
+                    
+                    from ocr.postprocessing.normalizer import normalize_arabic_numerals
+                    text = normalize_arabic_numerals(text)
+
+                    if not text.strip():
+                        continue
+
+                    # Convert local crop bbox to global image coordinates
+                    xs = [p[0] for p in box_points]
+                    ys = [p[1] for p in box_points]
+                    global_bbox = [
+                        float(min(xs)) + bbox_offset[0],
+                        float(min(ys)) + bbox_offset[1],
+                        float(max(xs)) + bbox_offset[0],
+                        float(max(ys)) + bbox_offset[1],
+                    ]
+
+                    token = OCRToken(
+                        text=text.strip(),
+                        bbox=global_bbox,
+                        confidence=float(conf) * 100.0,
+                    )
+                    all_tokens.append(token)
+                    all_text_parts.append(text.strip())
+            except Exception:
                 continue
 
-            # Convert local crop bbox to global image coordinates
-            xs = [p[0] for p in box_points]
-            ys = [p[1] for p in box_points]
-            global_bbox = [
-                float(min(xs)) + bbox_offset[0],
-                float(min(ys)) + bbox_offset[1],
-                float(max(xs)) + bbox_offset[0],
-                float(max(ys)) + bbox_offset[1],
-            ]
+    # Filter out garbage text from decorative borders, stamps, and patterns
+    noise_filter = OCRNoiseFilter()
+    clean_tokens = noise_filter.filter_tokens(all_tokens)
+    clean_text_parts = [t.text for t in clean_tokens]
 
-            token = OCRToken(
-                text=text.strip(),
-                bbox=global_bbox,
-                confidence=float(conf) * 100.0,
-            )
-            all_tokens.append(token)
-            all_text_parts.append(text.strip())
-
-    raw_text = " ".join(all_text_parts)
+    raw_text = " ".join(clean_text_parts)
     elapsed_ms = int((time.perf_counter() - start_time) * 1000)
 
     return OCRResult(
         document_id=doc_id,
-        engine="yolo+easyocr",
+        engine="yolo+easyocr" if is_arabic_detected else "yolo+paddleocr",
         raw_text=raw_text,
-        tokens=all_tokens,
+        tokens=clean_tokens,
         processing_time_ms=elapsed_ms,
     )
+
 
 
 # ── Main ─────────────────────────────────────────────────────────────────────
@@ -240,7 +492,9 @@ def main():
     yolo_model = YOLO(args.yolo_weights)
     
     print("[Loading] EasyOCR engine (ar, en)...")
-    easyocr_engine = EasyOCREngine(languages=["ar", "en"], gpu=args.use_gpu)
+    easyocr_ar_en = EasyOCREngine(languages=["ar", "en"], gpu=args.use_gpu)
+    print("[Loading] EasyOCR engine (fr, en)...")
+    easyocr_fr_en = EasyOCREngine(languages=["fr", "en"], gpu=args.use_gpu)
 
     # ── Load ground truth ──
     loader = GroundTruthLoader(image_dir=args.image_dir, gt_dir=args.gt_dir)
@@ -267,7 +521,7 @@ def main():
 
         # --- EasyOCR alone (baseline) ---
         print(f"    [1/2] EasyOCR alone...", end=" ")
-        result_baseline = run_easyocr_alone(easyocr_engine, image_path, doc_id)
+        result_baseline = run_easyocr_alone(easyocr_ar_en, image_path, doc_id)
         cer_b = compute_cer(gt_text, result_baseline.raw_text)
         wer_b = compute_wer(gt_text, result_baseline.raw_text)
         print(f"CER={cer_b:.4f}  WER={wer_b:.4f}")
@@ -288,7 +542,8 @@ def main():
         print(f"    [2/2] YOLOv11s + EasyOCR...", end=" ")
         result_pipeline = run_yolo_easyocr_pipeline(
             yolo_model=yolo_model,
-            engine=easyocr_engine,
+            engine_ar_en=easyocr_ar_en,
+            engine_fr_en=easyocr_fr_en,
             image_path=image_path,
             document_id=doc_id,
             conf_thresh=args.conf,

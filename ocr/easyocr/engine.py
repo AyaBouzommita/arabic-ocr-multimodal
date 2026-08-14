@@ -18,7 +18,7 @@ import easyocr
 
 from ocr.base_engine import OCREngine
 from ocr.result import OCRResult, OCRToken
-from ocr.utils import sort_boxes_rtl
+from ocr.utils import sort_boxes_smart
 from ocr.postprocessing.normalizer import normalize_arabic_numerals
 
 class EasyOCREngine(OCREngine):
@@ -136,7 +136,9 @@ class EasyOCREngine(OCREngine):
             return [min(p[0] for p in box_p), min(p[1] for p in box_p),
                     max(p[0] for p in box_p), max(p[1] for p in box_p)]
                     
-        easyocr_results = sort_boxes_rtl(easyocr_results, get_item_bbox)
+        # Determine direction based on loaded languages
+        is_rtl = 'ar' in self.languages
+        easyocr_results = sort_boxes_smart(easyocr_results, get_item_bbox, is_rtl=is_rtl)
 
         # EasyOCR returns list of (bbox, text, confidence)
         # bbox is [[x1,y1],[x2,y2],[x3,y3],[x4,y4]]
@@ -144,7 +146,9 @@ class EasyOCREngine(OCREngine):
             box_points = result_item[0]  # 4-point polygon
             text = result_item[1]        # recognized text
             text = normalize_arabic_numerals(text)
-            conf = result_item[2]        # confidence (0.0-1.0)
+            
+            # paragraph=True doesn't return confidence, default to 0.8 to allow corrections
+            conf = result_item[2] if len(result_item) > 2 else 0.8
 
             if not text.strip():
                 continue
