@@ -1,27 +1,8 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments
+test_env/
 venv/
-env/
-.env
-
-# Data and models
-*.pt
-*.whl
-data/
-runs/
-results/
-reports/
-
-# Images
-*.jpg
-*.png
-*.jpeg
-
-# Caches
-.pytest_cache/
-desktop.ini
-PaddleOCR/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+tmp/
+*.log
