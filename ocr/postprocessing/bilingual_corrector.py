@@ -5,7 +5,7 @@ from ocr.postprocessing.arabert_corrector import AraBERTCorrector
 from ocr.postprocessing.roberta_corrector import RoBERTaCorrector
 
 class BilingualCorrector:
-    """Orchestrates AraBERT and RoBERTa to correct mixed Arabic-English OCR text."""
+    """Orchestrates AraBERT and RoBERTa to correct mixed Arabic and Latin (English/French) OCR text."""
     
     def __init__(self, device: str = None):
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
@@ -20,7 +20,7 @@ class BilingualCorrector:
         max_edit_dist: int = 1
     ) -> str:
         """
-        Runs English correction followed by Arabic correction on the token list.
+        Runs Latin correction followed by Arabic correction on the token list.
         """
         # Flatten tokens by splitting spaces, so MLM models receive single words natively
         class MockToken:
@@ -35,8 +35,8 @@ class BilingualCorrector:
             for sw in subwords:
                 flattened_tokens.append(MockToken(sw, t.confidence))
 
-        # 1. RoBERTa modifies the English words, returns a list of words
-        english_corrected_words = self.roberta.correct_tokens(
+        # 1. RoBERTa modifies the Latin words, returns a list of words
+        latin_corrected_words = self.roberta.correct_tokens(
             flattened_tokens, conf_threshold=conf_threshold, max_edit_dist=max_edit_dist
         )
         # We preserve the original confidence for unchanged words, 
@@ -45,7 +45,7 @@ class BilingualCorrector:
         original_confs = [t.confidence for t in flattened_tokens]
         
         mock_tokens = []
-        for i, word in enumerate(english_corrected_words):
+        for i, word in enumerate(latin_corrected_words):
             if word != original_words[i]:
                 # RoBERTa corrected this, lock it
                 mock_tokens.append(MockToken(word, 100.0))

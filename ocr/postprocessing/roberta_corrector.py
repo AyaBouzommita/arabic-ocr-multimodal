@@ -12,7 +12,7 @@ from spellchecker import SpellChecker
 
 from ocr.postprocessing.candidate_ranker import CandidateRanker, levenshtein_distance
 
-MODEL_NAME = "roberta-base"
+MODEL_NAME = "xlm-roberta-base"
 
 
 class RoBERTaCorrector:
@@ -26,7 +26,8 @@ class RoBERTaCorrector:
     ):
         """Initialize RoBERTa tokenizer, Masked LM model, and CandidateRanker."""
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
-        self.spell = SpellChecker(language='en')
+        self.spell_en = SpellChecker(language='en')
+        self.spell_fr = SpellChecker(language='fr')
         print(f"[RoBERTa] Loading tokenizer and model '{model_name}' on {self.device}...")
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -40,25 +41,34 @@ class RoBERTaCorrector:
         
         print("[RoBERTa] Smart model & CandidateRanker loaded successfully!")
 
-    def is_english_word(self, word: str) -> bool:
-        """Check if word is predominantly English."""
-        eng_chars = sum(1 for c in word if c in string.ascii_letters)
+    def is_latin_word(self, word: str) -> bool:
+        """Check if word is predominantly Latin script (English/French)."""
+        # Include accented characters common in French (é, à, è, etc.)
+        latin_chars = sum(1 for c in word if c in string.ascii_letters or c in 'éèêëàâäôöûüùïîçÉÈÊËÀÂÄÔÖÛÜÙÏÎÇ')
         arab_chars = sum(1 for c in word if "\u0600" <= c <= "\u06FF")
         
         # If it has both, it's mixed OCR noise. Classify based on majority.
-        if eng_chars > 0 and eng_chars >= arab_chars:
+        if latin_chars > 0 and latin_chars >= arab_chars:
             return True
         return False
 
+    def is_roman_numeral(self, word: str) -> bool:
+        import re
+        pattern = r'^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$'
+        return bool(re.match(pattern, word.upper())) and len(word) > 0
+
     def is_valid_in_lexicon(self, word: str) -> bool:
-        """Check if the word exists in the English dictionary using pyspellchecker."""
+        """Check if the word exists in the English or French dictionary."""
         # Clean punctuation from the word before checking
-        clean_word = "".join(c for c in word if c in string.ascii_letters).lower()
+        clean_word = "".join(c for c in word if c in string.ascii_letters or c in 'éèêëàâäôöûüùïîçÉÈÊËÀÂÄÔÖÛÜÙÏÎÇ').lower()
         if not clean_word:
             return False
             
+        if self.is_roman_numeral(clean_word):
+            return True
+            
         # If spell.unknown returns empty, it means the word is known (valid)
-        if not self.spell.unknown([clean_word]):
+        if not self.spell_en.unknown([clean_word]) or not self.spell_fr.unknown([clean_word]):
             return True
             
         return False
@@ -114,12 +124,17 @@ class RoBERTaCorrector:
             # Clean BPE artifacts if they somehow survive decode
             token_str = token_str.replace("Ġ", "").strip()
 
-            if token_str and self.is_english_word(token_str):
+            if token_str and self.is_latin_word(token_str):
                 candidates.append((token_str, prob.item()))
                 
         # Add candidates from SpellChecker (with low fallback probability)
         # This helps when the context is so corrupted that MLM fails to predict the right word
-        spell_cands = self.spell.candidates(original_word) or set()
+        spell_cands = set()
+        if self.spell_en.candidates(original_word):
+            spell_cands.update(self.spell_en.candidates(original_word))
+        if self.spell_fr.candidates(original_word):
+            spell_cands.update(self.spell_fr.candidates(original_word))
+            
         existing_words = [c[0] for c in candidates]
         for cand in spell_cands:
             if cand not in existing_words:
@@ -147,6 +162,68 @@ class RoBERTaCorrector:
 
         return original_word, False
 
+    def is_likely_proper_noun(self, word: str, words: list, idx: int) -> bool:
+        """Check if a word is likely a proper noun that should not be corrected.
+
+        Heuristics:
+        - Word starts with a capital letter (and is not the first word in a sentence)
+        - Word is surrounded by common dictionary words (context suggests proper noun)
+        - Word appears multiple times in the document (self-consistent)
+        - Word looks like a person name, place name, or organization name
+
+        Args:
+            word: The word to check.
+            words: Full list of words in the document.
+            idx: Index of the word in the words list.
+
+        Returns:
+            True if the word is likely a proper noun.
+        """
+        if not word or len(word) < 2:
+            return False
+
+        # Must start with uppercase to be considered a proper noun
+        if not word[0].isupper():
+            return False
+
+        # Clean the word for analysis
+        clean = "".join(c for c in word if c in string.ascii_letters or c in 'éèêëàâäôöûüùïîçÉÈÊËÀÂÄÔÖÛÜÙÏÎÇ')
+        if not clean:
+            return False
+
+        # If it IS in the dictionary, it's a regular word (not a proper noun)
+        if self.is_valid_in_lexicon(word):
+            return False
+
+        # Check if the word appears multiple times in the document (self-consistent = likely real)
+        occurrences = sum(1 for w in words if w.lower() == word.lower())
+        if occurrences >= 2:
+            return True
+
+        # Check context: if the previous word is a common preposition/article,
+        # the capitalized unknown word is likely a proper noun
+        context_indicators = {
+            'de', 'du', 'des', 'le', 'la', 'les', 'en', 'au', 'aux',
+            'of', 'the', 'in', 'at', 'from', 'to',
+            'monsieur', 'madame', 'mlle', 'mme', 'mr', 'mrs', 'ms',
+        }
+        if idx > 0:
+            prev_word = words[idx - 1].lower().rstrip(':,;')
+            if prev_word in context_indicators:
+                return True
+
+        # Check if the next word is also capitalized (part of a multi-word name)
+        if idx < len(words) - 1:
+            next_word = words[idx + 1]
+            if next_word and next_word[0].isupper() and not self.is_valid_in_lexicon(next_word):
+                return True
+
+        # If preceded by a colon (common in forms: "Nom: Ahmed")
+        if idx > 0 and words[idx - 1].endswith(':'):
+            return True
+
+        return False
+
     def correct_tokens(
         self,
         tokens: List[Any],
@@ -154,7 +231,7 @@ class RoBERTaCorrector:
         max_edit_dist: int = 1,
     ) -> List[str]:
         """
-        Applies confidence-gated correction to English words.
+        Applies confidence-gated correction to Latin (English/French) words.
         Expects `tokens` to have `.text` and `.confidence` attributes.
         Returns a list of strings (corrected words).
         """
@@ -167,7 +244,7 @@ class RoBERTaCorrector:
             word = words[idx]
             conf = confs[idx]
 
-            if not self.is_english_word(word):
+            if not self.is_latin_word(word):
                 continue
 
             # Strip Arabic OCR noise characters from the English word
@@ -183,8 +260,13 @@ class RoBERTaCorrector:
                 corrected_words[idx] = word
                 continue
                 
-            # GUARD 2: If the word is already a valid English word in the dictionary, DO NOT touch!
+            # GUARD 2: If the word is already a valid Latin word in the dictionary, DO NOT touch!
             if self.is_valid_in_lexicon(word):
+                corrected_words[idx] = word
+                continue
+
+            # GUARD 3: Proper noun protection — skip capitalized words that look like names/places
+            if self.is_likely_proper_noun(word, words, idx):
                 corrected_words[idx] = word
                 continue
 

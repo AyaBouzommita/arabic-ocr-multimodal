@@ -10,6 +10,7 @@ from transformers import AutoTokenizer, AutoModelForMaskedLM
 from typing import List, Tuple, Optional, Dict, Any, Union
 
 from spellchecker import SpellChecker
+import qalsadi.lemmatizer
 
 from ocr.postprocessing.candidate_ranker import CandidateRanker, levenshtein_distance
 
@@ -28,6 +29,7 @@ class AraBERTCorrector:
         """Initialize AraBERT tokenizer, Masked LM model, and CandidateRanker."""
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         self.spell = SpellChecker(language='ar')
+        self.lemmatizer = qalsadi.lemmatizer.Lemmatizer()
         print(f"[AraBERT] Loading tokenizer and model '{model_name}' on {self.device}...")
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -52,13 +54,31 @@ class AraBERTCorrector:
         return False
 
     def is_valid_in_lexicon(self, word: str) -> bool:
-        """Check if the word exists in the Arabic dictionary using pyspellchecker."""
+        """Check if the word is a valid Arabic word using Qalsadi + pyspellchecker.
+        
+        Strategy:
+        - Qalsadi returns the word itself when it can't parse it, so we only
+          trust it when the lemma DIFFERS from the input (meaning it found a root).
+        - For words where lemma == input, we fall back to pyspellchecker.
+        - This prevents garbage words from being validated while still catching
+          valid inflected forms that pyspellchecker would miss.
+        """
         # Clean non-Arabic chars before checking
         clean_word = "".join(c for c in word if "\u0600" <= c <= "\u06FF")
-        if not clean_word:
+        if not clean_word or len(clean_word) < 2:
             return False
+        
+        # Check 1: Qalsadi morphological analysis
+        # Only trust it when the lemma is genuinely different from the input
+        try:
+            lemma = self.lemmatizer.lemmatize(clean_word)
+            if lemma and lemma.strip() and lemma.strip() != clean_word:
+                # Qalsadi found a real root/lemma — this is a valid Arabic word
+                return True
+        except Exception:
+            pass
             
-        # If spell.unknown returns empty, it means the word is known (valid)
+        # Check 2: pyspellchecker dictionary (catches common words like كان, خان)
         if not self.spell.unknown([clean_word]):
             return True
             
@@ -69,7 +89,7 @@ class AraBERTCorrector:
         words: List[str],
         target_idx: int,
         ocr_confidence: float = 50.0,
-        top_k: int = 15,
+        top_k: int = 30,
         max_edit_dist: int = 1,
     ) -> Tuple[str, bool]:
         """Predict and rank contextual replacements for words[target_idx] using CandidateRanker."""
@@ -118,7 +138,9 @@ class AraBERTCorrector:
                 candidates.append((token_str, prob.item()))
                 
         # Add candidates from SpellChecker (with low fallback probability)
-        # This helps when the context is so corrupted that MLM fails to predict the right word
+        # This is critical for Arabic — when OCR garbles a word, the MLM context
+        # is too corrupted to predict the right word, but SpellChecker can find
+        # nearby words by edit distance
         spell_cands = self.spell.candidates(original_word) or set()
         existing_words = [c[0] for c in candidates]
         for cand in spell_cands:
@@ -136,10 +158,11 @@ class AraBERTCorrector:
         if not ranked_results:
             return original_word, False
 
-        # Filter candidates by lexicon validity (must be a real word)
+        # Filter candidates by lexicon validity (must be a real Arabic word)
+        # No probability threshold — let the ranking score decide quality
         valid_candidates = []
         for cand in ranked_results:
-            if cand["probability"] > 0.01 and self.is_valid_in_lexicon(cand["word"]):
+            if self.is_valid_in_lexicon(cand["word"]):
                 valid_candidates.append(cand)
                 
         if not valid_candidates:
