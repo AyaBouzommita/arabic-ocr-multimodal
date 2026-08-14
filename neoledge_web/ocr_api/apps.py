@@ -41,7 +41,8 @@ class OcrApiConfig(AppConfig):
             if os.path.exists(yolo_path):
                 OcrApiConfig.yolo_model = YOLO(yolo_path)
             else:
-                print(f"[Django] WARNING: YOLO model not found at {yolo_path}")
+                print(f"[Django] WARNING: YOLO model not found at {yolo_path}. Falling back to standard yolo11s.pt!")
+                OcrApiConfig.yolo_model = YOLO("yolo11s.pt")
             
             # 2. Hybrid OCR: EasyOCR for Arabic/Mixed, PaddleOCR v4 for pure French/Latin
             use_gpu = torch.cuda.is_available()
