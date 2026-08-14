@@ -4,10 +4,15 @@ def extract_with_colab(image_path: str, url: str) -> str:
     if not url:
         raise ValueError("Colab API URL must be provided")
         
-    url = url.rstrip('/') + '/extract'
+    url = url.rstrip('/')
+    if not url.endswith('/extract'):
+        url += '/extract'
     
     with open(image_path, 'rb') as f:
-        headers = {'ngrok-skip-browser-warning': 'true'}
+        headers = {
+            'ngrok-skip-browser-warning': 'true',
+            'Bypass-Tunnel-Reminder': 'true'
+        }
         response = requests.post(
             url,
             headers=headers,
