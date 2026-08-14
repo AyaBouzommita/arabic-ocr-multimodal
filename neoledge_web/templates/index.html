@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neoledge OCR - Creative Edition</title>
+  <style>
+    /* ===== RESET & CREATIVE VARIABLES ===== */
+    :root {
+      --yellow: #FFD500;
+      --yellow-light: #FFF099;
+      --white: #FFFFFF;
+      --black: #0F0F0F;
+      --gray: #F0F0F0;
+      
+      /* Creative Neo-brutalist shadows */
+      --shadow-solid: 6px 6px 0px var(--black);
+      --shadow-solid-hover: 2px 2px 0px var(--black);
+      --shadow-solid-yellow: 6px 6px 0px var(--yellow);
+      
+      --radius: 0px; /* Sharp corners for modern creative look, or slight curve */
+      --radius-sm: 8px;
+      
+      --font-main: 'Outfit', 'Segoe UI', system-ui, sans-serif;
+      --font-mono: 'Space Mono', 'Courier New', monospace;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-main);
+      background: var(--white);
+      color: var(--black);
+      line-height: 1.6;
+      overflow-x: hidden;
+      background-image: radial-gradient(var(--gray) 1px, transparent 1px);
+      background-size: 24px 24px;
+      animation: pageLoad 0.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+      opacity: 0;
+    }
+
+    @keyframes pageLoad {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ===== NAVBAR ===== */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 6%;
+      background: var(--white);
+      border-bottom: 3px solid var(--black);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+      color: var(--black);
+      text-transform: uppercase;
+      position: relative;
+      display: inline-block;
+    }
+
+    .logo::before {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      left: 0;
+      width: 100%;
+      height: 40%;
+      background: var(--yellow);
+      z-index: -1;
+      transform: rotate(-2deg);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--black);
+      font-weight: 700;
+      font-size: 1rem;
+      position: relative;
+      padding: 5px 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 3px;
+      background: var(--yellow);
+      transition: width 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .btn-demo {
+      background: var(--white);
+      color: var(--black);
+      border: 3px solid var(--black);
+      padding: 12px 28px;
+      border-radius: var(--radius-sm);
+      font-weight: 800;
+      font-size: 1rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      box-shadow: var(--shadow-solid);
+      transition: all 0.2s ease;
+    }
+
+    .btn-demo:hover {
+      background: var(--yellow);
+      transform: translate(4px, 4px);
+      box-shadow: var(--shadow-solid-hover);
+    }
+
+    /* ===== HERO SECTION ===== */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 85vh;
+      padding: 60px 6%;
+      position: relative;
+      text-align: center;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-content h1 {
+      font-size: clamp(3rem, 8vw, 6rem);
+      font-weight: 900;
+      letter-spacing: -2px;
+      line-height: 1;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+
+    .hero-content h1 .highlight {
+      background: var(--yellow);
+      color: var(--black);
+      padding: 0 15px;
+      display: inline-block;
+      transform: rotate(-1deg);
+      border: 4px solid var(--black);
+      box-shadow: var(--shadow-solid);
+    }
+
+    .hero-content p {
+      font-size: 1.3rem;
+      max-width: 700px;
+      margin: 0 auto 50px;
+      color: #333;
+      font-weight: 500;
+      background: var(--white);
+      padding: 10px;
+      border: 2px solid var(--black);
+      box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+      padding: 16px 40px;
+      border-radius: var(--radius-sm);
+      font-weight: 800;
+      font-size: 1.1rem;
+      cursor: pointer;
+      border: 3px solid var(--black);
+      transition: all 0.2s ease;
+      text-decoration: none;
+      display: inline-block;
+      text-transform: uppercase;
+    }
+
+    .btn-primary {
+      background: var(--yellow);
+      color: var(--black);
+      box-shadow: var(--shadow-solid);
+    }
+
+    .btn-primary:hover {
+      transform: translate(4px, 4px);
+      box-shadow: var(--shadow-solid-hover);
+    }
+
+    .btn-secondary {
+      background: var(--white);
+      color: var(--black);
+      box-shadow: var(--shadow-solid-yellow);
+    }
+
+    .btn-secondary:hover {
+      transform: translate(4px, 4px);
+      box-shadow: 2px 2px 0px var(--yellow);
+    }
+
+    /* ===== UPLOAD ZONE ===== */
+    .upload-section {
+      padding: 80px 6%;
+      display: flex;
+      justify-content: center;
+      background: var(--yellow);
+      color: var(--black);
+      border-top: 3px solid var(--black);
+      border-bottom: 3px solid var(--black);
+    }
+
+    .glass-card {
+      background: var(--white);
+      color: var(--black);
+      border-radius: var(--radius-sm);
+      border: 4px solid var(--black);
+      padding: 50px;
+      max-width: 800px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+    }
+
+    /* Decorative element */
+    .glass-card::before {
+      content: '';
+      position: absolute;
+      top: -15px; left: -15px;
+      width: 100%; height: 100%;
+      border: 4px solid var(--black);
+      background: var(--white);
+      z-index: -1;
+    }
+
+    .glass-card h2 {
+      font-size: 2.5rem;
+      font-weight: 900;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    .glass-card h2 span {
+      background: var(--yellow);
+      color: var(--black);
+      padding: 0 10px;
+    }
+
+    .upload-box {
+      border: 4px dashed var(--black);
+      border-radius: var(--radius-sm);
+      padding: 60px 40px;
+      margin: 40px 0 20px;
+      background: var(--white);
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .upload-box:hover {
+      background: var(--yellow);
+      transform: scale(1.02);
+    }
+
+    .upload-box input[type="file"] {
+      display: none;
+    }
+
+    .upload-icon {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+
+    .file-label {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--black);
+      text-transform: uppercase;
+    }
+
+    .upload-box p {
+      margin-top: 12px;
+      font-size: 1rem;
+      color: #444;
+      font-family: var(--font-mono);
+    }
+
+    /* ===== FEATURE GRID ===== */
+    .features {
+      padding: 100px 6%;
+      background: var(--white);
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 900;
+      margin-bottom: 60px;
+      text-transform: uppercase;
+      text-shadow: 3px 3px 0px var(--yellow);
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .feature-card {
+      background: var(--white);
+      border: 3px solid var(--black);
+      border-radius: var(--radius-sm);
+      padding: 40px 30px;
+      text-align: center;
+      transition: all 0.3s;
+      box-shadow: var(--shadow-solid);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 12px 12px 0px var(--yellow);
+    }
+
+    .feature-icon {
+      font-size: 3rem;
+      margin-bottom: 24px;
+      display: inline-block;
+      background: var(--white);
+      width: 90px;
+      height: 90px;
+      line-height: 84px;
+      border-radius: 50%;
+      border: 3px solid var(--black);
+      box-shadow: 3px 3px 0px var(--black);
+      transition: all 0.3s;
+    }
+
+    .feature-card:hover .feature-icon {
+      background: var(--yellow);
+    }
+
+    .feature-card h3 {
+      font-size: 1.5rem;
+      font-weight: 900;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    .feature-card p {
+      color: #222;
+      font-size: 1.05rem;
+      font-weight: 500;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background: var(--black);
+      color: var(--white);
+      text-align: center;
+      padding: 40px 6%;
+      border-top: 4px solid var(--black);
+    }
+
+    .footer p {
+      font-weight: 700;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 5%;
+      }
+
+      .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .hero {
+        min-height: 70vh;
+      }
+      
+      .hero-content h1 {
+        font-size: 2.8rem;
+      }
+
+      .glass-card {
+        padding: 30px 20px;
+      }
+      
+      .glass-card::before {
+        display: none;
+      }
+
+      .upload-box {
+        padding: 30px 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .nav-links {
+        display: none;
+      }
+      
+      .hero-content h1 {
+        font-size: 2.2rem;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .section-title {
+        font-size: 2.2rem;
+      }
+    }
+
+    /* ===== RESULT PANEL ===== */
+    .result-panel {
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .result-panel h3 {
+      font-size: 1.3rem;
+      font-weight: 900;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    .result-preview {
+      background: #F5F5F5;
+      border: 3px solid var(--black);
+      padding: 20px;
+      max-height: 400px;
+      overflow-y: auto;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      direction: ltr;
+      text-align: left;
+    }
+
+    .result-actions {
+      display: flex;
+      gap: 16px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .btn-download {
+      flex: 1;
+      padding: 14px 24px;
+      background: var(--yellow);
+      color: var(--black);
+      border: 3px solid var(--black);
+      font-weight: 800;
+      font-size: 1rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: var(--shadow-solid);
+      transition: all 0.2s ease;
+    }
+
+    .btn-download:hover {
+      transform: translate(4px, 4px);
+      box-shadow: var(--shadow-solid-hover);
+    }
+
+    .btn-colab,
+    .btn-cloud {
+      flex: 1;
+      padding: 14px 24px;
+      background: var(--white);
+      color: var(--black);
+      border: 3px solid var(--black);
+      font-weight: 800;
+      font-size: 1rem;
+      cursor: pointer;
+      text-transform: uppercase;
+      box-shadow: var(--shadow-solid);
+      transition: all 0.2s ease;
+    }
+
+    .btn-colab:hover,
+    .btn-cloud:hover {
+      transform: translate(4px, 4px);
+      box-shadow: var(--shadow-solid-hover);
+    }
+
+    .btn-colab.loading,
+    .btn-cloud.loading {
+      opacity: 0.7;
+      pointer-events: none;
+    }
+
+    .result-error {
+      color: #d32f2f;
+      font-weight: 700;
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="logo">Neoledge OCR</a>
+    <ul class="nav-links">
+      <li><a href="/">The Pipeline</a></li>
+      <li><a href="/architecture/">Architecture</a></li>
+      <li><a href="/report/">Internship Report</a></li>
+    </ul>
+    <a href="/download-api/" class="btn-demo" style="text-decoration:none;">Download Python API</a>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Extract Text with <br><span class="highlight">Total Precision</span></h1>
+      <p>Powered by our custom YOLOv11s & AraBERT architecture. Zero hallucinations, flawless bilingual support, and infinite document scaling.</p>
+      <div class="hero-buttons">
+        <a href="#pipeline" class="btn-primary">Process Document</a>
+        <a href="/architecture/" class="btn-secondary">View Architecture</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="upload-section" id="pipeline">
+    <div class="glass-card">
+      <h2>Upload <span>Your File</span></h2>
+      <div class="upload-box" id="upload-box">
+        <div class="upload-icon">⚡</div>
+        <label class="file-label" id="upload-label">Drop your document here or click</label>
+        <p>Supports JPG, PNG, PDF</p>
+        <input type="file" id="file-input" accept=".jpg,.jpeg,.png,.pdf">
+      </div>
+      
+      <div class="result-panel" id="result-panel" style="display:none;">
+        <h3>📄 Extraction Result</h3>
+        <pre class="result-preview" id="result-preview"></pre>
+        <div class="result-actions">
+          <button class="btn-download" id="btn-download">Download .MD ⬇️</button>
+          <button class="btn-colab" id="btn-colab" style="display:none;">Extract with Heavier Model (Colab) 🚀</button>
+          <button class="btn-cloud" id="btn-cloud" style="display:none;">Re-extract with Cloud AI ☁️</button>
+        </div>
+        <div class="result-error" id="result-error"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" style="margin-top: 100px;">
+    <p>&copy; 2026 Neoledge Summer Internship. Built with ❤️</p>
+  </footer>
+
+  <script>
+    const uploadBox = document.getElementById('upload-box');
+    const fileInput = document.getElementById('file-input');
+    const uploadLabel = document.getElementById('upload-label');
+    const resultPanel = document.getElementById('result-panel');
+    const resultPreview = document.getElementById('result-preview');
+    const btnDownload = document.getElementById('btn-download');
+    const btnColab = document.getElementById('btn-colab');
+    const btnCloud = document.getElementById('btn-cloud');
+    const resultError = document.getElementById('result-error');
+
+    let currentFile = null;
+    let currentBlob = null;
+    let currentFilename = 'extracted_document.md';
+
+    function isArabic(text) {
+      return /[\u0600-\u06FF]/.test(text);
+    }
+
+    function updatePreview(text) {
+      resultPreview.textContent = text;
+      if (isArabic(text)) {
+        resultPreview.style.direction = 'rtl';
+        resultPreview.style.textAlign = 'right';
+      } else {
+        resultPreview.style.direction = 'ltr';
+        resultPreview.style.textAlign = 'left';
+      }
+    }
+
+    // Click to open file dialog
+    uploadBox.addEventListener('click', () => {
+      fileInput.click();
+    });
+
+    // Handle drag and drop visuals
+    uploadBox.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      uploadBox.style.background = 'var(--yellow)';
+      uploadBox.style.transform = 'scale(1.02)';
+    });
+
+    uploadBox.addEventListener('dragleave', () => {
+      uploadBox.style.background = 'var(--white)';
+      uploadBox.style.transform = 'scale(1)';
+    });
+
+    uploadBox.addEventListener('drop', (e) => {
+      e.preventDefault();
+      uploadBox.style.background = 'var(--white)';
+      uploadBox.style.transform = 'scale(1)';
+      if (e.dataTransfer.files.length) {
+        fileInput.files = e.dataTransfer.files;
+        processFile(fileInput.files[0]);
+      }
+    });
+
+    fileInput.addEventListener('change', () => {
+      if (fileInput.files.length) {
+        processFile(fileInput.files[0]);
+      }
+    });
+
+    function processFile(file) {
+      currentFile = file;
+      uploadLabel.innerText = "Processing " + file.name + " (This takes a moment...)";
+      uploadBox.style.pointerEvents = 'none';
+      uploadBox.style.opacity = '0.7';
+      resultPanel.style.display = 'none';
+      resultError.innerText = '';
+
+      const formData = new FormData();
+      formData.append('document', file);
+
+      fetch('/api/v1/extract-markdown/', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const disposition = response.headers.get('Content-Disposition');
+        if (disposition && disposition.includes('filename="')) {
+            currentFilename = disposition.split('filename="')[1].split('"')[0];
+        }
+        return response.blob();
+      })
+      .then(blob => {
+        currentBlob = blob;
+        return blob.text();
+      })
+      .then(text => {
+        updatePreview(text);
+        resultPanel.style.display = 'block';
+        btnColab.style.display = 'inline-block';
+        btnCloud.style.display = 'none';
+
+        // Reset UI
+        uploadLabel.innerText = "Success! Drop another document here";
+        uploadBox.style.pointerEvents = 'auto';
+        uploadBox.style.opacity = '1';
+        fileInput.value = "";
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        uploadLabel.innerText = "Error processing document. Try again.";
+        uploadBox.style.pointerEvents = 'auto';
+        uploadBox.style.opacity = '1';
+        fileInput.value = "";
+      });
+    }
+
+    btnDownload.addEventListener('click', () => {
+      if (!currentBlob) return;
+      const url = window.URL.createObjectURL(currentBlob);
+      const a = document.createElement('a');
+      a.style.display = 'none';
+      a.href = url;
+      a.download = currentFilename;
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+    });
+
+    btnColab.addEventListener('click', () => {
+      if (!currentFile) return;
+      
+      btnColab.classList.add('loading');
+      btnColab.innerText = 'Processing in Colab...';
+      resultError.innerText = '';
+
+      const formData = new FormData();
+      formData.append('document', currentFile);
+
+      fetch('/api/v1/extract-markdown-colab/', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Colab extraction failed.');
+        }
+        const disposition = response.headers.get('Content-Disposition');
+        if (disposition && disposition.includes('filename="')) {
+            currentFilename = disposition.split('filename="')[1].split('"')[0];
+        }
+        return response.blob();
+      })
+      .then(blob => {
+        currentBlob = blob;
+        return blob.text();
+      })
+      .then(text => {
+        updatePreview(text);
+        btnDownload.click(); // Auto-download
+        btnColab.style.display = 'none';
+        btnCloud.style.display = 'inline-block';
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        resultError.innerText = error.message;
+      })
+      .finally(() => {
+        btnColab.classList.remove('loading');
+        btnColab.innerText = 'Extract with Heavier Model (Colab) 🚀';
+      });
+    });
+
+    btnCloud.addEventListener('click', () => {
+      if (!currentFile) return;
+      
+      btnCloud.classList.add('loading');
+      btnCloud.innerText = 'Processing with Gemini...';
+      resultError.innerText = '';
+
+      const formData = new FormData();
+      formData.append('document', currentFile);
+
+      fetch('/api/v1/extract-markdown-cloud/', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Cloud AI not configured. Set GEMINI_API_KEY.');
+        }
+        const disposition = response.headers.get('Content-Disposition');
+        if (disposition && disposition.includes('filename="')) {
+            currentFilename = disposition.split('filename="')[1].split('"')[0];
+        }
+        return response.blob();
+      })
+      .then(blob => {
+        currentBlob = blob;
+        return blob.text();
+      })
+      .then(text => {
+        updatePreview(text);
+        btnDownload.click(); // Auto-download
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        resultError.innerText = error.message;
+      })
+      .finally(() => {
+        btnCloud.classList.remove('loading');
+        btnCloud.innerText = 'Re-extract with Cloud AI ☁️';
+      });
+    });
+  </script>
+</body>
+</html>

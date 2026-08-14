@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internship Report - Neoledge OCR</title>
+  <style>
+    /* ===== RESET & CREATIVE VARIABLES ===== */
+    :root {
+      --yellow: #FFD500;
+      --yellow-light: #FFF099;
+      --white: #FFFFFF;
+      --black: #0F0F0F;
+      --gray: #F0F0F0;
+      --red: #FF4136;
+      --green: #2ECC40;
+      
+      --shadow-solid: 6px 6px 0px var(--black);
+      --shadow-solid-hover: 2px 2px 0px var(--black);
+      
+      --radius-sm: 8px;
+      
+      --font-main: 'Outfit', 'Segoe UI', system-ui, sans-serif;
+      --font-mono: 'Space Mono', 'Courier New', monospace;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: var(--font-main);
+      background: var(--gray);
+      color: var(--black);
+      line-height: 1.8;
+      overflow-x: hidden;
+      animation: pageLoad 0.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+      opacity: 0;
+    }
+
+    @keyframes pageLoad {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ===== NAVBAR ===== */
+    .navbar {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 24px 6%; background: var(--white); border-bottom: 3px solid var(--black);
+      position: sticky; top: 0; z-index: 100;
+    }
+
+    .logo {
+      font-size: 1.8rem; font-weight: 900; letter-spacing: -0.5px;
+      color: var(--black); text-transform: uppercase; position: relative; display: inline-block;
+      text-decoration: none;
+    }
+    .logo::before {
+      content: ''; position: absolute; bottom: 2px; left: 0;
+      width: 100%; height: 40%; background: var(--yellow);
+      z-index: -1; transform: rotate(-2deg);
+    }
+
+    .nav-links { display: flex; gap: 32px; list-style: none; }
+    .nav-links a {
+      text-decoration: none; color: var(--black); font-weight: 700;
+      font-size: 1rem; position: relative; padding: 5px 0; text-transform: uppercase; letter-spacing: 1px;
+    }
+    .nav-links a::after {
+      content: ""; position: absolute; bottom: 0; left: 0;
+      width: 0; height: 3px; background: var(--yellow); transition: width 0.3s ease;
+    }
+    .nav-links a:hover::after { width: 100%; }
+
+    .btn-demo {
+      background: var(--white); color: var(--black); border: 3px solid var(--black);
+      padding: 12px 28px; border-radius: var(--radius-sm); font-weight: 800;
+      font-size: 1rem; text-transform: uppercase; cursor: pointer;
+      box-shadow: var(--shadow-solid); transition: all 0.2s ease; text-decoration: none;
+    }
+    .btn-demo:hover {
+      background: var(--yellow); transform: translate(4px, 4px); box-shadow: var(--shadow-solid-hover);
+    }
+
+    /* ===== REPORT LAYOUT ===== */
+    .report-header {
+      padding: 80px 6%; background: var(--yellow); border-bottom: 4px solid var(--black);
+      text-align: center;
+    }
+    .report-header h1 {
+      font-size: 4rem; font-weight: 900; text-transform: uppercase; text-shadow: 4px 4px 0px var(--white);
+      margin-bottom: 20px;
+    }
+    .report-header p { font-size: 1.2rem; font-weight: 700; max-width: 800px; margin: 0 auto; background: var(--white); padding: 15px; border: 3px solid var(--black); box-shadow: var(--shadow-solid); }
+
+    .report-container {
+      max-width: 1000px; margin: -40px auto 100px; background: var(--white);
+      border: 4px solid var(--black); border-radius: var(--radius-sm); padding: 60px;
+      box-shadow: var(--shadow-solid); position: relative; z-index: 10;
+    }
+
+    h2 { font-size: 2.5rem; font-weight: 900; text-transform: uppercase; margin: 60px 0 30px; padding-bottom: 15px; border-bottom: 4px solid var(--yellow); }
+    h3 { font-size: 1.8rem; font-weight: 800; margin: 40px 0 20px; }
+    p { font-size: 1.1rem; margin-bottom: 25px; color: #333; }
+    ul { margin-bottom: 25px; padding-left: 20px; font-size: 1.1rem; }
+    li { margin-bottom: 10px; }
+
+    .callout {
+      background: var(--yellow-light); border: 3px solid var(--black); padding: 25px;
+      margin: 30px 0; border-radius: var(--radius-sm); font-weight: 500; font-style: italic;
+    }
+
+    .comparison-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 40px 0;
+    }
+    
+    .bad-output, .good-output {
+      border: 3px solid var(--black); padding: 25px; border-radius: var(--radius-sm);
+      box-shadow: var(--shadow-solid); background: var(--white);
+    }
+    .bad-output h4 { color: var(--red); font-size: 1.3rem; margin-bottom: 15px; text-transform: uppercase; font-weight: 900; }
+    .good-output h4 { color: var(--green); font-size: 1.3rem; margin-bottom: 15px; text-transform: uppercase; font-weight: 900; }
+    
+    pre {
+      background: #f4f4f4; border: 2px solid #ccc; padding: 15px; border-radius: 4px;
+      font-family: var(--font-mono); font-size: 0.9rem; overflow-x: auto; white-space: pre-wrap;
+    }
+
+    .img-placeholder {
+      width: 100%; height: 200px; background: #eaeaea; border: 2px dashed #999;
+      display: flex; align-items: center; justify-content: center; margin-bottom: 15px;
+      font-family: var(--font-mono); color: #666; font-weight: bold;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer { background: var(--black); color: var(--white); text-align: center; padding: 40px 6%; border-top: 4px solid var(--black); }
+    .footer p { font-weight: 700; font-size: 1.1rem; text-transform: uppercase; }
+
+    @media (max-width: 768px) {
+      .navbar { flex-direction: column; gap: 20px; padding: 20px 5%; }
+      .nav-links { flex-wrap: wrap; justify-content: center; gap: 15px; }
+      .report-header h1 { font-size: 2.5rem; }
+      .report-container { padding: 30px; margin: 20px; }
+      .comparison-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="/" class="logo">Neoledge OCR</a>
+    <ul class="nav-links">
+      <li><a href="/">The Pipeline</a></li>
+      <li><a href="/architecture/">Architecture</a></li>
+      <li><a href="/report/">Internship Report</a></li>
+    </ul>
+    <a href="/download-api/" class="btn-demo">Download Python API</a>
+  </nav>
+
+  <header class="report-header">
+    <h1>Internship Report</h1>
+    <p>A comprehensive deep-dive into the struggles, failures, and ultimate success of building the Neoledge bilingual OCR pipeline.</p>
+  </header>
+
+  <main class="report-container">
+    
+    <h2>1. The Beginning: Choosing the Engine</h2>
+    <p>When the project started, the goal was simple: Extract Arabic and French text from scanned documents. Naturally, our first thought was to test standard, off-the-shelf OCR engines. We began by benchmarking three primary candidates: <strong>Tesseract</strong>, <strong>PaddleOCR</strong>, and <strong>EasyOCR</strong>.</p>
+    
+    <h3>The Tesseract Failure</h3>
+    <p>While Tesseract performed admirably on clean English and French text, it failed catastrophically when introduced to Arabic. Because Arabic is cursive and context-dependent, Tesseract struggled to identify character boundaries, returning broken strings of disconnected letters.</p>
+    
+    <h3>The PaddleOCR Promise & Pivot</h3>
+    <p>We then tested PaddleOCR. Initially, it seemed like the perfect solution. PaddleOCR was incredibly accurate when handling French documents alone, and it was equally impressive on pure Arabic documents. However, after extensive testing, we discovered a fatal flaw: <strong>Bilingual integration</strong>. When PaddleOCR attempted to read documents containing both Arabic and English text intermingled, it completely fell apart, mangling the right-to-left and left-to-right directions.</p>
+
+    <h3>Settling on Dual Pipelines with EasyOCR</h3>
+    <p>To solve the bilingual issue, we shifted our focus to EasyOCR. We found a unique approach: we divided our system into two dedicated OCR pipelines. We explicitly routed French/English documents to a specialized PaddleOCR pipeline (since it handled Latin characters perfectly), while routing Arabic/English bilingual documents to EasyOCR, which managed the complex directional shifts much more effectively.</p>
+
+    <h2>2. Layout Parsing: The Detector Trials</h2>
+    <p>Even with EasyOCR handling Arabic well, feeding an entire dense document with tables and logos into the OCR engine directly caused severe layout confusion and hallucinations.</p>
+    
+    <p>We needed a layout parser to crop out paragraphs and tables <em>before</em> running OCR. We tried several object detection models: the <strong>Florence</strong> vision models, Meta's <strong>Detectron2</strong>, and the <strong>YOLO family</strong>. Florence was too slow for real-time inference, and Detectron was overly complex to configure for simple text bounding boxes.</p>
+    
+    <p>We ultimately settled on <strong>YOLOv11s</strong>. By training a custom YOLOv11s model, we achieved lightning-fast inference to strictly crop out text paragraphs first. The layout confusion disappeared entirely.</p>
+    
+    <div class="comparison-grid">
+      <div class="bad-output">
+        <h4>❌ EasyOCR Direct Input (Failure)</h4>
+        <div class="img-placeholder">[Uncropped Document Image]</div>
+        <p>When feeding an entire dense document directly into EasyOCR, the engine would attempt to read table borders as letters.</p>
+        <pre>Extracted: | | | | | | l | | | 
+مرحبا| | | | هذا اختبار</pre>
+      </div>
+      <div class="good-output">
+        <h4>✅ EasyOCR + YOLOv11s (Success)</h4>
+        <div class="img-placeholder">[YOLO Cropped Bounding Box]</div>
+        <p>By training YOLOv11s to crop out text first, we only fed EasyOCR clean snippets.</p>
+        <pre>Extracted: مرحبا، هذا اختبار دقيق</pre>
+      </div>
+    </div>
+
+    <h2>3. The Spelling Crisis: AraBERT & RoBERTa</h2>
+    <p>Even with YOLO isolating the text, EasyOCR still made minor spelling errors. We couldn't rely on simple regex to fix this.</p>
+    
+    <p>We implemented <strong>AraBERT and RoBERTa Masked Language Modeling (MLM)</strong>. We built a pipeline that detects low-confidence words, masks them, and asks AraBERT (for Arabic) or RoBERTa (for French/English) to predict the correct word based on surrounding context. We performed extensive benchmarking on this post-processing step to ensure it improved Word Error Rate (WER) without altering intended meanings.</p>
+
+    <h2>4. Strict Dictionary Validation</h2>
+    <p>Because language models can sometimes hallucinate "correct-sounding" words that weren't actually in the document, we backed up the MLM engines with a strict dictionary validation phase. Using highly curated Arabic and French dictionaries, we ensured that the final outputs consisted solely of valid vocabulary, eliminating nonsensical outputs.</p>
+
+    <h2>5. The Final Polish: Formatting with the Gemini API</h2>
+    <p>The raw text extracted by our local pipeline was accurate, but the layout formatting was lost. We needed a way to restore bolding, headers, and bullet points.</p>
+    <p>We integrated the <strong>Gemini Cloud API</strong> to act strictly as a formatting organizer. Gemini takes the perfectly extracted text from YOLO/EasyOCR, looks at the original image layout, and simply injects Markdown formatting.</p>
+
+    <h2>6. The Heavy Weights: Colab & Qwen2-VL</h2>
+    <p>For highly complex documents with nested tables and handwritten sticky notes, the local pipeline showed limits. We turned to a heavy Vision Language Model: <strong>Qwen2-VL-7B-Instruct</strong>.</p>
+    
+    <p>Because this model required massive GPU VRAM, we engineered a secure reverse-proxy bridge using <strong>Ngrok</strong>. We hosted the heavyweight Qwen2-VL model on a free Google Colab T4 GPU, exposing an API endpoint that our local server could query. This allowed us to process massive documents without melting our local hardware.</p>
+
+    <div class="callout">
+      "We hit a terrifying bug where Qwen2-VL got stuck in an infinite loop generating table separators (| | | |). We solved this by tightening the system prompt, strictly forbidding conversational filler, and saving image tensors to disk before tokenization."
+    </div>
+
+    <div class="comparison-grid">
+      <div class="bad-output">
+        <h4>❌ Qwen2-VL Hallucination Loop</h4>
+        <div class="img-placeholder">[Sticky Note Image]</div>
+        <p>Due to a tokenizer mismatch bug when passing PIL images in memory, Qwen2-VL defaulted to hallucinating.</p>
+        <pre>Extracted: 
+The image depicts a serene beach scene 
+with a clear blue sky...</pre>
+      </div>
+      <div class="good-output">
+        <h4>✅ Qwen2-VL Fixed Output</h4>
+        <div class="img-placeholder">[Sticky Note Image]</div>
+        <p>After fixing the file path passing and updating the system prompt to enforce "pure OCR" rules, the extraction became perfect.</p>
+        <pre>Extracted: Call John at 5PM regarding the Arabic OCR project.</pre>
+      </div>
+    </div>
+
+    <h2>7. Deployment & API Platform</h2>
+    <p>After we finished the pipeline and confirmed everything was working exactly as we wanted with high precision, we needed a way to deliver it to end users. We built a comprehensive web platform using <strong>Django</strong>.</p>
+    
+    <p>The Django platform wraps the entire complex multi-model pipeline into a single, user-friendly interface. Users simply drag and drop documents, and the backend handles all the routing between YOLO, EasyOCR, PaddleOCR, AraBERT, and Gemini automatically.</p>
+    
+    <p>Furthermore, recognizing that this powerful pipeline could be highly valuable for other architecture and software projects, we added a developer feature: <strong>A downloadable Python API Client</strong>. By clicking the download button in the navigation bar, developers can instantly acquire a Python script pre-configured with API keys to integrate our Neoledge OCR pipeline into their own autonomous workflows seamlessly.</p>
+
+    <h2>Conclusion</h2>
+    <p>By aggressively isolating problems across six distinct architectural layers—YOLOv11s for layout, Dual EasyOCR/PaddleOCR pipelines, AraBERT/RoBERTa for spelling, Strict Dictionaries for validation, Gemini for formatting, and Colab VLM for heavy lifting—we constructed an OCR pipeline that resists hallucinations and gracefully handles dense, bilingual documents.</p>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Neoledge Summer Internship. Built with ❤️</p>
+  </footer>
+</body>
+</html>
