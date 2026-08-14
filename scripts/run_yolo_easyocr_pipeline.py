@@ -206,6 +206,7 @@ def run_yolo_easyocr_pipeline(yolo_model, engine_ar_en, engine_fr_en, image_path
     all_tokens = []
     all_text_parts = []
 
+    if not text_regions:
         # Fallback: if YOLO found nothing, run full image through EasyOCR (Arabic/English)
         try:
             result = engine_ar_en.extract_text(str(image_path), document_id=doc_id)
