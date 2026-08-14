@@ -23,9 +23,10 @@ def extract_with_gemini(image_path: str, filename: str, api_key: str) -> str:
         
     prompt = """
 Extract ALL text from this document image exactly as it appears.
-Preserve the original layout, reading order, and structure.
+Preserve the original reading order and structure.
 For Arabic text, maintain right-to-left reading direction.
 Format the output as clean markdown.
+Do NOT use any HTML tags like <div> or <span> for alignment, use pure text and markdown only.
 Do NOT add any commentary, translation, or interpretation.
 Preserve tables, bullet points, numbered lists.
 Include dotted lines as `...........` where they appear.
