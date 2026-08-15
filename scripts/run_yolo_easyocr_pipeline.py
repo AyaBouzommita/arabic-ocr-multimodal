@@ -196,39 +196,29 @@ def run_yolo_easyocr_pipeline(yolo_model, engine_ar_en, engine_fr_en, image_path
 
     text_regions = filter_overlapping_boxes(text_regions)
 
-    # Detect primary language by sampling 10 regions evenly distributed across the document
+    # ── RELIABLE LANGUAGE DETECTION ──
+    # Scan the entire image with PaddleOCR to detect if any Arabic exists anywhere on the page
     is_rtl = False
     is_arabic_detected = False
-    
-    step = max(1, len(text_regions) // 20)
-    sample_regions = text_regions[::step][:20]
     total_arabic_chars = 0
-    total_alpha_chars = 0
     
-    for region in sample_regions:
+    if paddle_ar is not None:
         try:
-            reader_ar = engine_ar_en._get_reader()
-            res = reader_ar.readtext(region["crop"], detail=0)
-            text = " ".join(res)
-            
-            for char in text:
-                if '\u0600' <= char <= '\u06FF':
-                    total_arabic_chars += 1
-                    total_alpha_chars += 1
-                elif char.isalpha():
-                    total_alpha_chars += 1
-                    
-        except Exception:
+            paddle_res = paddle_ar.ocr(str(image_path), cls=False)
+            if paddle_res and paddle_res[0]:
+                for line in paddle_res[0]:
+                    text = line[1][0]
+                    for char in text:
+                        if '\u0600' <= char <= '\u06FF':
+                            total_arabic_chars += 1
+        except Exception as e:
+            print("Language detection error:", e)
             pass
-        
-    # Require >15% of alphabetical characters to be Arabic, OR a very large absolute number of Arabic chars
-    if total_alpha_chars > 0:
-        arabic_ratio = total_arabic_chars / total_alpha_chars
-        # If even a tiny amount of Arabic is detected (5 chars or 5%), enable Arabic processing!
-        # Both EasyOCR and PaddleOCR Arabic models also read English perfectly, so false positives are harmless.
-        if arabic_ratio > 0.05 or total_arabic_chars > 5:
-            is_rtl = True
-            is_arabic_detected = True
+
+    # If we find even a single Arabic word (e.g. 3+ characters), switch to the Arabic+English ensemble!
+    if total_arabic_chars > 3:
+        is_rtl = True
+        is_arabic_detected = True
 
     # Sort regions Top-to-Bottom, then Left-to-Right (or Right-to-Left for Arabic)
     text_regions = sort_boxes_smart(text_regions, lambda r: r["bbox"], is_rtl=is_rtl)
