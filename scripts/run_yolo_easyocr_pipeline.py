@@ -200,8 +200,8 @@ def run_yolo_easyocr_pipeline(yolo_model, engine_ar_en, engine_fr_en, image_path
     is_rtl = False
     is_arabic_detected = False
     
-    step = max(1, len(text_regions) // 10)
-    sample_regions = text_regions[::step][:10]
+    step = max(1, len(text_regions) // 20)
+    sample_regions = text_regions[::step][:20]
     total_arabic_chars = 0
     total_alpha_chars = 0
     
@@ -224,7 +224,9 @@ def run_yolo_easyocr_pipeline(yolo_model, engine_ar_en, engine_fr_en, image_path
     # Require >15% of alphabetical characters to be Arabic, OR a very large absolute number of Arabic chars
     if total_alpha_chars > 0:
         arabic_ratio = total_arabic_chars / total_alpha_chars
-        if arabic_ratio > 0.15 or total_arabic_chars > 30:
+        # If even a tiny amount of Arabic is detected (5 chars or 5%), enable Arabic processing!
+        # Both EasyOCR and PaddleOCR Arabic models also read English perfectly, so false positives are harmless.
+        if arabic_ratio > 0.05 or total_arabic_chars > 5:
             is_rtl = True
             is_arabic_detected = True
 
