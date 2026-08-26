@@ -328,7 +328,12 @@
       </tbody>
     </table>
 
-    <p>While PaddleOCR dominated on French text (yielding 89.2% average confidence across clean segments), it failed structurally on bilingual documents because it lacks dynamic Bidirectional (BiDi) processing capabilities.</p>
+    <p>While PaddleOCR dominated on French text (yielding 89.2% average confidence across clean segments), it failed structurally on bilingual documents because it lacks dynamic Bidirectional (BiDi) processing capabilities. EasyOCR, conversely, handled BiDi text beautifully but was slower and less accurate on pure French than PaddleOCR.</p>
+
+    <h3>2.2 Why We Built a Dual Pipeline</h3>
+    <div class="callout-success">
+      Instead of forcing one model to do everything poorly, we built a <strong>Dual Pipeline Ensemble</strong>. By writing a custom language routing script, we could send clean French/Latin documents to PaddleOCR for maximum speed, while dynamically routing complex Arabic and bilingual documents to EasyOCR to handle the complex right-to-left directional shifts.
+    </div>
 
     <img src="{% static 'img/sample.png' %}" alt="Arabic Sample Text" class="doc-image">
     <p><em>Figure 1: `data/raw/sample.png` — A clean Arabic calligraphy string: "لا حياة لمن تنادي"</em></p>
@@ -435,9 +440,9 @@ total_arabic_chars = 0
     <span class="keyword">return</span> cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)</pre>
 
     <!-- ========== SECTION 6: NLP ========== -->
-    <h2 id="nlp">6. NLP Auto-Correction: AraBERT Masked Language Modeling</h2>
+    <h2 id="nlp">6. NLP Auto-Correction: AraBERT & RoBERTa Masked Language Modeling</h2>
 
-    <p>Even with advanced preprocessing, visual confusion between Arabic letters is unavoidable. We developed a robust Post-Processing pipeline leveraging <strong>AraBERT (aubmindlab/bert-base-arabertv02)</strong>.</p>
+    <p>Even with advanced preprocessing, visual confusion between letters is unavoidable. We developed a robust Bilingual Post-Processing pipeline leveraging two powerful Masked Language Models: <strong>AraBERT (aubmindlab/bert-base-arabertv02)</strong> for Arabic text, and <strong>XLM-RoBERTa (xlm-roberta-base)</strong> for French and English text.</p>
 
     <h3>6.1 Confidence & Dictionary Gating</h3>
     <p>To prevent the NLP model from destructively altering correctly extracted text, we implemented strict gating logic in <code>arabert_corrector.py</code>:</p>
