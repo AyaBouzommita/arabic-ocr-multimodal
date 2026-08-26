@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -257,12 +258,7 @@
   <header class="report-header">
     <h1>Internship Report</h1>
     <p class="subtitle">The definitive, data-driven technical report on building the Neoledge Multimodal Arabic & French OCR Platform. Documenting every algorithm, benchmark, code implementation, and struggle from zero to a live cloud pipeline.</p>
-    <div class="report-meta">
-      <span>📅 Summer 2026</span>
-      <span>🏢 Neoledge</span>
-      <span>🧑‍💻 Aya Bouzommita</span>
-      <span>📄 Full-Stack AI Engineering</span>
-    </div>
+
   </header>
 
   <!-- TABLE OF CONTENTS -->
@@ -334,7 +330,7 @@
 
     <p>While PaddleOCR dominated on French text (yielding 89.2% average confidence across clean segments), it failed structurally on bilingual documents because it lacks dynamic Bidirectional (BiDi) processing capabilities.</p>
 
-    <img src="/static/img/sample.png" alt="Arabic Sample Text" class="doc-image">
+    <img src="{% static 'img/sample.png' %}" alt="Arabic Sample Text" class="doc-image">
     <p><em>Figure 1: `data/raw/sample.png` — A clean Arabic calligraphy string: "لا حياة لمن تنادي"</em></p>
 
     <!-- ========== SECTION 3: YOLO ========== -->
@@ -376,7 +372,7 @@
     <h3>4.1 The Sampling Failure on Bilingual Exams</h3>
     <p>Our initial logic sampled 10 random bounding boxes to check for Arabic characters. We tested this on a real bilingual exam (<code>Arabic-I_page-0001.jpg</code>).</p>
     
-    <img src="/static/img/Arabic-I_page-0001.jpg" alt="Arabic Bilingual Exam" class="doc-image">
+    <img src="{% static 'img/Arabic-I_page-0001.jpg' %}" alt="Arabic Bilingual Exam" class="doc-image">
     <p><em>Figure 2: The bilingual exam paper. Note that the top 80% is in English, while the Arabic questions are localized at the bottom.</em></p>
 
     <p>Because the top of the exam is entirely English, the sampling algorithm found zero Arabic characters and erroneously sent the Arabic text at the bottom to the French model, resulting in disastrous outputs like <code>WjWWb (A) B</code>.</p>
@@ -412,7 +408,7 @@ total_arabic_chars = 0
 
     <p>Arabic script is highly sensitive to degradation; losing a single pixel can transform a 'ب' (ba) into a 'ت' (ta). To combat this, we engineered a dedicated OpenCV enhancement pipeline (<code>ocr/preprocessing/image_enhancer.py</code>).</p>
 
-    <img src="/static/img/temp_enhanced.png" alt="Enhanced Image Crop" class="doc-image">
+    <img src="{% static 'img/temp_enhanced.png' %}" alt="Enhanced Image Crop" class="doc-image">
     <p><em>Figure 3: `temp_enhanced.png` — An intermediate crop after applying CLAHE and Bilateral Filtering.</em></p>
 
     <pre><span class="keyword">def</span> enhance_crop_arabic(self, image: np.ndarray, target_height: int = 128) -> np.ndarray:
