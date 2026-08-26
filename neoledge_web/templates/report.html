@@ -463,7 +463,7 @@ new_word, changed = self.correct_word_in_context(
     <p>Extracting text strings is only half the battle; reconstructing the document's structure is the final milestone.</p>
 
     <h3>7.1 Gemini REST API Configuration</h3>
-    <p>We utilized the Gemini 3.6 Flash API to receive the extracted text string and logically reconstruct the Markdown based on the original image layout. The system prompt is aggressively restrictive to prevent hallucination:</p>
+    <p>We utilized the Gemini Flash API to receive the raw extracted text string and simply re-arrange the words and structure to make it much easier to read. The system prompt is aggressively restrictive to ensure it only formats the text without hallucinating or changing the content:</p>
 
     <pre>prompt = <span class="string">"""
 Extract ALL text from this document image exactly as it appears.
