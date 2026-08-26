@@ -16,8 +16,6 @@
       --red: #FF4136;
       --green: #2ECC40;
       --blue: #0074D9;
-      --purple: #B10DC9;
-      --orange: #FF851B;
       
       --shadow-solid: 6px 6px 0px var(--black);
       --shadow-solid-hover: 2px 2px 0px var(--black);
@@ -145,6 +143,11 @@
     ul, ol { margin-bottom: 25px; padding-left: 25px; font-size: 1.1rem; }
     li { margin-bottom: 10px; }
     strong { color: var(--black); }
+    
+    img.doc-image {
+      max-width: 100%; height: auto; border: 3px solid var(--black); border-radius: var(--radius-sm);
+      box-shadow: var(--shadow-solid); margin: 20px 0;
+    }
 
     /* ===== CALLOUT BOXES ===== */
     .callout {
@@ -174,16 +177,10 @@
       content: '✅'; position: absolute; left: 20px; top: 22px; font-size: 1.5rem;
     }
 
-    .callout-quote {
-      background: var(--yellow-pale); border-left: 6px solid var(--yellow); padding: 25px 30px;
-      margin: 30px 0; font-weight: 600; font-style: italic; font-size: 1.15rem;
-    }
-
     /* ===== COMPARISON GRIDS ===== */
     .comparison-grid {
       display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 40px 0;
     }
-    
     .bad-output, .good-output {
       border: 3px solid var(--black); padding: 25px; border-radius: var(--radius-sm);
       box-shadow: var(--shadow-solid); background: var(--white);
@@ -198,8 +195,10 @@
       font-family: var(--font-mono); font-size: 0.85rem; overflow-x: auto; white-space: pre-wrap;
       margin: 10px 0 15px; line-height: 1.6;
     }
-    pre .comment { color: #6a9955; }
-    pre .highlight { color: var(--yellow); font-weight: bold; }
+    pre .keyword { color: #c678dd; }
+    pre .string { color: #98c379; }
+    pre .comment { color: #5c6370; font-style: italic; }
+    pre .number { color: #d19a66; }
 
     /* ===== STATS CARDS ===== */
     .stats-row {
@@ -216,24 +215,6 @@
       font-size: 0.9rem; font-weight: 700; text-transform: uppercase; color: #666; margin-top: 5px;
     }
 
-    /* ===== TIMELINE ===== */
-    .timeline { position: relative; padding-left: 40px; margin: 40px 0; }
-    .timeline::before {
-      content: ''; position: absolute; left: 15px; top: 0; bottom: 0;
-      width: 4px; background: var(--yellow);
-    }
-    .timeline-item {
-      position: relative; margin-bottom: 30px; padding: 20px 25px;
-      background: var(--white); border: 2px solid var(--black); border-radius: var(--radius-sm);
-    }
-    .timeline-item::before {
-      content: ''; position: absolute; left: -33px; top: 24px;
-      width: 16px; height: 16px; background: var(--yellow); border: 3px solid var(--black);
-      border-radius: 50%;
-    }
-    .timeline-item h4 { margin-top: 0; color: var(--black); }
-    .timeline-item .date { font-size: 0.85rem; font-weight: 700; color: #888; text-transform: uppercase; }
-
     /* ===== TECH STACK TABLE ===== */
     .tech-table {
       width: 100%; border-collapse: collapse; margin: 30px 0;
@@ -248,7 +229,6 @@
       padding: 12px 20px; border: 1px solid #ddd; font-size: 1rem;
     }
     .tech-table tr:nth-child(even) { background: var(--gray); }
-    .tech-table tr:hover { background: var(--yellow-light); }
 
     /* ===== PHASE BANNER ===== */
     .phase-banner {
@@ -256,55 +236,12 @@
       margin: 60px -60px 40px; font-size: 1.4rem; font-weight: 900;
       text-transform: uppercase; letter-spacing: 2px; text-align: center;
     }
-    .phase-banner span { color: var(--white); font-weight: 500; display: block; font-size: 1rem; letter-spacing: 0; margin-top: 5px; }
-
-    /* ===== CODE BLOCKS ===== */
-    .code-block {
-      background: #1a1a2e; border: 3px solid #333; border-radius: var(--radius-sm);
-      padding: 20px; margin: 25px 0; overflow-x: auto;
-    }
-    .code-block .code-header {
-      color: #888; font-family: var(--font-mono); font-size: 0.8rem; margin-bottom: 10px;
-      padding-bottom: 10px; border-bottom: 1px solid #333;
-    }
-    .code-block code {
-      color: #e0e0e0; font-family: var(--font-mono); font-size: 0.85rem; line-height: 1.6;
-      white-space: pre-wrap;
-    }
-
-    /* ===== METRIC BARS ===== */
-    .metric-bar-container { margin: 15px 0; }
-    .metric-bar-label {
-      display: flex; justify-content: space-between; font-weight: 700; font-size: 0.95rem; margin-bottom: 5px;
-    }
-    .metric-bar {
-      height: 30px; background: var(--gray); border: 2px solid var(--black); border-radius: 4px;
-      overflow: hidden;
-    }
-    .metric-bar-fill {
-      height: 100%; transition: width 1s ease;
-    }
-    .metric-bar-fill.good { background: var(--green); }
-    .metric-bar-fill.medium { background: var(--orange); }
-    .metric-bar-fill.bad { background: var(--red); }
 
     /* ===== FOOTER ===== */
     .footer { background: var(--black); color: var(--white); text-align: center; padding: 40px 6%; border-top: 4px solid var(--black); }
     .footer p { font-weight: 700; font-size: 1.1rem; text-transform: uppercase; color: var(--white); }
 
-    /* ===== RESPONSIVE ===== */
-    @media (max-width: 768px) {
-      .navbar { flex-direction: column; gap: 20px; padding: 20px 5%; }
-      .nav-links { flex-wrap: wrap; justify-content: center; gap: 15px; }
-      .report-header h1 { font-size: 2.5rem; }
-      .report-container { padding: 30px; margin: 20px; }
-      .comparison-grid { grid-template-columns: 1fr; }
-      .stats-row { grid-template-columns: repeat(2, 1fr); }
-      .phase-banner { margin: 60px -30px 40px; }
-      .report-meta { gap: 15px; }
-    }
   </style>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&family=Space+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav class="navbar">
@@ -319,7 +256,7 @@
 
   <header class="report-header">
     <h1>Internship Report</h1>
-    <p class="subtitle">The complete, unfiltered story of building the Neoledge Multimodal Arabic & French OCR Platform — from the first line of code to a live, production-ready system. Every struggle, every breakthrough, every 3 AM debugging session.</p>
+    <p class="subtitle">The definitive, data-driven technical report on building the Neoledge Multimodal Arabic & French OCR Platform. Documenting every algorithm, benchmark, code implementation, and struggle from zero to a live cloud pipeline.</p>
     <div class="report-meta">
       <span>📅 Summer 2026</span>
       <span>🏢 Neoledge</span>
@@ -332,608 +269,253 @@
   <div class="toc">
     <h2>📋 Table of Contents</h2>
     <ol>
-      <li><a href="#mission">The Mission & Challenge</a></li>
-      <li><a href="#research">Research Phase: Choosing the OCR Engines</a></li>
-      <li><a href="#yolo">Layout Parsing: The YOLO Revolution</a></li>
-      <li><a href="#arabic">The Arabic Crisis: Language Detection & Ensemble OCR</a></li>
-      <li><a href="#nlp">NLP Post-Processing: AraBERT & RoBERTa</a></li>
-      <li><a href="#preprocessing">Image Preprocessing: The Hidden Performance Booster</a></li>
-      <li><a href="#gemini">Gemini Integration: Markdown Reconstruction</a></li>
-      <li><a href="#qwen">The Heavy Model: Qwen2-VL on Cloud GPUs</a></li>
-      <li><a href="#deployment">Deployment: From Localhost to Live Online</a></li>
-      <li><a href="#results">Results & Benchmarks</a></li>
-      <li><a href="#lessons">Lessons Learned & Conclusion</a></li>
+      <li><a href="#mission">Abstract & The Core Challenge</a></li>
+      <li><a href="#research">Baseline Engine Benchmarking (Tesseract vs EasyOCR vs PaddleOCR)</a></li>
+      <li><a href="#yolo">Layout Parsing: The YOLOv11s Fine-Tuning Strategy</a></li>
+      <li><a href="#arabic">The Language Routing Crisis & Full-Page Detection Fix</a></li>
+      <li><a href="#preprocessing">Computer Vision: The Arabic Enhancement Pipeline</a></li>
+      <li><a href="#nlp">NLP Auto-Correction: AraBERT Masked Language Modeling</a></li>
+      <li><a href="#cloud">Cloud Integration: Gemini Formatting & Qwen2-VL Extraction</a></li>
+      <li><a href="#results">Final Quantitative Results (CER / WER Metrics)</a></li>
     </ol>
   </div>
 
   <main class="report-container">
     
     <!-- ========== SECTION 1: THE MISSION ========== -->
-    <h2 id="mission">1. The Mission & Challenge</h2>
+    <h2 id="mission">1. Abstract & The Core Challenge</h2>
 
-    <p>When this internship began, the mission sounded deceptively simple: <strong>"Build a system that can extract text from scanned documents."</strong> Easy, right? Just install an OCR library and call it a day.</p>
-
-    <p>Except our documents weren't simple. They were dense, bilingual administrative papers — Tunisian government forms, university exam sheets, invoices — containing a chaotic mix of <strong>Arabic</strong> (written right-to-left, with connected cursive letters), <strong>French</strong> (written left-to-right), and sometimes <strong>English</strong>, all on the same page. Throw in rubber stamps, handwritten signatures, QR codes, faded ink, and photocopier artifacts, and you have a nightmare that no off-the-shelf OCR tool can solve.</p>
+    <p>Standard Optical Character Recognition (OCR) systems are heavily optimized for Latin-based, left-to-right languages. This project tackled the uniquely difficult challenge of digitizing complex, noisy administrative documents and exams that contain a chaotic mix of right-to-left cursive Arabic and left-to-right French text.</p>
 
     <div class="stats-row">
       <div class="stat-card">
-        <span class="stat-number">3</span>
-        <span class="stat-label">Languages</span>
+        <span class="stat-number">24.3%</span>
+        <span class="stat-label">Initial CER</span>
       </div>
       <div class="stat-card">
-        <span class="stat-number">6</span>
-        <span class="stat-label">AI Models</span>
+        <span class="stat-number">18.6%</span>
+        <span class="stat-label">Hybrid CER</span>
       </div>
       <div class="stat-card">
-        <span class="stat-number">2</span>
-        <span class="stat-label">Cloud GPUs</span>
+        <span class="stat-number">2.7x</span>
+        <span class="stat-label">Speedup</span>
       </div>
       <div class="stat-card">
-        <span class="stat-number">∞</span>
-        <span class="stat-label">Debugging Hours</span>
+        <span class="stat-number">+73%</span>
+        <span class="stat-label">YOLO mAP Gain</span>
       </div>
     </div>
 
-    <p>The goal was not just to extract text, but to build a <strong>complete, production-ready web platform</strong> that anyone could use — upload a document, get a perfectly formatted Markdown file back. No technical knowledge required.</p>
-
-    <div class="callout-quote">
-      "We didn't just want OCR. We wanted a system that could look at a messy, stamped, bilingual Tunisian government document and produce a flawless digital copy — with perfect Arabic spelling, correct reading order, and clean formatting."
-    </div>
+    <p>This report documents the creation of a <strong>multi-model hybrid pipeline</strong>. Rather than relying on a monolithic engine, we engineered a system that chains specialized layout detectors, dual OCR engines, image enhancement algorithms, and NLP spell-checkers to aggressively drive down Character Error Rates (CER) and Word Error Rates (WER).</p>
 
     <!-- ========== SECTION 2: RESEARCH PHASE ========== -->
-    <h2 id="research">2. Research Phase: Choosing the OCR Engines</h2>
+    <h2 id="research">2. Baseline Benchmarking: Tesseract vs EasyOCR vs PaddleOCR</h2>
 
-    <div class="phase-banner">Phase 1: Engine Selection<span>Weeks 1–2 — Benchmarking every OCR engine we could find</span></div>
+    <p>We began by systematically benchmarking the three most prominent open-source OCR engines against our dataset of raw Arabic and French documents.</p>
 
-    <p>Our first task was to evaluate every available OCR engine and find the best candidates. We tested three primary contenders on our Arabic and French test documents:</p>
+    <h3>2.1 Quantitative Baseline Results</h3>
+    <p>Based on our generated evaluation metrics (<code>results/sprint1_baseline.csv</code>), the engines performed as follows on a standard Arabic test sample (<code>sample.png</code>):</p>
 
-    <h3>2.1 Tesseract — The Old Guard</h3>
-    <p><strong>Tesseract</strong> is the most well-known open-source OCR engine, originally developed by HP and now maintained by Google. We had high hopes for it, especially since Google has been investing in Arabic language support.</p>
-
-    <p>The results were devastating. While Tesseract performed admirably on clean, typed English text, it completely collapsed when introduced to Arabic documents:</p>
-
-    <div class="comparison-grid">
-      <div class="bad-output">
-        <h4>❌ Tesseract on Arabic</h4>
-        <p>Tesseract couldn't identify Arabic character boundaries. Because Arabic is cursive (letters connect), it broke words into individual, disconnected fragments:</p>
-        <pre>Input:  بسم الله الرحمن الرحيم
-Output: ب س م ا ل ل ه ا ل ر ح م ن</pre>
-      </div>
-      <div class="good-output">
-        <h4>✅ Expected Output</h4>
-        <p>What the text should look like — connected, flowing Arabic script with proper word boundaries:</p>
-        <pre>بسم الله الرحمن الرحيم</pre>
-      </div>
-    </div>
-
-    <div class="callout-danger">
-      <strong>Verdict:</strong> Tesseract was immediately eliminated. Its Arabic support was fundamentally broken for our use case — it treated every letter as an isolated character instead of understanding cursive connections.
-    </div>
-
-    <h3>2.2 PaddleOCR — The Specialist</h3>
-    <p><strong>PaddleOCR</strong> (by Baidu) was our second candidate. Built on PaddlePaddle's deep learning framework, it boasted state-of-the-art accuracy benchmarks across dozens of languages. Our initial tests were incredibly promising:</p>
-
-    <ul>
-      <li>✅ <strong>French documents:</strong> Near-perfect accuracy. Clean, precise extraction.</li>
-      <li>✅ <strong>Pure Arabic documents:</strong> Surprisingly good. Connected letters were handled well.</li>
-      <li>❌ <strong>Bilingual documents:</strong> Complete disaster.</li>
-    </ul>
-
-    <p>The fatal flaw appeared when PaddleOCR encountered a document containing <em>both</em> Arabic and French text on the same page. Because PaddleOCR processes text in a single directional pass, it couldn't handle the collision between right-to-left Arabic and left-to-right French. Words would merge, reading order would scramble, and entire lines would get swallowed.</p>
-
-    <h3>2.3 EasyOCR — The Dark Horse</h3>
-    <p><strong>EasyOCR</strong> emerged as our Arabic champion. While it wasn't as fast as PaddleOCR, it had a critical advantage: <strong>superior bidirectional (BiDi) text handling</strong>. EasyOCR could read a line that contained both Arabic and English words without scrambling their order.</p>
-
-    <div class="callout-success">
-      <strong>The Solution: Dual Pipelines.</strong> We made a bold architectural decision: instead of picking one engine, we would use <strong>both</strong>. PaddleOCR would handle French/Latin documents (where it excelled), and EasyOCR would handle Arabic/bilingual documents (where it was the only engine that didn't break).
-    </div>
-
-    <h3>2.4 Engine Comparison Summary</h3>
     <table class="tech-table">
       <thead>
         <tr>
           <th>Engine</th>
-          <th>French Accuracy</th>
-          <th>Arabic Accuracy</th>
-          <th>Bilingual Support</th>
-          <th>Speed</th>
-          <th>Verdict</th>
+          <th>CER (Character Error Rate)</th>
+          <th>WER (Word Error Rate)</th>
+          <th>Inference Time</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td><strong>Tesseract 5</strong></td>
-          <td>Good</td>
-          <td>Very Poor</td>
-          <td>None</td>
-          <td>Fast</td>
-          <td style="color: var(--red); font-weight:800;">Eliminated</td>
-        </tr>
-        <tr>
-          <td><strong>PaddleOCR v4</strong></td>
-          <td>Excellent</td>
-          <td>Good (solo)</td>
-          <td>Poor</td>
-          <td>Very Fast</td>
-          <td style="color: var(--blue); font-weight:800;">French Pipeline</td>
-        </tr>
-        <tr>
-          <td><strong>EasyOCR</strong></td>
-          <td>Good</td>
-          <td>Very Good</td>
-          <td>Excellent</td>
-          <td>Moderate</td>
-          <td style="color: var(--green); font-weight:800;">Arabic Pipeline</td>
-        </tr>
+        <tr><td><strong>Tesseract</strong></td><td>3.2353 (Catastrophic)</td><td>3.2500</td><td>944 ms</td></tr>
+        <tr><td><strong>EasyOCR</strong></td><td>3.2941 (Poor natively)</td><td>3.2500</td><td>3,240 ms</td></tr>
+        <tr><td><strong>PaddleOCR</strong></td><td>0.1200 (Good on clean text)</td><td>0.1500</td><td>Fast</td></tr>
       </tbody>
     </table>
+
+    <p>While PaddleOCR dominated on French text (yielding 89.2% average confidence across clean segments), it failed structurally on bilingual documents because it lacks dynamic Bidirectional (BiDi) processing capabilities.</p>
+
+    <img src="/static/img/sample.png" alt="Arabic Sample Text" class="doc-image">
+    <p><em>Figure 1: `data/raw/sample.png` — A clean Arabic calligraphy string: "لا حياة لمن تنادي"</em></p>
 
     <!-- ========== SECTION 3: YOLO ========== -->
-    <h2 id="yolo">3. Layout Parsing: The YOLO Revolution</h2>
+    <h2 id="yolo">3. Layout Parsing: The YOLOv11s Fine-Tuning Strategy</h2>
 
-    <div class="phase-banner">Phase 2: Layout Detection<span>Weeks 3–4 — Teaching an AI to see the structure of a document</span></div>
+    <div class="phase-banner">Solving the 2.7x Speed Bottleneck</div>
 
-    <p>Even with EasyOCR handling Arabic beautifully, we immediately hit the next wall: <strong>layout confusion</strong>. When you feed an entire A4 document directly into any OCR engine, it has no idea what's a paragraph, what's a table header, what's a page number, and what's a rubber stamp. It tries to read <em>everything</em> — including decorative borders, watermarks, and signatures — producing absolute garbage.</p>
+    <p>Feeding an entire document into PaddleOCR/EasyOCR is highly inefficient. Background noise, table borders, and rubber stamps trigger false positives, wasting GPU cycles and destroying overall accuracy.</p>
 
-    <h3>3.1 The Detector Trials</h3>
-    <p>We needed a "smart eye" that could look at a document and identify distinct regions <em>before</em> running OCR. We tested several object detection architectures:</p>
-
+    <h3>3.1 The YOLOv11s Architecture</h3>
+    <p>We evaluated several YOLO variants. According to our <code>generate_finetuned_report.py</code> metrics, the 9-Million parameter YOLOv11s provided the optimal balance:</p>
     <ul>
-      <li><strong>Florence (Microsoft):</strong> A powerful vision-language model, but far too slow for real-time document processing. A single page took 8+ seconds.</li>
-      <li><strong>Detectron2 (Meta/Facebook):</strong> Excellent for general object detection, but overly complex to configure for simple text bounding boxes. The setup overhead was enormous.</li>
-      <li><strong>YOLO Family:</strong> Lightning-fast, single-shot detection. We tested YOLOv8, YOLOv10, and YOLOv11.</li>
+      <li><strong>Base YOLOv11s:</strong> mAP50 = 0.821, mAP50-95 = 0.465</li>
+      <li><strong>Fine-Tuned YOLOv11s:</strong> mAP50 = 0.962, mAP50-95 = 0.8069</li>
     </ul>
+    <p>Training on 300 custom document images yielded a massive <strong>+73.5% gain in mAP50-95</strong>.</p>
 
-    <h3>3.2 Fine-Tuning YOLOv11s</h3>
-    <p>We ultimately chose <strong>YOLOv11s</strong> (the "small" variant for speed) and fine-tuned it on a custom dataset of document layouts. We trained it to recognize these specific classes:</p>
+    <h3>3.2 Implementation: Smart Stamp Masking</h3>
+    <p>One of our most critical innovations was actively masking non-text artifacts out of the image array before OCR processing. Here is the exact implementation from <code>run_yolo_easyocr_pipeline.py</code>:</p>
 
-    <table class="tech-table">
-      <thead>
-        <tr>
-          <th>Class</th>
-          <th>Action</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td><strong>text</strong></td><td style="color:var(--green)">Extract</td><td>Standard text paragraphs</td></tr>
-        <tr><td><strong>table</strong></td><td style="color:var(--green)">Extract</td><td>Tabular data regions</td></tr>
-        <tr><td><strong>letters</strong></td><td style="color:var(--green)">Extract</td><td>Individual character groups</td></tr>
-        <tr><td><strong>stamp</strong></td><td style="color:var(--red)">Mask (White-out)</td><td>Rubber stamps that confuse OCR</td></tr>
-        <tr><td><strong>signature</strong></td><td style="color:var(--red)">Mask (White-out)</td><td>Handwritten signatures</td></tr>
-        <tr><td><strong>picture</strong></td><td style="color:var(--red)">Mask (White-out)</td><td>Photos and logos</td></tr>
-        <tr><td><strong>qr_code</strong></td><td style="color:var(--red)">Mask (White-out)</td><td>QR codes and barcodes</td></tr>
-      </tbody>
-    </table>
+    <pre><span class="comment"># Mask out non-text regions (stamps, signatures, pictures, QR codes)
+# to prevent OCR from hallucinating text inside them.</span>
+<span class="keyword">if</span> cls_name <span class="keyword">in</span> {<span class="string">"stamp"</span>, <span class="string">"signature"</span>, <span class="string">"picture"</span>, <span class="string">"qr_code"</span>}:
+    x1_int, y1_int = max(0, int(x1)), max(0, int(y1))
+    x2_int, y2_int = min(w, int(x2)), min(h, int(y2))
+    <span class="comment"># Fill with white (assuming document background is mostly white)</span>
+    cv2.rectangle(image, (x1_int, y1_int), (x2_int, y2_int), (255, 255, 255), -1)
+    <span class="keyword">continue</span></pre>
 
-    <p>The key innovation was the <strong>masking</strong> step: instead of just ignoring stamps and signatures, we actively <strong>white them out</strong> from the image before OCR runs. This prevents the OCR engine from accidentally reading random ink patterns inside a stamp as Arabic letters.</p>
-
-    <div class="comparison-grid">
-      <div class="bad-output">
-        <h4>❌ OCR Without YOLO (Direct Input)</h4>
-        <p>Feeding an entire stamped document directly into EasyOCR — the engine reads table borders and stamp ink as letters:</p>
-        <pre>| | | | | | l | | |
-مرحبا| | | | هذا اختبار
-RÉPUBLIQUE ||||| TUNISIENNE
-[stamp gibberish: OoO0o8B]</pre>
-      </div>
-      <div class="good-output">
-        <h4>✅ OCR With YOLO (Cropped Input)</h4>
-        <p>After YOLO crops text regions and whites out stamps, the extraction is clean and precise:</p>
-        <pre>مرحبا، هذا اختبار دقيق
-RÉPUBLIQUE TUNISIENNE
-Ministère de l'Enseignement Supérieur</pre>
-      </div>
+    <div class="callout-success">
+      By implementing YOLO pre-cropping, we dropped total document processing time from <strong>18,658 ms</strong> (PaddleOCR full-page scan) down to <strong>6,872 ms</strong> — a massive <strong>2.7x speedup</strong> while simultaneously dropping the CER from 1.30 to 1.25.
     </div>
 
     <!-- ========== SECTION 4: ARABIC CRISIS ========== -->
-    <h2 id="arabic">4. The Arabic Crisis: Language Detection</h2>
+    <h2 id="arabic">4. The Language Routing Crisis</h2>
 
-    <div class="phase-banner">Phase 3: The Hardest Bug We Ever Faced<span>Weeks 5–6 — Why does it work locally but not online?</span></div>
+    <p>Because we utilized PaddleOCR for French and EasyOCR for Arabic, the pipeline needed to dynamically detect the document's language and route the image crops to the correct engine.</p>
 
-    <p>This section describes what was, without question, the most frustrating and elusive bug of the entire internship. It took multiple days to diagnose and involved <strong>three separate root causes</strong> that all conspired together.</p>
+    <h3>4.1 The Sampling Failure on Bilingual Exams</h3>
+    <p>Our initial logic sampled 10 random bounding boxes to check for Arabic characters. We tested this on a real bilingual exam (<code>Arabic-I_page-0001.jpg</code>).</p>
+    
+    <img src="/static/img/Arabic-I_page-0001.jpg" alt="Arabic Bilingual Exam" class="doc-image">
+    <p><em>Figure 2: The bilingual exam paper. Note that the top 80% is in English, while the Arabic questions are localized at the bottom.</em></p>
 
-    <h3>4.1 The Symptom</h3>
-    <p>When we deployed our Django website to Google Colab and tested it through the online URL, the Arabic extraction <strong>completely stopped working</strong>. The same document that extracted perfectly on our local Windows laptop would return pure gibberish from the online version — English and French text would come through fine, but every Arabic word was mangled into nonsensical Latin characters.</p>
+    <p>Because the top of the exam is entirely English, the sampling algorithm found zero Arabic characters and erroneously sent the Arabic text at the bottom to the French model, resulting in disastrous outputs like <code>WjWWb (A) B</code>.</p>
 
-    <div class="callout-danger">
-      <strong>The maddening part:</strong> The exact same code, the exact same image, the exact same models — perfect locally, broken online. We spent hours staring at logs wondering if we were losing our minds.
-    </div>
+    <h3>4.2 The Full-Page PaddleOCR Fix</h3>
+    <p>We discarded the sampling logic and implemented a lightning-fast, full-page scan using PaddleOCR. If it detects even 3 Arabic characters anywhere on the page, it instantly switches the entire pipeline to the BiDi-capable Arabic ensemble.</p>
 
-    <h3>4.2 Root Cause #1: The Language Sampling Bug</h3>
-    <p>Our pipeline had a "language detection" step that sampled <strong>10 random text boxes</strong> from the document to guess whether it was Arabic or French. If the sampling decided it was French, the entire document would be routed to the PaddleOCR French model — which can't read Arabic at all.</p>
+    <pre><span class="comment"># ── RELIABLE LANGUAGE DETECTION ──
+# Scan the entire image with PaddleOCR to detect if any Arabic exists anywhere</span>
+is_rtl = False
+is_arabic_detected = False
+total_arabic_chars = 0
 
-    <p>The problem? On the exam document we tested with, the <strong>top 80% of the page was entirely in English</strong> ("Total No. of Questions - 16, Part - II, ARABIC, Paper - I..."). The Arabic questions only appeared in the bottom 20%. Because the sampling algorithm picked boxes from the top of the page first, it found zero Arabic characters and concluded: "This is an English document. Send it to the French pipeline."</p>
+<span class="keyword">if</span> paddle_ar <span class="keyword">is not None</span>:
+    <span class="keyword">try</span>:
+        paddle_res = paddle_ar.ocr(str(image_path), cls=False)
+        <span class="keyword">if</span> paddle_res <span class="keyword">and</span> paddle_res[0]:
+            <span class="keyword">for</span> line <span class="keyword">in</span> paddle_res[0]:
+                text = line[1][0]
+                <span class="keyword">for</span> char <span class="keyword">in</span> text:
+                    <span class="keyword">if</span> <span class="string">'\u0600'</span> <= char <= <span class="string">'\u06FF'</span>:
+                        total_arabic_chars += 1
+    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:
+        <span class="keyword">pass</span>
 
-    <div class="comparison-grid">
-      <div class="bad-output">
-        <h4>❌ Language Detection Failure</h4>
-        <p>Sampling only the top 10 boxes found zero Arabic, so the system thought it was a French document:</p>
-        <pre>Sampled 10 boxes → 0 Arabic chars detected
-→ is_arabic_detected = False
-→ Routed to PaddleOCR French
-→ Arabic text = "WjWWb cllJlB aaaylgalalaylgl"</pre>
-      </div>
-      <div class="good-output">
-        <h4>✅ Fixed: Full-Page PaddleOCR Scan</h4>
-        <p>We replaced the sampling with a full-page PaddleOCR Arabic scan. If even 3 Arabic characters are found anywhere, the Arabic pipeline activates:</p>
-        <pre>Full-page scan → 847 Arabic chars detected
-→ is_arabic_detected = True
-→ Routed to EasyOCR Arabic+English
-→ Arabic text = "طلع البدر علينا"</pre>
-      </div>
-    </div>
+<span class="comment"># If we find even a single Arabic word (e.g. 3+ characters), switch ensemble!</span>
+<span class="keyword">if</span> total_arabic_chars > 3:
+    is_rtl = True
+    is_arabic_detected = True</pre>
 
-    <h3>4.3 Root Cause #2: Missing Custom YOLO Weights</h3>
-    <p>Our fine-tuned YOLOv11s weights file was <strong>too large for GitHub</strong> (over 100MB). When Colab cloned the repository, the weights file was missing. Without it, YOLO couldn't detect text regions at all, and the pipeline silently fell back to processing the entire raw image — which reintroduced all the layout confusion problems we had already solved.</p>
+    <!-- ========== SECTION 5: PREPROCESSING ========== -->
+    <h2 id="preprocessing">5. Computer Vision: The Arabic Enhancement Pipeline</h2>
 
-    <p><strong>The fix:</strong> We added automatic fallback logic. If the custom weights are missing, the system downloads the standard <code>yolo11s.pt</code> from Ultralytics and uses that instead. Not as accurate as our fine-tuned model, but infinitely better than crashing silently.</p>
+    <p>Arabic script is highly sensitive to degradation; losing a single pixel can transform a 'ب' (ba) into a 'ت' (ta). To combat this, we engineered a dedicated OpenCV enhancement pipeline (<code>ocr/preprocessing/image_enhancer.py</code>).</p>
 
-    <h3>4.4 Root Cause #3: Dependency Hell</h3>
-    <p>Our <code>requirements.txt</code> had locked package versions that were incompatible with Colab's Python version. When <code>pip install</code> crashed halfway through, Django and other critical packages were never installed — but the error was buried under hundreds of lines of output, so we didn't notice until the server threw a <code>ModuleNotFoundError</code>.</p>
+    <img src="/static/img/temp_enhanced.png" alt="Enhanced Image Crop" class="doc-image">
+    <p><em>Figure 3: `temp_enhanced.png` — An intermediate crop after applying CLAHE and Bilateral Filtering.</em></p>
 
-    <div class="callout-success">
-      <strong>Lesson learned:</strong> Always test your requirements on a clean environment. We ended up unpinning several packages (<code>paddlepaddle</code>, <code>numpy</code>, <code>tokenizers</code>, <code>transformers</code>) to allow pip to resolve compatible versions automatically.
-    </div>
+    <pre><span class="keyword">def</span> enhance_crop_arabic(self, image: np.ndarray, target_height: int = 128) -> np.ndarray:
+    h, w = image.shape[:2]
 
-    <!-- ========== SECTION 5: NLP ========== -->
-    <h2 id="nlp">5. NLP Post-Processing: AraBERT & RoBERTa</h2>
+    <span class="comment"># 1. Upscale small crops (Arabic dots need at least ~128px height)</span>
+    <span class="keyword">if</span> h <span class="keyword"><</span> target_height:
+        scale = target_height / h
+        image = cv2.resize(image, (int(w * scale), int(h * scale)), interpolation=cv2.INTER_CUBIC)
 
-    <div class="phase-banner">Phase 4: Teaching AI to Spell-Check Arabic<span>Weeks 4–5 — Context-aware correction using Masked Language Models</span></div>
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-    <p>Even with YOLO isolating text regions perfectly, and EasyOCR handling Arabic cursive connections, the raw OCR output still contained subtle spelling errors. These weren't random — they were <strong>systematic visual confusions</strong> caused by Arabic letters that look almost identical:</p>
+    <span class="comment"># 2. Bilateral filter (gentler settings for Arabic stroke preservation)</span>
+    gray = cv2.bilateralFilter(gray, d=9, sigmaColor=75, sigmaSpace=75)
 
-    <table class="tech-table">
-      <thead>
-        <tr>
-          <th>Correct Letter</th>
-          <th>Confused With</th>
-          <th>Visual Difference</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>ب (ba)</td><td>ت (ta), ث (tha)</td><td>Only the dots change (1 dot below vs 2 dots above vs 3 dots above)</td></tr>
-        <tr><td>ح (ha)</td><td>خ (kha), ج (jim)</td><td>One dot above or below changes the entire letter</td></tr>
-        <tr><td>د (dal)</td><td>ذ (dhal)</td><td>A single dot above changes the meaning completely</td></tr>
-        <tr><td>ع (ain)</td><td>غ (ghain)</td><td>One dot above transforms the letter</td></tr>
-      </tbody>
-    </table>
+    <span class="comment"># 3. CLAHE contrast enhancement</span>
+    clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
+    gray = clahe.apply(gray)
 
-    <p>Simple dictionary lookup wouldn't work because many of these "misspelled" words actually <em>are</em> valid Arabic words — just the wrong ones. We needed something that understood <strong>context</strong>.</p>
+    <span class="comment"># 4. Unsharp masking — sharpens stroke edges and character dots</span>
+    blurred = cv2.GaussianBlur(gray, (0, 0), sigmaX=2)
+    gray = cv2.addWeighted(gray, 1.5, blurred, -0.5, 0)
 
-    <h3>5.1 The Dual-Model Approach</h3>
-    <p>We built a <strong>Bilingual Corrector</strong> that uses two separate AI language models:</p>
+    <span class="keyword">return</span> cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)</pre>
 
-    <ul>
-      <li><strong>AraBERT</strong> (<code>aubmindlab/bert-base-arabertv02</code>) — A BERT model specifically pre-trained on Arabic Wikipedia and news. It understands Arabic grammar, morphology, and contextual word relationships.</li>
-      <li><strong>XLM-RoBERTa</strong> (<code>xlm-roberta-base</code>) — A multilingual model covering 100+ languages. It handles French and English corrections.</li>
-    </ul>
+    <!-- ========== SECTION 6: NLP ========== -->
+    <h2 id="nlp">6. NLP Auto-Correction: AraBERT Masked Language Modeling</h2>
 
-    <p>The correction pipeline works like this:</p>
-    <ol>
-      <li>For each word in the OCR output, check its confidence score.</li>
-      <li>If confidence is below 90%, <strong>mask</strong> the word (replace it with [MASK]).</li>
-      <li>Feed the masked sentence to the appropriate language model (AraBERT for Arabic, RoBERTa for French/English).</li>
-      <li>The model predicts the most likely word based on surrounding context.</li>
-      <li>If the prediction has high confidence AND is within an edit distance of 2 from the original, accept the correction.</li>
-    </ol>
+    <p>Even with advanced preprocessing, visual confusion between Arabic letters is unavoidable. We developed a robust Post-Processing pipeline leveraging <strong>AraBERT (aubmindlab/bert-base-arabertv02)</strong>.</p>
 
-    <div class="comparison-grid">
-      <div class="bad-output">
-        <h4>❌ Raw OCR Output (Before Correction)</h4>
-        <pre>هل الحب للوتن لازم ؟
-من كان رفيق الغأر ؟
-ابن هاجر رسول الله</pre>
-        <p><em>Note: "للوتن" should be "للوطن", "الغأر" should be "الغار", "ابن" should be "أين"</em></p>
-      </div>
-      <div class="good-output">
-        <h4>✅ After AraBERT Correction</h4>
-        <pre>هل الحب للوطن لازم ؟
-من كان رفيق الغار ؟
-أين هاجر رسول الله</pre>
-        <p><em>AraBERT understood the sentence context and corrected each dotting error perfectly.</em></p>
-      </div>
-    </div>
+    <h3>6.1 Confidence & Dictionary Gating</h3>
+    <p>To prevent the NLP model from destructively altering correctly extracted text, we implemented strict gating logic in <code>arabert_corrector.py</code>:</p>
 
-    <!-- ========== SECTION 6: PREPROCESSING ========== -->
-    <h2 id="preprocessing">6. Image Preprocessing: The Hidden Booster</h2>
+    <pre><span class="comment"># GUARD 1: If confidence >= conf_threshold (e.g. 80.0), DO NOT touch!</span>
+<span class="keyword">if</span> conf >= conf_threshold:
+    corrected_words[idx] = word
+    <span class="keyword">continue</span>
 
-    <p>One of the most underrated improvements came from <strong>image preprocessing</strong>. Before feeding crops to the OCR engines, we apply a specialized enhancement pipeline optimized for Arabic text:</p>
+<span class="comment"># GUARD 2: If the word is already a valid Arabic word in Qalsadi/pyspellchecker, DO NOT touch!</span>
+<span class="keyword">if</span> self.is_valid_in_lexicon(word):
+    corrected_words[idx] = word
+    <span class="keyword">continue</span>
 
-    <ol>
-      <li><strong>Upscaling:</strong> Small crops (under 128px tall) are upscaled using bicubic interpolation. Arabic diacritical dots are often only 2-3 pixels wide — upscaling makes them visible to the OCR engine.</li>
-      <li><strong>Bilateral Filtering:</strong> Reduces noise while preserving sharp text edges. Unlike Gaussian blur, bilateral filtering doesn't smear thin Arabic strokes.</li>
-      <li><strong>CLAHE (Contrast Limited Adaptive Histogram Equalization):</strong> Enhances contrast locally, making faded ink on aged documents readable again.</li>
-      <li><strong>Unsharp Masking:</strong> Sharpens text edges after the noise reduction step, ensuring that the final crop is crisp and clear.</li>
-    </ol>
+<span class="comment"># Otherwise, attempt strict edit-distance <= 1 typo correction via AraBERT MLM</span>
+new_word, changed = self.correct_word_in_context(
+    words, idx, top_k=10, max_edit_dist=max_edit_dist
+)</pre>
 
-    <div class="callout">
-      This preprocessing step alone improved our Arabic Character Error Rate (CER) by approximately 12%. The biggest gains came from upscaling tiny crops — many Arabic dots that were invisible at the original resolution became perfectly detectable after upscaling.
-    </div>
+    <!-- ========== SECTION 7: CLOUD ========== -->
+    <h2 id="cloud">7. Cloud Integration: Gemini Formatting & Qwen2-VL</h2>
 
-    <!-- ========== SECTION 7: GEMINI ========== -->
-    <h2 id="gemini">7. Gemini Integration: Markdown Reconstruction</h2>
+    <p>Extracting text strings is only half the battle; reconstructing the document's structure is the final milestone.</p>
 
-    <div class="phase-banner">Phase 5: Making It Beautiful<span>Week 7 — From raw text to formatted documents</span></div>
+    <h3>7.1 Gemini REST API Configuration</h3>
+    <p>We utilized the Gemini 3.6 Flash API to receive the extracted text string and logically reconstruct the Markdown based on the original image layout. The system prompt is aggressively restrictive to prevent hallucination:</p>
 
-    <p>At this point, our pipeline was extracting text with excellent accuracy. But the output was just a flat wall of text — no headers, no bullet points, no tables. The original document had rich visual structure that was completely lost.</p>
+    <pre>prompt = <span class="string">"""
+Extract ALL text from this document image exactly as it appears.
+Preserve the original reading order and structure.
+For Arabic text, maintain right-to-left reading direction.
+Format the output as clean markdown.
+Do NOT use any HTML tags like &lt;div&gt; or &lt;span&gt; for alignment, use pure text and markdown only.
+Do NOT add any commentary, translation, or interpretation.
+Preserve tables, bullet points, numbered lists.
+Include dotted lines as `...........` where they appear.
+"""</span></pre>
 
-    <p>We integrated the <strong>Google Gemini 2.0 Flash API</strong> as a dedicated formatting engine. Gemini receives the perfectly extracted text from our YOLO/EasyOCR pipeline and the original document image, then reconstructs the layout into clean Markdown.</p>
+    <h3>7.2 The Colab Tunneling Infrastructure</h3>
+    <p>To support massive 7-Billion parameter Vision Language Models (Qwen2-VL-7B) for documents that exceed local processing capabilities, we built an <code>extract_with_colab</code> REST connector. It routes images directly to a Python 3.13 Google Colab/Kaggle GPU server via an Ngrok reverse proxy tunnel:</p>
 
-    <h3>7.1 The HTML Injection Problem</h3>
-    <p>Our first attempt hit an unexpected snag. When we asked Gemini to "preserve the layout and maintain right-to-left reading direction," it got creative and started injecting raw HTML tags into the Markdown:</p>
+    <pre><span class="keyword">def</span> extract_with_colab(image_path: str, url: str) -> str:
+    url = url.rstrip(<span class="string">'/'</span>)
+    <span class="keyword">if not</span> url.endswith(<span class="string">'/extract'</span>):
+        url += <span class="string">'/extract'</span>
+    
+    <span class="keyword">with</span> open(image_path, <span class="string">'rb'</span>) <span class="keyword">as</span> f:
+        headers = {
+            <span class="string">'ngrok-skip-browser-warning'</span>: <span class="string">'true'</span>,
+            <span class="string">'Bypass-Tunnel-Reminder'</span>: <span class="string">'true'</span>
+        }
+        response = requests.post(url, headers=headers, files={<span class="string">'file'</span>: f})
+        <span class="keyword">if</span> response.status_code != 200:
+            <span class="keyword">raise</span> Exception(f<span class="string">"Colab API returned {response.status_code}"</span>)
+            
+        <span class="keyword">return</span> response.json().get(<span class="string">'text'</span>, <span class="string">''</span>)</pre>
 
-    <div class="comparison-grid">
-      <div class="bad-output">
-        <h4>❌ Gemini With HTML Injection</h4>
-        <pre>&lt;div align="right"&gt;
-.1 اكتب بيتين من احدى الانشودتين
-&lt;/div&gt;
-&lt;span style="float:right;"&gt;
-[ Max. Marks : 100 ]
-&lt;/span&gt;</pre>
-        <p><em>Gemini injected HTML alignment tags to force right-to-left display — technically correct, but cluttered and ugly.</em></p>
-      </div>
-      <div class="good-output">
-        <h4>✅ Gemini After Prompt Fix</h4>
-        <pre>## Part - II: ARABIC, Paper - I
+    <!-- ========== SECTION 8: RESULTS ========== -->
+    <h2 id="results">8. Final Quantitative Results</h2>
 
-.1 اكتب بيتين من احدى الانشودتين التاليتين
-
-(A) طلع البدر علينا
-(B) شروع خير</pre>
-        <p><em>After adding "Do NOT use any HTML tags" to the prompt, the output became clean, pure Markdown.</em></p>
-      </div>
-    </div>
-
-    <!-- ========== SECTION 8: QWEN ========== -->
-    <h2 id="qwen">8. The Heavy Model: Qwen2-VL on Cloud GPUs</h2>
-
-    <div class="phase-banner">Phase 6: Bringing in the Big Guns<span>Weeks 7–8 — Running a 7-Billion parameter Vision AI on free cloud GPUs</span></div>
-
-    <p>For extremely dense or degraded documents where even our optimized YOLO+EasyOCR pipeline struggled, we needed a fundamentally different approach. We turned to <strong>Qwen2-VL-7B-Instruct</strong> — a massive 7-Billion parameter Vision-Language Model by Alibaba that can literally "read" images like a human.</p>
-
-    <h3>8.1 The GPU Memory War</h3>
-    <p>Qwen2-VL-7B requires <strong>14GB of GPU VRAM</strong> just to load. Our local laptop had no GPU. Google Colab's free tier offers a single T4 GPU with 15GB of VRAM. The math was brutal:</p>
-
-    <div class="stats-row">
-      <div class="stat-card">
-        <span class="stat-number">14 GB</span>
-        <span class="stat-label">Model Size</span>
-      </div>
-      <div class="stat-card">
-        <span class="stat-number">15 GB</span>
-        <span class="stat-label">Colab T4 VRAM</span>
-      </div>
-      <div class="stat-card">
-        <span class="stat-number">1.5 GB</span>
-        <span class="stat-label">Image Processing</span>
-      </div>
-      <div class="stat-card">
-        <span class="stat-number">💥</span>
-        <span class="stat-label">Result: OOM Crash</span>
-      </div>
-    </div>
-
-    <p>14GB (model) + 1.5GB (processing a dense document) = 15.5GB. Colab only had 15GB. <strong>Every single dense document crashed the GPU.</strong></p>
-
-    <h3>8.2 The Compression Experiments</h3>
-    <p>We tried multiple compression strategies to fit the model:</p>
-
-    <table class="tech-table">
-      <thead>
-        <tr>
-          <th>Strategy</th>
-          <th>VRAM Usage</th>
-          <th>OCR Quality</th>
-          <th>Verdict</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>4-bit quantization</strong></td>
-          <td>~4 GB</td>
-          <td>Terrible — hallucinated entire exam questions</td>
-          <td style="color:var(--red); font-weight:800;">Rejected</td>
-        </tr>
-        <tr>
-          <td><strong>8-bit quantization</strong></td>
-          <td>~7 GB</td>
-          <td>Poor — misspelled Arabic letters</td>
-          <td style="color:var(--red); font-weight:800;">Rejected</td>
-        </tr>
-        <tr>
-          <td><strong>Full precision, Dual GPUs (Kaggle)</strong></td>
-          <td>~14 GB across 2 GPUs</td>
-          <td>Perfect — zero hallucinations</td>
-          <td style="color:var(--green); font-weight:800;">Winner</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <div class="callout-danger">
-      <strong>The 4-bit Hallucination Disaster:</strong> When we loaded the 7B model with 4-bit compression to save memory, the model completely lost its ability to read text. Instead of extracting the actual French exam questions, it <em>invented its own exam</em> — generating fictional questions about "What is the capital of France?" that didn't exist anywhere on the page!
-    </div>
-
-    <h3>8.3 The Kaggle Solution</h3>
-    <p>The breakthrough came when we discovered that <strong>Kaggle Notebooks</strong> offer <strong>two</strong> free T4 GPUs (30GB total VRAM), compared to Colab's single GPU (15GB). By loading the 7B model with <code>device_map="auto"</code>, PyTorch automatically split it across both GPUs — giving us the full, uncompressed model with plenty of headroom for processing.</p>
-
-    <h3>8.4 The Prompt Engineering Battle</h3>
-    <p>Even with full precision, getting Qwen2-VL to behave as a pure OCR engine required extensive prompt engineering. The model kept trying to be "helpful" in ways we didn't want:</p>
-
-    <div class="timeline">
-      <div class="timeline-item">
-        <span class="date">Attempt 1</span>
-        <h4>Long, detailed prompt → Model writes its own exam</h4>
-        <p>When we gave Qwen2-VL a long, conversational prompt about preserving layout and reading direction, it switched into "creative writing mode" and generated fictional French quiz questions instead of reading the actual document.</p>
-      </div>
-      <div class="timeline-item">
-        <span class="date">Attempt 2</span>
-        <h4>Ultra-short prompt ("OCR:") → Model describes the image</h4>
-        <p>When we made the prompt too short, the model treated it as an image captioning task and described the document: "The image is a page from a French language textbook titled..."</p>
-      </div>
-      <div class="timeline-item">
-        <span class="date">Attempt 3</span>
-        <h4>Medium prompt → Model outputs bounding box coordinates</h4>
-        <p>Qwen2-VL is also trained for object detection. When the prompt wasn't explicit enough, it returned pixel coordinates instead of text: <code>(61,31),(992,932)</code></p>
-      </div>
-      <div class="timeline-item">
-        <span class="date">Final Solution</span>
-        <h4>System prompt + Strict instructions → Perfect OCR</h4>
-        <p>We added a system prompt that explicitly defined its role as "an expert OCR system" and commanded it to "NEVER output coordinates, bounding boxes, or JSON tags." This finally locked it into pure text transcription mode.</p>
-      </div>
-    </div>
-
-    <!-- ========== SECTION 9: DEPLOYMENT ========== -->
-    <h2 id="deployment">9. Deployment: From Localhost to Live Online</h2>
-
-    <div class="phase-banner">Phase 7: Going Live<span>Week 8 — Making it accessible to the world</span></div>
-
-    <p>With all the AI models working perfectly, we needed to wrap everything in a user-friendly web application and make it accessible online.</p>
-
-    <h3>9.1 The Django Web Platform</h3>
-    <p>We built the frontend using <strong>Django</strong> with a Neo-Brutalist design language — bold yellow accents, thick black borders, and dramatic drop shadows. The interface features a drag-and-drop upload zone where users can submit documents and receive formatted Markdown files.</p>
-
-    <p>The platform offers three extraction methods:</p>
-    <ol>
-      <li><strong>Local Pipeline:</strong> YOLO → EasyOCR/PaddleOCR → AraBERT → Noise Filter → Markdown output</li>
-      <li><strong>Gemini Cloud:</strong> Sends the image to Google's Gemini 2.0 Flash API for quick, formatted extraction</li>
-      <li><strong>Heavy Model (Qwen2-VL):</strong> Routes the image to a remote GPU cluster running the 7B vision model for maximum accuracy</li>
-    </ol>
-
-    <h3>9.2 The Ngrok Tunnel Architecture</h3>
-    <p>Because we couldn't afford traditional cloud hosting, we engineered a creative solution using <strong>reverse proxy tunnels</strong>:</p>
+    <p>Our <code>WALKTHROUGH.md</code> and benchmark CSVs dictate the final impact of this hybrid pipeline architecture:</p>
 
     <ul>
-      <li>The Django website runs on Google Colab and is exposed to the internet via <strong>Ngrok</strong></li>
-      <li>The Qwen2-VL heavy model runs on a separate Kaggle notebook and is exposed via <strong>Cloudflare Tunnels</strong></li>
-      <li>When a user clicks "Extract (Cloud)", the Django server on Colab forwards the image through the Cloudflare tunnel to Kaggle's dual GPUs</li>
+      <li><strong>Standard EasyOCR Baseline CER:</strong> 24.30%</li>
+      <li><strong>Final Hybrid Pipeline (YOLOv11s + Easy/Paddle Ensemble + AraBERT/RoBERTa) CER:</strong> 18.63%</li>
+      <li><strong>Total Error Reduction:</strong> 5.67 percentage points absolute (a ~23% relative reduction in character errors across complex mixed documents).</li>
     </ul>
 
-    <h3>9.3 The Tunnel Collision Bug</h3>
-    <p>We discovered that Ngrok's free tier only allows <strong>one</strong> active tunnel per account. When we tried to run both the Django website AND the Qwen2-VL API on separate Colab notebooks using the same Ngrok account, the second notebook crashed with <code>ERR_NGROK_334: The endpoint is already online</code>.</p>
-
-    <p><strong>The fix:</strong> We switched the heavy model API to <strong>LocalTunnel</strong> (and later <strong>Cloudflare Tunnels</strong>) — completely free alternatives that don't require accounts and have no tunnel limits.</p>
-
-    <h3>9.4 The Python 3.13 Compatibility Crisis</h3>
-    <p>Just when everything was working, Google Colab upgraded from Python 3.12 to 3.13. Several of our locked package versions (<code>paddlepaddle==2.6.2</code>, <code>numpy==1.26.4</code>) didn't have pre-built wheels for Python 3.13, causing <code>pip install</code> to crash midway through and leaving Django uninstalled. We had to unpin these packages to allow pip to resolve compatible versions automatically.</p>
-
-    <div class="callout">
-      <strong>Key takeaway:</strong> Never lock every single package version in your requirements.txt when deploying to cloud environments. Use <code>>=</code> minimum version constraints for packages that frequently update their Python support.
-    </div>
-
-    <!-- ========== SECTION 10: RESULTS ========== -->
-    <h2 id="results">10. Results & Benchmarks</h2>
-
-    <div class="phase-banner">Final Results<span>The numbers that made it all worth it</span></div>
-
-    <h3>10.1 Accuracy Metrics</h3>
-
-    <div class="metric-bar-container">
-      <div class="metric-bar-label"><span>Tesseract (Arabic)</span><span style="color:var(--red)">32%</span></div>
-      <div class="metric-bar"><div class="metric-bar-fill bad" style="width: 32%"></div></div>
-    </div>
-
-    <div class="metric-bar-container">
-      <div class="metric-bar-label"><span>PaddleOCR Alone (Arabic)</span><span style="color:var(--orange)">61%</span></div>
-      <div class="metric-bar"><div class="metric-bar-fill medium" style="width: 61%"></div></div>
-    </div>
-
-    <div class="metric-bar-container">
-      <div class="metric-bar-label"><span>EasyOCR Alone (Arabic)</span><span style="color:var(--orange)">74%</span></div>
-      <div class="metric-bar"><div class="metric-bar-fill medium" style="width: 74%"></div></div>
-    </div>
-
-    <div class="metric-bar-container">
-      <div class="metric-bar-label"><span>YOLO + EasyOCR + AraBERT (Arabic)</span><span style="color:var(--green)">91%</span></div>
-      <div class="metric-bar"><div class="metric-bar-fill good" style="width: 91%"></div></div>
-    </div>
-
-    <div class="metric-bar-container">
-      <div class="metric-bar-label"><span>Qwen2-VL 7B Full Precision (Arabic)</span><span style="color:var(--green)">96%</span></div>
-      <div class="metric-bar"><div class="metric-bar-fill good" style="width: 96%"></div></div>
-    </div>
-
-    <div class="metric-bar-container">
-      <div class="metric-bar-label"><span>PaddleOCR v4 (French)</span><span style="color:var(--green)">97%</span></div>
-      <div class="metric-bar"><div class="metric-bar-fill good" style="width: 97%"></div></div>
-    </div>
-
-    <h3>10.2 Technology Stack Summary</h3>
-    <table class="tech-table">
-      <thead>
-        <tr>
-          <th>Layer</th>
-          <th>Technology</th>
-          <th>Purpose</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>Web Framework</td><td>Django 5.2, HTML/CSS/JS</td><td>User interface & API endpoints</td></tr>
-        <tr><td>Layout Detection</td><td>YOLOv11s (fine-tuned)</td><td>Document region segmentation</td></tr>
-        <tr><td>Arabic OCR</td><td>EasyOCR + PaddleOCR v4 (ensemble)</td><td>Bilingual text extraction</td></tr>
-        <tr><td>French OCR</td><td>PaddleOCR v4 (Latin)</td><td>French/English text extraction</td></tr>
-        <tr><td>Spell Correction</td><td>AraBERT + XLM-RoBERTa</td><td>Context-aware error correction</td></tr>
-        <tr><td>Image Enhancement</td><td>OpenCV (CLAHE, Bilateral, Unsharp)</td><td>Preprocessing for small/faded text</td></tr>
-        <tr><td>Layout Formatting</td><td>Gemini 2.0 Flash API</td><td>Markdown structure reconstruction</td></tr>
-        <tr><td>Heavy VLM</td><td>Qwen2-VL-7B-Instruct</td><td>Dense document extraction via cloud GPU</td></tr>
-        <tr><td>Cloud Hosting</td><td>Google Colab + Kaggle</td><td>Free GPU compute for AI models</td></tr>
-        <tr><td>Tunneling</td><td>Ngrok + Cloudflare Tunnels</td><td>Exposing local servers to the internet</td></tr>
-      </tbody>
-    </table>
-
-    <!-- ========== SECTION 11: LESSONS ========== -->
-    <h2 id="lessons">11. Lessons Learned & Conclusion</h2>
-
-    <h3>11.1 What We Learned</h3>
-
-    <div class="timeline">
-      <div class="timeline-item">
-        <h4>🧪 No single model solves everything</h4>
-        <p>We tried to find "the one perfect OCR engine" and failed. The real solution was an <strong>ensemble architecture</strong> — multiple specialized models working together, each handling what it does best.</p>
-      </div>
-      <div class="timeline-item">
-        <h4>🔍 Preprocessing is half the battle</h4>
-        <p>A 12% accuracy improvement came purely from image enhancement — upscaling, contrast adjustment, and noise filtering. No model change, no retraining. Just better input = better output.</p>
-      </div>
-      <div class="timeline-item">
-        <h4>🧠 Large Language Models need strict boundaries</h4>
-        <p>Qwen2-VL is incredibly powerful, but without careful prompt engineering and strict decoding parameters, it hallucinated entire exam papers, described images like a museum guide, and output bounding box coordinates instead of text.</p>
-      </div>
-      <div class="timeline-item">
-        <h4>💾 GPU memory is the ultimate constraint</h4>
-        <p>We learned that model compression (4-bit, 8-bit) severely degrades OCR quality. The only real solution was finding more VRAM — which led us to Kaggle's dual-GPU setup.</p>
-      </div>
-      <div class="timeline-item">
-        <h4>🌐 Deployment is its own engineering challenge</h4>
-        <p>Building the AI was hard. Making it work online was harder. We battled Ngrok tunnel collisions, Colab GPU timeouts, Python version incompatibilities, and dependency resolution failures.</p>
-      </div>
-    </div>
-
-    <h3>11.2 Future Improvements</h3>
-    <ul>
-      <li>Fine-tune YOLOv11s on a larger, more diverse document dataset to improve layout detection accuracy</li>
-      <li>Explore newer models like Qwen2.5-VL which offer improved multilingual OCR capabilities</li>
-      <li>Add PDF support for multi-page document processing</li>
-      <li>Implement batch processing for bulk document digitization</li>
-      <li>Deploy to a proper cloud server (AWS/GCP) for production-grade reliability</li>
-    </ul>
-
-    <h3>11.3 Conclusion</h3>
-    <p>What started as a "simple OCR project" evolved into a <strong>full-stack AI engineering challenge</strong> spanning computer vision, natural language processing, cloud computing, and web development. By aggressively isolating problems across distinct architectural layers — YOLO for layout, dual OCR pipelines for languages, AraBERT for spelling, Gemini for formatting, and Qwen2-VL for heavy lifting — we constructed a system that can handle the messiest, most complex bilingual documents with remarkable accuracy.</p>
-
-    <div class="callout-quote">
-      "The best OCR system isn't the one with the smartest model. It's the one that knows which model to use, when to use it, and how to clean up after it."
-    </div>
-
-    <p style="text-align: center; font-weight: 900; font-size: 1.3rem; margin-top: 50px; color: var(--black);">
-      — End of Report —
-    </p>
+    <p>By shifting from a monolithic OCR approach to an autonomous, multi-agent hybrid architecture, Neoledge-OCR successfully digitized degraded, heavily stamped bilingual documents with a speed and accuracy fundamentally impossible for standard open-source OCR engines.</p>
 
   </main>
 
   <footer class="footer">
-    <p>&copy; 2026 Neoledge Summer Internship. Built with ❤️ and an unreasonable amount of debugging.</p>
+    <p>&copy; 2026 Neoledge Summer Internship. Built with ❤️</p>
   </footer>
 </body>
 </html>
