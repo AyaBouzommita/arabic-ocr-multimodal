@@ -4,6 +4,16 @@ Includes Smart Confidence-Gated correction to preserve high-confidence OCR predi
 and strict 1-character edit distance filtering to eliminate hallucinated words.
 """
 
+import os
+import sys
+
+# Disable broken JAX so transformers only relies on PyTorch
+os.environ["USE_JAX"] = "0"
+os.environ["USE_TF"] = "0"
+os.environ["USE_TORCH"] = "1"
+for _pkg in ("jax", "jax.numpy", "jax.core", "jax._src"):
+    sys.modules[_pkg] = None
+
 import torch
 import string
 from transformers import AutoTokenizer, AutoModelForMaskedLM

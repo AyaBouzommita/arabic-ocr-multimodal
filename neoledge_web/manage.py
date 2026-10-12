@@ -3,6 +3,13 @@
 import os
 import sys
 
+# Disable broken JAX on Colab / Linux environments so transformers falls back cleanly to PyTorch
+os.environ["USE_JAX"] = "0"
+os.environ["USE_TF"] = "0"
+os.environ["USE_TORCH"] = "1"
+for _pkg in ("jax", "jax.numpy", "jax.core", "jax._src"):
+    sys.modules[_pkg] = None
+
 # Add parent directory to sys.path so 'ocr' and 'scripts' packages are found
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
